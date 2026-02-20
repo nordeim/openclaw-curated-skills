@@ -1,3 +1,0 @@
-google-generativeai
-web3
-requests

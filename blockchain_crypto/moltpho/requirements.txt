@@ -1,2 +1,0 @@
-# Moltpho OpenClaw Skill Dependencies
-requests>=2.28.0

@@ -1,7 +1,0 @@
-yfinance
-pandas
-matplotlib
-mplfinance
-finnhub-python
-requests
-fredapi

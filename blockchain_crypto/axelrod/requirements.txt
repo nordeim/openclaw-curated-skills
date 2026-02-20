@@ -1,2 +1,0 @@
-# Axelrod dependencies
-requests>=2.25.0

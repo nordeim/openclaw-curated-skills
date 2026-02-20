@@ -1,1 +1,0 @@
-publicdotcom-py>=0.1.8
