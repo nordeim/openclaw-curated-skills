@@ -1,0 +1,11 @@
+{
+  "owner": "foscomputerservices",
+  "slug": "fosmvvm-fluent-datamodel-generator",
+  "displayName": "FOSMVVM Fluent DataModel Generator",
+  "latest": {
+    "version": "2.0.6",
+    "publishedAt": 1771098271697,
+    "commit": "https://github.com/openclaw/skills/commit/f5f4182a752290e452e3487586900370c4799bc0"
+  },
+  "history": []
+}

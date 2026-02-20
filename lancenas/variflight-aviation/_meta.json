@@ -1,0 +1,11 @@
+{
+  "owner": "lancenas",
+  "slug": "variflight-aviation",
+  "displayName": "Variflight Aviation",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770994168424,
+    "commit": "https://github.com/openclaw/skills/commit/225eaadd0288de7ff8c0d11ed712d49838b5ac5c"
+  },
+  "history": []
+}

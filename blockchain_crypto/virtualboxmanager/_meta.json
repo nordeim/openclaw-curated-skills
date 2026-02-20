@@ -1,0 +1,11 @@
+{
+  "owner": "0xfratex",
+  "slug": "virtualboxmanager",
+  "displayName": "Virtual Box Manager",
+  "latest": {
+    "version": "0.0.1",
+    "publishedAt": 1771191429563,
+    "commit": "https://github.com/openclaw/skills/commit/12eb77758c3f8d079077325919abd30945b0397d"
+  },
+  "history": []
+}

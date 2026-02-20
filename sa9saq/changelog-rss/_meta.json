@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "changelog-rss",
+  "displayName": "Changelog Rss",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526202746,
+    "commit": "https://github.com/openclaw/skills/commit/3d234edb305cbe01a551aba3ff1482810170d55f"
+  },
+  "history": []
+}

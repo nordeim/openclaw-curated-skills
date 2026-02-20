@@ -1,0 +1,11 @@
+{
+  "owner": "james-southendsolutions",
+  "slug": "camino-journey",
+  "displayName": "Journey Planning with Waypoints",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771275230156,
+    "commit": "https://github.com/openclaw/skills/commit/e30154fa8f75b2ea2b69bd8f9c7021efa1d5abbe"
+  },
+  "history": []
+}

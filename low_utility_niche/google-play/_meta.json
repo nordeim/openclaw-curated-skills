@@ -1,0 +1,22 @@
+{
+  "owner": "byungkyu",
+  "slug": "google-play",
+  "displayName": "Google Play",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1770756473156,
+    "commit": "https://github.com/openclaw/skills/commit/4ae9b0af7c1a52bc147ce1a07911f6a42e2d57fb"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770342668286,
+      "commit": "https://github.com/openclaw/skills/commit/bf280f36a9cf780f9169a25f6815fa82f634f1bd"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770240879928,
+      "commit": "https://github.com/clawdbot/skills/commit/a74b6debd58d225b8ae020cb2eefa590d4af2f12"
+    }
+  ]
+}

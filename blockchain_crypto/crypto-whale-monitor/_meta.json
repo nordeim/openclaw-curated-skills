@@ -1,0 +1,22 @@
+{
+  "owner": "waleolapo",
+  "slug": "crypto-whale-monitor",
+  "displayName": "Crypto Whale Monitor",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771319807884,
+    "commit": "https://github.com/openclaw/skills/commit/1e9193fc002b66d60ab9318abe09093cdf6a977b"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770477574538,
+      "commit": "https://github.com/openclaw/skills/commit/3e5893602b0797cf7398ee842d02f0d8c784d901"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770212141752,
+      "commit": "https://github.com/clawdbot/skills/commit/eca55a2fe0a749259805eece80d97267d9939089"
+    }
+  ]
+}

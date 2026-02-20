@@ -1,0 +1,11 @@
+{
+  "owner": "benschiller",
+  "slug": "clawdio-twitter",
+  "displayName": "clawdio",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770536436877,
+    "commit": "https://github.com/openclaw/skills/commit/a290fb63dd100f6fbe1873afaf8fcfcfa4c16cef"
+  },
+  "history": []
+}

@@ -1,0 +1,27 @@
+{
+  "owner": "oristides",
+  "slug": "water-coach",
+  "displayName": "Water Coach",
+  "latest": {
+    "version": "1.5.1",
+    "publishedAt": 1771484116279,
+    "commit": "https://github.com/openclaw/skills/commit/89a20fdb2fb872006a1a01e11640ee376e1363bd"
+  },
+  "history": [
+    {
+      "version": "1.6.0",
+      "publishedAt": 1771471210207,
+      "commit": "https://github.com/openclaw/skills/commit/d82c815967672f374c65f4b9cb3638c592ab7d1f"
+    },
+    {
+      "version": "1.2.0",
+      "publishedAt": 1771188588809,
+      "commit": "https://github.com/openclaw/skills/commit/711e8e352ac5bc0c5c96dc65f95bdf91c09e3af9"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771169987915,
+      "commit": "https://github.com/openclaw/skills/commit/09e539d56f2de6eb6d18bba2831591a003ae953f"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "gogo6969",
+  "slug": "agent-republic-docs",
+  "displayName": "Agent Republic (Docs only)",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1770760425829,
+    "commit": "https://github.com/openclaw/skills/commit/efb01fa3891c4038283b193f36e885ae720950ad"
+  },
+  "history": []
+}

@@ -1,0 +1,22 @@
+{
+  "owner": "akshat-mishra101",
+  "slug": "wachai-x402",
+  "displayName": "WachAI-x402",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771245787002,
+    "commit": "https://github.com/openclaw/skills/commit/b649593babec17e20fc6e13643014ebb80994bb7"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770643885354,
+      "commit": "https://github.com/openclaw/skills/commit/c4ace0c5d815aa304e115033a96ae6a3c9445a46"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770633942323,
+      "commit": "https://github.com/openclaw/skills/commit/daf0a01be6bd2c8cc269061c6c69c04c33bff167"
+    }
+  ]
+}

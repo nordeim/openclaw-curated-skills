@@ -1,0 +1,17 @@
+{
+  "owner": "tiero",
+  "slug": "arkade-wallet",
+  "displayName": "Bitcoin and Tether on Arkade",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770857754771,
+    "commit": "https://github.com/openclaw/skills/commit/3b5cd9158fc33741f9e9535f2dd5f52cd6ec217c"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770518581553,
+      "commit": "https://github.com/openclaw/skills/commit/6ad741b3c7b22796af3cab88219e4faa5ab37734"
+    }
+  ]
+}

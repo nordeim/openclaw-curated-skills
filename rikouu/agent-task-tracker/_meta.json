@@ -1,0 +1,11 @@
+{
+  "owner": "rikouu",
+  "slug": "agent-task-tracker",
+  "displayName": "Task Tracker",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771441209751,
+    "commit": "https://github.com/openclaw/skills/commit/3a3bc639e0cab07172e43d327e1f96d2dcba1960"
+  },
+  "history": []
+}

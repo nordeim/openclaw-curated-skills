@@ -1,0 +1,11 @@
+{
+  "owner": "shaiss",
+  "slug": "near-faucet",
+  "displayName": "Near Faucet",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770554244240,
+    "commit": "https://github.com/openclaw/skills/commit/856aa6eeb1f0217f1b9ee4848c2c3213a968edb5"
+  },
+  "history": []
+}

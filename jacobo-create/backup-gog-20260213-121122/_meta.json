@@ -1,0 +1,11 @@
+{
+  "owner": "jacobo-create",
+  "slug": "backup-gog-20260213-121122",
+  "displayName": "Backup Gog 20260213 121122",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771014007103,
+    "commit": "https://github.com/openclaw/skills/commit/4de45bd4a4cd0864c7f83f4a164fe44e230d77d0"
+  },
+  "history": []
+}

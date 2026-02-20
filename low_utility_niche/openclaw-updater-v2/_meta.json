@@ -1,0 +1,11 @@
+{
+  "owner": "rothcold",
+  "slug": "openclaw-updater-v2",
+  "displayName": "OpenClaw Updater v2",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771215273218,
+    "commit": "https://github.com/openclaw/skills/commit/c14cc07a0a7bbbd02cc9405e80419da7fd2fe8d7"
+  },
+  "history": []
+}

@@ -1,0 +1,27 @@
+{
+  "owner": "aaron-he-zhu",
+  "slug": "content-gap-analysis",
+  "displayName": "Content Gap Analysis",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1771042967789,
+    "commit": "https://github.com/openclaw/skills/commit/a3e03bde876dc834a452397fb9fa297d582b5c56"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1770824345527,
+      "commit": "https://github.com/openclaw/skills/commit/1b3f380d682d683ae211c3e6488ce7b018263296"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770739822339,
+      "commit": "https://github.com/openclaw/skills/commit/de7f4151f5b4ae4e576f66087e8a479b0032a753"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770559662209,
+      "commit": "https://github.com/openclaw/skills/commit/44c3b07a0e75fea6d758eb47f743a728e3468a31"
+    }
+  ]
+}

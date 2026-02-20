@@ -1,0 +1,11 @@
+{
+  "owner": "guifav",
+  "slug": "test-sentinel",
+  "displayName": "Test Sentinel",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1771446394321,
+    "commit": "https://github.com/openclaw/skills/commit/0aaba9c2616fe479b01f2b9737a41cfbaf99daf5"
+  },
+  "history": []
+}

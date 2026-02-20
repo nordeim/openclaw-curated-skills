@@ -1,0 +1,11 @@
+{
+  "owner": "zlc000190",
+  "slug": "dispatching-parallel-agents",
+  "displayName": "Dispatching Parallel Agents",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770691897597,
+    "commit": "https://github.com/openclaw/skills/commit/61c6c396098ff2ffc9b7e5ee9b8d9746fc507e67"
+  },
+  "history": []
+}

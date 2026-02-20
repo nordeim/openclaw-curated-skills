@@ -1,0 +1,17 @@
+{
+  "owner": "nickymick8",
+  "slug": "claw-trader-lite",
+  "displayName": "Claw Trader Lite",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771446112319,
+    "commit": "https://github.com/openclaw/skills/commit/cee3fbc67be45a1f182e8178141999b0a36d9b92"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770917199184,
+      "commit": "https://github.com/openclaw/skills/commit/9fa84dd04566d695f855a33bf14a342998c19454"
+    }
+  ]
+}

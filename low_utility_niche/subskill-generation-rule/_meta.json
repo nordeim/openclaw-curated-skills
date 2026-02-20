@@ -1,0 +1,11 @@
+{
+  "owner": "kenera",
+  "slug": "subskill-generation-rule",
+  "displayName": "Subskill Generation Rule",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1771050657333,
+    "commit": "https://github.com/openclaw/skills/commit/24769b77145be843dab59f58c0bcc2ec5dbb7848"
+  },
+  "history": []
+}

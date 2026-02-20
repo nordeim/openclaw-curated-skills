@@ -1,0 +1,11 @@
+{
+  "owner": "87marc",
+  "slug": "outlook-skill-clawhub",
+  "displayName": "Outlook Delegate",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770938463136,
+    "commit": "https://github.com/openclaw/skills/commit/80d8dfb821c984daf6d34738e3996d2206f002ec"
+  },
+  "history": []
+}

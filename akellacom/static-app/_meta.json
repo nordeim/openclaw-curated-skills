@@ -1,0 +1,17 @@
+{
+  "owner": "akellacom",
+  "slug": "static-app",
+  "displayName": "Static App",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1770636637894,
+    "commit": "https://github.com/openclaw/skills/commit/1cd949c050bf20c74e314e13fdfaf3bd13ffc726"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770635147152,
+      "commit": "https://github.com/openclaw/skills/commit/0df2c860fed1faa1489a5ef3a28ce0ba8ea25d56"
+    }
+  ]
+}

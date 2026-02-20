@@ -1,0 +1,11 @@
+{
+  "owner": "olegqm",
+  "slug": "whatsapp-local-endpoints-router",
+  "displayName": "WhatsApp Local Endpoints Router",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771337125430,
+    "commit": "https://github.com/openclaw/skills/commit/6461271d31f9d1e589bfee3ee8bbf6d14454aefd"
+  },
+  "history": []
+}

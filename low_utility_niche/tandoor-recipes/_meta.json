@@ -1,0 +1,11 @@
+{
+  "owner": "itsnikhil",
+  "slug": "tandoor-recipes",
+  "displayName": "Tandoor Recipe",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770570191874,
+    "commit": "https://github.com/openclaw/skills/commit/d7d4cc1de786f558f4938608b4117084d46676cb"
+  },
+  "history": []
+}

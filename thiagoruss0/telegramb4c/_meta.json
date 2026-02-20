@@ -1,0 +1,11 @@
+{
+  "owner": "thiagoruss0",
+  "slug": "telegramb4c",
+  "displayName": "Telegram",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770417218413,
+    "commit": "https://github.com/openclaw/skills/commit/5fadf10b8184e912990d64b41647a9255ba089fd"
+  },
+  "history": []
+}

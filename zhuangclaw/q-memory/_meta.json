@@ -1,0 +1,11 @@
+{
+  "owner": "zhuangclaw",
+  "slug": "q-memory",
+  "displayName": "Q Memory",
+  "latest": {
+    "version": "1.8.5-no-crypto",
+    "publishedAt": 1771237523133,
+    "commit": "https://github.com/openclaw/skills/commit/52ecebd5b25e24713a4bed2534a3b66eba09dc38"
+  },
+  "history": []
+}

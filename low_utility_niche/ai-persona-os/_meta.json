@@ -1,0 +1,37 @@
+{
+  "owner": "jeffjhunter",
+  "slug": "ai-persona-os",
+  "displayName": "AI Persona OS",
+  "latest": {
+    "version": "1.5.6",
+    "publishedAt": 1771432703383,
+    "commit": "https://github.com/openclaw/skills/commit/633362f22c622cb72095f06f364942c1b6c6ad8f"
+  },
+  "history": [
+    {
+      "version": "1.4.1",
+      "publishedAt": 1771090266990,
+      "commit": "https://github.com/openclaw/skills/commit/95a7488de94614be8a9f972388461777a6272309"
+    },
+    {
+      "version": "1.3.3",
+      "publishedAt": 1770407985081,
+      "commit": "https://github.com/openclaw/skills/commit/6b6002afab16b573146817a7724648c5e4afb89b"
+    },
+    {
+      "version": "1.3.1",
+      "publishedAt": 1770366129594,
+      "commit": "https://github.com/openclaw/skills/commit/f08bfc8cc7c75aebda3a64317add52df530d3ffc"
+    },
+    {
+      "version": "1.2.0",
+      "publishedAt": 1770064632812,
+      "commit": "https://github.com/clawdbot/skills/commit/fa0b7872b335b366ee0901c38cc5cd9d768ddc32"
+    },
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770028212928,
+      "commit": "https://github.com/clawdbot/skills/commit/4698dc1bb4bb3e821c8f52194779acdfb145a709"
+    }
+  ]
+}

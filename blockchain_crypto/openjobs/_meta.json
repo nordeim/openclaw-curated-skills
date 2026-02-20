@@ -1,0 +1,22 @@
+{
+  "owner": "cchacons",
+  "slug": "openjobs",
+  "displayName": "openjobs",
+  "latest": {
+    "version": "3.2.1",
+    "publishedAt": 1771374742638,
+    "commit": "https://github.com/openclaw/skills/commit/e4e81e96780c10725e905f77b35ba4dde1087386"
+  },
+  "history": [
+    {
+      "version": "3.2.0",
+      "publishedAt": 1771038680543,
+      "commit": "https://github.com/openclaw/skills/commit/35061ae8e8b35a310cace768a178640208448703"
+    },
+    {
+      "version": "3.0.0",
+      "publishedAt": 1770985289106,
+      "commit": "https://github.com/openclaw/skills/commit/d05fc7aa2eb32d9ea33008b12a5bec0dc0f8346e"
+    }
+  ]
+}

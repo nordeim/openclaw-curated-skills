@@ -1,0 +1,11 @@
+{
+  "owner": "0xraini",
+  "slug": "crypto-watcher",
+  "displayName": "Crypto Watcher",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770651430783,
+    "commit": "https://github.com/openclaw/skills/commit/922b41fdb75fe4141d8649d39d047f2af3218e54"
+  },
+  "history": []
+}

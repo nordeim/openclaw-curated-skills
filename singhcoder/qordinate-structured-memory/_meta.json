@@ -1,0 +1,11 @@
+{
+  "owner": "singhcoder",
+  "slug": "qordinate-structured-memory",
+  "displayName": "Qordinate - Durable lists, facts, and reminders for OpenClaw agents.",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770443570636,
+    "commit": "https://github.com/openclaw/skills/commit/7ff024103c22432a7ba56912bcd204f36702dc6c"
+  },
+  "history": []
+}

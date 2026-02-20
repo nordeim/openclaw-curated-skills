@@ -1,0 +1,17 @@
+{
+  "owner": "iammhk",
+  "slug": "sarvam",
+  "displayName": "Sarvam AI",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771433954406,
+    "commit": "https://github.com/openclaw/skills/commit/a3117cc3fdde9ed2fe52a6792b0059b07ae5e9f9"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771137117218,
+      "commit": "https://github.com/openclaw/skills/commit/d0546aeca5139694fa3533b4bce1ba814a150d75"
+    }
+  ]
+}

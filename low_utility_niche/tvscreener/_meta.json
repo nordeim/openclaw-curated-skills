@@ -1,0 +1,11 @@
+{
+  "owner": "subway-chenyan",
+  "slug": "tvscreener",
+  "displayName": "Tvscreener",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770779960578,
+    "commit": "https://github.com/openclaw/skills/commit/41085ea443f84ae8518e54fcc81ec3dc95c120b1"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "lilei0311",
+  "slug": "siliconflow-tts-gen",
+  "displayName": "SiliconFlow TTS Gen",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771157371667,
+    "commit": "https://github.com/openclaw/skills/commit/5c30941898ded76fc785a18166744cb264bdd5c8"
+  },
+  "history": []
+}

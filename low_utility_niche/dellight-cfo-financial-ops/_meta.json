@@ -1,0 +1,17 @@
+{
+  "owner": "arthurelgindell",
+  "slug": "dellight-cfo-financial-ops",
+  "displayName": "DELLIGHT CFO Financial Operations",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771063911929,
+    "commit": "https://github.com/openclaw/skills/commit/138a8e209caa48198866464c661cfb5284d13e15"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771063784306,
+      "commit": "https://github.com/openclaw/skills/commit/253c81d72a0a1c4d1be85db592f82d02811bca76"
+    }
+  ]
+}

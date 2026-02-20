@@ -1,0 +1,11 @@
+{
+  "owner": "g9pedro",
+  "slug": "agent-autonomy-primitives",
+  "displayName": "Agent Autonomy Primitives",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771207182647,
+    "commit": "https://github.com/openclaw/skills/commit/6027a5c4be9ff5f2e0fa6ba60610573b2da372c1"
+  },
+  "history": []
+}

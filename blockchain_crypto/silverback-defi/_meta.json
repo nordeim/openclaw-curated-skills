@@ -1,0 +1,27 @@
+{
+  "owner": "ridingliquid",
+  "slug": "silverback-defi",
+  "displayName": "Silverback Defi",
+  "latest": {
+    "version": "2.2.0",
+    "publishedAt": 1770826692007,
+    "commit": "https://github.com/openclaw/skills/commit/3b0aa3d44750978f7ad598aa0a7323a76461a01a"
+  },
+  "history": [
+    {
+      "version": "3.1.0",
+      "publishedAt": 1770766130017,
+      "commit": "https://github.com/openclaw/skills/commit/410e975eb0e898eabe084625e712c1ac5578a829"
+    },
+    {
+      "version": "2.0.0",
+      "publishedAt": 1770586234740,
+      "commit": "https://github.com/openclaw/skills/commit/1554223144185f0f8f74ce5a5a00c1c3cd6744d1"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1769834863032,
+      "commit": "https://github.com/clawdbot/skills/commit/3416188a951f9e23206c9b09d39326e67d551f4b"
+    }
+  ]
+}

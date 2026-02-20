@@ -1,0 +1,11 @@
+{
+  "owner": "deyashmukh",
+  "slug": "data-cleaning-annotation-workflow",
+  "displayName": "Data Cleaning & Annotation Workflow",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771385224036,
+    "commit": "https://github.com/openclaw/skills/commit/ef339cc0f5f610f7b6dac676d1368f4bc8c00211"
+  },
+  "history": []
+}

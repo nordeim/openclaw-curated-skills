@@ -1,0 +1,11 @@
+{
+  "owner": "vabblejames",
+  "slug": "clawfy-pro",
+  "displayName": "Clawfy Pro",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1771236774618,
+    "commit": "https://github.com/openclaw/skills/commit/dc2e4895c7d47ca12555675bab03067a7badc867"
+  },
+  "history": []
+}

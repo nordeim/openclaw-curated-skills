@@ -1,0 +1,11 @@
+{
+  "owner": "alex3alex",
+  "slug": "channel-reminders",
+  "displayName": "Channel Reminders",
+  "latest": {
+    "version": "1.3.0",
+    "publishedAt": 1771067338418,
+    "commit": "https://github.com/openclaw/skills/commit/a6fad2e1b11892e3c0957562e297e62ce38fb00d"
+  },
+  "history": []
+}

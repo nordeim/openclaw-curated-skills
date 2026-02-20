@@ -1,0 +1,17 @@
+{
+  "owner": "efremidze",
+  "slug": "swift-patterns",
+  "displayName": "Swift Patterns",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771316914230,
+    "commit": "https://github.com/openclaw/skills/commit/661aa5f9675b40280704022eb19aafe6457d8acb"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771223421719,
+      "commit": "https://github.com/openclaw/skills/commit/18c9e72f84d8ed9daf2afd288a9861a94862dfd2"
+    }
+  ]
+}

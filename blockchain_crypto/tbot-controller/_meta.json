@@ -1,0 +1,11 @@
+{
+  "owner": "plusgenie",
+  "slug": "tbot-controller",
+  "displayName": "TBOT Controller",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770840745444,
+    "commit": "https://github.com/openclaw/skills/commit/e8b06967c1abe162396cb39275a947a2dddab6c7"
+  },
+  "history": []
+}

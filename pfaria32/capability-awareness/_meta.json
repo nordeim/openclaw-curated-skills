@@ -1,0 +1,11 @@
+{
+  "owner": "pfaria32",
+  "slug": "capability-awareness",
+  "displayName": "Capability Awareness System",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771008557649,
+    "commit": "https://github.com/openclaw/skills/commit/61d97471da8aedbd8da23727ff14c679dcfeb35c"
+  },
+  "history": []
+}

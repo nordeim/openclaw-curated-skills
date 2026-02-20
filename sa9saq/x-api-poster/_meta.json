@@ -1,0 +1,17 @@
+{
+  "owner": "sa9saq",
+  "slug": "x-api-poster",
+  "displayName": "X Api Poster",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526267545,
+    "commit": "https://github.com/openclaw/skills/commit/7b0411ae19ba28f49d0adaa9b460724f5a707c0e"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770482313598,
+      "commit": "https://github.com/openclaw/skills/commit/25daf3c3ad4600601aae516afc147c2b656a8886"
+    }
+  ]
+}

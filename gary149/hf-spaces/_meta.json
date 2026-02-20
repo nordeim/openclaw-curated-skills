@@ -1,0 +1,17 @@
+{
+  "owner": "gary149",
+  "slug": "hf-spaces",
+  "displayName": "HF Spaces",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771328836205,
+    "commit": "https://github.com/openclaw/skills/commit/efbe534edc24e4dfb7ec663794dc2542393da2fa"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771326132458,
+      "commit": "https://github.com/openclaw/skills/commit/81a86f7eaca344d826da0b48222aea6b3f60be57"
+    }
+  ]
+}

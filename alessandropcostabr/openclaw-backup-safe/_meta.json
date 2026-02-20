@@ -1,0 +1,11 @@
+{
+  "owner": "alessandropcostabr",
+  "slug": "openclaw-backup-safe",
+  "displayName": "OpenClaw Backup Safe",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771291894091,
+    "commit": "https://github.com/openclaw/skills/commit/83c47e15fa4a366d963302146ba5163c1584b7c5"
+  },
+  "history": []
+}

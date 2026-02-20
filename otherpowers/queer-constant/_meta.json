@@ -1,0 +1,22 @@
+{
+  "owner": "otherpowers",
+  "slug": "queer-constant",
+  "displayName": "Queer Constant",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1770498030477,
+    "commit": "https://github.com/openclaw/skills/commit/14ad46533c30016951c41519f17af4f67255c70c"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770416300974,
+      "commit": "https://github.com/openclaw/skills/commit/877de40613fd5232dd56eaeb314e12f4b958fd64"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770391325785,
+      "commit": "https://github.com/openclaw/skills/commit/e28b063e361e940b7f76d9e59d45721421221eaf"
+    }
+  ]
+}

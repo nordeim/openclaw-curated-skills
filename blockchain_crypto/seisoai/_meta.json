@@ -1,0 +1,11 @@
+{
+  "owner": "legendarylibr",
+  "slug": "seisoai",
+  "displayName": "Seisoai",
+  "latest": {
+    "version": "1.1.1",
+    "publishedAt": 1771318508588,
+    "commit": "https://github.com/openclaw/skills/commit/86e1fd6e027fdbf0a9a863ab014bc5eb44a5d5f6"
+  },
+  "history": []
+}

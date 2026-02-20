@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+.badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    min-height: 100vh;
+}
+
+.badge {
+    width: 400px;
+    height: 250px;
+    background: linear-gradient(145deg, #ffffff 0%, #f0f0f0 100%);
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    position: relative;
+    overflow: hidden;
+    font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+.badge::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 8px;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+}
+
+.badge-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 12px 20px;
+    color: white;
+}
+
+.badge-header h1 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+}
+
+.badge-header h2 {
+    font-size: 11px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.badge-body {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.badge-photo {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 100%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    border: 3px solid #667eea;
+}
+
+.badge-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.badge-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.badge-label {
+    font-size: 10px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.badge-value {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+}
+
+.badge-id {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    background: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.badge-role {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.role-worker { background: #e3f2fd; color: #1976d2; }
+.role-reviewer { background: #f3e5f5; color: #7b1fa2; }
+.role-researcher { background: #e8f5e9; color: #388e3c; }
+.role-formatter { background: #fff3e0; color: #f57c00; }
+
+.badge-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.status-active { background: #4caf50; }
+.status-pending { background: #ff9800; }
+.status-terminated { background: #f44336; }
+
+.badge-permissions {
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.permission-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+}
+
+.permission-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 10px;
+    color: #666;
+}
+
+.permission-icon {
+    font-size: 12px;
+}
+
+.badge-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px 20px;
+    background: #f5f5f5;
+    font-size: 10px;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+}
+
+.badge-dept {
+    font-weight: 600;
+    color: #667eea;
+}
+
+.badge-watermark {
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    font-size: 60px;
+    opacity: 0.05;
+    transform: rotate(-15deg);
+}
+
+/* Multi-badge layout */
+.badge-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+@media print {
+    .badge-container { background: white; }
+    .badge { box-shadow: none; border: 1px solid #ddd; }
+}
+</style>
+</head>
+<body>
+<div class="badge-container">
+    <!-- Badge Template -->
+    <div class="badge">
+        <div class="badge-header">
+            <h1>FIS 3.1 LITE</h1>
+            <h2>联邦智能系统 · 子代理工卡</h2>
+        </div>
+        <div class="badge-body">
+            <div class="badge-photo">🤖</div>
+            <div class="badge-info">
+                <div class="badge-field">
+                    <span class="badge-label">Employee ID</span>
+                    <span class="badge-value badge-id">CYBERMAO-SA-2026-0001</span>
+                </div>
+                <div class="badge-field">
+                    <span class="badge-label">Name</span>
+                    <span class="badge-value">小毛-Worker-001</span>
+                </div>
+                <div class="badge-field">
+                    <span class="badge-label">Role</span>
+                    <span class="badge-role role-worker">Worker</span>
+                </div>
+                <div class="badge-field">
+                    <span class="badge-label">Status</span>
+                    <span class="badge-status">
+                        <span class="status-dot status-active"></span>
+                        ACTIVE
+                    </span>
+                </div>
+                <div class="badge-permissions">
+                    <div class="permission-grid">
+                        <div class="permission-item">
+                            <span class="permission-icon">✓</span>
+                            <span>Read Shared Hub</span>
+                        </div>
+                        <div class="permission-item">
+                            <span class="permission-icon">✗</span>
+                            <span>Write (via Parent)</span>
+                        </div>
+                        <div class="permission-item">
+                            <span class="permission-icon">✗</span>
+                            <span>Call Other Agents</span>
+                        </div>
+                        <div class="permission-item">
+                            <span class="permission-icon">✗</span>
+                            <span>Modify Tickets</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="badge-footer">
+            <span class="badge-dept">Department: cybermao</span>
+            <span>Valid until: 2026-02-17 22:48</span>
+        </div>
+        <div class="badge-watermark">FIS</div>
+    </div>
+</div>
+</body>
+</html>

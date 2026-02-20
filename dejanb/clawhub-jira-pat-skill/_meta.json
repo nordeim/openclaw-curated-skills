@@ -1,0 +1,11 @@
+{
+  "owner": "dejanb",
+  "slug": "clawhub-jira-pat-skill",
+  "displayName": "Clawhub Jira Pat Skill",
+  "latest": {
+    "version": "0.0.1",
+    "publishedAt": 1770644149903,
+    "commit": "https://github.com/openclaw/skills/commit/b72d17e3cef73b90e7e6fdeeca1f64c5d3987227"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "xd4o",
+  "slug": "kimi-usage-monitor",
+  "displayName": "Kimi Usage Monitor",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770950114496,
+    "commit": "https://github.com/openclaw/skills/commit/653f25413ad0ec9f09ae52ff9b0eba3b1174f49a"
+  },
+  "history": []
+}

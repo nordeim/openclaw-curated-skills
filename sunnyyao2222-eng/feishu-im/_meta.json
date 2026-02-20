@@ -1,0 +1,11 @@
+{
+  "owner": "sunnyyao2222-eng",
+  "slug": "feishu-im",
+  "displayName": "feishu-im",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770938949904,
+    "commit": "https://github.com/openclaw/skills/commit/e66d7f6e5bfb669d71a0c6b89f07d1721b94cacc"
+  },
+  "history": []
+}

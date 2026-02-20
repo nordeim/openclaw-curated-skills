@@ -1,0 +1,22 @@
+{
+  "owner": "jcislo",
+  "slug": "moltalyzer",
+  "displayName": "Moltalyzer",
+  "latest": {
+    "version": "1.4.0",
+    "publishedAt": 1771302729864,
+    "commit": "https://github.com/openclaw/skills/commit/6fd16ad4e3781b2337a1d0effcf0811916c0a511"
+  },
+  "history": [
+    {
+      "version": "1.1.0",
+      "publishedAt": 1771012895666,
+      "commit": "https://github.com/openclaw/skills/commit/a582b148856cec62de9c0236505f9d49d3da4c0c"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770946174453,
+      "commit": "https://github.com/openclaw/skills/commit/d282ab8c929075ec370434fd8aeb7bb1ba64b34c"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "nativ3ai",
+  "slug": "bountyhub-agent",
+  "displayName": "BountyHub Agent",
+  "latest": {
+    "version": "0.1.7",
+    "publishedAt": 1770992270061,
+    "commit": "https://github.com/openclaw/skills/commit/89f26fb402c7507ab36dba220c93ce7a4ee35192"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770927986119,
+      "commit": "https://github.com/openclaw/skills/commit/9fd59d7ae4b31d2a1f13d9637adb6e6edb608655"
+    }
+  ]
+}

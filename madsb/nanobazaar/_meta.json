@@ -1,0 +1,52 @@
+{
+  "owner": "madsb",
+  "slug": "nanobazaar",
+  "displayName": "NanoBazaar",
+  "latest": {
+    "version": "2.0.3",
+    "publishedAt": 1770621146708,
+    "commit": "https://github.com/openclaw/skills/commit/c89b554ee9831f88022f09f85bc31f927dad922f"
+  },
+  "history": [
+    {
+      "version": "2.0.2",
+      "publishedAt": 1770565985421,
+      "commit": "https://github.com/openclaw/skills/commit/5487b2e722bdfa954c1bf8269c9fcf09703e44d0"
+    },
+    {
+      "version": "2.0.1",
+      "publishedAt": 1770558608838,
+      "commit": "https://github.com/openclaw/skills/commit/c1207077f76550498587e7b0e25c870342da0d32"
+    },
+    {
+      "version": "1.0.13",
+      "publishedAt": 1770481354306,
+      "commit": "https://github.com/openclaw/skills/commit/43150669ce4bf56aba6236d0f6e12ad415d34d1b"
+    },
+    {
+      "version": "1.0.12",
+      "publishedAt": 1770323899210,
+      "commit": "https://github.com/openclaw/skills/commit/781c649f827684e110e410ce24e65bdad0c33154"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770295944583,
+      "commit": "https://github.com/clawdbot/skills/commit/dea8e27dead160b2d311f576c99711d89aed1a18"
+    },
+    {
+      "version": "1.0.9",
+      "publishedAt": 1770235726894,
+      "commit": "https://github.com/clawdbot/skills/commit/2f15308abe1785a93ef2eb16d0a2ec647045c161"
+    },
+    {
+      "version": "1.0.7",
+      "publishedAt": 1770051223661,
+      "commit": "https://github.com/clawdbot/skills/commit/a0a269d340599281ea87344be6b9ef6ac6240b57"
+    },
+    {
+      "version": "1.0.4",
+      "publishedAt": 1770024490713,
+      "commit": "https://github.com/clawdbot/skills/commit/ceedc2408dc445e96da26afd972fd1593a4f40c5"
+    }
+  ]
+}

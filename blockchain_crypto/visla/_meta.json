@@ -1,0 +1,22 @@
+{
+  "owner": "visla-admin",
+  "slug": "visla",
+  "displayName": "Visla AI Video Creation",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771461395930,
+    "commit": "https://github.com/openclaw/skills/commit/51421356c00e911e7d0ebbf7d07f357a2c1ec80e"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770852670786,
+      "commit": "https://github.com/openclaw/skills/commit/cc9b43057ea114e34f4b7357921016a3dcedafe9"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770165049080,
+      "commit": "https://github.com/clawdbot/skills/commit/34001fd5c49fadb599626091aeef275ebe3c0e52"
+    }
+  ]
+}

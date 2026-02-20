@@ -1,0 +1,11 @@
+{
+  "owner": "near2sea",
+  "slug": "ios-view-generator",
+  "displayName": "生成iOS视图UI",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771482418487,
+    "commit": "https://github.com/openclaw/skills/commit/dab7bc27bb7cf9bc6a15d0037ed001662d67cefc"
+  },
+  "history": []
+}

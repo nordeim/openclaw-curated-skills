@@ -1,0 +1,11 @@
+{
+  "owner": "jcromero",
+  "slug": "carddav-contacts",
+  "displayName": "CardDAV Contacts",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770758609632,
+    "commit": "https://github.com/openclaw/skills/commit/45dff8504724b6630374e9d53ac1a36f3526c8d4"
+  },
+  "history": []
+}

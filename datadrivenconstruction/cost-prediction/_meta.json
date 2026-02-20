@@ -1,0 +1,11 @@
+{
+  "owner": "datadrivenconstruction",
+  "slug": "cost-prediction",
+  "displayName": "Cost Prediction",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770475837999,
+    "commit": "https://github.com/openclaw/skills/commit/81d4f63ffb5020e86f64d8147aac411a6b8b0808"
+  },
+  "history": []
+}

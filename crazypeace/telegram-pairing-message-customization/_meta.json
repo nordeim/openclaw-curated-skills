@@ -1,0 +1,22 @@
+{
+  "owner": "crazypeace",
+  "slug": "telegram-pairing-message-customization",
+  "displayName": "Telegram 配对消息自定义 |  Customize Telegram Pairing Messages",
+  "latest": {
+    "version": "1.0.6",
+    "publishedAt": 1770569082108,
+    "commit": "https://github.com/openclaw/skills/commit/d8242c4609ddfbb098ad2b88a4a5d9e17b25cf1d"
+  },
+  "history": [
+    {
+      "version": "1.0.5",
+      "publishedAt": 1770205463956,
+      "commit": "https://github.com/clawdbot/skills/commit/1b38df1ddc2915721a31127d09cf67d4c7258f73"
+    },
+    {
+      "version": "1.0.4",
+      "publishedAt": 1770126669663,
+      "commit": "https://github.com/clawdbot/skills/commit/7984b6b6bae14cfeab956612596b7902be6a7699"
+    }
+  ]
+}

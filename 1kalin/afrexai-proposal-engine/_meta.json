@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-proposal-engine",
+  "displayName": "Proposal Engine",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771069180848,
+    "commit": "https://github.com/openclaw/skills/commit/4e6bd49871b0b8ceb887ca5398b2b05529428177"
+  },
+  "history": []
+}

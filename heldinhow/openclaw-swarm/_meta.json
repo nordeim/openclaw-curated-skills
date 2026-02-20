@@ -1,0 +1,11 @@
+{
+  "owner": "heldinhow",
+  "slug": "openclaw-swarm",
+  "displayName": "OpenClaw Swarm",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771294711438,
+    "commit": "https://github.com/openclaw/skills/commit/cb9ab3a04b8914b88373c47a489a4a7d1312afef"
+  },
+  "history": []
+}

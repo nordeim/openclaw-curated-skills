@@ -1,0 +1,11 @@
+{
+  "owner": "crazyfeng666",
+  "slug": "dji-backup",
+  "displayName": "Dji Backup",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771006206684,
+    "commit": "https://github.com/openclaw/skills/commit/0ab243588305f43bbab1a429341d4f6575fe9d88"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "olshansk",
+  "slug": "tip-with-grove",
+  "displayName": "Tip with Grove",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770785947285,
+    "commit": "https://github.com/openclaw/skills/commit/a81024a9e3a27d436d31dbcb88e35389edb1e6eb"
+  },
+  "history": []
+}

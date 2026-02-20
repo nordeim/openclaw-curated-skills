@@ -1,0 +1,17 @@
+{
+  "owner": "apresmoi",
+  "slug": "meetup-planner",
+  "displayName": "Meetup Planner",
+  "latest": {
+    "version": "0.1.5",
+    "publishedAt": 1770933613364,
+    "commit": "https://github.com/openclaw/skills/commit/5318c30cf890dd77b2ac9542be17a300457d53ef"
+  },
+  "history": [
+    {
+      "version": "0.1.4",
+      "publishedAt": 1770927440770,
+      "commit": "https://github.com/openclaw/skills/commit/066fc6f13ec6e17e90f7744b34433b53185b464e"
+    }
+  ]
+}

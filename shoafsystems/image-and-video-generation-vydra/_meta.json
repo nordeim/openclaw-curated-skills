@@ -1,0 +1,11 @@
+{
+  "owner": "shoafsystems",
+  "slug": "image-and-video-generation-vydra",
+  "displayName": "Image and Video Generation with Vydra API",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770616593976,
+    "commit": "https://github.com/openclaw/skills/commit/32f2eac9c5483f64595297a7a7fc5e78a3780a9d"
+  },
+  "history": []
+}

@@ -1,0 +1,22 @@
+{
+  "owner": "chadru",
+  "slug": "depo-bot",
+  "displayName": "Deposition Bot",
+  "latest": {
+    "version": "4.0.0",
+    "publishedAt": 1771335855074,
+    "commit": "https://github.com/openclaw/skills/commit/1cba57eeb194b474a7a0aab85c425c94fd706dd8"
+  },
+  "history": [
+    {
+      "version": "3.0.0",
+      "publishedAt": 1771335555521,
+      "commit": "https://github.com/openclaw/skills/commit/9a0e1fd3fe82ccaa4c53c8f93e052cd57ab28fd2"
+    },
+    {
+      "version": "2.0.1",
+      "publishedAt": 1771254907966,
+      "commit": "https://github.com/openclaw/skills/commit/0d04f271254e36a3dac38a01c28a9376f0d99e0c"
+    }
+  ]
+}

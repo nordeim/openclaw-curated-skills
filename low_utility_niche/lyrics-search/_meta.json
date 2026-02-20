@@ -1,0 +1,11 @@
+{
+  "owner": "hone1983",
+  "slug": "lyrics-search",
+  "displayName": "Lyrics Search",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771426205367,
+    "commit": "https://github.com/openclaw/skills/commit/3a839b4fc2acedeab1911ea9a46ffee32f4dd4de"
+  },
+  "history": []
+}

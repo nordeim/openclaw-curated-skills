@@ -1,0 +1,22 @@
+{
+  "owner": "jaumecornado",
+  "slug": "holded-skill",
+  "displayName": "Holded Skill",
+  "latest": {
+    "version": "0.2.3",
+    "publishedAt": 1771236186289,
+    "commit": "https://github.com/openclaw/skills/commit/382d131cf2da1ca8a474ff19c3825e57bbc6c224"
+  },
+  "history": [
+    {
+      "version": "0.2.2",
+      "publishedAt": 1771231027728,
+      "commit": "https://github.com/openclaw/skills/commit/0835780d7c2c5ac1e0f5b19fedff6d231fa5b4cd"
+    },
+    {
+      "version": "0.1.1",
+      "publishedAt": 1771093517154,
+      "commit": "https://github.com/openclaw/skills/commit/850a147321873319ab7257a8facb30580ed8cdbb"
+    }
+  ]
+}

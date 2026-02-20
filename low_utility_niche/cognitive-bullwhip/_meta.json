@@ -1,0 +1,11 @@
+{
+  "owner": "jkc3080",
+  "slug": "cognitive-bullwhip",
+  "displayName": "cognitive-bullwhip",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771563745465,
+    "commit": "https://github.com/openclaw/skills/commit/45a01e05c7e151354631b1e175dc5026de8a4714"
+  },
+  "history": []
+}

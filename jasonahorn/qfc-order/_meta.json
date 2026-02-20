@@ -1,0 +1,11 @@
+{
+  "owner": "jasonahorn",
+  "slug": "qfc-order",
+  "displayName": "Qfc Order",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771205479556,
+    "commit": "https://github.com/openclaw/skills/commit/c298b86b7adab971c01ecef7bc752baa5ee7dece"
+  },
+  "history": []
+}

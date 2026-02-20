@@ -1,0 +1,11 @@
+{
+  "owner": "cettoana",
+  "slug": "gog-restricted",
+  "displayName": "gog-restricted",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1770803812363,
+    "commit": "https://github.com/openclaw/skills/commit/bf4683970e916c2fd1e0cd9a92d85f4a78c9886d"
+  },
+  "history": []
+}

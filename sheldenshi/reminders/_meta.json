@@ -1,0 +1,17 @@
+{
+  "owner": "sheldenshi",
+  "slug": "reminders",
+  "displayName": "Apple iCloud Reminders - todo list",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1770683612726,
+    "commit": "https://github.com/openclaw/skills/commit/e1f888d3ac2430af7d30cc839a4fefc29f28e41f"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770683058570,
+      "commit": "https://github.com/openclaw/skills/commit/8eaa7fc0b1e8a505bfc10910552aca337c3829cc"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "spillai",
+  "slug": "vlmrun-cli-skill",
+  "displayName": "Vlmrun Cli Skill",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1770739441875,
+    "commit": "https://github.com/openclaw/skills/commit/679f84fcc98e37f91c469470f8238c71da679ff5"
+  },
+  "history": []
+}

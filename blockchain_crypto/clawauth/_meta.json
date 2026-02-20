@@ -1,0 +1,22 @@
+{
+  "owner": "h4gen",
+  "slug": "clawauth",
+  "displayName": "User-Delegated OAuth API Access",
+  "latest": {
+    "version": "1.0.6",
+    "publishedAt": 1771240841149,
+    "commit": "https://github.com/openclaw/skills/commit/52520395bb6abc396f6211c2a68e498dcb3a4db3"
+  },
+  "history": [
+    {
+      "version": "1.0.5",
+      "publishedAt": 1771227094554,
+      "commit": "https://github.com/openclaw/skills/commit/15c1d9e88114f1748efd71f679b968911d0353a3"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1771176293502,
+      "commit": "https://github.com/openclaw/skills/commit/ec507742afbf7765306f637ade4b9403cf081468"
+    }
+  ]
+}

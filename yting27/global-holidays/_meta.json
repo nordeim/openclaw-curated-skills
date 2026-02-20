@@ -1,0 +1,17 @@
+{
+  "owner": "yting27",
+  "slug": "global-holidays",
+  "displayName": "Global Holidays",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771390686403,
+    "commit": "https://github.com/openclaw/skills/commit/35136017a8afcb996998880ec98f8db976f50982"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771318258798,
+      "commit": "https://github.com/openclaw/skills/commit/8a4df344195b64ff0457e739d91289b9bac591c5"
+    }
+  ]
+}

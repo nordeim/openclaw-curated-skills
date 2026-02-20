@@ -1,0 +1,11 @@
+{
+  "owner": "cpascoli",
+  "slug": "botcast",
+  "displayName": "The Botcast",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770568733241,
+    "commit": "https://github.com/openclaw/skills/commit/2a799dcdb1b30dcb27715798d1073fdf704da53e"
+  },
+  "history": []
+}

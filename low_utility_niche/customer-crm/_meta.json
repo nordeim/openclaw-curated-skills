@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "customer-crm",
+  "displayName": "customer-crm",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770791046905,
+    "commit": "https://github.com/openclaw/skills/commit/ac8ae42aa8ce80cba028d9c8145546cad156bd03"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "paulgnz",
+  "slug": "xpr-defi",
+  "displayName": "XPR DeFi",
+  "latest": {
+    "version": "2.1.1",
+    "publishedAt": 1771045816490,
+    "commit": "https://github.com/openclaw/skills/commit/9c73ab3a05a04c27c9fc3e77d09d08f0fa350038"
+  },
+  "history": [
+    {
+      "version": "0.2.11",
+      "publishedAt": 1771017992522,
+      "commit": "https://github.com/openclaw/skills/commit/41ffa15bdf4f173e8b9ae001dba4cbc4a1454acc"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "owner": "ali-hajeh",
+  "slug": "noya-agent",
+  "displayName": "Noya Agent",
+  "latest": {
+    "version": "1.0.13",
+    "publishedAt": 1771442470871,
+    "commit": "https://github.com/openclaw/skills/commit/7885899ed40109ba5b415c4707c1e2c14c2d60e4"
+  },
+  "history": [
+    {
+      "version": "1.0.12",
+      "publishedAt": 1771440385844,
+      "commit": "https://github.com/openclaw/skills/commit/7603dc2c2c992d32014dc314a20d2ba541250bbb"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771322613632,
+      "commit": "https://github.com/openclaw/skills/commit/bb4d3bfcd903acd34600f8d252670f011eda4fca"
+    }
+  ]
+}

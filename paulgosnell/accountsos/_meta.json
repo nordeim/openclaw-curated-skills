@@ -1,0 +1,17 @@
+{
+  "owner": "paulgosnell",
+  "slug": "accountsos",
+  "displayName": "Accountsos",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1770623022624,
+    "commit": "https://github.com/openclaw/skills/commit/3573c3f2662c49c9a8c963d76f92635d7bf21019"
+  },
+  "history": [
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770622372912,
+      "commit": "https://github.com/openclaw/skills/commit/2cc20e8eea05446b1e65bfa16e4b5adba9b29009"
+    }
+  ]
+}

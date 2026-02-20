@@ -1,0 +1,11 @@
+{
+  "owner": "pfaria32",
+  "slug": "openclaw-expansion-pack",
+  "displayName": "OpenClaw Expansion Pack",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771008569275,
+    "commit": "https://github.com/openclaw/skills/commit/9d68ed8fcb0f78f227b1c8cbb39dc528ff0f8b2d"
+  },
+  "history": []
+}

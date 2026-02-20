@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "supervisor-proposer",
+  "displayName": "supervisor-proposer",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770791371490,
+    "commit": "https://github.com/openclaw/skills/commit/cd23a18642dc04e36e6623123b2df87ff22346f1"
+  },
+  "history": []
+}

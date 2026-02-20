@@ -1,0 +1,11 @@
+{
+  "owner": "chordlini",
+  "slug": "localsend",
+  "displayName": "Localsend",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1771565271424,
+    "commit": "https://github.com/openclaw/skills/commit/944de45a90c3fe9624ddc15ced72c93abd749f7d"
+  },
+  "history": []
+}

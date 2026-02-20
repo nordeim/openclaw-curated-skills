@@ -1,0 +1,11 @@
+{
+  "owner": "be1human",
+  "slug": "multi-agent-en",
+  "displayName": "Multi-Agent EN",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771418725293,
+    "commit": "https://github.com/openclaw/skills/commit/d128f39c25cc13935300e52259da5111f54ea81a"
+  },
+  "history": []
+}

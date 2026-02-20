@@ -1,0 +1,22 @@
+{
+  "owner": "inlo",
+  "slug": "autotask-mcp",
+  "displayName": "Autotask Mcp",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1771259216419,
+    "commit": "https://github.com/openclaw/skills/commit/7588482837965c68aa3a3c23653518a9b3a22323"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1771185422744,
+      "commit": "https://github.com/openclaw/skills/commit/acbf081e8260fc84366db81f6091bf7eee5c2784"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770827557282,
+      "commit": "https://github.com/openclaw/skills/commit/69734d1e45795bb3e41e36cd63ebddb83ec6d9c2"
+    }
+  ]
+}

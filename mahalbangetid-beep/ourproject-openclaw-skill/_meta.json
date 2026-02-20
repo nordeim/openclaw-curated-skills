@@ -1,0 +1,11 @@
+{
+  "owner": "mahalbangetid-beep",
+  "slug": "ourproject-openclaw-skill",
+  "displayName": "Personal Client Management System & Finance System",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771272742277,
+    "commit": "https://github.com/openclaw/skills/commit/e9c8a478679a771b06b8fdd5c709a84fbb8e2669"
+  },
+  "history": []
+}

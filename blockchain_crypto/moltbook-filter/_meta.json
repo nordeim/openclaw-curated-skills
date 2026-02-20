@@ -1,0 +1,17 @@
+{
+  "owner": "ymode",
+  "slug": "moltbook-filter",
+  "displayName": "Moltbook Spam Filter",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770791251266,
+    "commit": "https://github.com/openclaw/skills/commit/bbd4c5237febada302f026f265f5060d581a7f1f"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770791010954,
+      "commit": "https://github.com/openclaw/skills/commit/eef86f4aa555edc8c2a26b479f7f97a3216092aa"
+    }
+  ]
+}

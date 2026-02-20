@@ -1,0 +1,11 @@
+{
+  "owner": "tioglo",
+  "slug": "plaiground",
+  "displayName": "The Plaiground",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771516922640,
+    "commit": "https://github.com/openclaw/skills/commit/fd5ec5a98e6c1a93c204eee0a203bf9efd8633ce"
+  },
+  "history": []
+}

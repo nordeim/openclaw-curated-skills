@@ -1,0 +1,11 @@
+{
+  "owner": "codedao12",
+  "slug": "elevenlabs-ai",
+  "displayName": "Elevenlabs AI",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770631725619,
+    "commit": "https://github.com/openclaw/skills/commit/5e908cab582652cde0737afd1120432c78fde1f5"
+  },
+  "history": []
+}

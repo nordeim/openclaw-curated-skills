@@ -1,0 +1,11 @@
+{
+  "owner": "kevjade",
+  "slug": "operator-humanizer",
+  "displayName": "Operator: Humanizer",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771201686334,
+    "commit": "https://github.com/openclaw/skills/commit/f3eff2fcda4c2255d2273a35f01cdecffd3046cb"
+  },
+  "history": []
+}

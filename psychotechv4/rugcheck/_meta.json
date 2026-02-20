@@ -1,0 +1,11 @@
+{
+  "owner": "psychotechv4",
+  "slug": "rugcheck",
+  "displayName": "RugCheck",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770417309603,
+    "commit": "https://github.com/openclaw/skills/commit/080afff2f415eeee589ec03f728c98bbbf845817"
+  },
+  "history": []
+}

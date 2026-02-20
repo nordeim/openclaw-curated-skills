@@ -1,0 +1,11 @@
+{
+  "owner": "jaylane",
+  "slug": "context7-docs",
+  "displayName": "Context7 Documentation Skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771403545637,
+    "commit": "https://github.com/openclaw/skills/commit/3f20586bea46f3b2545f9ed9082918bea54220e3"
+  },
+  "history": []
+}

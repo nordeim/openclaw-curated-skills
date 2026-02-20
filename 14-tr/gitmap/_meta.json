@@ -1,0 +1,17 @@
+{
+  "owner": "14-tr",
+  "slug": "gitmap",
+  "displayName": "Git-Map",
+  "latest": {
+    "version": "0.1.3",
+    "publishedAt": 1771460170114,
+    "commit": "https://github.com/openclaw/skills/commit/eecf8bf4e9a63c0aa97377041cf710393bf2ec86"
+  },
+  "history": [
+    {
+      "version": "0.1.2",
+      "publishedAt": 1771460044092,
+      "commit": "https://github.com/openclaw/skills/commit/56195cc3edef8671c3210ea95f0b8cc9e576a3c8"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "guxiaolong01",
+  "slug": "weather-like-test",
+  "displayName": "Weather Like Test",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770938684290,
+    "commit": "https://github.com/openclaw/skills/commit/597c6733309067c7f3e0d2ea9aab1ad1e8ec687d"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "yaxuan42",
+  "slug": "claude-code-legacy",
+  "displayName": "claude-code (Deprecated alias)",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771142918722,
+    "commit": "https://github.com/openclaw/skills/commit/cac866f5fef456c28bf33ae1270aabb953e249f6"
+  },
+  "history": []
+}

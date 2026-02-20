@@ -1,0 +1,11 @@
+{
+  "owner": "doshirush1901",
+  "slug": "echo-sales-ai",
+  "displayName": "Echo Sales Ai",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771491486707,
+    "commit": "https://github.com/openclaw/skills/commit/01ae2073e5dacee7db83bd1281e6035487208374"
+  },
+  "history": []
+}

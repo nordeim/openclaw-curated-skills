@@ -1,0 +1,17 @@
+{
+  "owner": "twhidden",
+  "slug": "twhidden-bitwarden",
+  "displayName": "Twhidden Bitwarden",
+  "latest": {
+    "version": "1.0.5",
+    "publishedAt": 1771461553100,
+    "commit": "https://github.com/openclaw/skills/commit/22009f31b201baca2ba18d00a5dffa89a4623705"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1771389877319,
+      "commit": "https://github.com/openclaw/skills/commit/fe3eb32347d16c04dfe7273b9ddfddbd97d2cb35"
+    }
+  ]
+}

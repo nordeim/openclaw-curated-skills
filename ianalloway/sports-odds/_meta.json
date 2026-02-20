@@ -1,0 +1,11 @@
+{
+  "owner": "ianalloway",
+  "slug": "sports-odds",
+  "displayName": "Sports Odds",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771116466434,
+    "commit": "https://github.com/openclaw/skills/commit/83541b283f701e4cde04bbec7f000ccc1adeb57e"
+  },
+  "history": []
+}

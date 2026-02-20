@@ -1,0 +1,22 @@
+{
+  "owner": "kirillleventcov",
+  "slug": "grokipedia",
+  "displayName": "Grokipedia",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1770921698996,
+    "commit": "https://github.com/openclaw/skills/commit/aa392b6db98d516f07be057e39190933cb662e66"
+  },
+  "history": [
+    {
+      "version": "1.1.1",
+      "publishedAt": 1770749074857,
+      "commit": "https://github.com/openclaw/skills/commit/f4a07d5fbb5693a44bbf4befb50371b9aed0723f"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770066598628,
+      "commit": "https://github.com/clawdbot/skills/commit/c113b2b060180ab01eca60d4359f9395daf99f9d"
+    }
+  ]
+}

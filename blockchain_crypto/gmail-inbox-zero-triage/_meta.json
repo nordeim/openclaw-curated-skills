@@ -1,0 +1,17 @@
+{
+  "owner": "poisondminds",
+  "slug": "gmail-inbox-zero-triage",
+  "displayName": "Gmail Inbox Zero Traige",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770712359113,
+    "commit": "https://github.com/openclaw/skills/commit/796df28b0cae755a925c4b8a7dca854cfd55eaff"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770610918073,
+      "commit": "https://github.com/openclaw/skills/commit/dbf173f753bd4fb328c63cb59e1c8890b7710f4a"
+    }
+  ]
+}

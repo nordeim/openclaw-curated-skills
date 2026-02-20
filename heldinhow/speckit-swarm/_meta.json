@@ -1,0 +1,11 @@
+{
+  "owner": "heldinhow",
+  "slug": "speckit-swarm",
+  "displayName": "Speckit Swarm",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771374162436,
+    "commit": "https://github.com/openclaw/skills/commit/662ab89a8cc07dbccb8766040c0fc7888453fd35"
+  },
+  "history": []
+}

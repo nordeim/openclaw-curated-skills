@@ -1,0 +1,11 @@
+{
+  "owner": "micahele",
+  "slug": "donotify-voice-call-reminder",
+  "displayName": "Donotify Voice Call Reminder",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771431875437,
+    "commit": "https://github.com/openclaw/skills/commit/a07ba9b1aaa27133820c0ab1d1aa2914e86466c8"
+  },
+  "history": []
+}

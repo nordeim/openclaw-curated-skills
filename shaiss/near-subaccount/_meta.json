@@ -1,0 +1,11 @@
+{
+  "owner": "shaiss",
+  "slug": "near-subaccount",
+  "displayName": "Near Subaccount",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770568923751,
+    "commit": "https://github.com/openclaw/skills/commit/a74b3eb111df7c4c83f6b2680b57d6dc61caed01"
+  },
+  "history": []
+}

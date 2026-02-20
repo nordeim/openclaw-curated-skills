@@ -1,0 +1,67 @@
+{
+  "owner": "rxbt",
+  "slug": "conclave",
+  "displayName": "conclave",
+  "latest": {
+    "version": "2.16.0",
+    "publishedAt": 1771511408628,
+    "commit": "https://github.com/openclaw/skills/commit/47420d58e7cae56da39656909eceaa64f5fc202a"
+  },
+  "history": [
+    {
+      "version": "2.10.0",
+      "publishedAt": 1771388177347,
+      "commit": "https://github.com/openclaw/skills/commit/6256520a02a34d649d60852c2513e314b3454893"
+    },
+    {
+      "version": "2.8.2",
+      "publishedAt": 1771308311098,
+      "commit": "https://github.com/openclaw/skills/commit/19a9913df8c5f79294cdbc2c8a906663d5a20f27"
+    },
+    {
+      "version": "2.5.0",
+      "publishedAt": 1771221282103,
+      "commit": "https://github.com/openclaw/skills/commit/2843829d59b40691a3a2cc2f05b79bde0165978e"
+    },
+    {
+      "version": "2.4.0",
+      "publishedAt": 1771169982978,
+      "commit": "https://github.com/openclaw/skills/commit/611f03bfd91c8baaf46528ba1021089dd2d247dd"
+    },
+    {
+      "version": "2.0.1",
+      "publishedAt": 1770812500127,
+      "commit": "https://github.com/openclaw/skills/commit/f48a6f5d48741e0b9d2b7ea2a884a0652a8bec82"
+    },
+    {
+      "version": "2.0.0",
+      "publishedAt": 1770710103903,
+      "commit": "https://github.com/openclaw/skills/commit/07da87550ac3db0e8217d6f73cebcede2ad82b78"
+    },
+    {
+      "version": "1.0.22",
+      "publishedAt": 1770649068723,
+      "commit": "https://github.com/openclaw/skills/commit/868ba7d54928c830897a2b152749898752b962bc"
+    },
+    {
+      "version": "1.0.13",
+      "publishedAt": 1770610149810,
+      "commit": "https://github.com/openclaw/skills/commit/99f556989447b373b2aaa818d1feef7af0e0b918"
+    },
+    {
+      "version": "1.0.11",
+      "publishedAt": 1770560028564,
+      "commit": "https://github.com/openclaw/skills/commit/ea24a9c9e187538577bd2fb04075ad13ae8c631d"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770462778927,
+      "commit": "https://github.com/openclaw/skills/commit/65776f5bea37c692430708171c25796d42e390d8"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770282238228,
+      "commit": "https://github.com/clawdbot/skills/commit/bc14f2c5546426711b86d8dec227f171f2f62989"
+    }
+  ]
+}

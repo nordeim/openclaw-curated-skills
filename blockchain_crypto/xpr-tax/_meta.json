@@ -1,0 +1,17 @@
+{
+  "owner": "paulgnz",
+  "slug": "xpr-tax",
+  "displayName": "XPR Crypto Tax",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771045873225,
+    "commit": "https://github.com/openclaw/skills/commit/ba543f6134b72e43ceaa2591682136bfdecc3abf"
+  },
+  "history": [
+    {
+      "version": "0.2.11",
+      "publishedAt": 1771021733381,
+      "commit": "https://github.com/openclaw/skills/commit/a39a89f20860b05fc3a6d14777865ba62c094af3"
+    }
+  ]
+}

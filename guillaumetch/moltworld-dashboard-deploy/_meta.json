@@ -1,0 +1,11 @@
+{
+  "owner": "guillaumetch",
+  "slug": "moltworld-dashboard-deploy",
+  "displayName": "Moltworld Dashboard Deploy",
+  "latest": {
+    "version": "0.1.3",
+    "publishedAt": 1771260149538,
+    "commit": "https://github.com/openclaw/skills/commit/2ab7ae0b938f88e46d5681ff21faaf4350ab23b7"
+  },
+  "history": []
+}

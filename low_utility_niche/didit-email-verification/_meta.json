@@ -1,0 +1,11 @@
+{
+  "owner": "rosasalberto",
+  "slug": "didit-email-verification",
+  "displayName": "Didit Email Verification",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771050211219,
+    "commit": "https://github.com/openclaw/skills/commit/914d9c58b701e5c4ee5df7b34b13272543960c65"
+  },
+  "history": []
+}

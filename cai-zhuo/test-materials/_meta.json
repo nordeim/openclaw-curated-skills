@@ -1,0 +1,11 @@
+{
+  "owner": "cai-zhuo",
+  "slug": "test-materials",
+  "displayName": "Test",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771492028528,
+    "commit": "https://github.com/openclaw/skills/commit/820292c245cc082362fbb27a371049f0aa2bd00a"
+  },
+  "history": []
+}

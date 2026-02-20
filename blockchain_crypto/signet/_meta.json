@@ -1,0 +1,11 @@
+{
+  "owner": "sebayaki",
+  "slug": "signet",
+  "displayName": "Signet",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770624760886,
+    "commit": "https://github.com/openclaw/skills/commit/f27cac804041afe7e16865e47680d45ed821af6e"
+  },
+  "history": []
+}

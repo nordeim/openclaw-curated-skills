@@ -1,0 +1,11 @@
+{
+  "owner": "soanai",
+  "slug": "xbio",
+  "displayName": "cleans and optimize Xbio cleaner",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770443793254,
+    "commit": "https://github.com/openclaw/skills/commit/564ca804f40d0971d341935c158218f12dd15b9d"
+  },
+  "history": []
+}

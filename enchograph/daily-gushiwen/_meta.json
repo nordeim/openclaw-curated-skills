@@ -1,0 +1,11 @@
+{
+  "owner": "enchograph",
+  "slug": "daily-gushiwen",
+  "displayName": "daily-gushiwen",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771484844209,
+    "commit": "https://github.com/openclaw/skills/commit/b948048e662b5d2623e13db081dc3e9c2c9d5656"
+  },
+  "history": []
+}

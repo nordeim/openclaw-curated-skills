@@ -1,0 +1,11 @@
+{
+  "owner": "cuongdcdev",
+  "slug": "near-getpay",
+  "displayName": "Near Getpay - Accept crypto payments  with payment page using PingPay or HOT PAY",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771182124761,
+    "commit": "https://github.com/openclaw/skills/commit/bf8cb3b694e43d61886e7ca33c14141361aa7366"
+  },
+  "history": []
+}

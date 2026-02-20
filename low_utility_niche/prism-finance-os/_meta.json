@@ -1,0 +1,11 @@
+{
+  "owner": "strykragent",
+  "slug": "prism-finance-os",
+  "displayName": "PRISM OS SDK",
+  "latest": {
+    "version": "0.1.2",
+    "publishedAt": 1771494857190,
+    "commit": "https://github.com/openclaw/skills/commit/9b680b0072e06dadb594ed00ea94213ab18fc4b0"
+  },
+  "history": []
+}

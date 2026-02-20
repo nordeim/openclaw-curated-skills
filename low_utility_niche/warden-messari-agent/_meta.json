@@ -1,0 +1,11 @@
+{
+  "owner": "deiu",
+  "slug": "warden-messari-agent",
+  "displayName": "Warden Messari Agent",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771444356951,
+    "commit": "https://github.com/openclaw/skills/commit/69f350dcbd2163e190bd560c8a2b71a7020d119f"
+  },
+  "history": []
+}

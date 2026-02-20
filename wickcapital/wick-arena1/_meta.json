@@ -1,0 +1,11 @@
+{
+  "owner": "wickcapital",
+  "slug": "wick-arena1",
+  "displayName": "Wick Arena Trading / Multi-Platform (Hyperliquid/Polymarket/Kalshi)",
+  "latest": {
+    "version": "0.7.0",
+    "publishedAt": 1770884875588,
+    "commit": "https://github.com/openclaw/skills/commit/b7cfa2a9cd0b556c36a9cdb8f2c43bb959cdfb6c"
+  },
+  "history": []
+}

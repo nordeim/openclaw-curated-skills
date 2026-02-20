@@ -1,0 +1,27 @@
+{
+  "owner": "402goose",
+  "slug": "compact-state",
+  "displayName": "The Compact State",
+  "latest": {
+    "version": "1.5.0",
+    "publishedAt": 1770784577247,
+    "commit": "https://github.com/openclaw/skills/commit/0e1cbd32a9183c1c38bb5f8ff6b7a741520dc98e"
+  },
+  "history": [
+    {
+      "version": "1.4.1",
+      "publishedAt": 1770782562038,
+      "commit": "https://github.com/openclaw/skills/commit/aac58ad73bb2021e3c1242d4f7e4bd397b2bff79"
+    },
+    {
+      "version": "2.4.0",
+      "publishedAt": 1770329620039,
+      "commit": "https://github.com/openclaw/skills/commit/bb5b47356719f45654e118f297564f841ac34582"
+    },
+    {
+      "version": "2.3.0",
+      "publishedAt": 1770247442332,
+      "commit": "https://github.com/clawdbot/skills/commit/fd1845807358ca9daba4685541d4bce46c02caaf"
+    }
+  ]
+}

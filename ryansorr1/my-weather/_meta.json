@@ -1,0 +1,11 @@
+{
+  "owner": "ryansorr1",
+  "slug": "my-weather",
+  "displayName": "My Weather",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770837888043,
+    "commit": "https://github.com/openclaw/skills/commit/34eab7adc6ed9ae8345d1bd76f718a7f582b1383"
+  },
+  "history": []
+}

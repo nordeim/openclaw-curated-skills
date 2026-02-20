@@ -1,0 +1,11 @@
+{
+  "owner": "rsoft-latam",
+  "slug": "rsoft-agentic-bank",
+  "displayName": "RSoft Agentic Bank",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770911540614,
+    "commit": "https://github.com/openclaw/skills/commit/4010dcd1be0493646e52a1a1b7a067ae88b24dca"
+  },
+  "history": []
+}

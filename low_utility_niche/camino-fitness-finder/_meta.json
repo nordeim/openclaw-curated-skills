@@ -1,0 +1,11 @@
+{
+  "owner": "james-southendsolutions",
+  "slug": "camino-fitness-finder",
+  "displayName": "Fitness Finder Locations",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771275158477,
+    "commit": "https://github.com/openclaw/skills/commit/2edd9b9790f1f50c1988960dfeea44640b35793b"
+  },
+  "history": []
+}

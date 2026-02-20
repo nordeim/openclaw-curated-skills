@@ -1,0 +1,11 @@
+{
+  "owner": "strrl",
+  "slug": "macos-local-voice",
+  "displayName": "macOS Local Voice",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770847622026,
+    "commit": "https://github.com/openclaw/skills/commit/5c42959d9689a00cafa129f63d71b2b56f61d992"
+  },
+  "history": []
+}

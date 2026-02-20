@@ -1,0 +1,11 @@
+{
+  "owner": "chriopter",
+  "slug": "sandboxer-tmux",
+  "displayName": "Skill",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770900048185,
+    "commit": "https://github.com/openclaw/skills/commit/d6509b7635fde342a2a6df99d52a5b68c0cc6901"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "shalomobongo",
+  "slug": "codex-conductor",
+  "displayName": "Codex Conductor",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770467129107,
+    "commit": "https://github.com/openclaw/skills/commit/156127814b828382288fb6544fa75e7c97c28025"
+  },
+  "history": []
+}

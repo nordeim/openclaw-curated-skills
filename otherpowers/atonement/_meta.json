@@ -1,0 +1,11 @@
+{
+  "owner": "otherpowers",
+  "slug": "atonement",
+  "displayName": "Atonement",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770528236458,
+    "commit": "https://github.com/openclaw/skills/commit/d38475a0f1930f1d3638919af1c52eefe761d0d1"
+  },
+  "history": []
+}

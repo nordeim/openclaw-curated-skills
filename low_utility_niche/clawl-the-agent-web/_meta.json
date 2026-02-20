@@ -1,0 +1,11 @@
+{
+  "owner": "wlshlad85",
+  "slug": "clawl-the-agent-web",
+  "displayName": "clawl skill",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770714606402,
+    "commit": "https://github.com/openclaw/skills/commit/2e09023dc8666e2926ba98509e1fc7b817871b82"
+  },
+  "history": []
+}

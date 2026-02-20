@@ -1,0 +1,32 @@
+{
+  "owner": "lowesyang",
+  "slug": "minara",
+  "displayName": "Minara",
+  "latest": {
+    "version": "1.1.9",
+    "publishedAt": 1770889003286,
+    "commit": "https://github.com/openclaw/skills/commit/a34ce7caec095f76faa8f627639a2e1190c1101a"
+  },
+  "history": [
+    {
+      "version": "1.1.8",
+      "publishedAt": 1770829051872,
+      "commit": "https://github.com/openclaw/skills/commit/09e1058cf15ce2150a938dc9377d1c7f11eb5b46"
+    },
+    {
+      "version": "1.1.5",
+      "publishedAt": 1770743501017,
+      "commit": "https://github.com/openclaw/skills/commit/e5231654a0536bd9dfbaad1df966153069a2c6ad"
+    },
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770633019822,
+      "commit": "https://github.com/openclaw/skills/commit/1dbd4584644eec1917c04694a4c12a27b38d633c"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770113470757,
+      "commit": "https://github.com/clawdbot/skills/commit/2691e259edbbbc0d08d38ba15ea59c41b5b4f2d5"
+    }
+  ]
+}

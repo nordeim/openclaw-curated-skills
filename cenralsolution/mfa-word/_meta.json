@@ -1,0 +1,11 @@
+{
+  "owner": "cenralsolution",
+  "slug": "mfa-word",
+  "displayName": "MFA WORD",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771084681938,
+    "commit": "https://github.com/openclaw/skills/commit/5e7ab7b99f13f20c7a8673ba6d5f1aa0bfc58878"
+  },
+  "history": []
+}

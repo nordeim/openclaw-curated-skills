@@ -1,0 +1,11 @@
+{
+  "owner": "shaiss",
+  "slug": "near-dca",
+  "displayName": "Near Dca",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770554483716,
+    "commit": "https://github.com/openclaw/skills/commit/83af26e7d64e68552eeb0d178d07500e11168e01"
+  },
+  "history": []
+}

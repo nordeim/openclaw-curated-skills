@@ -1,0 +1,11 @@
+{
+  "owner": "ericlakich",
+  "slug": "ziptax",
+  "displayName": "Ziptax Sales Tax",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770835000688,
+    "commit": "https://github.com/openclaw/skills/commit/9745d9523d673bcf2b139a8f420f8467f3804d28"
+  },
+  "history": []
+}

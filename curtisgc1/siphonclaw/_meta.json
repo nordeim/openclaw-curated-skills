@@ -1,0 +1,17 @@
+{
+  "owner": "curtisgc1",
+  "slug": "siphonclaw",
+  "displayName": "Siphonclaw Skill",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1771119809846,
+    "commit": "https://github.com/openclaw/skills/commit/d0644c0cfe86515a5592f017aba973a2fbdc4308"
+  },
+  "history": [
+    {
+      "version": "1.1.0",
+      "publishedAt": 1771095691516,
+      "commit": "https://github.com/openclaw/skills/commit/3de7efc37301b23b7270a9d057f0b63becfb5973"
+    }
+  ]
+}

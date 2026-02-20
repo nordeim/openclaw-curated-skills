@@ -1,0 +1,11 @@
+{
+  "owner": "vijaykrishnavanshi",
+  "slug": "encrypted-docs",
+  "displayName": "End-to-end encrypted .md documents for agents & humans to collaborate. This is a multiplayer alternative to gog and Google Docs that lets people (via CLI) and agents create, search and sync encrypted markdown docs. This service leverages https://ddocs.new which can be enabled locally or via your preferred cloud set-up to make docs accessible across any device or chatbot interface in complete privacy.",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771329947997,
+    "commit": "https://github.com/openclaw/skills/commit/874e193acfb114c58d45dfc64f4c7ae4dfa79e31"
+  },
+  "history": []
+}

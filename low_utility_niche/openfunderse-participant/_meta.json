@@ -1,0 +1,11 @@
+{
+  "owner": "wiimdy",
+  "slug": "openfunderse-participant",
+  "displayName": "OpenFunderse Participant",
+  "latest": {
+    "version": "2.0.2",
+    "publishedAt": 1771183528300,
+    "commit": "https://github.com/openclaw/skills/commit/5a10425f7b415860dc3106c6c6f318c3c0cbbd12"
+  },
+  "history": []
+}

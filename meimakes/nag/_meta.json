@@ -1,0 +1,11 @@
+{
+  "owner": "meimakes",
+  "slug": "nag",
+  "displayName": "nag",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771192942960,
+    "commit": "https://github.com/openclaw/skills/commit/4a30dc92a988e98a9d920907c0f6e99114d1a7bc"
+  },
+  "history": []
+}

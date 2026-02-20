@@ -1,0 +1,11 @@
+{
+  "owner": "ashtonau",
+  "slug": "pear-apple",
+  "displayName": "Pear Apple",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771021964652,
+    "commit": "https://github.com/openclaw/skills/commit/749678fc6bfc476b4ff7857e27d9b2a1e66900df"
+  },
+  "history": []
+}

@@ -1,0 +1,32 @@
+{
+  "owner": "psyb0t",
+  "slug": "stealthy-auto-browse",
+  "displayName": "stealthy-auto-browse",
+  "latest": {
+    "version": "1.3.0",
+    "publishedAt": 1770710585746,
+    "commit": "https://github.com/openclaw/skills/commit/f46cd3b9cceff4c30faf4248f157c0715d7c7ce6"
+  },
+  "history": [
+    {
+      "version": "1.2.1",
+      "publishedAt": 1770673712930,
+      "commit": "https://github.com/openclaw/skills/commit/421475b407b65cddbe01082cc49ea243954f6dda"
+    },
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770634645525,
+      "commit": "https://github.com/openclaw/skills/commit/dea61bee482a4a0a1a4a42d223e57e3fbb9c3d0a"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770444128462,
+      "commit": "https://github.com/openclaw/skills/commit/cfa1fd4fd315debc4a355a4acc21440ad7b49b56"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1769992370919,
+      "commit": "https://github.com/clawdbot/skills/commit/a357a8d644eafc36ce907713f7266b3a8be9fb0a"
+    }
+  ]
+}

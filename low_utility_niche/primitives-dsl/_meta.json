@@ -1,0 +1,11 @@
+{
+  "owner": "stusatwork-oss",
+  "slug": "primitives-dsl",
+  "displayName": "Universal Game Primitives",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770913669741,
+    "commit": "https://github.com/openclaw/skills/commit/2776c35ea4264b47304eb2eae4dc68287526e24a"
+  },
+  "history": []
+}

@@ -1,0 +1,37 @@
+{
+  "owner": "minbang930",
+  "slug": "giphy",
+  "displayName": "Giphy",
+  "latest": {
+    "version": "1.0.7",
+    "publishedAt": 1770561754359,
+    "commit": "https://github.com/openclaw/skills/commit/0e9053313506017044d209ae7d1edf72e7ea5800"
+  },
+  "history": [
+    {
+      "version": "1.0.6",
+      "publishedAt": 1770533708646,
+      "commit": "https://github.com/openclaw/skills/commit/971255bad5164b37005bc9bad53f3022d1a7bb27"
+    },
+    {
+      "version": "1.0.3",
+      "publishedAt": 1770489329807,
+      "commit": "https://github.com/openclaw/skills/commit/0ae399e159f2d1850c974c92f74daca058e8060a"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770042243352,
+      "commit": "https://github.com/clawdbot/skills/commit/ba5d8b7cd55978f64af7526a5151ea3516d6c58f"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770010310592,
+      "commit": "https://github.com/clawdbot/skills/commit/15fad983fc1359d39f5a6a07dba72c8cd124b2d9"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1769974578997,
+      "commit": "https://github.com/clawdbot/skills/commit/a95c6a9fab036782f8b72a3cb9f6f7da2d90c1c2"
+    }
+  ]
+}

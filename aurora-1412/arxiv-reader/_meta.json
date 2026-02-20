@@ -1,0 +1,17 @@
+{
+  "owner": "aurora-1412",
+  "slug": "arxiv-reader",
+  "displayName": "arxiv_deep_reader",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1770954519677,
+    "commit": "https://github.com/openclaw/skills/commit/87fa8fbb1e1bb9e40c39fdff75b4da0317654a9e"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770897460317,
+      "commit": "https://github.com/openclaw/skills/commit/68b75fc6a9c42391b435d0f12a8edf31c1bc9a02"
+    }
+  ]
+}

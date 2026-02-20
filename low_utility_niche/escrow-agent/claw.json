@@ -1,0 +1,65 @@
+{
+  "name": "escrow-agent",
+  "version": "1.0.1",
+  "description": "Trustless escrow protocol for AI agent-to-agent transactions. Lock funds, define tasks, auto-settle on Base and Solana.",
+  "author": "cruellacodes",
+  "license": "MIT",
+  "repository": "https://github.com/cruellacodes/escrowagent",
+  "homepage": "https://escrowagent.vercel.app",
+  "keywords": [
+    "escrow",
+    "agent-to-agent",
+    "trustless",
+    "base",
+    "solana",
+    "usdc",
+    "betting",
+    "prediction",
+    "settlement",
+    "mcp",
+    "langchain",
+    "defi"
+  ],
+  "entry": "instructions.md",
+  "permissions": [
+    "network",
+    "crypto"
+  ],
+  "requires": {
+    "env": [
+      {
+        "name": "BASE_PRIVATE_KEY",
+        "description": "EVM private key (0x...) for signing Base transactions. Use a dedicated agent wallet, NOT your main wallet.",
+        "required": true,
+        "sensitive": true
+      },
+      {
+        "name": "BASE_RPC_URL",
+        "description": "Base chain RPC endpoint (e.g. https://mainnet.base.org or Alchemy/Infura URL)",
+        "required": false,
+        "sensitive": false
+      },
+      {
+        "name": "AGENT_PRIVATE_KEY",
+        "description": "Solana keypair bytes as JSON array. Only needed if using Solana chain. Not required for Base-only usage. Use a dedicated agent wallet.",
+        "required": false,
+        "sensitive": true
+      },
+      {
+        "name": "SOLANA_RPC_URL",
+        "description": "Solana RPC endpoint. Only needed if using Solana chain. Defaults to devnet.",
+        "required": false,
+        "sensitive": false
+      }
+    ]
+  },
+  "primary_credential": "BASE_PRIVATE_KEY",
+  "dependencies": {
+    "npm": ["escrowagent-sdk", "escrowagent-agent-tools"]
+  },
+  "integrations": {
+    "mcp": true,
+    "langchain": true,
+    "vercel-ai": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "boblobclaw",
+  "slug": "megasquirt-tuner",
+  "displayName": "MegaSquirt Tuner",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771384866273,
+    "commit": "https://github.com/openclaw/skills/commit/c8665b99ef387c9fb1b301e642fdead13cc38a6b"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771304989114,
+      "commit": "https://github.com/openclaw/skills/commit/342791ce563526663aa690d460d180da639ff365"
+    }
+  ]
+}

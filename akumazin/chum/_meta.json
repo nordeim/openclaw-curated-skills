@@ -1,0 +1,11 @@
+{
+  "owner": "akumazin",
+  "slug": "chum",
+  "displayName": "test",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770579656976,
+    "commit": "https://github.com/openclaw/skills/commit/090c60f35f01006849ae0ff0b28238c7c144f47c"
+  },
+  "history": []
+}

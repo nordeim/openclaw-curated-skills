@@ -1,0 +1,22 @@
+{
+  "owner": "artvepa80",
+  "slug": "hefestoai-auditor",
+  "displayName": "Hefestoai Auditor",
+  "latest": {
+    "version": "2.1.0",
+    "publishedAt": 1771095091207,
+    "commit": "https://github.com/openclaw/skills/commit/6bd68d3fc63a289d588d7fe5b5dbd599b7e572fe"
+  },
+  "history": [
+    {
+      "version": "1.2.0",
+      "publishedAt": 1770838223491,
+      "commit": "https://github.com/openclaw/skills/commit/1a6459030f27372a0cfe4f5624903e75b023af6b"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770828477182,
+      "commit": "https://github.com/openclaw/skills/commit/3a48fca6ad910d7972d3ee17b8b0abf58a893b4a"
+    }
+  ]
+}

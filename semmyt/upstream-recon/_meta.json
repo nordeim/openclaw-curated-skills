@@ -1,0 +1,11 @@
+{
+  "owner": "semmyt",
+  "slug": "upstream-recon",
+  "displayName": "Upstream Recon",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771376282773,
+    "commit": "https://github.com/openclaw/skills/commit/f1cffc180a80d48af8517ff076d5364800ffac0a"
+  },
+  "history": []
+}

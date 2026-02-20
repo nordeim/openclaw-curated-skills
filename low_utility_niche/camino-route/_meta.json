@@ -1,0 +1,11 @@
+{
+  "owner": "james-southendsolutions",
+  "slug": "camino-route",
+  "displayName": "Route between two locations",
+  "latest": {
+    "version": "0.2.0",
+    "publishedAt": 1771301273047,
+    "commit": "https://github.com/openclaw/skills/commit/bf24613030b049e8cd518c47e8049480d3a70330"
+  },
+  "history": []
+}

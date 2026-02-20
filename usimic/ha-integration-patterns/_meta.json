@@ -1,0 +1,11 @@
+{
+  "owner": "usimic",
+  "slug": "ha-integration-patterns",
+  "displayName": "Ha Integration Patterns",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770772297362,
+    "commit": "https://github.com/openclaw/skills/commit/583729971c7368c7a5164ea84c9cc1fa65d87fcf"
+  },
+  "history": []
+}

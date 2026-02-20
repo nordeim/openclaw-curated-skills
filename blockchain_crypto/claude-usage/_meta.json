@@ -1,0 +1,11 @@
+{
+  "owner": "lemodigital",
+  "slug": "claude-usage",
+  "displayName": "Claude Usage",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770674416296,
+    "commit": "https://github.com/openclaw/skills/commit/f097b13d7d28633bb8d9adbceaadf5a0598f47fb"
+  },
+  "history": []
+}

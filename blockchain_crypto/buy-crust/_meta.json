@@ -1,0 +1,11 @@
+{
+  "owner": "alphafanx",
+  "slug": "buy-crust",
+  "displayName": "Buy CRUST",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771497567625,
+    "commit": "https://github.com/openclaw/skills/commit/c06d6c70bab14a83b3153ea37eee9c5b84791a5a"
+  },
+  "history": []
+}

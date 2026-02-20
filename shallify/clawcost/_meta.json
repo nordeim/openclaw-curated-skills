@@ -1,0 +1,11 @@
+{
+  "owner": "shallify",
+  "slug": "clawcost",
+  "displayName": "ClawCost",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770990421498,
+    "commit": "https://github.com/openclaw/skills/commit/ccbc96fc3fd910bca94d0c68654a58a35e47c420"
+  },
+  "history": []
+}

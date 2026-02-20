@@ -1,0 +1,11 @@
+{
+  "owner": "zbreda",
+  "slug": "meu-agente",
+  "displayName": "Meu Agente",
+  "latest": {
+    "version": "1.0.8",
+    "publishedAt": 1770926914598,
+    "commit": "https://github.com/openclaw/skills/commit/9c2b2093c5fcea5fc9ed33cf182e04f46920ca55"
+  },
+  "history": []
+}

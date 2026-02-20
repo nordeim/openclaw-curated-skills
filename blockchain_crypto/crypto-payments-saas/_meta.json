@@ -1,0 +1,11 @@
+{
+  "owner": "buddhasource",
+  "slug": "crypto-payments-saas",
+  "displayName": "Crypto Payments Saas",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771435352193,
+    "commit": "https://github.com/openclaw/skills/commit/361f7f3952bbb507a4407c805e1e7fe8debcab46"
+  },
+  "history": []
+}

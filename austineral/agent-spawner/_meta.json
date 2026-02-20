@@ -1,0 +1,11 @@
+{
+  "owner": "austineral",
+  "slug": "agent-spawner",
+  "displayName": "Agent Spawner",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771482478085,
+    "commit": "https://github.com/openclaw/skills/commit/a7c62e39f574159a1263a843532fec75329c1993"
+  },
+  "history": []
+}

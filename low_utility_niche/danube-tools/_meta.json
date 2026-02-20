@@ -1,0 +1,32 @@
+{
+  "owner": "preston-thiele",
+  "slug": "danube-tools",
+  "displayName": "Danube Tools Marketplace",
+  "latest": {
+    "version": "10.0.3",
+    "publishedAt": 1771300339442,
+    "commit": "https://github.com/openclaw/skills/commit/86c54ceac830ee3674ba8429110d3658199bf8e2"
+  },
+  "history": [
+    {
+      "version": "10.0.1",
+      "publishedAt": 1770694475305,
+      "commit": "https://github.com/openclaw/skills/commit/28f23ad511b13e882f9d82503253b11b028e7c93"
+    },
+    {
+      "version": "10.0.0",
+      "publishedAt": 1770492439728,
+      "commit": "https://github.com/openclaw/skills/commit/b10821451a23d6881a5aa46c7ee5d94c5a62d873"
+    },
+    {
+      "version": "8.0.0",
+      "publishedAt": 1770333602187,
+      "commit": "https://github.com/clawdbot/skills/commit/1a44fbc836dbb1b838338e594c58aba296c057c9"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770263953509,
+      "commit": "https://github.com/clawdbot/skills/commit/772925193dd9ae5633a9ced06a8108121b4bf5b1"
+    }
+  ]
+}

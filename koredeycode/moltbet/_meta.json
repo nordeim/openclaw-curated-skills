@@ -1,0 +1,17 @@
+{
+  "owner": "koredeycode",
+  "slug": "moltbet",
+  "displayName": "Moltbet Skill",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771108903977,
+    "commit": "https://github.com/openclaw/skills/commit/a3c0dcffdfa87959e6bb83d39430c83c9c148a33"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770993641261,
+      "commit": "https://github.com/openclaw/skills/commit/3b6cc2cea0c03e8eb77c83e4a5e2e7517d742a69"
+    }
+  ]
+}

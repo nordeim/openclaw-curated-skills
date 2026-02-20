@@ -1,0 +1,11 @@
+{
+  "owner": "cemoso",
+  "slug": "pr-review-loop",
+  "displayName": "PR Review Loop",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770991327839,
+    "commit": "https://github.com/openclaw/skills/commit/ea192e5b74afe43b0e03ae50b719ad3a33030f31"
+  },
+  "history": []
+}

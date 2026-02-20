@@ -1,0 +1,11 @@
+{
+  "owner": "anova44",
+  "slug": "training-manager",
+  "displayName": "Training Manager",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771219637215,
+    "commit": "https://github.com/openclaw/skills/commit/d666fea98508fcf020be123a9783276c545d8d62"
+  },
+  "history": []
+}

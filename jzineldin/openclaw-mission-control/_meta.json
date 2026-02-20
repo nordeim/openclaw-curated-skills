@@ -1,0 +1,11 @@
+{
+  "owner": "jzineldin",
+  "slug": "openclaw-mission-control",
+  "displayName": "Mission Control",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770516729820,
+    "commit": "https://github.com/openclaw/skills/commit/8c8d32e51500bdb065b83f547909aaef7d5fa6c3"
+  },
+  "history": []
+}

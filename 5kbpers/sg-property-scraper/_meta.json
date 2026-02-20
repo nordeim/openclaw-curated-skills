@@ -1,0 +1,11 @@
+{
+  "owner": "5kbpers",
+  "slug": "sg-property-scraper",
+  "displayName": "sg-property-scraper",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771407501304,
+    "commit": "https://github.com/openclaw/skills/commit/3ba3b9d5e3d398f2f87ff1786e82d6537f74d54a"
+  },
+  "history": []
+}

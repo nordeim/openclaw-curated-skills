@@ -1,0 +1,22 @@
+{
+  "owner": "adlai88",
+  "slug": "polymarket-signal-sniper",
+  "displayName": "Polymarket Signal Sniper",
+  "latest": {
+    "version": "1.3.7",
+    "publishedAt": 1771332854614,
+    "commit": "https://github.com/openclaw/skills/commit/39f82d0ca2c87410dd2707036e42af14e8468fed"
+  },
+  "history": [
+    {
+      "version": "1.3.4",
+      "publishedAt": 1771300902199,
+      "commit": "https://github.com/openclaw/skills/commit/b8e009a3f6e5df78517230c291429dcd7628e6b9"
+    },
+    {
+      "version": "1.3.3",
+      "publishedAt": 1771079319617,
+      "commit": "https://github.com/openclaw/skills/commit/19caa6bad4757d57a34d907748d9618b4c539348"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "dimkag79",
+  "slug": "slovecaptcha",
+  "displayName": "Captcha breaker",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770468307330,
+    "commit": "https://github.com/openclaw/skills/commit/77e9be1312d355a72295f5512db40d77d2b7764a"
+  },
+  "history": []
+}

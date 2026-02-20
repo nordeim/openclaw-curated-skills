@@ -1,0 +1,11 @@
+{
+  "owner": "user520512",
+  "slug": "product-description",
+  "displayName": "Product Description Generator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770742689554,
+    "commit": "https://github.com/openclaw/skills/commit/efde885ba53ba969de0f335603c71fcfbd880a85"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "hmzo",
+  "slug": "x-hot-topics-daily",
+  "displayName": "X Hot Topics Daily",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770977629947,
+    "commit": "https://github.com/openclaw/skills/commit/d91bdcfee332a9d13fc6763e256333f080379c46"
+  },
+  "history": []
+}

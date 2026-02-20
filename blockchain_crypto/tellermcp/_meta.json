@@ -1,0 +1,22 @@
+{
+  "owner": "rbcp18",
+  "slug": "tellermcp",
+  "displayName": "Teller MCP – Borrow USDC & Altcoins",
+  "latest": {
+    "version": "0.1.6",
+    "publishedAt": 1771206650406,
+    "commit": "https://github.com/openclaw/skills/commit/3ebfc1a520ad2e1510235e516e7624377c4937f9"
+  },
+  "history": [
+    {
+      "version": "0.1.1",
+      "publishedAt": 1771204565628,
+      "commit": "https://github.com/openclaw/skills/commit/30438b1909694cdbd0d7edee823c8a60663246cf"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1771204201402,
+      "commit": "https://github.com/openclaw/skills/commit/5948e585ab777e37eef08a6d9b7c69914f905c71"
+    }
+  ]
+}

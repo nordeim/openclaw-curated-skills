@@ -1,0 +1,27 @@
+{
+  "owner": "endgegnerbert-tech",
+  "slug": "muninn",
+  "displayName": "muninn",
+  "latest": {
+    "version": "2.3.7",
+    "publishedAt": 1771006505879,
+    "commit": "https://github.com/openclaw/skills/commit/85e2454dbf917e036c567a69448e7230b4aa7563"
+  },
+  "history": [
+    {
+      "version": "2.1.14",
+      "publishedAt": 1770786888284,
+      "commit": "https://github.com/openclaw/skills/commit/707ab78423a46b3ad74305ef7167ce43f454d146"
+    },
+    {
+      "version": "1.6.0",
+      "publishedAt": 1770543057136,
+      "commit": "https://github.com/openclaw/skills/commit/baadc85b441b4f2d575e8601f4380865f01170b0"
+    },
+    {
+      "version": "1.2.0",
+      "publishedAt": 1770454250102,
+      "commit": "https://github.com/openclaw/skills/commit/53ad466a8deb5a3f02b7671a1a76349cdba80d12"
+    }
+  ]
+}

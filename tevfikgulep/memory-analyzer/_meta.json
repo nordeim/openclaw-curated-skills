@@ -1,0 +1,11 @@
+{
+  "owner": "tevfikgulep",
+  "slug": "memory-analyzer",
+  "displayName": "Memory Analyzer",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770930583177,
+    "commit": "https://github.com/openclaw/skills/commit/52db2096a8c2b5443cf68b52d5a4956edf757103"
+  },
+  "history": []
+}

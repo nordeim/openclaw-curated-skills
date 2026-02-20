@@ -1,0 +1,27 @@
+{
+  "owner": "vince-winkintel",
+  "slug": "sendgrid-skills",
+  "displayName": "Sendgrid Skills",
+  "latest": {
+    "version": "1.2.1",
+    "publishedAt": 1770953715389,
+    "commit": "https://github.com/openclaw/skills/commit/495e5a7e0cac56c71d7ce1cec013d83628232058"
+  },
+  "history": [
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770876446689,
+      "commit": "https://github.com/openclaw/skills/commit/56c00ae930664ee42fe05824121b3a7e1374abec"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1769984651562,
+      "commit": "https://github.com/clawdbot/skills/commit/847de503c3a570058a11d8679bd79c15c9b48a8f"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1769790223299,
+      "commit": "https://github.com/clawdbot/skills/commit/90deebcf5b6743c884bcd8a3635f2b08c719f42a"
+    }
+  ]
+}

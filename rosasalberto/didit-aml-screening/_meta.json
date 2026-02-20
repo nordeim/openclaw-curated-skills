@@ -1,0 +1,11 @@
+{
+  "owner": "rosasalberto",
+  "slug": "didit-aml-screening",
+  "displayName": "Didit Aml Screening",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771050201594,
+    "commit": "https://github.com/openclaw/skills/commit/e83062c7ad1ffa3f5acb55f2c158e77ee1024fcc"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "nalg",
+  "slug": "telegram-ascii-table",
+  "displayName": "Telegram Ascii Table",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770648452241,
+    "commit": "https://github.com/openclaw/skills/commit/b81b2589464a010e9ab2317931ad1f9ea9a5290a"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770443564642,
+      "commit": "https://github.com/openclaw/skills/commit/fdf8503079ef2172c07a5caf7ad53fd4e09a2feb"
+    }
+  ]
+}

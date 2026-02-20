@@ -1,0 +1,27 @@
+{
+  "owner": "msensintaffar",
+  "slug": "chromadb-memory",
+  "displayName": "Chromadb Memory Pub",
+  "latest": {
+    "version": "1.2.1",
+    "publishedAt": 1771186902156,
+    "commit": "https://github.com/openclaw/skills/commit/dc3e9f1baf2879e3dc3a84479514a0f107239370"
+  },
+  "history": [
+    {
+      "version": "1.2.0",
+      "publishedAt": 1771178603115,
+      "commit": "https://github.com/openclaw/skills/commit/284e1376d98a0467c01ef5271d65494ccf388846"
+    },
+    {
+      "version": "1.1.0",
+      "publishedAt": 1771176577801,
+      "commit": "https://github.com/openclaw/skills/commit/babebb7dbd60c0ff2d97abfad7872e5cbb43fc23"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1769911812377,
+      "commit": "https://github.com/clawdbot/skills/commit/9fdb59defa5035433bf04986dd092378dae52689"
+    }
+  ]
+}

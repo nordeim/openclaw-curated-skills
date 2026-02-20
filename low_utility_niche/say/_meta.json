@@ -1,0 +1,17 @@
+{
+  "owner": "tobihagemann",
+  "slug": "say",
+  "displayName": "say",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771132278117,
+    "commit": "https://github.com/openclaw/skills/commit/2d6982b5f47e1821c2f3a12d042bea5661aaac65"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771078540943,
+      "commit": "https://github.com/openclaw/skills/commit/e3d715007824806b813f106526625721bff72f12"
+    }
+  ]
+}

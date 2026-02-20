@@ -1,0 +1,17 @@
+{
+  "owner": "dr2101",
+  "slug": "anthrovision-telegram-body-scan",
+  "displayName": "AnthroVision Telegram Body Scan",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1770924902765,
+    "commit": "https://github.com/openclaw/skills/commit/a46bafae3e1cfbac950a8e9f5104754e147e16d4"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1770841854689,
+      "commit": "https://github.com/openclaw/skills/commit/80f5df4156454d90a367058e37ed97304d7c5f3b"
+    }
+  ]
+}

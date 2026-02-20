@@ -1,0 +1,17 @@
+{
+  "owner": "in-liberty420",
+  "slug": "kraken-pro",
+  "displayName": "Kraken Pro",
+  "latest": {
+    "version": "1.0.6",
+    "publishedAt": 1771098965043,
+    "commit": "https://github.com/openclaw/skills/commit/916edde63ca7b9979ed6da138773729ed6c9c18e"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771094711612,
+      "commit": "https://github.com/openclaw/skills/commit/e23ff401c519f89c30fcf85f9a6cb084c90ac51f"
+    }
+  ]
+}

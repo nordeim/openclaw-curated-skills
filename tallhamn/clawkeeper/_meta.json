@@ -1,0 +1,17 @@
+{
+  "owner": "tallhamn",
+  "slug": "clawkeeper",
+  "displayName": "ClawKeeper — Tasks & habits in a plain markdown file",
+  "latest": {
+    "version": "0.2.2",
+    "publishedAt": 1771269311152,
+    "commit": "https://github.com/openclaw/skills/commit/3166dc3e7133797f08247aca00dbc572f5caf447"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1771177942778,
+      "commit": "https://github.com/openclaw/skills/commit/2689086240e2ebb6f5ddd8605c42af73c895d4fd"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "sbaker5",
+  "slug": "polyedge",
+  "displayName": "PolyEdge - Polymarket Correlation Analyzer",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1770498486636,
+    "commit": "https://github.com/openclaw/skills/commit/4766a3ea79a37772a84b409ea277b67ba84e87bc"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770323901264,
+      "commit": "https://github.com/openclaw/skills/commit/8490c7a4bb0f1df1c62487c9d202bd2488f581e6"
+    }
+  ]
+}

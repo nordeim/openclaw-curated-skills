@@ -1,0 +1,27 @@
+{
+  "owner": "myakove",
+  "slug": "ccsinfo",
+  "displayName": "Ccsinfo",
+  "latest": {
+    "version": "0.1.6",
+    "publishedAt": 1771149374521,
+    "commit": "https://github.com/openclaw/skills/commit/3cad1ee6cc69b91fa9b3a08bdab7ed587b0306cd"
+  },
+  "history": [
+    {
+      "version": "0.1.5",
+      "publishedAt": 1770985831303,
+      "commit": "https://github.com/openclaw/skills/commit/8788d1b6cbcd9d76d65559f814e651095c529051"
+    },
+    {
+      "version": "0.1.4",
+      "publishedAt": 1770940912854,
+      "commit": "https://github.com/openclaw/skills/commit/690be57e7294cc6e4aef8a94448d22021e91b1ce"
+    },
+    {
+      "version": "0.1.2",
+      "publishedAt": 1769632561250,
+      "commit": "https://github.com/clawdbot/skills/commit/1132d17278203304dcbfef64719196e9610a17ae"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "juandbalbi",
+  "slug": "numinous-forecast",
+  "displayName": "Numinous Forecast",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771418097281,
+    "commit": "https://github.com/openclaw/skills/commit/6172124f849c4abafd1b51bcbd016ce61264125d"
+  },
+  "history": []
+}

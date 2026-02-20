@@ -1,0 +1,17 @@
+{
+  "owner": "abreumatheus",
+  "slug": "discogs-claw",
+  "displayName": "Discogs Claw",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771449394454,
+    "commit": "https://github.com/openclaw/skills/commit/a4a19cd1a4f98f262335625f6786af5750f2091d"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771383901860,
+      "commit": "https://github.com/openclaw/skills/commit/2fd275bf6425acb869c24ac19379391b05f0a237"
+    }
+  ]
+}

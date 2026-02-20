@@ -1,0 +1,17 @@
+{
+  "owner": "gressling",
+  "slug": "paramus-chemistry",
+  "displayName": "Paramus Professional Chemistry OS",
+  "latest": {
+    "version": "1.0.7",
+    "publishedAt": 1771255532982,
+    "commit": "https://github.com/openclaw/skills/commit/368f21af2aed07083a8a75da491bc966c5634733"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1771240954081,
+      "commit": "https://github.com/openclaw/skills/commit/00f9289ca2741114ca9a7bfe4255bab95ba8da15"
+    }
+  ]
+}

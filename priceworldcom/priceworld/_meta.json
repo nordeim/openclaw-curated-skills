@@ -1,0 +1,11 @@
+{
+  "owner": "priceworldcom",
+  "slug": "priceworld",
+  "displayName": "PriceWorld",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771223275323,
+    "commit": "https://github.com/openclaw/skills/commit/4cdf8fe3cae0be675c896717bc667ab10d4831f7"
+  },
+  "history": []
+}

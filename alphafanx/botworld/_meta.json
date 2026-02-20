@@ -1,0 +1,17 @@
+{
+  "owner": "alphafanx",
+  "slug": "botworld",
+  "displayName": "BotWorld",
+  "latest": {
+    "version": "1.2.1",
+    "publishedAt": 1771502704261,
+    "commit": "https://github.com/openclaw/skills/commit/16d61a86d609016eb8701c7998ce68cf8b282552"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771076285231,
+      "commit": "https://github.com/openclaw/skills/commit/44636f0034ba406c6ea5305167f3621de521473b"
+    }
+  ]
+}

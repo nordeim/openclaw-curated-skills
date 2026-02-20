@@ -1,0 +1,11 @@
+{
+  "owner": "yrpang",
+  "slug": "skill-survival",
+  "displayName": "clawverse survival",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771309431840,
+    "commit": "https://github.com/openclaw/skills/commit/5aeda8149fec5129efc70202a2c88a71b1a3a587"
+  },
+  "history": []
+}

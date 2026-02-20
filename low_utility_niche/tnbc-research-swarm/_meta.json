@@ -1,0 +1,11 @@
+{
+  "owner": "angusthefuzz",
+  "slug": "tnbc-research-swarm",
+  "displayName": "TNBC Research Swarm",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771384507220,
+    "commit": "https://github.com/openclaw/skills/commit/cef02d828fa44c6c6bc3279e1d9a15f817967569"
+  },
+  "history": []
+}

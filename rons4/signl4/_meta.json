@@ -1,0 +1,11 @@
+{
+  "owner": "rons4",
+  "slug": "signl4",
+  "displayName": "SIGNL4 Alerting",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770636695951,
+    "commit": "https://github.com/openclaw/skills/commit/47cf6ee27bc0a554fc8b1407e71db49cb2c807e0"
+  },
+  "history": []
+}

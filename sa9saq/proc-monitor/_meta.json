@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "proc-monitor",
+  "displayName": "Process Monitor",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770523641399,
+    "commit": "https://github.com/openclaw/skills/commit/24d14af1d322bb2ef4b26ab1c623332bef3d4e3a"
+  },
+  "history": []
+}

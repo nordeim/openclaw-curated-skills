@@ -1,0 +1,11 @@
+{
+  "owner": "marsqing",
+  "slug": "tripgenie-skill",
+  "displayName": "Tripgenie",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771125433684,
+    "commit": "https://github.com/openclaw/skills/commit/c724c856b57eb0fce4287b90ea806cf1917fea41"
+  },
+  "history": []
+}

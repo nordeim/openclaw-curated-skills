@@ -1,0 +1,11 @@
+{
+  "owner": "lasurvivor",
+  "slug": "video-download-faas",
+  "displayName": "Video Download FaaS",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771479052710,
+    "commit": "https://github.com/openclaw/skills/commit/5d5c71fb5a0d21413167933a726ef4fded338d10"
+  },
+  "history": []
+}

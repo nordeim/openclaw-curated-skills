@@ -1,0 +1,11 @@
+{
+  "owner": "user520512",
+  "slug": "new-product-launch",
+  "displayName": "新品发布文案",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770854418452,
+    "commit": "https://github.com/openclaw/skills/commit/6ba455724298751ed5b860fdb1d24372709326e7"
+  },
+  "history": []
+}

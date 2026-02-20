@@ -1,0 +1,11 @@
+{
+  "owner": "otherpowers",
+  "slug": "ambient-stamina",
+  "displayName": "Ambient Stamina",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770575061067,
+    "commit": "https://github.com/openclaw/skills/commit/f0bfc774626dd5ce4cdc19d06c1436f0e77a0922"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "benbjurstrom",
+  "slug": "fiscal",
+  "displayName": "Fiscal",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771177272168,
+    "commit": "https://github.com/openclaw/skills/commit/f0f01591ef245f3988550b5efc106bbd0d21ed19"
+  },
+  "history": []
+}

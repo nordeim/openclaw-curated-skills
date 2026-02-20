@@ -1,0 +1,17 @@
+{
+  "owner": "nitishgargiitd",
+  "slug": "data-cog",
+  "displayName": "data-cog",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770774061965,
+    "commit": "https://github.com/openclaw/skills/commit/9515f85dda6c989bcf3375ed296d11f264c16bd0"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770511388712,
+      "commit": "https://github.com/openclaw/skills/commit/a31a59389c493b444ba27112a8893025821a6498"
+    }
+  ]
+}

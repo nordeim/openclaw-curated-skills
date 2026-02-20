@@ -1,0 +1,11 @@
+{
+  "owner": "miloudbelarebia",
+  "slug": "openclaw-security-guard",
+  "displayName": "Openclaw Security Guard",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770949195911,
+    "commit": "https://github.com/openclaw/skills/commit/393df200c823516f130d8e60fdc384f58528c4c8"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-churn-analyzer",
+  "displayName": "Churn Risk Analyzer",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770957785919,
+    "commit": "https://github.com/openclaw/skills/commit/0387672befdd4a7969bb3e25164d12fce9760f62"
+  },
+  "history": []
+}

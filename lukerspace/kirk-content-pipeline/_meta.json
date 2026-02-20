@@ -1,0 +1,11 @@
+{
+  "owner": "lukerspace",
+  "slug": "kirk-content-pipeline",
+  "displayName": "Kirk Content Pipeline",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771162244881,
+    "commit": "https://github.com/openclaw/skills/commit/15c416a671a3629bba19e31b3db67f431533f0c1"
+  },
+  "history": []
+}

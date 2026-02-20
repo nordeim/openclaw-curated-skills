@@ -1,0 +1,17 @@
+{
+  "owner": "aikarjal",
+  "slug": "wilma-triage",
+  "displayName": "Wilma Triage",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771271700002,
+    "commit": "https://github.com/openclaw/skills/commit/562ba2969c0a35eb0956789518fa44bd5709633a"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770678387124,
+      "commit": "https://github.com/openclaw/skills/commit/765b53f54f984026153807d4eb4e3f3370c98546"
+    }
+  ]
+}

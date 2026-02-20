@@ -1,0 +1,11 @@
+{
+  "owner": "satoshi891102",
+  "slug": "solana-scanner",
+  "displayName": "Solana Token Scanner",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770498569007,
+    "commit": "https://github.com/openclaw/skills/commit/5e47789f73f025b2b0e0d6274fa2f886c724da0e"
+  },
+  "history": []
+}

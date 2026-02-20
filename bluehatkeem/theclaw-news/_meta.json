@@ -1,0 +1,11 @@
+{
+  "owner": "bluehatkeem",
+  "slug": "theclaw-news",
+  "displayName": "The Claw News Publisher",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771173851722,
+    "commit": "https://github.com/openclaw/skills/commit/472482aa278de4cff2bd01d35b1cd7c59bc8f750"
+  },
+  "history": []
+}

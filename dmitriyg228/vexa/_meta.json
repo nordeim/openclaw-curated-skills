@@ -1,0 +1,11 @@
+{
+  "owner": "dmitriyg228",
+  "slug": "vexa",
+  "displayName": "Google Meet and MS Teams  meeting assistant",
+  "latest": {
+    "version": "0.0.1",
+    "publishedAt": 1770507651956,
+    "commit": "https://github.com/openclaw/skills/commit/195da40f29e3f97c99217bd8b671e3725d51cf45"
+  },
+  "history": []
+}

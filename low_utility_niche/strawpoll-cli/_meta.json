@@ -1,0 +1,22 @@
+{
+  "owner": "dedene",
+  "slug": "strawpoll-cli",
+  "displayName": "Strawpoll Cli",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771266290850,
+    "commit": "https://github.com/openclaw/skills/commit/7e689062665ad2b49e8f90fc0b933043662c19f3"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771067208914,
+      "commit": "https://github.com/openclaw/skills/commit/81b3eef75eaf2edce40652cdcbf947fa7d3f3770"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770996993665,
+      "commit": "https://github.com/openclaw/skills/commit/7557807669615aaf4a2e8cd031b2bf990e2b5951"
+    }
+  ]
+}

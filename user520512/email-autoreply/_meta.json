@@ -1,0 +1,11 @@
+{
+  "owner": "user520512",
+  "slug": "email-autoreply",
+  "displayName": "Email Auto Reply Generator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770742740312,
+    "commit": "https://github.com/openclaw/skills/commit/40d75ad73260748aecd626d4c9d1abc6bb3ef34b"
+  },
+  "history": []
+}

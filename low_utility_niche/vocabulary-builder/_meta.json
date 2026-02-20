@@ -1,0 +1,17 @@
+{
+  "owner": "winlinvip",
+  "slug": "vocabulary-builder",
+  "displayName": "Vocabulary Builder",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771125275200,
+    "commit": "https://github.com/openclaw/skills/commit/75d0d62c35848c58b218dd55e3e4afe35720aa8c"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771073474357,
+      "commit": "https://github.com/openclaw/skills/commit/29cf62e6d88783f1d3880e711dfd624f0d5c1d63"
+    }
+  ]
+}

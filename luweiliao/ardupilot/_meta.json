@@ -1,0 +1,11 @@
+{
+  "owner": "luweiliao",
+  "slug": "ardupilot",
+  "displayName": "ArduPilot Drone Control",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771165732204,
+    "commit": "https://github.com/openclaw/skills/commit/17ccbd3006122ebf57a795e5023309ccba020f07"
+  },
+  "history": []
+}

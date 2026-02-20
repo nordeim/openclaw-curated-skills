@@ -1,0 +1,22 @@
+{
+  "owner": "aaron-he-zhu",
+  "slug": "domain-authority-auditor",
+  "displayName": "Domain Authority Auditor",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1771042714361,
+    "commit": "https://github.com/openclaw/skills/commit/bcf9eed6132bf1530e1166bda82c420dba46f7fe"
+  },
+  "history": [
+    {
+      "version": "0.1.1",
+      "publishedAt": 1770824031001,
+      "commit": "https://github.com/openclaw/skills/commit/eecfd4652b521e9cfa08ecb9ef9ea6e86ba846fe"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770739409083,
+      "commit": "https://github.com/openclaw/skills/commit/b9a54b281b7f4830b5697b7d95bbe4419552e1d6"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "palxislabs",
+  "slug": "ibt",
+  "displayName": "Intention Behavior Transformer (IBT)",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771289034837,
+    "commit": "https://github.com/openclaw/skills/commit/c67b7de8455f7c88ba7e9a24575f35d0659bf75b"
+  },
+  "history": []
+}

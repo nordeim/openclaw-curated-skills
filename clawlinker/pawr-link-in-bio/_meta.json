@@ -1,0 +1,22 @@
+{
+  "owner": "clawlinker",
+  "slug": "pawr-link-in-bio",
+  "displayName": "Create a linkinbio page on pawr.link fast",
+  "latest": {
+    "version": "3.0.0",
+    "publishedAt": 1771556700101,
+    "commit": "https://github.com/openclaw/skills/commit/484b40e06c62e1694307c199e94f3644f17ccd82"
+  },
+  "history": [
+    {
+      "version": "2.0.1",
+      "publishedAt": 1771198069998,
+      "commit": "https://github.com/openclaw/skills/commit/07e210655b1b2817ff75b7b8b16caa7867976145"
+    },
+    {
+      "version": "2.0.0",
+      "publishedAt": 1771025201683,
+      "commit": "https://github.com/openclaw/skills/commit/d6896140f913b3900137c6231539a58caf843470"
+    }
+  ]
+}

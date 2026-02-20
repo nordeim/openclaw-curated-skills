@@ -1,0 +1,11 @@
+{
+  "owner": "aligurelli",
+  "slug": "claude-usage-checker",
+  "displayName": "Claude Usage Checker",
+  "latest": {
+    "version": "1.3.0",
+    "publishedAt": 1771466205659,
+    "commit": "https://github.com/openclaw/skills/commit/373cf335a73cd8ae1e3c81ab13e40fe8406f9022"
+  },
+  "history": []
+}

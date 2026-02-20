@@ -1,0 +1,11 @@
+{
+  "owner": "anuran-roy",
+  "slug": "alchemyst-mcp",
+  "displayName": "Alchemyst MCP Skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771349199133,
+    "commit": "https://github.com/openclaw/skills/commit/24b1e149da2bbc9a5af214eb9ff9f728f5de932d"
+  },
+  "history": []
+}

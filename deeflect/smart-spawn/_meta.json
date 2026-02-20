@@ -1,0 +1,11 @@
+{
+  "owner": "deeflect",
+  "slug": "smart-spawn",
+  "displayName": "Smart Spawn",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771366993458,
+    "commit": "https://github.com/openclaw/skills/commit/013062a16f7fa81851afcfa820a70334c5c4812c"
+  },
+  "history": []
+}

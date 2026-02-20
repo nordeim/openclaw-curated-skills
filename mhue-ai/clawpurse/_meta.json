@@ -1,0 +1,11 @@
+{
+  "owner": "mhue-ai",
+  "slug": "clawpurse",
+  "displayName": "ClawPurse",
+  "latest": {
+    "version": "2.0.1",
+    "publishedAt": 1771169736192,
+    "commit": "https://github.com/openclaw/skills/commit/4f6415076a27d205f8240f9ede8a64ee3de880a7"
+  },
+  "history": []
+}

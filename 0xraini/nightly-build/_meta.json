@@ -1,0 +1,11 @@
+{
+  "owner": "0xraini",
+  "slug": "nightly-build",
+  "displayName": "Nightly Build",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770714281331,
+    "commit": "https://github.com/openclaw/skills/commit/86beb050b4fc152c891346e2952f6ef4dc708708"
+  },
+  "history": []
+}

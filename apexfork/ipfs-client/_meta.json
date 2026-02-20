@@ -1,0 +1,11 @@
+{
+  "owner": "apexfork",
+  "slug": "ipfs-client",
+  "displayName": "Ipfs Client",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771219635925,
+    "commit": "https://github.com/openclaw/skills/commit/f9633601c701e930c05477b262004a1f3e4b088c"
+  },
+  "history": []
+}

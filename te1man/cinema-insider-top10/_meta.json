@@ -1,0 +1,11 @@
+{
+  "owner": "te1man",
+  "slug": "cinema-insider-top10",
+  "displayName": "Cinema Insider Top-10",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771171252190,
+    "commit": "https://github.com/openclaw/skills/commit/ab706b454e1c45ba0f473810e85a6fe9b2853050"
+  },
+  "history": []
+}

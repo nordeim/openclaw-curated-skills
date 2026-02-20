@@ -1,0 +1,11 @@
+{
+  "owner": "and-ray-m",
+  "slug": "offline-llama",
+  "displayName": "Offline Llama",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771398438302,
+    "commit": "https://github.com/openclaw/skills/commit/11550b1abc54a86d7af7e6311047d7c3f5e40e98"
+  },
+  "history": []
+}

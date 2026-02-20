@@ -1,0 +1,11 @@
+{
+  "owner": "prab002",
+  "slug": "openclaw-menubar",
+  "displayName": "openclaw menubar",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770891028691,
+    "commit": "https://github.com/openclaw/skills/commit/a2902c5d84fd7f128af84e653c2ed356716659cf"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "kiaraho",
+  "slug": "sys-guard-linux-remediator",
+  "displayName": "Linux Incident Remediator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771060398923,
+    "commit": "https://github.com/openclaw/skills/commit/6c375d72ae9f26959aa79862e838188e781129a3"
+  },
+  "history": []
+}

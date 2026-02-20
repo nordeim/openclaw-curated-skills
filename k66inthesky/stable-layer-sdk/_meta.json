@@ -1,0 +1,11 @@
+{
+  "owner": "k66inthesky",
+  "slug": "stable-layer-sdk",
+  "displayName": "stable-layer-sdk",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770882361009,
+    "commit": "https://github.com/openclaw/skills/commit/441dd5c10f210115db434714392151dd176666d2"
+  },
+  "history": []
+}

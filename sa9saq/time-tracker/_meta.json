@@ -1,0 +1,17 @@
+{
+  "owner": "sa9saq",
+  "slug": "time-tracker",
+  "displayName": "time-tracker",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770791407530,
+    "commit": "https://github.com/openclaw/skills/commit/414e5f79c705300b9e5c2e017d8f422c4bf9f6df"
+  },
+  "history": [
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770526256803,
+      "commit": "https://github.com/openclaw/skills/commit/257b39aa3d5ffbecb431fad3f850e6e5f60a96f3"
+    }
+  ]
+}

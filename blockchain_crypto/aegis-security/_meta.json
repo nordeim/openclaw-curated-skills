@@ -1,0 +1,27 @@
+{
+  "owner": "swiftadviser",
+  "slug": "aegis-security",
+  "displayName": "Skill",
+  "latest": {
+    "version": "1.2.2",
+    "publishedAt": 1771316700836,
+    "commit": "https://github.com/openclaw/skills/commit/7f109fb27c1acc4fb750464202b5efd3c71b5f49"
+  },
+  "history": [
+    {
+      "version": "1.2.1",
+      "publishedAt": 1770815758068,
+      "commit": "https://github.com/openclaw/skills/commit/c84c13df2d0189ad53f338678e349a5851e4ecba"
+    },
+    {
+      "version": "1.1.1",
+      "publishedAt": 1770723195489,
+      "commit": "https://github.com/openclaw/skills/commit/0bab8558800a656e92ba9a807bbb75f1c37c46c1"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770042513761,
+      "commit": "https://github.com/clawdbot/skills/commit/ffafb07412b98aca146b351e804968c508c0f00d"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "zopyx",
+  "slug": "tuebingen-weather-graphics",
+  "displayName": "Tübingen Weather Graphics",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770963443712,
+    "commit": "https://github.com/openclaw/skills/commit/71c694155886947a913c3c51f13000686a53c164"
+  },
+  "history": []
+}

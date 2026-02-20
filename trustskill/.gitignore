@@ -1,0 +1,19 @@
+# Sensitive Configuration Files
+.nvidia_nim_config
+.env
+.env.local
+*.key
+*.secret
+
+# Local Data and Cache
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+
+venv/
+.venv/
+.venv
+AGENTS.md
+GEMINI.md
+CLAUDE.md

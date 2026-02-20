@@ -1,0 +1,11 @@
+{
+  "owner": "voronkovm",
+  "slug": "canvs",
+  "displayName": "Canvs.io whiteboard",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771318602555,
+    "commit": "https://github.com/openclaw/skills/commit/08abcfa0533857843f924fc84d52e47c17c2c224"
+  },
+  "history": []
+}

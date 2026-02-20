@@ -1,0 +1,11 @@
+{
+  "owner": "stanlee000",
+  "slug": "norman-categorize-transactions",
+  "displayName": "Norman: Categorize Transactions",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771526665033,
+    "commit": "https://github.com/openclaw/skills/commit/4ed6336e809750473cf0df019fda9c5c664d1999"
+  },
+  "history": []
+}

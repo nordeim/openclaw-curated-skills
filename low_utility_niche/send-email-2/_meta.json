@@ -1,0 +1,17 @@
+{
+  "owner": "wangyendt",
+  "slug": "send-email-2",
+  "displayName": "Send Email",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1771375077467,
+    "commit": "https://github.com/openclaw/skills/commit/aba94c675ef1681be43d506a68636854e5589abd"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1771161974091,
+      "commit": "https://github.com/openclaw/skills/commit/0812b8bf36344647c4bc4de0822126a4b5a6da87"
+    }
+  ]
+}

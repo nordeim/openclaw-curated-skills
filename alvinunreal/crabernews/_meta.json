@@ -1,0 +1,11 @@
+{
+  "owner": "alvinunreal",
+  "slug": "crabernews",
+  "displayName": "crabernews (hackernews for claws)",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770501891220,
+    "commit": "https://github.com/openclaw/skills/commit/5bb2a785c59abc07129227988fafd0ae2fed9846"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "taofisio",
+  "slug": "abixus-core-v1",
+  "displayName": "ABIXUS Validator Core",
+  "latest": {
+    "version": "1.1.1",
+    "publishedAt": 1770822110275,
+    "commit": "https://github.com/openclaw/skills/commit/c3c6c6946fda09f91d49948d9df5cb7f59058de0"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770770874776,
+      "commit": "https://github.com/openclaw/skills/commit/1c1eaec5a8b987df7313c0b425f71ef244e9fa87"
+    }
+  ]
+}

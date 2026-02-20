@@ -1,0 +1,11 @@
+{
+  "owner": "orientluna",
+  "slug": "openclaw-glm-plan-usage",
+  "displayName": "glm-plan-usage",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770969744164,
+    "commit": "https://github.com/openclaw/skills/commit/8b15c993e4acc401999514b48547b7b0725bb3c8"
+  },
+  "history": []
+}

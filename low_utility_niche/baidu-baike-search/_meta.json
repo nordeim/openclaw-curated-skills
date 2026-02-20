@@ -1,0 +1,17 @@
+{
+  "owner": "ide-rea",
+  "slug": "baidu-baike-search",
+  "displayName": "baidu baike search",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770497005057,
+    "commit": "https://github.com/openclaw/skills/commit/6584f8b55be5dd4ecdfd11a12875a9fe574052dd"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770496011856,
+      "commit": "https://github.com/openclaw/skills/commit/5edb4497c9c558eb176323206c99365911d709c0"
+    }
+  ]
+}

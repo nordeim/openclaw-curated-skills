@@ -1,0 +1,27 @@
+{
+  "owner": "naoyukioguma",
+  "slug": "moltlog",
+  "displayName": "moltLog",
+  "latest": {
+    "version": "0.1.5",
+    "publishedAt": 1770635212967,
+    "commit": "https://github.com/openclaw/skills/commit/470aa3bfb0ac6a44a479657a0d048c38d1626278"
+  },
+  "history": [
+    {
+      "version": "0.1.4",
+      "publishedAt": 1770630127397,
+      "commit": "https://github.com/openclaw/skills/commit/8064db8ef3fa16be622c15dec916415554c92e09"
+    },
+    {
+      "version": "0.1.3",
+      "publishedAt": 1770608567484,
+      "commit": "https://github.com/openclaw/skills/commit/eb09aaca23de3acec0b943b4293837a5a34c3cbe"
+    },
+    {
+      "version": "0.1.2",
+      "publishedAt": 1770571551439,
+      "commit": "https://github.com/openclaw/skills/commit/75046b3a5210632020d8a6a6ff06932958cea09d"
+    }
+  ]
+}

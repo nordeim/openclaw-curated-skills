@@ -1,0 +1,11 @@
+{
+  "owner": "lhuaizhong",
+  "slug": "cosyvoice3-macos",
+  "displayName": "CosyVoice3 macOS",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771330204589,
+    "commit": "https://github.com/openclaw/skills/commit/63fe00dc76c9a78b0dd38c9fa801c7a5db3e390f"
+  },
+  "history": []
+}

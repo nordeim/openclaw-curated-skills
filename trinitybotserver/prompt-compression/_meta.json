@@ -1,0 +1,11 @@
+{
+  "owner": "trinitybotserver",
+  "slug": "prompt-compression",
+  "displayName": "Prompt Compression",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771018408841,
+    "commit": "https://github.com/openclaw/skills/commit/bfa85f120f19ee254ee6fd04972ac03f932170c9"
+  },
+  "history": []
+}

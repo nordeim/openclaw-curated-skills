@@ -1,0 +1,11 @@
+{
+  "owner": "warm-wm",
+  "slug": "volcengine-web-search",
+  "displayName": "volcengine-web-search",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770689125841,
+    "commit": "https://github.com/openclaw/skills/commit/f76a8835c7e6dd110f5e39b92bf024586bb7141e"
+  },
+  "history": []
+}

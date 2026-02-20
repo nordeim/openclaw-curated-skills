@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "security-review",
+  "displayName": "security-review",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770791355736,
+    "commit": "https://github.com/openclaw/skills/commit/a6af310a7d19992ca7c50523957352a369650e67"
+  },
+  "history": []
+}

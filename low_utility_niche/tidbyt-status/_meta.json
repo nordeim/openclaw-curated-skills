@@ -1,0 +1,11 @@
+{
+  "owner": "mrscoutshub",
+  "slug": "tidbyt-status",
+  "displayName": "Tidbyt Status Display",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771079548285,
+    "commit": "https://github.com/openclaw/skills/commit/c65af53f1ca078e5125bbbed44ebb64796004b04"
+  },
+  "history": []
+}

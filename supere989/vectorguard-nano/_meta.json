@@ -1,0 +1,11 @@
+{
+  "owner": "supere989",
+  "slug": "vectorguard-nano",
+  "displayName": "VectorGuard Nano",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770422126948,
+    "commit": "https://github.com/openclaw/skills/commit/0a61e8617fa1be5a9095df036430311746a4127b"
+  },
+  "history": []
+}

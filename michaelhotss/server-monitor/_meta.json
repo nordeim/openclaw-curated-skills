@@ -1,0 +1,11 @@
+{
+  "owner": "michaelhotss",
+  "slug": "server-monitor",
+  "displayName": "Server Monitor",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770730681159,
+    "commit": "https://github.com/openclaw/skills/commit/fc009081f85904526cac7b50fcb5cdf847b71572"
+  },
+  "history": []
+}

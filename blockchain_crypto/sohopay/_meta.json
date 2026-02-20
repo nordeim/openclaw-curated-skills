@@ -1,0 +1,17 @@
+{
+  "owner": "nmsteve",
+  "slug": "sohopay",
+  "displayName": "SOHO Pay Credit Layer",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771511180085,
+    "commit": "https://github.com/openclaw/skills/commit/089b224d5e4683916f7f5f5d4cf2144ba7a7ebc5"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771465870010,
+      "commit": "https://github.com/openclaw/skills/commit/c5756aed7d28243de724ed71c70e74c228ef9cca"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "owner": "elestirelbilinc-sketch",
+  "slug": "vap-multimedia-generation",
+  "displayName": "AI media generation- Flux2pro,Google Veo3.1, Suno Ai..",
+  "latest": {
+    "version": "1.0.12",
+    "publishedAt": 1770808731598,
+    "commit": "https://github.com/openclaw/skills/commit/0af94ac8ef05eb7cf16a4c8a0d79f0392be6644d"
+  },
+  "history": [
+    {
+      "version": "1.0.10",
+      "publishedAt": 1770746362398,
+      "commit": "https://github.com/openclaw/skills/commit/b290bf74df167313098759c2f6fd4dfaaff371d5"
+    },
+    {
+      "version": "1.0.8",
+      "publishedAt": 1770677037727,
+      "commit": "https://github.com/openclaw/skills/commit/79a34f56f9f465d9abb1733d967b0884ca58c7db"
+    },
+    {
+      "version": "1.0.7",
+      "publishedAt": 1770669279003,
+      "commit": "https://github.com/openclaw/skills/commit/fc1abc4ce1c1f6df78579b45e14f6db1feda6561"
+    },
+    {
+      "version": "1.0.6",
+      "publishedAt": 1770567112520,
+      "commit": "https://github.com/openclaw/skills/commit/62c23053d5fb45193c0f16e7cc718d36336af280"
+    },
+    {
+      "version": "1.0.5",
+      "publishedAt": 1770463345625,
+      "commit": "https://github.com/openclaw/skills/commit/8d6a2b7d9c25a19e919a2d6339aa2a0d46fc460e"
+    },
+    {
+      "version": "1.0.4",
+      "publishedAt": 1769456675578,
+      "commit": "https://github.com/clawdbot/skills/commit/0b2edb44efff1135c125c6d140b57ce56819de34"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "shhdwi",
+  "slug": "docstrange",
+  "displayName": "Nanonets OCR",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770803559686,
+    "commit": "https://github.com/openclaw/skills/commit/264286f14b8d2280f406f6ae82d5476e9880068a"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1769977897868,
+      "commit": "https://github.com/clawdbot/skills/commit/191041a832f40286096aa73f22c1d1ffb71249be"
+    }
+  ]
+}

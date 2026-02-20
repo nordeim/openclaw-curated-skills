@@ -1,0 +1,22 @@
+{
+  "owner": "jp1222",
+  "slug": "task-sync",
+  "displayName": "Task Sync",
+  "latest": {
+    "version": "2.0.4",
+    "publishedAt": 1770710450457,
+    "commit": "https://github.com/openclaw/skills/commit/671d97f4f2d75d80c69982e25e6fc5cb1db224ae"
+  },
+  "history": [
+    {
+      "version": "2.0.2",
+      "publishedAt": 1770709440249,
+      "commit": "https://github.com/openclaw/skills/commit/e2f2c726c0dc211a3db5fc91224c8c03e7368d3e"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770669828329,
+      "commit": "https://github.com/openclaw/skills/commit/11b4e9d73862cff4ed17cf582e0c8d88653d07e5"
+    }
+  ]
+}

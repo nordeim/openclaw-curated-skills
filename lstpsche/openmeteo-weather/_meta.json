@@ -1,0 +1,11 @@
+{
+  "owner": "lstpsche",
+  "slug": "openmeteo-weather",
+  "displayName": "Openmeteo Weather",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770767525909,
+    "commit": "https://github.com/openclaw/skills/commit/9f7c8c5fe67d01779d6e23f91c01205063e08c2b"
+  },
+  "history": []
+}

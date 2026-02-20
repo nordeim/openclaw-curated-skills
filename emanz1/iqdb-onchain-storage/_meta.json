@@ -1,0 +1,11 @@
+{
+  "owner": "emanz1",
+  "slug": "iqdb-onchain-storage",
+  "displayName": "IQDB On-Chain Storage",
+  "latest": {
+    "version": "0.2.0",
+    "publishedAt": 1770619111478,
+    "commit": "https://github.com/openclaw/skills/commit/a5640a9e1752407849fed3f1cc5b7c0b8fe167d0"
+  },
+  "history": []
+}

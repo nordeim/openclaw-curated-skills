@@ -1,0 +1,11 @@
+{
+  "owner": "kleberbaum",
+  "slug": "snek",
+  "displayName": "snek",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771366867492,
+    "commit": "https://github.com/openclaw/skills/commit/cbce52d5a58bcf34d76b8c2057dc8220e9b1aadc"
+  },
+  "history": []
+}

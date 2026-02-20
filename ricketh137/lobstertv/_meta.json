@@ -1,0 +1,11 @@
+{
+  "owner": "ricketh137",
+  "slug": "lobstertv",
+  "displayName": "LobsterTv",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770878487721,
+    "commit": "https://github.com/openclaw/skills/commit/8586378de294559120a25a3fe0a5cef19a4496e5"
+  },
+  "history": []
+}

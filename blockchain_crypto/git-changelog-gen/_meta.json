@@ -1,0 +1,11 @@
+{
+  "owner": "rogue-agent1",
+  "slug": "git-changelog-gen",
+  "displayName": "Git Changelog Generator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771286673760,
+    "commit": "https://github.com/openclaw/skills/commit/7e2b2c3397017d63e98e6a95ea1c8ba6b3ad8c14"
+  },
+  "history": []
+}

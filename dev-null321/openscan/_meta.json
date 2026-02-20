@@ -1,0 +1,11 @@
+{
+  "owner": "dev-null321",
+  "slug": "openscan",
+  "displayName": "OpenScan",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770504942370,
+    "commit": "https://github.com/openclaw/skills/commit/bdb029c409880dc41eb5405fa13733ad367f85be"
+  },
+  "history": []
+}

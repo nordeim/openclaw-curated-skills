@@ -1,0 +1,22 @@
+{
+  "owner": "aszelem",
+  "slug": "book-flight",
+  "displayName": "Search and Book Flights",
+  "latest": {
+    "version": "2.4.1",
+    "publishedAt": 1770849578950,
+    "commit": "https://github.com/openclaw/skills/commit/c726067a691e6c26f5f3ffc8b2410183c2efeee7"
+  },
+  "history": [
+    {
+      "version": "2.1.2",
+      "publishedAt": 1770756232046,
+      "commit": "https://github.com/openclaw/skills/commit/f579f4fef8daa651054dc45a7a1984f642a536ed"
+    },
+    {
+      "version": "1.0.8",
+      "publishedAt": 1769978635182,
+      "commit": "https://github.com/clawdbot/skills/commit/055f2030521d1c6e46d6bd5e85871117c6afd217"
+    }
+  ]
+}

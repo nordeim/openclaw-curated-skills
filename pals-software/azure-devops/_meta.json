@@ -1,0 +1,11 @@
+{
+  "owner": "pals-software",
+  "slug": "azure-devops",
+  "displayName": "Azure DevOps",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770664564141,
+    "commit": "https://github.com/openclaw/skills/commit/5bb76c9c042957c28421a7759c75e9f73d886215"
+  },
+  "history": []
+}

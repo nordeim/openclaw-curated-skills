@@ -1,0 +1,11 @@
+{
+  "owner": "wangyendt",
+  "slug": "lark-custom-bot",
+  "displayName": "Pywayne Lark Custom Bot",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771230234172,
+    "commit": "https://github.com/openclaw/skills/commit/e09313f95a8ce2a9ea34ea0f8f1691dfb861b8d3"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "bluesyparty-src",
+  "slug": "steam-community-inventory",
+  "displayName": "Steam Community Inventory",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770570726964,
+    "commit": "https://github.com/openclaw/skills/commit/95dd13c4fb09d9dab8a8ef47b905bcae198e602e"
+  },
+  "history": []
+}

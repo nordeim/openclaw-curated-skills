@@ -1,0 +1,11 @@
+{
+  "owner": "aspenas",
+  "slug": "ironclaw-outreach-sequencer",
+  "displayName": "Ironclaw Outreach Sequencer",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771340072600,
+    "commit": "https://github.com/openclaw/skills/commit/d3d38d6707e89c140fb35dfb87e12c1128aacaa2"
+  },
+  "history": []
+}

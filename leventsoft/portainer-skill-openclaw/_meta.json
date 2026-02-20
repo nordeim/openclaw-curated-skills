@@ -1,0 +1,11 @@
+{
+  "owner": "leventsoft",
+  "slug": "portainer-skill-openclaw",
+  "displayName": "Portainer",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1770508433346,
+    "commit": "https://github.com/openclaw/skills/commit/e38e1f19dbcc5c01d11fa3643d05f5325eb9ede6"
+  },
+  "history": []
+}

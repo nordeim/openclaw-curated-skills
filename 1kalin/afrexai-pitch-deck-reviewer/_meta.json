@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-pitch-deck-reviewer",
+  "displayName": "AfrexAI Pitch Deck Reviewer",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770951424049,
+    "commit": "https://github.com/openclaw/skills/commit/97c0ec3e49d4e619cf096446ea3441f63e3d0b34"
+  },
+  "history": []
+}

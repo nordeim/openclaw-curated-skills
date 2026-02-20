@@ -1,0 +1,11 @@
+{
+  "owner": "rexlunae",
+  "slug": "digitalocean",
+  "displayName": "DigitalOcean",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770683201934,
+    "commit": "https://github.com/openclaw/skills/commit/ad515b8055cdc86ffac5723c36c7ef39b7719afe"
+  },
+  "history": []
+}

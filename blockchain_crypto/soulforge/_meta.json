@@ -1,0 +1,27 @@
+{
+  "owner": "jamesrp13",
+  "slug": "soulforge",
+  "displayName": "Soulforge",
+  "latest": {
+    "version": "0.6.0",
+    "publishedAt": 1771480998363,
+    "commit": "https://github.com/openclaw/skills/commit/d0c7034d583fdd506be2f9765c7140dd384eed73"
+  },
+  "history": [
+    {
+      "version": "0.5.2",
+      "publishedAt": 1771306850398,
+      "commit": "https://github.com/openclaw/skills/commit/a854136e30a4bcf1c593a8258ee5ed0d9e0e6009"
+    },
+    {
+      "version": "0.2.1",
+      "publishedAt": 1771276391289,
+      "commit": "https://github.com/openclaw/skills/commit/7d762d6453769432b7e8d20b00397a82871c99ff"
+    },
+    {
+      "version": "0.1.1",
+      "publishedAt": 1771214008479,
+      "commit": "https://github.com/openclaw/skills/commit/409d7f1fbe4031de65ad456276a8a3ed8cd40e8f"
+    }
+  ]
+}

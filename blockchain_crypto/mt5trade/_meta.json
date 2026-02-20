@@ -1,0 +1,11 @@
+{
+  "owner": "xuanyushen19",
+  "slug": "mt5trade",
+  "displayName": "mt5_trade",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771225217032,
+    "commit": "https://github.com/openclaw/skills/commit/cc68b2f191d8657863a21d25a0834233ad1ea4ec"
+  },
+  "history": []
+}

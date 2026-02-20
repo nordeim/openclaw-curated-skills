@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "dns-checker",
+  "displayName": "DNS Checker",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526262178,
+    "commit": "https://github.com/openclaw/skills/commit/0708e13a3b42cbe57e80fe1ad190f4190161cb7c"
+  },
+  "history": []
+}

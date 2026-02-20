@@ -1,0 +1,42 @@
+{
+  "owner": "ceorater-skills",
+  "slug": "ceorater",
+  "displayName": "CEORater",
+  "latest": {
+    "version": "1.0.9",
+    "publishedAt": 1771504113157,
+    "commit": "https://github.com/openclaw/skills/commit/b1891fd15353b06698f9841448935ca8b7fcbf87"
+  },
+  "history": [
+    {
+      "version": "1.0.8",
+      "publishedAt": 1771362687296,
+      "commit": "https://github.com/openclaw/skills/commit/7abf0141669785aaaa2c981375563f69236ca388"
+    },
+    {
+      "version": "1.0.6",
+      "publishedAt": 1770902456939,
+      "commit": "https://github.com/openclaw/skills/commit/100b59ad5ce12680873d81e37121126444d6cd15"
+    },
+    {
+      "version": "1.0.5",
+      "publishedAt": 1770771820369,
+      "commit": "https://github.com/openclaw/skills/commit/53e21cf9f0b0aff4b31cccd77c9c8352e14277db"
+    },
+    {
+      "version": "1.0.4",
+      "publishedAt": 1770768241348,
+      "commit": "https://github.com/openclaw/skills/commit/a32abb6c1ff3fdeec6138ad7b17a9bd6d21f83e4"
+    },
+    {
+      "version": "1.0.3",
+      "publishedAt": 1770703533072,
+      "commit": "https://github.com/openclaw/skills/commit/df48290508d5653282bc7bce33b2bee5f1bbb099"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1769932110200,
+      "commit": "https://github.com/clawdbot/skills/commit/4a909484b2d37664652ef0089d6d3b3c62644cc5"
+    }
+  ]
+}

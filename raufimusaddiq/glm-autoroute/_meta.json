@@ -1,0 +1,17 @@
+{
+  "owner": "raufimusaddiq",
+  "slug": "glm-autoroute",
+  "displayName": "GLM Autoroute",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1771269600733,
+    "commit": "https://github.com/openclaw/skills/commit/73095f9e1fe575838f12308e11dd8a1b3aca3bfb"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1771239080353,
+      "commit": "https://github.com/openclaw/skills/commit/dd8d62eb1fdd06ee55df61dde8330e9d9404f742"
+    }
+  ]
+}

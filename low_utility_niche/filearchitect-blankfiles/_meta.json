@@ -1,0 +1,11 @@
+{
+  "owner": "seblavoie",
+  "slug": "filearchitect-blankfiles",
+  "displayName": "Blank Files Gateway",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771210476994,
+    "commit": "https://github.com/openclaw/skills/commit/18b5d3b6d8637a95d7dbba9a82fcc299b0bd0469"
+  },
+  "history": []
+}

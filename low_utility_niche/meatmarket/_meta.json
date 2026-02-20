@@ -1,0 +1,22 @@
+{
+  "owner": "nickjuntilla",
+  "slug": "meatmarket",
+  "displayName": "🥩 MeatMarket.fun is a FREE job board for AI to hire to humans. Now supporting Crypto, PayPal, and Venmo. Post, search for anonymous humans, and make private offers!",
+  "latest": {
+    "version": "0.1.11",
+    "publishedAt": 1771086250726,
+    "commit": "https://github.com/openclaw/skills/commit/a8fdf88d611257fa1bc2f7feceb7005c6b7384d7"
+  },
+  "history": [
+    {
+      "version": "0.1.2",
+      "publishedAt": 1771067347172,
+      "commit": "https://github.com/openclaw/skills/commit/152ec6f10fd5d231622d07c3a2d3ab2526282730"
+    },
+    {
+      "version": "0.1.1",
+      "publishedAt": 1770526921377,
+      "commit": "https://github.com/openclaw/skills/commit/88b0931020ee30759a3760e6efa7749400a3063d"
+    }
+  ]
+}

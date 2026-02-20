@@ -1,0 +1,17 @@
+{
+  "owner": "k66inthesky",
+  "slug": "suisec",
+  "displayName": "Sui Sec",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770786989844,
+    "commit": "https://github.com/openclaw/skills/commit/8d5f4f76d4bb4718ad58d9da8de2a40a4d6738e6"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770784099401,
+      "commit": "https://github.com/openclaw/skills/commit/594e9151bc9a9edf01f3582ba3cac3ed2306adbc"
+    }
+  ]
+}

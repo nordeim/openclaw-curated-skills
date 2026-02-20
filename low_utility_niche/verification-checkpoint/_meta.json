@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "verification-checkpoint",
+  "displayName": "verification-checkpoint",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770791416732,
+    "commit": "https://github.com/openclaw/skills/commit/846a99171590f96de92d2329d2ce3acbdd28c94f"
+  },
+  "history": []
+}

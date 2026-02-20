@@ -1,0 +1,11 @@
+{
+  "owner": "nietzsche247",
+  "slug": "comms-hub-bridge",
+  "displayName": "Comms Hub Bridge",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771447388852,
+    "commit": "https://github.com/openclaw/skills/commit/3c2504aaade5d8700c616fe6f0d012db5bf43f5a"
+  },
+  "history": []
+}

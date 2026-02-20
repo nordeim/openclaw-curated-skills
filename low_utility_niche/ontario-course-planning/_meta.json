@@ -1,0 +1,11 @@
+{
+  "owner": "icej",
+  "slug": "ontario-course-planning",
+  "displayName": "Ontario Course Planning (OSSD) — Grades 9–12 + Top 6 (12U/M)",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771106123480,
+    "commit": "https://github.com/openclaw/skills/commit/ff257e7f47aeccb65099ef200717388e57d36ca3"
+  },
+  "history": []
+}

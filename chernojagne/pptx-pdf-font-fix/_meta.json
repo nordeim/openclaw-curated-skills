@@ -1,0 +1,11 @@
+{
+  "owner": "chernojagne",
+  "slug": "pptx-pdf-font-fix",
+  "displayName": "PPTX PDF Font Fix",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770698291162,
+    "commit": "https://github.com/openclaw/skills/commit/1f397b11e57839d752fc64fd7befb7d925bf10b9"
+  },
+  "history": []
+}

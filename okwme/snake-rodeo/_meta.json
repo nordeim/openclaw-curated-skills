@@ -1,0 +1,17 @@
+{
+  "owner": "okwme",
+  "slug": "snake-rodeo",
+  "displayName": "Snake Rodeo",
+  "latest": {
+    "version": "3.2.1",
+    "publishedAt": 1771420352856,
+    "commit": "https://github.com/openclaw/skills/commit/b8b4e334ba9b3d56db530dceacf911eaa2e38349"
+  },
+  "history": [
+    {
+      "version": "3.0.0",
+      "publishedAt": 1771256414046,
+      "commit": "https://github.com/openclaw/skills/commit/ec8c7967236d0e04c037fbee37b84fafa056e77f"
+    }
+  ]
+}

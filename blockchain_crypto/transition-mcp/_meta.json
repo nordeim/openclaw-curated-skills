@@ -1,0 +1,11 @@
+{
+  "owner": "nftechie",
+  "slug": "transition-mcp",
+  "displayName": "Transition MCP",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770672835373,
+    "commit": "https://github.com/openclaw/skills/commit/54fc0302ba653f4f543469e6b13d461591018050"
+  },
+  "history": []
+}

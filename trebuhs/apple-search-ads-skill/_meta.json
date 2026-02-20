@@ -1,0 +1,11 @@
+{
+  "owner": "trebuhs",
+  "slug": "apple-search-ads-skill",
+  "displayName": "Apple Search Ads",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771177060737,
+    "commit": "https://github.com/openclaw/skills/commit/1388ed5040404b23c90758594caf6b990c1a52ed"
+  },
+  "history": []
+}

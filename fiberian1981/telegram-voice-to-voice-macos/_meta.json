@@ -1,0 +1,17 @@
+{
+  "owner": "fiberian1981",
+  "slug": "telegram-voice-to-voice-macos",
+  "displayName": "Telegram Voice To Voice Macos",
+  "latest": {
+    "version": "0.1.3",
+    "publishedAt": 1770915068838,
+    "commit": "https://github.com/openclaw/skills/commit/91735a13d424ba3745774b7b0d2cb4c57c939e96"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770627543825,
+      "commit": "https://github.com/openclaw/skills/commit/5e6b92b2409fd3d597297801fc627481348e9876"
+    }
+  ]
+}

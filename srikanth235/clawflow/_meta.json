@@ -1,0 +1,11 @@
+{
+  "owner": "srikanth235",
+  "slug": "clawflow",
+  "displayName": "Clawflow",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771399920556,
+    "commit": "https://github.com/openclaw/skills/commit/0e9c6c300dd440dd8b869f7307e51f82ae2b5ce8"
+  },
+  "history": []
+}

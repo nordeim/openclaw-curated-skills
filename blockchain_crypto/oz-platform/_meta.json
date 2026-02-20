@@ -1,0 +1,11 @@
+{
+  "owner": "poluu",
+  "slug": "oz-platform",
+  "displayName": "Network on Oz",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770886032951,
+    "commit": "https://github.com/openclaw/skills/commit/ae990f50b2a214d4e4b1ff5f9eacec37c7312dea"
+  },
+  "history": []
+}

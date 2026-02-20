@@ -1,0 +1,11 @@
+{
+  "owner": "vimxbt",
+  "slug": "mol-instant-messenger",
+  "displayName": "MIM Chat",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771020652422,
+    "commit": "https://github.com/openclaw/skills/commit/b208029b0cdd1ba1832df4f00da8c39479887476"
+  },
+  "history": []
+}

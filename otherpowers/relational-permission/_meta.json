@@ -1,0 +1,11 @@
+{
+  "owner": "otherpowers",
+  "slug": "relational-permission",
+  "displayName": "Relational Permission",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770836764658,
+    "commit": "https://github.com/openclaw/skills/commit/00df5f0adb7ef478eef2f073f82183d88a19206b"
+  },
+  "history": []
+}

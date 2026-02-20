@@ -1,0 +1,11 @@
+{
+  "owner": "luigi08001",
+  "slug": "lead-scoring",
+  "displayName": "Lead Scoring Autopilot — AI-Powered Scoring for HubSpot & CRMs",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771392115709,
+    "commit": "https://github.com/openclaw/skills/commit/c5fe096a23cb29ca30a8163558b225c912ae4059"
+  },
+  "history": []
+}

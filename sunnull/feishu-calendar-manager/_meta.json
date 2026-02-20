@@ -1,0 +1,11 @@
+{
+  "owner": "sunnull",
+  "slug": "feishu-calendar-manager",
+  "displayName": "飞书日历管理器",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1770699597182,
+    "commit": "https://github.com/openclaw/skills/commit/02cf092d14e4a3430ce16cc6bd24aaedbc749ee3"
+  },
+  "history": []
+}

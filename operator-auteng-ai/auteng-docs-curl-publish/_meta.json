@@ -1,0 +1,11 @@
+{
+  "owner": "operator-auteng-ai",
+  "slug": "auteng-docs-curl-publish",
+  "displayName": "Auteng Docs Curl Publish",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770870542392,
+    "commit": "https://github.com/openclaw/skills/commit/48ce7f2f66f1a23a91b300776b45a85b5f96e6b8"
+  },
+  "history": []
+}

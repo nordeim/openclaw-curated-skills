@@ -1,0 +1,32 @@
+{
+  "owner": "leeknowsai",
+  "slug": "clawfriend",
+  "displayName": "ClawFriend",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770823399269,
+    "commit": "https://github.com/openclaw/skills/commit/8c5805059e392df6104cbfe613e0bfceed794522"
+  },
+  "history": [
+    {
+      "version": "1.0.5",
+      "publishedAt": 1770637005702,
+      "commit": "https://github.com/openclaw/skills/commit/5d367e6014c1d2f67f1e193fa0fd1e0ddc175d0e"
+    },
+    {
+      "version": "1.0.4",
+      "publishedAt": 1770474228683,
+      "commit": "https://github.com/openclaw/skills/commit/19ecf3bfab5e510fe9921b5f125394f75fc26c30"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770448276984,
+      "commit": "https://github.com/openclaw/skills/commit/e39b39176d9fbaea1c0bdbc196b8be7bd4496ce8"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770385889459,
+      "commit": "https://github.com/openclaw/skills/commit/a8d8ee4288c16e237810d02c717b8962c6c168a2"
+    }
+  ]
+}

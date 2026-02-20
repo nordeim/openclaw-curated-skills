@@ -1,0 +1,11 @@
+{
+  "owner": "lukeslp",
+  "slug": "geepers-corpus",
+  "displayName": "Geepers Corpus",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771398915399,
+    "commit": "https://github.com/openclaw/skills/commit/0252ac4ee636d10dc3e3632843c09eb3d3bf80e3"
+  },
+  "history": []
+}

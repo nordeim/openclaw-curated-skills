@@ -1,0 +1,11 @@
+{
+  "owner": "samj12",
+  "slug": "betbud-prediction-skill",
+  "displayName": "Betbud Prediction Skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771024751621,
+    "commit": "https://github.com/openclaw/skills/commit/f7bbdbf419a6dd48ddd6c19e9fe62b7afe77477a"
+  },
+  "history": []
+}

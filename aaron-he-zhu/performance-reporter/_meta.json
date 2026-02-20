@@ -1,0 +1,27 @@
+{
+  "owner": "aaron-he-zhu",
+  "slug": "performance-reporter",
+  "displayName": "Performance Reporter",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1771042801475,
+    "commit": "https://github.com/openclaw/skills/commit/5c55ed654236d2d8c454b3beb39633950fbe9571"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1770824234444,
+      "commit": "https://github.com/openclaw/skills/commit/dc5c3c141cf86403dceab11230663de12f037ad3"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770739506147,
+      "commit": "https://github.com/openclaw/skills/commit/0334a9cc9e53b539854c8df2acae6a61231cb53d"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770559561992,
+      "commit": "https://github.com/openclaw/skills/commit/b47b54cd9d9d1de480fa35958aebec6e0599a797"
+    }
+  ]
+}

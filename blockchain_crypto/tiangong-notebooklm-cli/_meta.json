@@ -1,0 +1,22 @@
+{
+  "owner": "fadeloo",
+  "slug": "tiangong-notebooklm-cli",
+  "displayName": "NotebookLM CLI",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1770454856990,
+    "commit": "https://github.com/openclaw/skills/commit/02a696cf9ee176b8a362a3cfc31717faae28e6bd"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1769568438709,
+      "commit": "https://github.com/clawdbot/skills/commit/142ac1287118f154c1baad957220cfa74d6767b1"
+    },
+    {
+      "version": "0.1.2",
+      "publishedAt": 1769758194933,
+      "commit": "https://github.com/clawdbot/skills/commit/3e2d56650abbf2cd8a56e7f5cfbced1b5da3c63d"
+    }
+  ]
+}

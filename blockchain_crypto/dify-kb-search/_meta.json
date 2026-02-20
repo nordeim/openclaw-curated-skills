@@ -1,0 +1,11 @@
+{
+  "owner": "xiaowenzhou",
+  "slug": "dify-kb-search",
+  "displayName": "Dify Knowledge Base Search",
+  "latest": {
+    "version": "1.1.1",
+    "publishedAt": 1770559352104,
+    "commit": "https://github.com/openclaw/skills/commit/7e65e4f4a4207d06747e6c5d5dbacc6e12f6c12a"
+  },
+  "history": []
+}

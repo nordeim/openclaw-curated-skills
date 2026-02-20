@@ -1,0 +1,17 @@
+{
+  "owner": "spiceman161",
+  "slug": "sys-updater",
+  "displayName": "Sys Updater",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771495574756,
+    "commit": "https://github.com/openclaw/skills/commit/22ae51ad86576436f783b46dedbc835a146a2cd5"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770559828754,
+      "commit": "https://github.com/openclaw/skills/commit/87cb4f0be03c1d277419ba58994c139a885c2103"
+    }
+  ]
+}

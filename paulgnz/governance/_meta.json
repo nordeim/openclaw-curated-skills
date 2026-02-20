@@ -1,0 +1,11 @@
+{
+  "owner": "paulgnz",
+  "slug": "governance",
+  "displayName": "xpr-governance",
+  "latest": {
+    "version": "0.2.11",
+    "publishedAt": 1771021982332,
+    "commit": "https://github.com/openclaw/skills/commit/b0ab015b323b0166922a93fa76b46327ffde832b"
+  },
+  "history": []
+}

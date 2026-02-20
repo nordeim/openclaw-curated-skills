@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-data-privacy",
+  "displayName": "Data Privacy Compliance Framework",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771168440001,
+    "commit": "https://github.com/openclaw/skills/commit/a1c369eef2f9afd6a3823c0c0083c4744bb9f2e2"
+  },
+  "history": []
+}

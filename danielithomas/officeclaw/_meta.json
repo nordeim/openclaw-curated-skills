@@ -1,0 +1,17 @@
+{
+  "owner": "danielithomas",
+  "slug": "officeclaw",
+  "displayName": "Skill",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771224412945,
+    "commit": "https://github.com/openclaw/skills/commit/f3cf469bca5f3857325002a2320fff873198f285"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771202078562,
+      "commit": "https://github.com/openclaw/skills/commit/d2e4cf31a3d926121f3ca98684847a46db42ee48"
+    }
+  ]
+}

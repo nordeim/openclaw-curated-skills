@@ -1,0 +1,11 @@
+{
+  "owner": "lilei0311",
+  "slug": "wps-skill",
+  "displayName": "Wps Skill",
+  "latest": {
+    "version": "1.3.0",
+    "publishedAt": 1771337930479,
+    "commit": "https://github.com/openclaw/skills/commit/75a0c6d08bfdbe861058012922901668a66349dd"
+  },
+  "history": []
+}

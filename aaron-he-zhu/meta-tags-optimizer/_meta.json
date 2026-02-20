@@ -1,0 +1,27 @@
+{
+  "owner": "aaron-he-zhu",
+  "slug": "meta-tags-optimizer",
+  "displayName": "Meta Tags Optimizer",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1771042628580,
+    "commit": "https://github.com/openclaw/skills/commit/77f7e90a4b850470e18fd3178d96d363f91074cc"
+  },
+  "history": [
+    {
+      "version": "0.1.2",
+      "publishedAt": 1770824151447,
+      "commit": "https://github.com/openclaw/skills/commit/f1f5a7c8f0a98e2420535b449de58f8e95788b7d"
+    },
+    {
+      "version": "0.1.1",
+      "publishedAt": 1770739304818,
+      "commit": "https://github.com/openclaw/skills/commit/dfd4415e072a92c7c2ff1104e3359251956f8f36"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770559394903,
+      "commit": "https://github.com/openclaw/skills/commit/bd404162a80ceae5002aa6962f2c1dc355b8597f"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "user520512",
+  "slug": "live-stream-script",
+  "displayName": "直播脚本",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770940961222,
+    "commit": "https://github.com/openclaw/skills/commit/ebaf9f8d4f3bdda541fd2ea6fb4e885222617cfa"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "tradmangh",
+  "slug": "expiring-local-fileshare",
+  "displayName": "Expiring Local Fileshare",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771363834076,
+    "commit": "https://github.com/openclaw/skills/commit/33677c8bacf77fa08a99855341871343d0258c46"
+  },
+  "history": []
+}

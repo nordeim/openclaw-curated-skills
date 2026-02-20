@@ -1,0 +1,11 @@
+{
+  "owner": "bubblyjove",
+  "slug": "falcon",
+  "displayName": "Falcon",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770656215059,
+    "commit": "https://github.com/openclaw/skills/commit/8d181165b7b42ba468241c65c3769726c8e400c2"
+  },
+  "history": []
+}

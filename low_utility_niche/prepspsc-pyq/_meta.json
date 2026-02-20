@@ -1,0 +1,11 @@
+{
+  "owner": "himyeticapital",
+  "slug": "prepspsc-pyq",
+  "displayName": "PrepSPSC PYQ API",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770606145982,
+    "commit": "https://github.com/openclaw/skills/commit/bdb21796701e3cea700223a6debc6e39aef69c5d"
+  },
+  "history": []
+}

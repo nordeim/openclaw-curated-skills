@@ -1,0 +1,11 @@
+{
+  "owner": "otherpowers",
+  "slug": "skill-namer",
+  "displayName": "Skill Namer",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771179288891,
+    "commit": "https://github.com/openclaw/skills/commit/68eb69f834309edda7eb517e7952b58f14a12941"
+  },
+  "history": []
+}

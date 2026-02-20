@@ -1,0 +1,11 @@
+{
+  "owner": "furukama",
+  "slug": "context-viz",
+  "displayName": "Context Visualization",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771316872289,
+    "commit": "https://github.com/openclaw/skills/commit/41e6a44e9359595db0f229bff06bddb923975d07"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "tormine",
+  "slug": "soul-markets",
+  "displayName": "Soul.Markets",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770575843996,
+    "commit": "https://github.com/openclaw/skills/commit/12a1412371f2f72d879451ff4e587921f871f895"
+  },
+  "history": []
+}

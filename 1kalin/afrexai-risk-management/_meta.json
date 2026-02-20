@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-risk-management",
+  "displayName": "Enterprise Risk Management Engine",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771255747771,
+    "commit": "https://github.com/openclaw/skills/commit/ab9c590eb5a0650f46b718852f85e6537f76a29e"
+  },
+  "history": []
+}

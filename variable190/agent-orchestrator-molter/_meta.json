@@ -1,0 +1,17 @@
+{
+  "owner": "variable190",
+  "slug": "agent-orchestrator-molter",
+  "displayName": "Agent Orchestrator",
+  "latest": {
+    "version": "1.0.5",
+    "publishedAt": 1771199517743,
+    "commit": "https://github.com/openclaw/skills/commit/8fd5f7e2406634ac9fb70ceb7675d3aad7b2637a"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1771199179893,
+      "commit": "https://github.com/openclaw/skills/commit/df07820e1320d0417a1016fe1cadb8027b1ea654"
+    }
+  ]
+}

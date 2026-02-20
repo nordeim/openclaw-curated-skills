@@ -1,0 +1,11 @@
+{
+  "owner": "alhwyn",
+  "slug": "clawpify",
+  "displayName": "Clawpify",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770438287126,
+    "commit": "https://github.com/openclaw/skills/commit/7ed4ce1f8b404fb7f35275f77d073f24375e1d23"
+  },
+  "history": []
+}

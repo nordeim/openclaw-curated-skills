@@ -1,0 +1,11 @@
+{
+  "owner": "rosasalberto",
+  "slug": "didit-phone-verification",
+  "displayName": "Didit Phone Verification",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1771082197550,
+    "commit": "https://github.com/openclaw/skills/commit/0fcc3ebbfabd91558579020dfdeb1246481f2193"
+  },
+  "history": []
+}

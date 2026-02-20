@@ -1,0 +1,42 @@
+{
+  "owner": "jvsteiner",
+  "slug": "unimarket",
+  "displayName": "UniMarket P2P Marketplace",
+  "latest": {
+    "version": "0.1.6",
+    "publishedAt": 1771245894603,
+    "commit": "https://github.com/openclaw/skills/commit/7978661aee1ce8465d349fa603e440b3639dc7fc"
+  },
+  "history": [
+    {
+      "version": "0.1.5",
+      "publishedAt": 1771074578206,
+      "commit": "https://github.com/openclaw/skills/commit/91b593b931e3bb19e686808ff8caa8338a0b293b"
+    },
+    {
+      "version": "0.1.4",
+      "publishedAt": 1770923301033,
+      "commit": "https://github.com/openclaw/skills/commit/7c2ee30f1a173e4a5c0a51a0d84a6c784d00c220"
+    },
+    {
+      "version": "0.1.3",
+      "publishedAt": 1770760484258,
+      "commit": "https://github.com/openclaw/skills/commit/b96dfc36d66ab2a5f0b46a16ba328fa2bd6c34b9"
+    },
+    {
+      "version": "0.1.2",
+      "publishedAt": 1770669510321,
+      "commit": "https://github.com/openclaw/skills/commit/c93710d023dac45c601448478eb8304c4751e232"
+    },
+    {
+      "version": "0.1.1",
+      "publishedAt": 1770574570301,
+      "commit": "https://github.com/openclaw/skills/commit/f0be8a274ccb3f8d5bb3e34acfac97d1ef286d1e"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770496275562,
+      "commit": "https://github.com/openclaw/skills/commit/f1f68b49befc4cab9f9e48329dd641bfecea6d54"
+    }
+  ]
+}

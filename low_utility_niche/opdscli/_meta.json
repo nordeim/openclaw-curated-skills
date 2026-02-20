@@ -1,0 +1,11 @@
+{
+  "owner": "rafadc",
+  "slug": "opdscli",
+  "displayName": "Opdscli",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771283441412,
+    "commit": "https://github.com/openclaw/skills/commit/806742a8fe018aded99574bd69b33a4982972bf4"
+  },
+  "history": []
+}

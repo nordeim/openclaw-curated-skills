@@ -1,0 +1,17 @@
+{
+  "owner": "rampagepeter",
+  "slug": "pengyouquan-pangyu",
+  "displayName": "pengyouquan-pangyu",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770888360034,
+    "commit": "https://github.com/openclaw/skills/commit/3d0680cb544685e2dffdfab72939cd09ac14a68c"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770881437233,
+      "commit": "https://github.com/openclaw/skills/commit/0f2c8cebefcf6d613f93986b94aa18cfa54517cc"
+    }
+  ]
+}

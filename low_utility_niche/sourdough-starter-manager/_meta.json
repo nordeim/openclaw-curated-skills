@@ -1,0 +1,11 @@
+{
+  "owner": "akhmittra",
+  "slug": "sourdough-starter-manager",
+  "displayName": "Sourdough Starter Manager",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770537393501,
+    "commit": "https://github.com/openclaw/skills/commit/f560bb7b29c5e8401956af30abad0d669002c12d"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "tunays-gtb",
+  "slug": "copilot-agent",
+  "displayName": "Copilot Agent",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770645753515,
+    "commit": "https://github.com/openclaw/skills/commit/ec456813f323ae7fd8e3ae9313b8a62f48ad92ae"
+  },
+  "history": []
+}

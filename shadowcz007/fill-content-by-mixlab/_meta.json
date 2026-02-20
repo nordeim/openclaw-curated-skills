@@ -1,0 +1,22 @@
+{
+  "owner": "shadowcz007",
+  "slug": "fill-content-by-mixlab",
+  "displayName": "Mixlab Fill Content",
+  "latest": {
+    "version": "1.1.3",
+    "publishedAt": 1771379950613,
+    "commit": "https://github.com/openclaw/skills/commit/367533f471976e963a0cbe7d6ab33b2fd1ed3040"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771305850664,
+      "commit": "https://github.com/openclaw/skills/commit/5dc0943e4f3e77da56b9ecef1247395b3a7cfc56"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771299926871,
+      "commit": "https://github.com/openclaw/skills/commit/60cac06e25dc7cc17770e1cb4f900029171fd5e3"
+    }
+  ]
+}

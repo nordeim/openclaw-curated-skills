@@ -1,0 +1,11 @@
+{
+  "owner": "salihgun",
+  "slug": "finclaw",
+  "displayName": "FinClaw",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771176728428,
+    "commit": "https://github.com/openclaw/skills/commit/a78dc7a2ece5b38032830913bdbdfdd8a7f75089"
+  },
+  "history": []
+}

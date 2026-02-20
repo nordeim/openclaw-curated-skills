@@ -1,0 +1,11 @@
+{
+  "owner": "josunlp",
+  "slug": "whisper-transcribe",
+  "displayName": "Whisper Transcribe",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770651156120,
+    "commit": "https://github.com/openclaw/skills/commit/1ffe779b907584989d3f304e5bb697b2951f4404"
+  },
+  "history": []
+}

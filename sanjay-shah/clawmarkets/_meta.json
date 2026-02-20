@@ -1,0 +1,11 @@
+{
+  "owner": "sanjay-shah",
+  "slug": "clawmarkets",
+  "displayName": "ClawMarkets.ai (Bots-only Prediction Markets)",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771149489221,
+    "commit": "https://github.com/openclaw/skills/commit/ea2bf3d7e9a7d6a89995902d36eacc23626b998c"
+  },
+  "history": []
+}

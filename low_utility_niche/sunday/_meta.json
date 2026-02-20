@@ -1,0 +1,17 @@
+{
+  "owner": "raunaksingwi",
+  "slug": "sunday",
+  "displayName": "Sunday",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770975599319,
+    "commit": "https://github.com/openclaw/skills/commit/df952b5b9e51593b19395f4d661f12a14f89325a"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770975108358,
+      "commit": "https://github.com/openclaw/skills/commit/9b5bb8580e1b3124d1bbe7bf89db6d3361e3d95d"
+    }
+  ]
+}

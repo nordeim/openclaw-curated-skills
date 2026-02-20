@@ -1,0 +1,11 @@
+{
+  "owner": "yalcindemir",
+  "slug": "turkey-news",
+  "displayName": "Turkey News",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770910971080,
+    "commit": "https://github.com/openclaw/skills/commit/fb2b144ede3dda4ceeafb2772d5c5d29bf964eb2"
+  },
+  "history": []
+}

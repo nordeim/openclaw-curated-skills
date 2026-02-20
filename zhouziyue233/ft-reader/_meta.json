@@ -1,0 +1,11 @@
+{
+  "owner": "zhouziyue233",
+  "slug": "ft-reader",
+  "displayName": "Financial Times Deep Reader",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771165137410,
+    "commit": "https://github.com/openclaw/skills/commit/78ed0a9c78754432cb681f9b65883b1d66956121"
+  },
+  "history": []
+}

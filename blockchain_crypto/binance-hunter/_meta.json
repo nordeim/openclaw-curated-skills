@@ -1,0 +1,11 @@
+{
+  "owner": "tetravad",
+  "slug": "binance-hunter",
+  "displayName": "Binance-Hunter",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770455854112,
+    "commit": "https://github.com/openclaw/skills/commit/cf2e69cda71795cd0de3441c2cb3e6baa31fcb85"
+  },
+  "history": []
+}

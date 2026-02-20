@@ -1,0 +1,11 @@
+{
+  "owner": "eugene9d",
+  "slug": "openclaw-workspace-pro",
+  "displayName": "Openclaw Workspace Pro",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771032247427,
+    "commit": "https://github.com/openclaw/skills/commit/bf73f771b6acef6f506c815a3a15e6fdacc0e134"
+  },
+  "history": []
+}

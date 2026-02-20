@@ -1,0 +1,11 @@
+{
+  "owner": "ferminrp",
+  "slug": "criptoya",
+  "displayName": "Crypto Prices in Latam by Criptoya",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771376165660,
+    "commit": "https://github.com/openclaw/skills/commit/692b669fb9473ef78dff792fe22586e388074c84"
+  },
+  "history": []
+}

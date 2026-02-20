@@ -1,0 +1,11 @@
+{
+  "owner": "trumppo",
+  "slug": "gh",
+  "displayName": "gh",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770573496527,
+    "commit": "https://github.com/openclaw/skills/commit/e1801181e2633141ac303c79d787180490bbef4b"
+  },
+  "history": []
+}

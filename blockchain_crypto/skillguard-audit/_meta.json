@@ -1,0 +1,11 @@
+{
+  "owner": "jonathanliu811026",
+  "slug": "skillguard-audit",
+  "displayName": "SkillGuard - Agent Skill Security Auditor",
+  "latest": {
+    "version": "0.3.0",
+    "publishedAt": 1771341611663,
+    "commit": "https://github.com/openclaw/skills/commit/493b9686a0739eb5f548861c76801ffa4514bebf"
+  },
+  "history": []
+}

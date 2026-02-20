@@ -1,0 +1,17 @@
+{
+  "owner": "gogo6969",
+  "slug": "clawapi",
+  "displayName": "ClawAPI",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771367467683,
+    "commit": "https://github.com/openclaw/skills/commit/17d2ee8ae276d7b0c8fbedba3912168dc8936ab4"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771366686691,
+      "commit": "https://github.com/openclaw/skills/commit/00796672ce7fcf526e78c068a16d92de9377be75"
+    }
+  ]
+}

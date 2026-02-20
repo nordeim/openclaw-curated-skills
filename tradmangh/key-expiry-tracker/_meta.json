@@ -1,0 +1,11 @@
+{
+  "owner": "tradmangh",
+  "slug": "key-expiry-tracker",
+  "displayName": "Key Expiry Tracker",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771340849516,
+    "commit": "https://github.com/openclaw/skills/commit/e7d79914920fa1efcd1960101cd2665c3f13f6d3"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "ruigomeseu",
+  "slug": "ffcli",
+  "displayName": "Ffcli",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771255265819,
+    "commit": "https://github.com/openclaw/skills/commit/cf4f6f560c63f96959cae395e6e217d2f4601206"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770945294124,
+      "commit": "https://github.com/openclaw/skills/commit/867c89c37418e060f8a81ae8cd00a683c1cfb546"
+    }
+  ]
+}

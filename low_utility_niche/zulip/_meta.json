@@ -1,0 +1,11 @@
+{
+  "owner": "suky57",
+  "slug": "zulip",
+  "displayName": "Zulip",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771232728314,
+    "commit": "https://github.com/openclaw/skills/commit/f2e9654a7c7cd2cd1b878c64491e66202073b61b"
+  },
+  "history": []
+}

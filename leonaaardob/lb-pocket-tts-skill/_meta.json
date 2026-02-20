@@ -1,0 +1,11 @@
+{
+  "owner": "leonaaardob",
+  "slug": "lb-pocket-tts-skill",
+  "displayName": "Pocket TTS Complete Documentation",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770833205480,
+    "commit": "https://github.com/openclaw/skills/commit/32a92e00945cec7bef2534c1d5d8d2c0404aebea"
+  },
+  "history": []
+}

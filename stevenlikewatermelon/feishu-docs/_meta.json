@@ -1,0 +1,11 @@
+{
+  "owner": "stevenlikewatermelon",
+  "slug": "feishu-docs",
+  "displayName": "飞书文档API技能",
+  "latest": {
+    "version": "1.1.1",
+    "publishedAt": 1770628591683,
+    "commit": "https://github.com/openclaw/skills/commit/421183563e329a8f42906973703dc429b10b6a46"
+  },
+  "history": []
+}

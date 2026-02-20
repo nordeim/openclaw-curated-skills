@@ -1,0 +1,11 @@
+{
+  "owner": "santi-patic",
+  "slug": "mi-habilidad-nueva",
+  "displayName": "Mi Habilidad Nueva",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771407063683,
+    "commit": "https://github.com/openclaw/skills/commit/2b49e5bdd971556ea0e151709dbe1e450d2822a9"
+  },
+  "history": []
+}

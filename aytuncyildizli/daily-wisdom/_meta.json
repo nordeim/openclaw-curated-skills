@@ -1,0 +1,11 @@
+{
+  "owner": "aytuncyildizli",
+  "slug": "daily-wisdom",
+  "displayName": "Daily Wisdom",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771191899271,
+    "commit": "https://github.com/openclaw/skills/commit/78ee94f9c8c9dfb6727c16fb7fd099d7db0491b6"
+  },
+  "history": []
+}

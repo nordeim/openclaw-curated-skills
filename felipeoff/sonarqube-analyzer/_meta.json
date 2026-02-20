@@ -1,0 +1,17 @@
+{
+  "owner": "felipeoff",
+  "slug": "sonarqube-analyzer",
+  "displayName": "Sonarqube Analyzer",
+  "latest": {
+    "version": "0.1.2",
+    "publishedAt": 1770735817367,
+    "commit": "https://github.com/openclaw/skills/commit/4859e1dadf2dd7e148a632e88f6429fcca91718d"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770457596803,
+      "commit": "https://github.com/openclaw/skills/commit/a7615dcdcdd18c6fe509d3baa1b7f3c90af339fb"
+    }
+  ]
+}

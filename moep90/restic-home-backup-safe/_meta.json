@@ -1,0 +1,11 @@
+{
+  "owner": "moep90",
+  "slug": "restic-home-backup-safe",
+  "displayName": "Restic Home Backup (Safe Apply Mode)",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771188505430,
+    "commit": "https://github.com/openclaw/skills/commit/7bb5de8db2c4bb128c2def216bae7f4d31a87171"
+  },
+  "history": []
+}

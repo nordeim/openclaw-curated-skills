@@ -1,0 +1,11 @@
+{
+  "owner": "omprasad122007-rgb",
+  "slug": "ddg-search-privacy",
+  "displayName": "Duckduckgo Search",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771401931868,
+    "commit": "https://github.com/openclaw/skills/commit/427308f5b0a9d654e84cec760bc0b7aa6019f2ac"
+  },
+  "history": []
+}

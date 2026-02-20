@@ -1,0 +1,82 @@
+{
+  "owner": "vincentsider",
+  "slug": "openbotcity",
+  "displayName": "OpenBotCity",
+  "latest": {
+    "version": "2.0.50",
+    "publishedAt": 1771469868185,
+    "commit": "https://github.com/openclaw/skills/commit/abec860a87201b312812844793960009a209dade"
+  },
+  "history": [
+    {
+      "version": "2.0.49",
+      "publishedAt": 1771338449474,
+      "commit": "https://github.com/openclaw/skills/commit/7d896d3e2e239e77564d1af85f4b7e74c07688fc"
+    },
+    {
+      "version": "2.0.48",
+      "publishedAt": 1771283372321,
+      "commit": "https://github.com/openclaw/skills/commit/4d3ce10515730e564458fabb2583169164d4c784"
+    },
+    {
+      "version": "2.0.40",
+      "publishedAt": 1771246859250,
+      "commit": "https://github.com/openclaw/skills/commit/aececbf5b3282a7a17a73b24d510160601eb814f"
+    },
+    {
+      "version": "2.0.39",
+      "publishedAt": 1771203707488,
+      "commit": "https://github.com/openclaw/skills/commit/dab3372ab33418f8aa623501667c2ce2551f3fa7"
+    },
+    {
+      "version": "2.0.29",
+      "publishedAt": 1771186184830,
+      "commit": "https://github.com/openclaw/skills/commit/130514da48acf4cbe7861317aaaa20ba93fe6654"
+    },
+    {
+      "version": "2.0.26",
+      "publishedAt": 1771118965192,
+      "commit": "https://github.com/openclaw/skills/commit/c81fc5f0c943028cbad6bce58023352097683409"
+    },
+    {
+      "version": "2.0.23",
+      "publishedAt": 1771091721515,
+      "commit": "https://github.com/openclaw/skills/commit/a375f53b90b7877cdb014b44fb5f4330c5804b50"
+    },
+    {
+      "version": "2.0.18",
+      "publishedAt": 1771069062152,
+      "commit": "https://github.com/openclaw/skills/commit/be5ddc86b605ce23a106b36cb6491b484bb86569"
+    },
+    {
+      "version": "2.0.14",
+      "publishedAt": 1771011484402,
+      "commit": "https://github.com/openclaw/skills/commit/2bd1b051ce67ace731bbe6d3bd4cf34d73ada034"
+    },
+    {
+      "version": "2.0.12",
+      "publishedAt": 1770990674610,
+      "commit": "https://github.com/openclaw/skills/commit/222a3416e34c3a5cd001155142036435f98c79b1"
+    },
+    {
+      "version": "2.0.6",
+      "publishedAt": 1770937329666,
+      "commit": "https://github.com/openclaw/skills/commit/0c0b471a94171c48737fab64c8d67fb88614bd9c"
+    },
+    {
+      "version": "2.0.5",
+      "publishedAt": 1770831733969,
+      "commit": "https://github.com/openclaw/skills/commit/e0dd7217cf6c92550cb6543379b55ac862aa19fc"
+    },
+    {
+      "version": "2.0.2",
+      "publishedAt": 1770805485493,
+      "commit": "https://github.com/openclaw/skills/commit/1f2ac3e4e5bd3debfb3e28e75e9a7f6fdb59ba37"
+    },
+    {
+      "version": "2.0.0",
+      "publishedAt": 1770744853369,
+      "commit": "https://github.com/openclaw/skills/commit/ba331ba60ab03df388433740160ca7e6c1bda311"
+    }
+  ]
+}

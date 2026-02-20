@@ -1,0 +1,32 @@
+{
+  "owner": "jmartel-olvid",
+  "slug": "olvid-channel",
+  "displayName": "Olvid Channel",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770735953030,
+    "commit": "https://github.com/openclaw/skills/commit/f2ef95e1c47b2f5476276ed7db52ae993df008f1"
+  },
+  "history": [
+    {
+      "version": "0.0.10",
+      "publishedAt": 1770665737968,
+      "commit": "https://github.com/openclaw/skills/commit/01c2417ae99698b7e98297141014d250d2a4de1e"
+    },
+    {
+      "version": "0.0.8",
+      "publishedAt": 1770658735333,
+      "commit": "https://github.com/openclaw/skills/commit/ff10f5b4bf9c18440bdc3f5db269320f39c2be86"
+    },
+    {
+      "version": "0.0.0",
+      "publishedAt": 1770206450851,
+      "commit": "https://github.com/clawdbot/skills/commit/75c895b5574b4ac62825c634167fd182f3e61e65"
+    },
+    {
+      "version": "0.0.4",
+      "publishedAt": 1770140988338,
+      "commit": "https://github.com/clawdbot/skills/commit/ee51c26b2ffe3d18101cd24a5a89ef64974ad3c7"
+    }
+  ]
+}

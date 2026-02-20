@@ -1,0 +1,17 @@
+{
+  "owner": "pooowell",
+  "slug": "fomo-research-skill",
+  "displayName": "Fomo Research (DEPRECATED)",
+  "latest": {
+    "version": "0.2.0",
+    "publishedAt": 1771076683539,
+    "commit": "https://github.com/openclaw/skills/commit/6c5928ce9df0ab364a025c2ca2080a74adb31ba4"
+  },
+  "history": [
+    {
+      "version": "0.1.3",
+      "publishedAt": 1771014058603,
+      "commit": "https://github.com/openclaw/skills/commit/7ca05b1ab3ff7735d520134d0c8ba821e7173a44"
+    }
+  ]
+}

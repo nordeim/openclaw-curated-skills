@@ -1,0 +1,11 @@
+{
+  "owner": "walniek",
+  "slug": "astra-docker",
+  "displayName": "Astra Docker",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771441391586,
+    "commit": "https://github.com/openclaw/skills/commit/f2b75e798ae88a8fa1114f19774c940e03373468"
+  },
+  "history": []
+}

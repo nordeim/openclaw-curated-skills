@@ -1,0 +1,17 @@
+{
+  "owner": "sa9saq",
+  "slug": "web-scraper",
+  "displayName": "web-scraper",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770791424884,
+    "commit": "https://github.com/openclaw/skills/commit/af6f697072294038687cae724a2cf88adc00b9e4"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770559093406,
+      "commit": "https://github.com/openclaw/skills/commit/af649e29153134024d711e58a326a72f394a4b32"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "g9pedro",
+  "slug": "agent-memory-templates",
+  "displayName": "Agent Memory Templates",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771538710708,
+    "commit": "https://github.com/openclaw/skills/commit/2e2dd3986b93d57a1c9c6eb962051b89eeea37f0"
+  },
+  "history": []
+}

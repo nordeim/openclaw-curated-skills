@@ -1,0 +1,11 @@
+{
+  "owner": "manisaigaddam",
+  "slug": "weather-esp32",
+  "displayName": "weatheresp32",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770659835637,
+    "commit": "https://github.com/openclaw/skills/commit/f8da90db85a45c17a5e6964288d3262b280f024b"
+  },
+  "history": []
+}

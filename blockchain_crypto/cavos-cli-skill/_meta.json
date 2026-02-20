@@ -1,0 +1,11 @@
+{
+  "owner": "adrianvrj",
+  "slug": "cavos-cli-skill",
+  "displayName": "Cavos Cli",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770829636311,
+    "commit": "https://github.com/openclaw/skills/commit/22e607c2adcd0413e908e0393e412f3619dbba7f"
+  },
+  "history": []
+}

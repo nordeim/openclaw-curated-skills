@@ -1,0 +1,11 @@
+{
+  "owner": "ac-pill",
+  "slug": "roast-games",
+  "displayName": "Roast Agents Game",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770950946301,
+    "commit": "https://github.com/openclaw/skills/commit/190e82b82b429341b3c3acb921f9e07ffdd9877f"
+  },
+  "history": []
+}

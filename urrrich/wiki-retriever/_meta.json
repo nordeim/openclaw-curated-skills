@@ -1,0 +1,11 @@
+{
+  "owner": "urrrich",
+  "slug": "wiki-retriever",
+  "displayName": "Wiki Retriever",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771146770264,
+    "commit": "https://github.com/openclaw/skills/commit/7c6be3ff0164966b83685ee704fd8b634e1cc2da"
+  },
+  "history": []
+}

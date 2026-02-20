@@ -1,0 +1,27 @@
+{
+  "owner": "lksrz",
+  "slug": "browser-auth",
+  "displayName": "Browser Auth Tunnel",
+  "latest": {
+    "version": "1.5.1",
+    "publishedAt": 1771345978595,
+    "commit": "https://github.com/openclaw/skills/commit/c29c0adfdb10f009e46224042729b67180035a89"
+  },
+  "history": [
+    {
+      "version": "1.3.0",
+      "publishedAt": 1771329557588,
+      "commit": "https://github.com/openclaw/skills/commit/ed7d77c558ea937305e59efc00119aee470aba5e"
+    },
+    {
+      "version": "1.2.1",
+      "publishedAt": 1771329156091,
+      "commit": "https://github.com/openclaw/skills/commit/475df8b934f90ef6636c646f28ac4ee3c7b92470"
+    },
+    {
+      "version": "1.1.0",
+      "publishedAt": 1771327905991,
+      "commit": "https://github.com/openclaw/skills/commit/9e64b6dab91c54b145752a68efc7f1121004bbf7"
+    }
+  ]
+}

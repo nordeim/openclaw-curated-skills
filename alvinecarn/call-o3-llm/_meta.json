@@ -1,0 +1,11 @@
+{
+  "owner": "alvinecarn",
+  "slug": "call-o3-llm",
+  "displayName": "Call O3 Llm",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771144201166,
+    "commit": "https://github.com/openclaw/skills/commit/54fb1c9090960bf043c961d4c84a2f2836b0b001"
+  },
+  "history": []
+}

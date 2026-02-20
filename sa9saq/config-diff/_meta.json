@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "config-diff",
+  "displayName": "Config Diff",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526206838,
+    "commit": "https://github.com/openclaw/skills/commit/1be2360a7046d250bb51a0a866fbe7b7e2f21a91"
+  },
+  "history": []
+}

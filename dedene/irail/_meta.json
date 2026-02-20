@@ -1,0 +1,17 @@
+{
+  "owner": "dedene",
+  "slug": "irail",
+  "displayName": "Irail",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771067199440,
+    "commit": "https://github.com/openclaw/skills/commit/a838eea95c313168ed7eb1f3f36484ec29352a78"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770996977187,
+      "commit": "https://github.com/openclaw/skills/commit/074ac7f5277ebe1c5dfc08277cd8cb85f8e65364"
+    }
+  ]
+}

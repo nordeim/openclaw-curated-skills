@@ -1,0 +1,17 @@
+{
+  "owner": "sumeetchougule",
+  "slug": "chaoschain",
+  "displayName": "ChaosChain - Agent Trust & Reputation",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770893459661,
+    "commit": "https://github.com/openclaw/skills/commit/01fb0f77f3aef68bb5fb16d08c94fcce97a993a5"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1769874191632,
+      "commit": "https://github.com/clawdbot/skills/commit/be6f2febf1a055b0ac5524575307445cddad45ac"
+    }
+  ]
+}

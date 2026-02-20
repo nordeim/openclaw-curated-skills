@@ -1,0 +1,17 @@
+{
+  "owner": "heldinhow",
+  "slug": "freeride-opencode",
+  "displayName": "Freeride Opencode",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1770728122855,
+    "commit": "https://github.com/openclaw/skills/commit/9d7e0252cdc5f4ea78cc63343a348232ccfff948"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770561176003,
+      "commit": "https://github.com/openclaw/skills/commit/3c3f93c2ed52c04739cd4b16cbf8324ec02581f7"
+    }
+  ]
+}

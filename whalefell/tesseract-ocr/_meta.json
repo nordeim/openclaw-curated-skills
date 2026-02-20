@@ -1,0 +1,11 @@
+{
+  "owner": "whalefell",
+  "slug": "tesseract-ocr",
+  "displayName": "Tesseract Ocr",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771421190683,
+    "commit": "https://github.com/openclaw/skills/commit/0a343327e30bd8eb1225ffd1b8dbb4eea80ef8ce"
+  },
+  "history": []
+}

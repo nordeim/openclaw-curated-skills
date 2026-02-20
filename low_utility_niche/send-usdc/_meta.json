@@ -1,0 +1,11 @@
+{
+  "owner": "0xrag",
+  "slug": "send-usdc",
+  "displayName": "Send Usdc",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770843431215,
+    "commit": "https://github.com/openclaw/skills/commit/28e92b3747a20966489e9fb11984e61e4b1ffed8"
+  },
+  "history": []
+}

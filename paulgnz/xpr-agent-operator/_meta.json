@@ -1,0 +1,11 @@
+{
+  "owner": "paulgnz",
+  "slug": "xpr-agent-operator",
+  "displayName": "XPR Agent Operator",
+  "latest": {
+    "version": "0.2.11",
+    "publishedAt": 1771017966630,
+    "commit": "https://github.com/openclaw/skills/commit/95b38512357b2127160936fd34fc660247912d1e"
+  },
+  "history": []
+}

@@ -1,0 +1,22 @@
+{
+  "owner": "issa-me-sush",
+  "slug": "openserv-client",
+  "displayName": "OpenServ Client",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1771275711244,
+    "commit": "https://github.com/openclaw/skills/commit/e4a8d2f7443bf22ff05a816bfbba6c88827a2ad6"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770776076962,
+      "commit": "https://github.com/openclaw/skills/commit/a92269a075d57fbf22af7c91e6c86bbac8ad5f7d"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770637647720,
+      "commit": "https://github.com/openclaw/skills/commit/0559448c37e04ef0b8d3e5a62c0df4487949b012"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "sai-sh",
+  "slug": "user-briefing",
+  "displayName": "Daily Briefing",
+  "latest": {
+    "version": "1.0.11",
+    "publishedAt": 1771133665122,
+    "commit": "https://github.com/openclaw/skills/commit/7247b4138b33e8585030ce3104b32b61dd2775d1"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "gtank1",
+  "slug": "fish-tts",
+  "displayName": "Fish Tts",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771465094435,
+    "commit": "https://github.com/openclaw/skills/commit/ed1e946be7aae9f22486ac26262efc6c0564d6aa"
+  },
+  "history": []
+}

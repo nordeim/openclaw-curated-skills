@@ -1,0 +1,11 @@
+{
+  "owner": "photonixlaser-ux",
+  "slug": "synology-surveillance-skill",
+  "displayName": "Synology Surveillance",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770514246827,
+    "commit": "https://github.com/openclaw/skills/commit/6661f66020f4def22947d53e1e43ff3183d804ec"
+  },
+  "history": []
+}

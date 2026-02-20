@@ -1,0 +1,17 @@
+{
+  "owner": "virlogit",
+  "slug": "virlo-short-form-video-training-data",
+  "displayName": "Virlo Short-Form Video Training Data",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771354020709,
+    "commit": "https://github.com/openclaw/skills/commit/c87b4dffd406da55657d3cfae8431e5543d4a009"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771262277854,
+      "commit": "https://github.com/openclaw/skills/commit/bf221a815aee7568cc11eb20bf21da6d76a4f017"
+    }
+  ]
+}

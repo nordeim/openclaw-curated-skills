@@ -1,0 +1,17 @@
+{
+  "owner": "quanru",
+  "slug": "midscene-ios-automation",
+  "displayName": "Midscene Automations Skills for iOS",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771041131008,
+    "commit": "https://github.com/openclaw/skills/commit/833263458cb90fdae2586fb7e23e442f767622fa"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770883461413,
+      "commit": "https://github.com/openclaw/skills/commit/f3d4fef90efb0c2f1b91155f9a5efd9780fee758"
+    }
+  ]
+}

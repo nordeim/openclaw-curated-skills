@@ -1,0 +1,11 @@
+{
+  "owner": "tamil-9421",
+  "slug": "letterboxd-tracker",
+  "displayName": "letterboxd-companion",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771425254568,
+    "commit": "https://github.com/openclaw/skills/commit/e178afa92608bef6f8336208dbde25a9539943f0"
+  },
+  "history": []
+}

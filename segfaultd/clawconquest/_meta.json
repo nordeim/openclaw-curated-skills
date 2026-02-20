@@ -1,0 +1,11 @@
+{
+  "owner": "segfaultd",
+  "slug": "clawconquest",
+  "displayName": "ClawConquest",
+  "latest": {
+    "version": "2.6.0",
+    "publishedAt": 1770921430749,
+    "commit": "https://github.com/openclaw/skills/commit/6c3ffbb5f74c3c3fb4541b0ae9b6d61ead37564d"
+  },
+  "history": []
+}

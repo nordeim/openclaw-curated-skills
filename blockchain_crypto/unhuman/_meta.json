@@ -1,0 +1,17 @@
+{
+  "owner": "satbot-mdk",
+  "slug": "unhuman",
+  "displayName": "unhuman",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771452481672,
+    "commit": "https://github.com/openclaw/skills/commit/a80fdfda0d59671966b41547c17c588487eef1c0"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771452081221,
+      "commit": "https://github.com/openclaw/skills/commit/560c16eb238b09c93151c4cb20dd96ca4d2822ef"
+    }
+  ]
+}

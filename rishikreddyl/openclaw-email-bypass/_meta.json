@@ -1,0 +1,11 @@
+{
+  "owner": "rishikreddyl",
+  "slug": "openclaw-email-bypass",
+  "displayName": "Openclaw Email Bypass",
+  "latest": {
+    "version": "0.1.2",
+    "publishedAt": 1770451383328,
+    "commit": "https://github.com/openclaw/skills/commit/458db28ca3cd0fcb5e75120f45ff431866abdff4"
+  },
+  "history": []
+}

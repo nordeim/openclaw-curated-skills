@@ -1,0 +1,11 @@
+{
+  "owner": "jacks3tr",
+  "slug": "save-usage",
+  "displayName": "Save Usage ~4x (Codex oAuth users)",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771109172201,
+    "commit": "https://github.com/openclaw/skills/commit/125245f06ea9479ce6b84567067514dbeec92b3e"
+  },
+  "history": []
+}

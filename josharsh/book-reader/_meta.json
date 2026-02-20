@@ -1,0 +1,11 @@
+{
+  "owner": "josharsh",
+  "slug": "book-reader",
+  "displayName": "Book Reader - Learn & Grow Every Day",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771072135173,
+    "commit": "https://github.com/openclaw/skills/commit/4584ed145df6d0e3a37be8d3cc5f6ffb04c294f9"
+  },
+  "history": []
+}

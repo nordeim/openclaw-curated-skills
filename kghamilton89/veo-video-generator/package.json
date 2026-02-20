@@ -1,0 +1,13 @@
+{
+  "name": "veo-video-generator",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "OpenClaw skill for Google Veo 3.1 video generation.",
+  "main": "generate.js",
+  "dependencies": {
+    "@google/genai": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

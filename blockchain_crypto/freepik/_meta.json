@@ -1,0 +1,11 @@
+{
+  "owner": "cohnen",
+  "slug": "freepik",
+  "displayName": "Freepik API",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771406795962,
+    "commit": "https://github.com/openclaw/skills/commit/f09dd6f27f3be4031998728c494d96afdb566f78"
+  },
+  "history": []
+}

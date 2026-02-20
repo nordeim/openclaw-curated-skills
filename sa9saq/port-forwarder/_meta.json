@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "port-forwarder",
+  "displayName": "Port Forwarder",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526384615,
+    "commit": "https://github.com/openclaw/skills/commit/dc027bba3f26ed710bde84384b26758becb09f97"
+  },
+  "history": []
+}

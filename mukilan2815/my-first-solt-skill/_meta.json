@@ -1,0 +1,11 @@
+{
+  "owner": "mukilan2815",
+  "slug": "my-first-solt-skill",
+  "displayName": "My First Skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770863054498,
+    "commit": "https://github.com/openclaw/skills/commit/878d5d425d54029a3027253336a2bbd6b6285bea"
+  },
+  "history": []
+}

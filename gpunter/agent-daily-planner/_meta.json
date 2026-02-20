@@ -1,0 +1,11 @@
+{
+  "owner": "gpunter",
+  "slug": "agent-daily-planner",
+  "displayName": "Agent Daily Planner",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771408345178,
+    "commit": "https://github.com/openclaw/skills/commit/cd0b446bb18a8247e66195e938fd5a55651e1fa3"
+  },
+  "history": []
+}

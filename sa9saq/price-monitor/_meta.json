@@ -1,0 +1,17 @@
+{
+  "owner": "sa9saq",
+  "slug": "price-monitor",
+  "displayName": "price-monitor",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770791267533,
+    "commit": "https://github.com/openclaw/skills/commit/f2b5480b52ce761d0574eb07faa8017a798bd395"
+  },
+  "history": [
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770526226613,
+      "commit": "https://github.com/openclaw/skills/commit/107a372763dc034e30d878dede84211d6c87ca4f"
+    }
+  ]
+}

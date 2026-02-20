@@ -1,0 +1,11 @@
+{
+  "owner": "mcben90",
+  "slug": "cedh-advisor",
+  "displayName": "Cedh Advisor",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771155812790,
+    "commit": "https://github.com/openclaw/skills/commit/3b4646b7aa809104a85b4fb0ded456310febd825"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "hmyaoyuan",
+  "slug": "anima",
+  "displayName": "Anima",
+  "latest": {
+    "version": "3.3.2",
+    "publishedAt": 1770897691721,
+    "commit": "https://github.com/openclaw/skills/commit/de03ae970046ee02fc770bb3e46b64244b0aabdc"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770834542369,
+      "commit": "https://github.com/openclaw/skills/commit/60b1bfdd81ea353f9036cd3d66c8646e5f1e4503"
+    }
+  ]
+}

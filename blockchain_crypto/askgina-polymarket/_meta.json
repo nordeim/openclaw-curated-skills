@@ -1,0 +1,22 @@
+{
+  "owner": "sidshekhar",
+  "slug": "askgina-polymarket",
+  "displayName": "Polymarket via Gina",
+  "latest": {
+    "version": "0.1.2",
+    "publishedAt": 1771421712208,
+    "commit": "https://github.com/openclaw/skills/commit/07b04f68ba9839a0c9936e54d4e6402e77936669"
+  },
+  "history": [
+    {
+      "version": "0.1.1",
+      "publishedAt": 1771331884717,
+      "commit": "https://github.com/openclaw/skills/commit/eaefbfd0230269c099da3305caadc1c2c3f89f6e"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1771068548704,
+      "commit": "https://github.com/openclaw/skills/commit/ad28bf0bbd85934ede214c3411ccca5c75557be3"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "viral-sangani",
+  "slug": "celo-agent-skills",
+  "displayName": "Celo Agent Skills",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770722528583,
+    "commit": "https://github.com/openclaw/skills/commit/908d99e11a9c15dd9c20bf8a8c8237e19a59a6d0"
+  },
+  "history": []
+}

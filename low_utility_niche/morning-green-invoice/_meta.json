@@ -1,0 +1,11 @@
+{
+  "owner": "k0renn",
+  "slug": "morning-green-invoice",
+  "displayName": "Morning (Green Invoice)",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770647430386,
+    "commit": "https://github.com/openclaw/skills/commit/430f5ccda7894e97ed709fb4501bb2645c805e32"
+  },
+  "history": []
+}

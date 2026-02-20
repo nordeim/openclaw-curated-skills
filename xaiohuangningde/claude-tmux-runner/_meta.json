@@ -1,0 +1,11 @@
+{
+  "owner": "xaiohuangningde",
+  "slug": "claude-tmux-runner",
+  "displayName": "Claude Code tmux Runner",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771429360294,
+    "commit": "https://github.com/openclaw/skills/commit/05b6a1b4ae3d639c31266cfefd0b4a31ab2eabec"
+  },
+  "history": []
+}

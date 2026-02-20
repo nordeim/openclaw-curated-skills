@@ -1,0 +1,27 @@
+{
+  "owner": "aaron-he-zhu",
+  "slug": "technical-seo-checker",
+  "displayName": "Technical Seo Checker",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1771042932046,
+    "commit": "https://github.com/openclaw/skills/commit/de1e04448107eb029997d2a1cd142531be287602"
+  },
+  "history": [
+    {
+      "version": "0.1.2",
+      "publishedAt": 1770824313612,
+      "commit": "https://github.com/openclaw/skills/commit/467f587efb4ae58291b21045f12ce74ad865d4bd"
+    },
+    {
+      "version": "0.1.1",
+      "publishedAt": 1770739603157,
+      "commit": "https://github.com/openclaw/skills/commit/c4e3e505e2863b4dc53eede98fbc1ea82fc0f843"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770559636397,
+      "commit": "https://github.com/openclaw/skills/commit/f82150c10a3e22a493ba1f163acf402a4c4b613a"
+    }
+  ]
+}

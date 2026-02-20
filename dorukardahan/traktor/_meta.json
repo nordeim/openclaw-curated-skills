@@ -1,0 +1,11 @@
+{
+  "owner": "dorukardahan",
+  "slug": "traktor",
+  "displayName": "Traktor Web Scraper",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771471208671,
+    "commit": "https://github.com/openclaw/skills/commit/78944595884d3906cd2857177b02097516697142"
+  },
+  "history": []
+}

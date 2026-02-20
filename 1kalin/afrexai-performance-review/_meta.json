@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-performance-review",
+  "displayName": "Performance Review Engine",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771014546760,
+    "commit": "https://github.com/openclaw/skills/commit/669c5611be2e210b84919876dd9810f065c8c5d4"
+  },
+  "history": []
+}

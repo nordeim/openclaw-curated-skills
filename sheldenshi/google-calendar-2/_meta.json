@@ -1,0 +1,11 @@
+{
+  "owner": "sheldenshi",
+  "slug": "google-calendar-2",
+  "displayName": "Google Calendar",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770683825725,
+    "commit": "https://github.com/openclaw/skills/commit/cbb8c97ee881f001a2d7211d27ea5e60461727c1"
+  },
+  "history": []
+}

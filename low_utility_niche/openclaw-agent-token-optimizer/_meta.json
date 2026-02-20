@@ -1,0 +1,22 @@
+{
+  "owner": "phenomenoner",
+  "slug": "openclaw-agent-token-optimizer",
+  "displayName": "Openclaw Agent Token Optimizer",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770455716511,
+    "commit": "https://github.com/openclaw/skills/commit/977b6a58f6b04740dec6bc2ed9781bfc84f7a52b"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770450696014,
+      "commit": "https://github.com/openclaw/skills/commit/884156cc917debccfa9cd01ae46681def1303eb1"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770283456203,
+      "commit": "https://github.com/clawdbot/skills/commit/5d8e628d5d5fe3ee0ecf55e17379265b5363722b"
+    }
+  ]
+}

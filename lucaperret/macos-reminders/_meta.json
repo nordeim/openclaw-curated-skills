@@ -1,0 +1,11 @@
+{
+  "owner": "lucaperret",
+  "slug": "macos-reminders",
+  "displayName": "macOS Reminders",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771359736230,
+    "commit": "https://github.com/openclaw/skills/commit/4996d795751002e92386601a62fc9f5d72801523"
+  },
+  "history": []
+}

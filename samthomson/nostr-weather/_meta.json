@@ -1,0 +1,11 @@
+{
+  "owner": "samthomson",
+  "slug": "nostr-weather",
+  "displayName": "Nostr Weather",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770639971340,
+    "commit": "https://github.com/openclaw/skills/commit/472473874afd6a5160e205101a3a9251edc892d9"
+  },
+  "history": []
+}

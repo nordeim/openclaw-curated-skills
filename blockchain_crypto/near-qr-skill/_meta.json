@@ -1,0 +1,11 @@
+{
+  "owner": "ussyalfaks",
+  "slug": "near-qr-skill",
+  "displayName": "Near Qr Skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770889875467,
+    "commit": "https://github.com/openclaw/skills/commit/7c02c47dd1ef65f4138eaa01afa7085d21e5d95e"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "dwirx",
+  "slug": "duckse",
+  "displayName": "Duckse",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770529805432,
+    "commit": "https://github.com/openclaw/skills/commit/c8757372a78bc3c86bafaa48adf67ee544803f08"
+  },
+  "history": []
+}

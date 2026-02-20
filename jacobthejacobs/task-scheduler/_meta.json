@@ -1,0 +1,11 @@
+{
+  "owner": "jacobthejacobs",
+  "slug": "task-scheduler",
+  "displayName": "Task Scheduler",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770854326133,
+    "commit": "https://github.com/openclaw/skills/commit/e695e36f5b874bcc0e502716d92cc5537c4893b3"
+  },
+  "history": []
+}

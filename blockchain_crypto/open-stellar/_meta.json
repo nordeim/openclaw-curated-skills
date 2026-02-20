@@ -1,0 +1,11 @@
+{
+  "owner": "sixela33",
+  "slug": "open-stellar",
+  "displayName": "open-stellar-wallet",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771112689741,
+    "commit": "https://github.com/openclaw/skills/commit/55a48ddd56f237b1b40a9f3c8480d5d8e2cc589b"
+  },
+  "history": []
+}

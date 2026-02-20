@@ -1,0 +1,11 @@
+{
+  "owner": "xray2016",
+  "slug": "openclaw-mem0",
+  "displayName": "Openclaw Mem0",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770888207550,
+    "commit": "https://github.com/openclaw/skills/commit/36ae59ec06f0abfec565844f29a84efc888505e2"
+  },
+  "history": []
+}

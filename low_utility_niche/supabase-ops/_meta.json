@@ -1,0 +1,11 @@
+{
+  "owner": "guifav",
+  "slug": "supabase-ops",
+  "displayName": "Supabase Ops",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1771446424592,
+    "commit": "https://github.com/openclaw/skills/commit/0cc959c4c3f623058d9e7efcea4603f0f8a0aa71"
+  },
+  "history": []
+}

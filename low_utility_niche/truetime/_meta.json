@@ -1,0 +1,11 @@
+{
+  "owner": "cccat6",
+  "slug": "truetime",
+  "displayName": "TrueTime",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771315774996,
+    "commit": "https://github.com/openclaw/skills/commit/6e5653ef9bb57c05e83e7bc081da21ad8e85f645"
+  },
+  "history": []
+}

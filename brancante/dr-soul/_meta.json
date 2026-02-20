@@ -1,0 +1,27 @@
+{
+  "owner": "brancante",
+  "slug": "dr-soul",
+  "displayName": "Dr. Frankenstein",
+  "latest": {
+    "version": "1.2.2",
+    "publishedAt": 1771272426320,
+    "commit": "https://github.com/openclaw/skills/commit/9d281bd56e2e851faaaa2fe7f8104562fa695018"
+  },
+  "history": [
+    {
+      "version": "1.2.1",
+      "publishedAt": 1771263700267,
+      "commit": "https://github.com/openclaw/skills/commit/ea5f95978c967353a1ea6839447a7023402903c3"
+    },
+    {
+      "version": "1.1.0",
+      "publishedAt": 1771055579709,
+      "commit": "https://github.com/openclaw/skills/commit/c3fe225957db945521f483ba2a4eb95812c5c383"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771031724126,
+      "commit": "https://github.com/openclaw/skills/commit/9092716854dd9a1486f6baa1b3f81e8061b34b7c"
+    }
+  ]
+}

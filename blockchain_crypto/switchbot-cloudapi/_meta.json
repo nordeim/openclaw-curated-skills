@@ -1,0 +1,17 @@
+{
+  "owner": "switchbot-dev",
+  "slug": "switchbot-cloudapi",
+  "displayName": "SwitchBot OpenAPI",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770458078677,
+    "commit": "https://github.com/openclaw/skills/commit/2ba0887881871d8054562234c50dab028a73300a"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770437455013,
+      "commit": "https://github.com/openclaw/skills/commit/3b8857106a4d307cb558175a06cb4ffa0e8922ef"
+    }
+  ]
+}

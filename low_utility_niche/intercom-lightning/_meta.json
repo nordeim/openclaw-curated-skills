@@ -1,0 +1,11 @@
+{
+  "owner": "tracsystems",
+  "slug": "intercom-lightning",
+  "displayName": "IntercomLightning",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771328396144,
+    "commit": "https://github.com/openclaw/skills/commit/9ac55ec5c285e0552e6a9933dedcfb90fa0e6fcb"
+  },
+  "history": []
+}

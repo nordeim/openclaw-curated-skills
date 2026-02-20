@@ -1,0 +1,17 @@
+{
+  "owner": "sa9saq",
+  "slug": "revenue-dashboard",
+  "displayName": "Revenue Dashboard",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526238977,
+    "commit": "https://github.com/openclaw/skills/commit/bd6e083bdfd3b534436ab3b42685c785d7c6fd8b"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770482602778,
+      "commit": "https://github.com/openclaw/skills/commit/5b6ac0ba65e87aec3b40f54f98071f54f453d8bd"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "husseinrasti",
+  "slug": "monad-wordle-game",
+  "displayName": "Monad Wordle Skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771009987067,
+    "commit": "https://github.com/openclaw/skills/commit/9f63f5898701c8cc3db426a662137ed9c541cc0d"
+  },
+  "history": []
+}

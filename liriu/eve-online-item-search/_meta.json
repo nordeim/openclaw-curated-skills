@@ -1,0 +1,17 @@
+{
+  "owner": "liriu",
+  "slug": "eve-online-item-search",
+  "displayName": "EVE online 物品知识库",
+  "latest": {
+    "version": "1.0.7",
+    "publishedAt": 1770887748747,
+    "commit": "https://github.com/openclaw/skills/commit/b9ca2c6a60184005491cb3f0cfbaaa327000155c"
+  },
+  "history": [
+    {
+      "version": "1.0.6",
+      "publishedAt": 1770873011323,
+      "commit": "https://github.com/openclaw/skills/commit/dee99c3efe23d0d1aee3213dc292baba81a49719"
+    }
+  ]
+}

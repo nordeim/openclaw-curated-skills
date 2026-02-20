@@ -1,0 +1,17 @@
+{
+  "owner": "deepseekoracle",
+  "slug": "lygo-mint-verifier",
+  "displayName": "LYGO-MINT Verifier",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770862079380,
+    "commit": "https://github.com/openclaw/skills/commit/e2be79ff65dd87cc69837b3cced6decc7fc2bbfe"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770507017433,
+      "commit": "https://github.com/openclaw/skills/commit/f492d1092cf948f1d9cef9ec992da382470778a0"
+    }
+  ]
+}

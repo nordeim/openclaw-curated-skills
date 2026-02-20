@@ -1,0 +1,22 @@
+{
+  "owner": "adlai88",
+  "slug": "polymarket-elon-tweets",
+  "displayName": "Polymarket Elon Tweet Trader",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1771340704820,
+    "commit": "https://github.com/openclaw/skills/commit/c6e2ed3ae24baec79f4cdccdaa46cb926e6e522b"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1771314776785,
+      "commit": "https://github.com/openclaw/skills/commit/9e0a8b4185a24797687829c0f0ef7b1ecd05cf0d"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771303474406,
+      "commit": "https://github.com/openclaw/skills/commit/dd37e71aa64317554a35e96f5f2766190d377280"
+    }
+  ]
+}

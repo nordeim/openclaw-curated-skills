@@ -1,0 +1,11 @@
+{
+  "owner": "itsahedge",
+  "slug": "helius-api",
+  "displayName": "Helius API",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770828745099,
+    "commit": "https://github.com/openclaw/skills/commit/5278974762a7d2203ef3ab2138bf009553317690"
+  },
+  "history": []
+}

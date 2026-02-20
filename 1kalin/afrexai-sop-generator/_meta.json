@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-sop-generator",
+  "displayName": "SOP Generator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770959587472,
+    "commit": "https://github.com/openclaw/skills/commit/60ed3ccff84f41faa6d4971339eaf7a99cb85f2a"
+  },
+  "history": []
+}

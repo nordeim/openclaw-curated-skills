@@ -1,0 +1,11 @@
+{
+  "owner": "alvinecarn",
+  "slug": "call-web-search-agent-strategy",
+  "displayName": "Call Web Search Agent Strategy",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771144268867,
+    "commit": "https://github.com/openclaw/skills/commit/a09d45b0c0848aa54ee11386d1692bc47357fc0c"
+  },
+  "history": []
+}

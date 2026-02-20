@@ -1,0 +1,42 @@
+{
+  "owner": "cosformula",
+  "slug": "resilient-coding-agent",
+  "displayName": "Resilient Coding Agent",
+  "latest": {
+    "version": "0.5.0",
+    "publishedAt": 1771379058267,
+    "commit": "https://github.com/openclaw/skills/commit/25e1c72386a5e9a7de03f116abff5c4b39b15d0e"
+  },
+  "history": [
+    {
+      "version": "0.4.4",
+      "publishedAt": 1771284609391,
+      "commit": "https://github.com/openclaw/skills/commit/068be0463060b9bccc59123b5c95a8730774dab6"
+    },
+    {
+      "version": "0.4.2",
+      "publishedAt": 1771240330627,
+      "commit": "https://github.com/openclaw/skills/commit/074c220dc97f3825c38a716bb9c21b41082039c5"
+    },
+    {
+      "version": "0.4.1",
+      "publishedAt": 1771210395249,
+      "commit": "https://github.com/openclaw/skills/commit/8b759dba5010d676e377a00d1daac40b5cba7db4"
+    },
+    {
+      "version": "0.4.0",
+      "publishedAt": 1771208885144,
+      "commit": "https://github.com/openclaw/skills/commit/ff5db98518d58f7e4f8024fee6927ab75102a941"
+    },
+    {
+      "version": "0.2.0",
+      "publishedAt": 1771206087480,
+      "commit": "https://github.com/openclaw/skills/commit/250453fd1a9d1cb58481113694514f2ddd58f247"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1771200607437,
+      "commit": "https://github.com/openclaw/skills/commit/3781f39658d7254e22e77347b3f9c53dc6661bd6"
+    }
+  ]
+}

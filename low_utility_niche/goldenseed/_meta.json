@@ -1,0 +1,11 @@
+{
+  "owner": "beanapologist",
+  "slug": "goldenseed",
+  "displayName": "GoldenSeed",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770561423325,
+    "commit": "https://github.com/openclaw/skills/commit/9a4ebeecc912e2649ddf2c221d2ea1a1e3bcbf38"
+  },
+  "history": []
+}

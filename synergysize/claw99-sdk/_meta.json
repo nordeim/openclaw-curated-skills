@@ -1,0 +1,11 @@
+{
+  "owner": "synergysize",
+  "slug": "claw99-sdk",
+  "displayName": "CLAW99 SDK",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770852509140,
+    "commit": "https://github.com/openclaw/skills/commit/591add4a0557e2441250bae931ae7e297d95f0b4"
+  },
+  "history": []
+}

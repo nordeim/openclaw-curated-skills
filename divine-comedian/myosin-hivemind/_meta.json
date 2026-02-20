@@ -1,0 +1,11 @@
+{
+  "owner": "divine-comedian",
+  "slug": "myosin-hivemind",
+  "displayName": "Myosin Hivemind Knowledge Retrieval",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771279975568,
+    "commit": "https://github.com/openclaw/skills/commit/767712e84ec7043bf156401e36440802079bf860"
+  },
+  "history": []
+}

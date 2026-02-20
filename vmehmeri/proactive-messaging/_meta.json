@@ -1,0 +1,11 @@
+{
+  "owner": "vmehmeri",
+  "slug": "proactive-messaging",
+  "displayName": "Proactive messages",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770569081525,
+    "commit": "https://github.com/openclaw/skills/commit/2dfbe3349764cc40721f680f5543e3ad023bf82f"
+  },
+  "history": []
+}

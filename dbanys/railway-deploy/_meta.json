@@ -1,0 +1,11 @@
+{
+  "owner": "dbanys",
+  "slug": "railway-deploy",
+  "displayName": "Railway Deploy",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770746644200,
+    "commit": "https://github.com/openclaw/skills/commit/6fc25d7e15cc32bb0ae7f3dfc9d6f719316320d3"
+  },
+  "history": []
+}

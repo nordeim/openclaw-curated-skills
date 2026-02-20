@@ -1,0 +1,11 @@
+{
+  "owner": "daxingplay",
+  "slug": "cursor-cli-headless",
+  "displayName": "Cursor CLI Headless",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771430900542,
+    "commit": "https://github.com/openclaw/skills/commit/6b95159dc4f0886d331762e95aa0895d3a1cf75e"
+  },
+  "history": []
+}

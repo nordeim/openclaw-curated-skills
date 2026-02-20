@@ -1,0 +1,11 @@
+{
+  "owner": "jasonahorn",
+  "slug": "kroger-api-skill",
+  "displayName": "Kroger Api.Skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771205473724,
+    "commit": "https://github.com/openclaw/skills/commit/fe050a9708fa35b337dc7c17d9f69082e9d0f2fb"
+  },
+  "history": []
+}

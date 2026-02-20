@@ -1,0 +1,11 @@
+{
+  "owner": "psmamm",
+  "slug": "social-media-agent",
+  "displayName": "Social Media Agent",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770636015507,
+    "commit": "https://github.com/openclaw/skills/commit/39b121da525c50f1f64b5dbf020d4229cceef7f5"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "kittleik",
+  "slug": "intrusive-thoughts",
+  "displayName": "Intrusive Thoughts",
+  "latest": {
+    "version": "0.1.2",
+    "publishedAt": 1771099276327,
+    "commit": "https://github.com/openclaw/skills/commit/150df49247996f0c2bf361ca6b114491a9af6209"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1771095524807,
+      "commit": "https://github.com/openclaw/skills/commit/e5e93e046f6c9e2f789514d1add038741a5d0a05"
+    }
+  ]
+}

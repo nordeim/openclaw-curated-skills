@@ -1,0 +1,17 @@
+{
+  "owner": "stlas",
+  "slug": "prompt-shield",
+  "displayName": "Prompt Shield Publish",
+  "latest": {
+    "version": "3.0.6",
+    "publishedAt": 1770759836143,
+    "commit": "https://github.com/openclaw/skills/commit/43c2007012b70a6c5128dafe5d63f0938348e8dc"
+  },
+  "history": [
+    {
+      "version": "3.0.5",
+      "publishedAt": 1770747290258,
+      "commit": "https://github.com/openclaw/skills/commit/c91a37a5f37b4d23459375a75a41a0ca929126c5"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "owner": "relayplane",
+  "slug": "relayplane",
+  "displayName": "Relayplane",
+  "latest": {
+    "version": "3.4.0",
+    "publishedAt": 1771233188919,
+    "commit": "https://github.com/openclaw/skills/commit/88261406030aae877885af2014d4948c951e4eb0"
+  },
+  "history": [
+    {
+      "version": "3.1.0",
+      "publishedAt": 1771143430907,
+      "commit": "https://github.com/openclaw/skills/commit/a11fe16dced0f9080af5c813c80ad0ee1578bd4e"
+    },
+    {
+      "version": "3.0.0",
+      "publishedAt": 1770765025652,
+      "commit": "https://github.com/openclaw/skills/commit/2964f482f9f6890fb564feec4d48e93314125cdb"
+    },
+    {
+      "version": "2.3.1",
+      "publishedAt": 1770759996329,
+      "commit": "https://github.com/openclaw/skills/commit/9e88b2ed19cc5b2ec6657bab5e4cda89e0b474ab"
+    },
+    {
+      "version": "2.1.0",
+      "publishedAt": 1770671549769,
+      "commit": "https://github.com/openclaw/skills/commit/a44c703b4ef618dfc921eccb69fc03b5e461a1dc"
+    },
+    {
+      "version": "0.1.11",
+      "publishedAt": 1770159714106,
+      "commit": "https://github.com/clawdbot/skills/commit/ff3912bede9f694c8792175463ccd4af3a8304d2"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "tryan310",
+  "slug": "social-media-manager",
+  "displayName": "Social Media Manager",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771275210608,
+    "commit": "https://github.com/openclaw/skills/commit/0325d5bd1820642917b94b1d3f4b869268e45af1"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771275067748,
+      "commit": "https://github.com/openclaw/skills/commit/c67507f79e5d90d1c04d21656e6f368156bc888e"
+    }
+  ]
+}

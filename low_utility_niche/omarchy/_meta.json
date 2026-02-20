@@ -1,0 +1,11 @@
+{
+  "owner": "achals-iglu",
+  "slug": "omarchy",
+  "displayName": "omarchy",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1770915243877,
+    "commit": "https://github.com/openclaw/skills/commit/2f0b449bf132cb595ba534d4df8ffaa86d0c7c0e"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "yaxuan42",
+  "slug": "claude-code-orchestrator",
+  "displayName": "Claude Code Orchestrator (tmux-first)",
+  "latest": {
+    "version": "0.2.0",
+    "publishedAt": 1771142903561,
+    "commit": "https://github.com/openclaw/skills/commit/53a4619df43043e0e90f288a15b36710b508e4a1"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1771139016211,
+      "commit": "https://github.com/openclaw/skills/commit/c518bf377081542b2569661fcc0584b89202b31a"
+    }
+  ]
+}

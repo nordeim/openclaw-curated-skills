@@ -1,0 +1,11 @@
+{
+  "owner": "demegire",
+  "slug": "claw-messenger",
+  "displayName": "Claw Messenger",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771002961533,
+    "commit": "https://github.com/openclaw/skills/commit/cb6d6a0fa1b9a0b09417ac9441a2b513fe3f88c4"
+  },
+  "history": []
+}

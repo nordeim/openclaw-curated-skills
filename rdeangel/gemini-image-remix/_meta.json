@@ -1,0 +1,11 @@
+{
+  "owner": "rdeangel",
+  "slug": "gemini-image-remix",
+  "displayName": "Gemini Image Remix",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771020609500,
+    "commit": "https://github.com/openclaw/skills/commit/b4f51a42a36d1392e6c441f1f9fdffbafb7f0246"
+  },
+  "history": []
+}

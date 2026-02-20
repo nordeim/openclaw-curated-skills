@@ -1,0 +1,11 @@
+{
+  "owner": "zhanjian1972",
+  "slug": "ofdreader",
+  "displayName": "Ofd Reader skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771340343300,
+    "commit": "https://github.com/openclaw/skills/commit/bcb2187b106a4af1820aeb8785a897d9f420d69b"
+  },
+  "history": []
+}

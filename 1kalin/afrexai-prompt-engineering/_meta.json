@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-prompt-engineering",
+  "displayName": "Prompt Engineering",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771431921749,
+    "commit": "https://github.com/openclaw/skills/commit/acab4941afebfe8e24409128d46292ea5f4dacbc"
+  },
+  "history": []
+}

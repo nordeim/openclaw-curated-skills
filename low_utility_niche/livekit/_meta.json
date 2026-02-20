@@ -1,0 +1,11 @@
+{
+  "owner": "zoroposkai",
+  "slug": "livekit",
+  "displayName": "LiveKit Voice AI",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771029095621,
+    "commit": "https://github.com/openclaw/skills/commit/d415e641f84c09fcd5c08fe99b0d7f7672e4eea5"
+  },
+  "history": []
+}

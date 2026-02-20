@@ -1,0 +1,32 @@
+{
+  "owner": "jacobthejacobs",
+  "slug": "skill-cleaner",
+  "displayName": "Skill Cleaner",
+  "latest": {
+    "version": "2.4.0",
+    "publishedAt": 1771197086530,
+    "commit": "https://github.com/openclaw/skills/commit/9cd9ed8a859baeb7d1224cba080abd8d053cabcf"
+  },
+  "history": [
+    {
+      "version": "2.3.1",
+      "publishedAt": 1771196925274,
+      "commit": "https://github.com/openclaw/skills/commit/0bd1eb3503748ef3a3e556ec74e884f2c8105cee"
+    },
+    {
+      "version": "2.1.0",
+      "publishedAt": 1771195809595,
+      "commit": "https://github.com/openclaw/skills/commit/cc1e35106c127458da4b95997f0d39072ee5e036"
+    },
+    {
+      "version": "1.0.4",
+      "publishedAt": 1771192439337,
+      "commit": "https://github.com/openclaw/skills/commit/738265be9911d9551bf6dbcbdebc38cbdaad1c23"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771191855074,
+      "commit": "https://github.com/openclaw/skills/commit/09fbb0bf3e40d79a18c24f177edccd066de525a4"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "jk-0001",
+  "slug": "customer-retention",
+  "displayName": "Customer Retention",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771015949483,
+    "commit": "https://github.com/openclaw/skills/commit/6539bd6f86f0fc3a971dc03ff56d17267f2282a1"
+  },
+  "history": []
+}

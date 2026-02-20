@@ -1,0 +1,11 @@
+{
+  "owner": "mightybyte",
+  "slug": "zfs",
+  "displayName": "ZFS",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771432772724,
+    "commit": "https://github.com/openclaw/skills/commit/47171357e64fcc0cc1edf687cfe96f8a4d269e2c"
+  },
+  "history": []
+}

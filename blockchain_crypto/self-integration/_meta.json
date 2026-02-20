@@ -1,0 +1,11 @@
+{
+  "owner": "bratchenko",
+  "slug": "self-integration",
+  "displayName": "Self-Integration",
+  "latest": {
+    "version": "1.1.2",
+    "publishedAt": 1771012465770,
+    "commit": "https://github.com/openclaw/skills/commit/e387e024d609816fc660d50b18e914f4de4042bf"
+  },
+  "history": []
+}

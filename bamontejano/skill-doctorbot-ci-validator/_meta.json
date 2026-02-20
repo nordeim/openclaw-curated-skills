@@ -1,0 +1,11 @@
+{
+  "owner": "bamontejano",
+  "slug": "skill-doctorbot-ci-validator",
+  "displayName": "Doctorbot Ci Validator",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770912947946,
+    "commit": "https://github.com/openclaw/skills/commit/672f9199e08c067468e527291ed697c3b50a9358"
+  },
+  "history": []
+}

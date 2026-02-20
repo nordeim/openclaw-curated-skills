@@ -1,0 +1,11 @@
+{
+  "owner": "okradze",
+  "slug": "desearch-crawl",
+  "displayName": "Crawl By Desearch",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771408796742,
+    "commit": "https://github.com/openclaw/skills/commit/79662dfaa0e72592f5315399d86cf52b280f6e5b"
+  },
+  "history": []
+}

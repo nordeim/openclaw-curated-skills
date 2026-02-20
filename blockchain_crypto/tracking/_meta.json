@@ -1,0 +1,11 @@
+{
+  "owner": "rzyen-hash",
+  "slug": "tracking",
+  "displayName": "Gmgn Base Tracker",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771503691058,
+    "commit": "https://github.com/openclaw/skills/commit/ed62ca92f50d995c817efd91d3cf96f2e9730898"
+  },
+  "history": []
+}

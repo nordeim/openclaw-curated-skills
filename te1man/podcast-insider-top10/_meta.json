@@ -1,0 +1,11 @@
+{
+  "owner": "te1man",
+  "slug": "podcast-insider-top10",
+  "displayName": "Podcast Insider Top-10",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771171831734,
+    "commit": "https://github.com/openclaw/skills/commit/3da3f946dd3ab11d6baa372f1c9dafce22726fdd"
+  },
+  "history": []
+}

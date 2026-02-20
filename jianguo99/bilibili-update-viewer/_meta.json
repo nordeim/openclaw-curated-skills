@@ -1,0 +1,11 @@
+{
+  "owner": "jianguo99",
+  "slug": "bilibili-update-viewer",
+  "displayName": "Check the latest videos and updates of Bilibili ups and see if they have updated today",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770815415232,
+    "commit": "https://github.com/openclaw/skills/commit/ed31fdd50b0068f50adb7a98c5725dade5fa4d7d"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "aghareza",
+  "slug": "taskwarrior",
+  "displayName": "taskwarrior",
+  "latest": {
+    "version": "0.1.3",
+    "publishedAt": 1771471836240,
+    "commit": "https://github.com/openclaw/skills/commit/b43172d98d693795ef6f9fae2e7ffb23bcc1aa39"
+  },
+  "history": []
+}

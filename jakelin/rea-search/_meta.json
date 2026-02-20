@@ -1,0 +1,11 @@
+{
+  "owner": "jakelin",
+  "slug": "rea-search",
+  "displayName": "realestate.com.au Search",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771149918742,
+    "commit": "https://github.com/openclaw/skills/commit/2bb7e80cd03c02a22a8d3c4652ccf8a3b417bbc3"
+  },
+  "history": []
+}

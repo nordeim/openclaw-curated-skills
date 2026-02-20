@@ -1,0 +1,11 @@
+{
+  "owner": "salmonrk",
+  "slug": "openclaw-comfyui",
+  "displayName": "OpenClaw ComfyUI",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771503729463,
+    "commit": "https://github.com/openclaw/skills/commit/186ffe788dea5a92e86aab17c5ad88790e56bb0e"
+  },
+  "history": []
+}

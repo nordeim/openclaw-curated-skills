@@ -1,0 +1,17 @@
+{
+  "owner": "azep-ninja",
+  "slug": "quickintel-scan",
+  "displayName": "Quick Intel Token Security Scanner",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771340629510,
+    "commit": "https://github.com/openclaw/skills/commit/ae86803b5337f9b754c3d4f3f3d559470c3e507f"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771281690943,
+      "commit": "https://github.com/openclaw/skills/commit/eea3c41e87ee9ade1fcff3821fa1f88892332f3b"
+    }
+  ]
+}

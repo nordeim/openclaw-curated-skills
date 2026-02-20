@@ -1,0 +1,17 @@
+{
+  "owner": "codejika",
+  "slug": "sendclaw-email",
+  "displayName": "SendClaw Email |  FREE Email Address without human permission",
+  "latest": {
+    "version": "1.3.0",
+    "publishedAt": 1770871040790,
+    "commit": "https://github.com/openclaw/skills/commit/ac2720e417d1ca5086682312bdebba1115748163"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770184255827,
+      "commit": "https://github.com/clawdbot/skills/commit/71f62c15766a5bd27dad6fea8d46fb526f393dfc"
+    }
+  ]
+}

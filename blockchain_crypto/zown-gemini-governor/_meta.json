@@ -1,0 +1,11 @@
+{
+  "owner": "gtovd",
+  "slug": "zown-gemini-governor",
+  "displayName": "Zown Gemini Governor",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770864291658,
+    "commit": "https://github.com/openclaw/skills/commit/618811e4f7af56c028b61efff7d567743115a3ad"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "obaid",
+  "slug": "sendook-openclaw",
+  "displayName": "Sendook Email (Restricted)",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770847108499,
+    "commit": "https://github.com/openclaw/skills/commit/e3149ef2f3f935f4964f801a2b1dacc89695fada"
+  },
+  "history": []
+}

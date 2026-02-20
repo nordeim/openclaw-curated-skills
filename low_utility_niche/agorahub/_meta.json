@@ -1,0 +1,11 @@
+{
+  "owner": "codevena",
+  "slug": "agorahub",
+  "displayName": "AgoraHub",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770903983635,
+    "commit": "https://github.com/openclaw/skills/commit/97df583e596be01063f888f20cdf5d772ae04cbf"
+  },
+  "history": []
+}

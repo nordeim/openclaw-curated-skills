@@ -1,0 +1,11 @@
+{
+  "owner": "petricbranko",
+  "slug": "opentweet-x-poster",
+  "displayName": "OpenTweet X Poster",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771496301584,
+    "commit": "https://github.com/openclaw/skills/commit/e70f4429746d69ee5ec3b7dc72e29ca096719904"
+  },
+  "history": []
+}

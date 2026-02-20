@@ -1,0 +1,11 @@
+{
+  "owner": "ianwu-ca-778",
+  "slug": "openclaw-skills-newsboat",
+  "displayName": "Newsboat",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771321035207,
+    "commit": "https://github.com/openclaw/skills/commit/dd197a27e5616be9d164500cd825f318a9fedef7"
+  },
+  "history": []
+}

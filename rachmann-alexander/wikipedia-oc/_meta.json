@@ -1,0 +1,17 @@
+{
+  "owner": "rachmann-alexander",
+  "slug": "wikipedia-oc",
+  "displayName": "wikipedia-oc",
+  "latest": {
+    "version": "0.1.4",
+    "publishedAt": 1771322875437,
+    "commit": "https://github.com/openclaw/skills/commit/2a0b09d0411a6ac7e563cd69cbd80795ed466f3a"
+  },
+  "history": [
+    {
+      "version": "0.1.2",
+      "publishedAt": 1770988775811,
+      "commit": "https://github.com/openclaw/skills/commit/4f9189320e386f6afea5efc639a15e5c02ac86bd"
+    }
+  ]
+}

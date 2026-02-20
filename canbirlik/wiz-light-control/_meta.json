@@ -1,0 +1,11 @@
+{
+  "owner": "canbirlik",
+  "slug": "wiz-light-control",
+  "displayName": "Wiz Smart Light Control",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771426985813,
+    "commit": "https://github.com/openclaw/skills/commit/fc92b2275e5e66d78647042729c046c23b0efaff"
+  },
+  "history": []
+}

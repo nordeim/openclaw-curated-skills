@@ -1,0 +1,11 @@
+{
+  "owner": "uchibeke",
+  "slug": "aport-agent-guardrail",
+  "displayName": "Aport Agent Guardrail",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771327391439,
+    "commit": "https://github.com/openclaw/skills/commit/fe5996d7b3d42bc73ef810cdd3bc6e6851695a38"
+  },
+  "history": []
+}

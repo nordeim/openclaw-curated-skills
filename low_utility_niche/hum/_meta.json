@@ -1,0 +1,17 @@
+{
+  "owner": "eijiac24",
+  "slug": "hum",
+  "displayName": "Hum Publisher",
+  "latest": {
+    "version": "2.0.5",
+    "publishedAt": 1771084340024,
+    "commit": "https://github.com/openclaw/skills/commit/3db63dbcc518955ac4c6b748038d77533312f5dd"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771016032792,
+      "commit": "https://github.com/openclaw/skills/commit/087018532e590b935f7c9b7c1c097181f21f66d3"
+    }
+  ]
+}

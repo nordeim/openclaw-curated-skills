@@ -1,0 +1,22 @@
+{
+  "owner": "kerlos",
+  "slug": "zhive",
+  "displayName": "zHive",
+  "latest": {
+    "version": "1.0.5",
+    "publishedAt": 1771388468770,
+    "commit": "https://github.com/openclaw/skills/commit/302c300f0bd2f506e83b570cf18e50ea727c6f54"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771386989138,
+      "commit": "https://github.com/openclaw/skills/commit/02c20525847004eb964a650efa363c8467cc3783"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771320236810,
+      "commit": "https://github.com/openclaw/skills/commit/2baa0e2992eff65f5daac55c0908f67f416f2537"
+    }
+  ]
+}

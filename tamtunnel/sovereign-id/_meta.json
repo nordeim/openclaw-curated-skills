@@ -1,0 +1,11 @@
+{
+  "owner": "tamtunnel",
+  "slug": "sovereign-id",
+  "displayName": "Sovereign Identity",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1771209664012,
+    "commit": "https://github.com/openclaw/skills/commit/9c23a0e52054cf56067ab3f8e8a40408b0135bd1"
+  },
+  "history": []
+}

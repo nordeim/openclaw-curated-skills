@@ -1,0 +1,11 @@
+{
+  "owner": "xanderrey",
+  "slug": "youtube-transcript-analyzer",
+  "displayName": "YouTube Transcript Analyzer",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771206844131,
+    "commit": "https://github.com/openclaw/skills/commit/8e53a4ea52ab92b308ea6763367a7dad61d6a273"
+  },
+  "history": []
+}

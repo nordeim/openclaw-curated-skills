@@ -1,0 +1,22 @@
+{
+  "owner": "stanleychanh",
+  "slug": "aliyun-image",
+  "displayName": "aliyun-image",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770976369186,
+    "commit": "https://github.com/openclaw/skills/commit/38d6cba633b3823a49d13f111e8e97809e9cc845"
+  },
+  "history": [
+    {
+      "version": "1.0.4",
+      "publishedAt": 1770974309664,
+      "commit": "https://github.com/openclaw/skills/commit/dc4fb1ad4ec98de3ee9afcd086ca80d73044bae5"
+    },
+    {
+      "version": "1.0.3",
+      "publishedAt": 1770973872044,
+      "commit": "https://github.com/openclaw/skills/commit/7b47934b59bfd50debf751685bdf0f340ff2f8d2"
+    }
+  ]
+}

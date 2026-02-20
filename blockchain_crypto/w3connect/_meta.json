@@ -1,0 +1,11 @@
+{
+  "owner": "kernel1983",
+  "slug": "w3connect",
+  "displayName": "W3connect",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771478567199,
+    "commit": "https://github.com/openclaw/skills/commit/d14dcca540ab3476ff70347cafdbfb00d8b99e03"
+  },
+  "history": []
+}

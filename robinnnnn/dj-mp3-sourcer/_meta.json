@@ -1,0 +1,17 @@
+{
+  "owner": "robinnnnn",
+  "slug": "dj-mp3-sourcer",
+  "displayName": "DJ mp3 sourcer",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771306994332,
+    "commit": "https://github.com/openclaw/skills/commit/683634ef2d551db0737c98a35a2607705c561fb5"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771294656516,
+      "commit": "https://github.com/openclaw/skills/commit/b0b24370ebf0c743dbd396a4475500e2b6694d50"
+    }
+  ]
+}

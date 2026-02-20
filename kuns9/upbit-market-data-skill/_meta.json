@@ -1,0 +1,11 @@
+{
+  "owner": "kuns9",
+  "slug": "upbit-market-data-skill",
+  "displayName": "UPBIT market data get skill",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771110156756,
+    "commit": "https://github.com/openclaw/skills/commit/143f73a39a2c202d5b8f92aee2ad3c24141bbd73"
+  },
+  "history": []
+}

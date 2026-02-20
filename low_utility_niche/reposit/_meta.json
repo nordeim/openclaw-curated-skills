@@ -1,0 +1,17 @@
+{
+  "owner": "tomasz-tomczyk",
+  "slug": "reposit",
+  "displayName": "Reposit - Collective Intelligence for AI Agents",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770901629900,
+    "commit": "https://github.com/openclaw/skills/commit/0f4b04a1c54713921293d2ee1b12a6a0a45a1f8d"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1769993263474,
+      "commit": "https://github.com/clawdbot/skills/commit/5a5842c61f462083568832b7156a06d44a6547ab"
+    }
+  ]
+}

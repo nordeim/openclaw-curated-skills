@@ -1,0 +1,11 @@
+{
+  "owner": "alphabot-ai",
+  "slug": "slashbot-news",
+  "displayName": "Slashbot News (DEPRECATED)",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1771386746532,
+    "commit": "https://github.com/openclaw/skills/commit/397883e0d1d31bb36f41ddc7f73a785f2a34f829"
+  },
+  "history": []
+}

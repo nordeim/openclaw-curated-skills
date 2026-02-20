@@ -1,0 +1,11 @@
+{
+  "owner": "riffvibe",
+  "slug": "vibemate",
+  "displayName": "VibeMate - Reading Buddy Matcher",
+  "latest": {
+    "version": "1.5.0",
+    "publishedAt": 1770806723256,
+    "commit": "https://github.com/openclaw/skills/commit/7d779ffe650ed5d40ae25170ea45b2e3b14962dc"
+  },
+  "history": []
+}

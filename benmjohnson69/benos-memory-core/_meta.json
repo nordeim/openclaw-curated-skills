@@ -1,0 +1,11 @@
+{
+  "owner": "benmjohnson69",
+  "slug": "benos-memory-core",
+  "displayName": "BenOS Memory Core",
+  "latest": {
+    "version": "0.1.2",
+    "publishedAt": 1771287386804,
+    "commit": "https://github.com/openclaw/skills/commit/0c7e3494b0ad92931e301efa343bbd22447f829c"
+  },
+  "history": []
+}

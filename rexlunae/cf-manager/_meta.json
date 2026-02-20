@@ -1,0 +1,11 @@
+{
+  "owner": "rexlunae",
+  "slug": "cf-manager",
+  "displayName": "Cloudflare Manager",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770688970874,
+    "commit": "https://github.com/openclaw/skills/commit/3d07d7641a73a5fc2c459b755001bce3845cfdac"
+  },
+  "history": []
+}

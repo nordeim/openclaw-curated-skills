@@ -1,0 +1,17 @@
+{
+  "owner": "datadrivenconstruction",
+  "slug": "batch-cad-converter",
+  "displayName": "Batch Cad Converter",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1771000805967,
+    "commit": "https://github.com/openclaw/skills/commit/225f959cbf305dc8baddab38fdd8107c128a74af"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770474812467,
+      "commit": "https://github.com/openclaw/skills/commit/5b03088367d21b3a7b1538ef58d1e934fec94949"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "zhuangclaw",
+  "slug": "qst-memory-v1-8-5-no-crypto",
+  "displayName": "Qst Memory V1.8.5 No Crypto",
+  "latest": {
+    "version": "1.8.5-no-crypto",
+    "publishedAt": 1771231807729,
+    "commit": "https://github.com/openclaw/skills/commit/3737dd58079de835505bc625f57e2b91c90d5d9f"
+  },
+  "history": []
+}

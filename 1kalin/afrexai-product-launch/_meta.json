@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-product-launch",
+  "displayName": "Product Launch System",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771255809398,
+    "commit": "https://github.com/openclaw/skills/commit/d6f781679574943a5953d0c9fd6c6d5c298a24a0"
+  },
+  "history": []
+}

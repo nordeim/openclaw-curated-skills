@@ -1,0 +1,17 @@
+{
+  "owner": "voshawn",
+  "slug": "meeting-coordinator",
+  "displayName": "Meeting Coordinator - In Person + Virtual (Google Meet)",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771362018451,
+    "commit": "https://github.com/openclaw/skills/commit/f055d15c80b75db7665ef9f8cc11d557a7c3339d"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1771013868904,
+      "commit": "https://github.com/openclaw/skills/commit/becc40310f9d29a384db7cc1b3e031aaf314cdc5"
+    }
+  ]
+}

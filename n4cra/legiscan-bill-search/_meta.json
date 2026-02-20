@@ -1,0 +1,11 @@
+{
+  "owner": "n4cra",
+  "slug": "legiscan-bill-search",
+  "displayName": "LegiScan Bill Search",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771377892421,
+    "commit": "https://github.com/openclaw/skills/commit/a2f6ae5b288b558294dc15ae499b89694d9f4f3c"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "aktheknight",
+  "slug": "audio-transcribe",
+  "displayName": "Audio Transcribe",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771263382278,
+    "commit": "https://github.com/openclaw/skills/commit/b725b49ddde08d868cf2e3da9968ba3d3a2e0ff9"
+  },
+  "history": []
+}

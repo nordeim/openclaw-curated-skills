@@ -1,0 +1,11 @@
+{
+  "owner": "interagentic",
+  "slug": "keychains",
+  "displayName": "Keychains.dev",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771461009443,
+    "commit": "https://github.com/openclaw/skills/commit/19b7cf3d0b10dcc13d4a80b69c5950a33623a933"
+  },
+  "history": []
+}

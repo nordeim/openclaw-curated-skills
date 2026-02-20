@@ -1,0 +1,11 @@
+{
+  "owner": "samthomson",
+  "slug": "nostr-plantr",
+  "displayName": "Nostr Plantr",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770639976001,
+    "commit": "https://github.com/openclaw/skills/commit/b1fff68ac9f3c65d4fb939dccb4efeb221542b70"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "chuckstock",
+  "slug": "remix-api-key-auth",
+  "displayName": "Remix Api Key Auth",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770761369392,
+    "commit": "https://github.com/openclaw/skills/commit/1457ca0cb4f82d169bd42eea9e9c6ddd78b91ed0"
+  },
+  "history": []
+}

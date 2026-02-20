@@ -1,0 +1,17 @@
+{
+  "owner": "cewinharhar",
+  "slug": "lobster-bio-dev",
+  "displayName": "LobsterBio - Dev",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770985966234,
+    "commit": "https://github.com/openclaw/skills/commit/db8e8065665732b52f705cfafb4e15e609042167"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770860265364,
+      "commit": "https://github.com/openclaw/skills/commit/6043fd23f1821852d93a2016e713348a3549152c"
+    }
+  ]
+}

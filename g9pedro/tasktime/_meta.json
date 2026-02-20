@@ -1,0 +1,17 @@
+{
+  "owner": "g9pedro",
+  "slug": "tasktime",
+  "displayName": "TaskTime CLI",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1770749308054,
+    "commit": "https://github.com/openclaw/skills/commit/f2b6629871d479aaf79d17804df8569e08f43042"
+  },
+  "history": [
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770705632832,
+      "commit": "https://github.com/openclaw/skills/commit/c828bde1a9e4c7f46e4fa6cc963cc18ab56e23ea"
+    }
+  ]
+}

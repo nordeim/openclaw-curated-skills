@@ -1,0 +1,11 @@
+{
+  "owner": "gekkoai001",
+  "slug": "gekko",
+  "displayName": "Gekko",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770545362405,
+    "commit": "https://github.com/openclaw/skills/commit/a8e41fc2fdedca834519cbf916abcf059a740eec"
+  },
+  "history": []
+}

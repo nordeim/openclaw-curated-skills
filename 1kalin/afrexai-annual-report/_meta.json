@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-annual-report",
+  "displayName": "Annual Report Generator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771258428631,
+    "commit": "https://github.com/openclaw/skills/commit/4538e099ce97a2efade644a0d387048e748614b5"
+  },
+  "history": []
+}

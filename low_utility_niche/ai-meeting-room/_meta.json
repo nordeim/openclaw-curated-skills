@@ -1,0 +1,11 @@
+{
+  "owner": "gyeuun97",
+  "slug": "ai-meeting-room",
+  "displayName": "AI Meeting Room (에이전트 룸)",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770780640477,
+    "commit": "https://github.com/openclaw/skills/commit/d4d1e21eca9bca06c73b877543ac24a122bc54b8"
+  },
+  "history": []
+}

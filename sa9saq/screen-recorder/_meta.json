@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "screen-recorder",
+  "displayName": "Screen Recorder",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526241076,
+    "commit": "https://github.com/openclaw/skills/commit/e364b643be052953c9e7a368bdf9e30133588e04"
+  },
+  "history": []
+}

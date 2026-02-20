@@ -1,0 +1,25 @@
+{
+  "name": "@31third/safe-rebalancer",
+  "version": "0.1.0-alpha.0",
+  "description": "OpenClaw skill for executing trades via 31Third infrastructure with policy engine protection.",
+  "main": "scripts/trade.js",
+  "type": "commonjs",
+  "dependencies": {
+    "@31third/sdk": "0.1.0-alpha.4",
+    "ethers": "6.10.0"
+  },
+  "optionalDependencies": {
+    "puppeteer": "24.37.2"
+  },
+  "scripts": {
+    "install:deps": "npm install",
+    "test": "node --test",
+    "lint": "node --check scripts/*.js tests/*.js",
+    "format": "npm run format:check",
+    "format:check": "node ./scripts/format-check.js",
+    "build": "node ./scripts/build.js",
+    "publish:clawhub": "clawhub publish . --slug 31third-safe-rebalancer --name \"31Third Safe Rebalancer\" --version $(node -p \"require('./package.json').version\") --tags latest,alpha --changelog \"${CHANGELOG:?Set CHANGELOG}\""
+  },
+  "author": "31Third",
+  "license": "MIT"
+}

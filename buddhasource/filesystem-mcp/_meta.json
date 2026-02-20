@@ -1,0 +1,11 @@
+{
+  "owner": "buddhasource",
+  "slug": "filesystem-mcp",
+  "displayName": "Filesystem MCP Server",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771085072584,
+    "commit": "https://github.com/openclaw/skills/commit/dfda9a70c877dcb458783bdd2ef9caa355540e11"
+  },
+  "history": []
+}

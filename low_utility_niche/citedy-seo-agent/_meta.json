@@ -1,0 +1,32 @@
+{
+  "owner": "nttylock",
+  "slug": "citedy-seo-agent",
+  "displayName": "Citedy SEO Agent",
+  "latest": {
+    "version": "2.2.1",
+    "publishedAt": 1770942057741,
+    "commit": "https://github.com/openclaw/skills/commit/7f0eabc85879a69ed063af8c6fa91892c3688b00"
+  },
+  "history": [
+    {
+      "version": "1.5.2",
+      "publishedAt": 1770685774383,
+      "commit": "https://github.com/openclaw/skills/commit/aa6a6726e0252295907995051bea1ec0f03e4c43"
+    },
+    {
+      "version": "1.5.0",
+      "publishedAt": 1770563479360,
+      "commit": "https://github.com/openclaw/skills/commit/35d6609e4e990b592bfd39bd073ad0fba43453de"
+    },
+    {
+      "version": "1.3.0",
+      "publishedAt": 1770525786185,
+      "commit": "https://github.com/openclaw/skills/commit/2f0b764a2675c084e96aa80c79cc4ce290551c48"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770431951350,
+      "commit": "https://github.com/openclaw/skills/commit/70d5c2be0969ea70ecd14e438afd153dcd98bf46"
+    }
+  ]
+}

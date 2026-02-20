@@ -1,0 +1,11 @@
+{
+  "owner": "tagryu",
+  "slug": "openclaw-messenger",
+  "displayName": "OpenClaw Messenger",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771472413841,
+    "commit": "https://github.com/openclaw/skills/commit/d45ee51f21bf5b218a9fd7cd28610ee4c305bd69"
+  },
+  "history": []
+}

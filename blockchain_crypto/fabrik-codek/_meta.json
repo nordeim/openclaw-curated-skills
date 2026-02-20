@@ -1,0 +1,17 @@
+{
+  "owner": "ikchain",
+  "slug": "fabrik-codek",
+  "displayName": "Fabrik Codek",
+  "latest": {
+    "version": "1.3.0",
+    "publishedAt": 1771515261678,
+    "commit": "https://github.com/openclaw/skills/commit/6a5cbdaf67de7318d5b97ebeccb6a85a00a05608"
+  },
+  "history": [
+    {
+      "version": "1.1.0",
+      "publishedAt": 1771497228959,
+      "commit": "https://github.com/openclaw/skills/commit/29fa96d89acdfab65da51215ccc445f3db8499e8"
+    }
+  ]
+}

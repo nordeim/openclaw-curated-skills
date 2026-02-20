@@ -1,0 +1,17 @@
+{
+  "owner": "mkpareek0315",
+  "slug": "client-manager",
+  "displayName": "Client Manager",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771491467633,
+    "commit": "https://github.com/openclaw/skills/commit/9bab46378cbbf6b413edcb8ad9c60f9283d9448b"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771490894597,
+      "commit": "https://github.com/openclaw/skills/commit/4086fff57dfee19ff4b1377aaf13713f8291ebfd"
+    }
+  ]
+}

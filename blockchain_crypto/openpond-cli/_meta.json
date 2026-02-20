@@ -1,0 +1,11 @@
+{
+  "owner": "glucrypto",
+  "slug": "openpond-cli",
+  "displayName": "Openpond Cli",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1770917567045,
+    "commit": "https://github.com/openclaw/skills/commit/15fdd0e51be0e95500cebee6330e871291fa7749"
+  },
+  "history": []
+}

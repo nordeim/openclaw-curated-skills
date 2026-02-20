@@ -1,0 +1,11 @@
+{
+  "owner": "byungkyu",
+  "slug": "toggl-track",
+  "displayName": "Toggl Track",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771037322016,
+    "commit": "https://github.com/openclaw/skills/commit/b19b78875711bb1295b55ffd47607a2894b5ffca"
+  },
+  "history": []
+}

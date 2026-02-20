@@ -1,0 +1,11 @@
+{
+  "owner": "dolverin",
+  "slug": "flaresolverr",
+  "displayName": "FlareSolverr — Cloudflare Bypass",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771019473227,
+    "commit": "https://github.com/openclaw/skills/commit/93b22fed5d3ba8ad74681f78db081b0c780e759f"
+  },
+  "history": []
+}

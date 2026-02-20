@@ -1,0 +1,11 @@
+{
+  "owner": "xhrisfu",
+  "slug": "agent-rpg",
+  "displayName": "Agent Rpg",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771157175453,
+    "commit": "https://github.com/openclaw/skills/commit/b9659089f14a170678b5b70162f0d23a831dedbe"
+  },
+  "history": []
+}

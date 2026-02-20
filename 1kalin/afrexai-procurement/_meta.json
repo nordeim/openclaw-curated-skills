@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-procurement",
+  "displayName": "Procurement Manager",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771074792862,
+    "commit": "https://github.com/openclaw/skills/commit/e01b551b9bb695b2af4eb5ad5eb86edf9583c2ba"
+  },
+  "history": []
+}

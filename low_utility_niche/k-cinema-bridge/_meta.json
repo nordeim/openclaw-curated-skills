@@ -1,0 +1,17 @@
+{
+  "owner": "uyeong",
+  "slug": "k-cinema-bridge",
+  "displayName": "K Cinema Bridge",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1770914903188,
+    "commit": "https://github.com/openclaw/skills/commit/7010261861da40ad5a3dfcf2e0c73266b3865d4e"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770786312361,
+      "commit": "https://github.com/openclaw/skills/commit/dab6b058c2804e140c806cbec10a75fde979ce47"
+    }
+  ]
+}

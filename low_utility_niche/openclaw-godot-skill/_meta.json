@@ -1,0 +1,32 @@
+{
+  "owner": "tomleelive",
+  "slug": "openclaw-godot-skill",
+  "displayName": "Godot Skill",
+  "latest": {
+    "version": "1.2.7",
+    "publishedAt": 1770802682201,
+    "commit": "https://github.com/openclaw/skills/commit/896a0f13fa2710058daa0fbc2163424ecb5f922d"
+  },
+  "history": [
+    {
+      "version": "1.2.4",
+      "publishedAt": 1770794823848,
+      "commit": "https://github.com/openclaw/skills/commit/de0eb9da89500ae6dd520bcca2b47cbb03a6e760"
+    },
+    {
+      "version": "1.2.2",
+      "publishedAt": 1770603056262,
+      "commit": "https://github.com/openclaw/skills/commit/d0155aa5200bd16e4728e825d37493ce31f2348e"
+    },
+    {
+      "version": "1.2.1",
+      "publishedAt": 1770554686143,
+      "commit": "https://github.com/openclaw/skills/commit/ac23422cd802012f14f2ed4cc976fe590c94dda0"
+    },
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770539957914,
+      "commit": "https://github.com/openclaw/skills/commit/8c4a204a75dece9be838b824329321a222aa57e7"
+    }
+  ]
+}

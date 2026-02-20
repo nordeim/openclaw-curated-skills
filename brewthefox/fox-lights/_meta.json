@@ -1,0 +1,11 @@
+{
+  "owner": "brewthefox",
+  "slug": "fox-lights",
+  "displayName": "Flights",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771461320566,
+    "commit": "https://github.com/openclaw/skills/commit/72e19c21acbc03707b258584df8c97694524b7ae"
+  },
+  "history": []
+}

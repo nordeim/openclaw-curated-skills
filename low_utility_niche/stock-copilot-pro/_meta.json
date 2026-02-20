@@ -1,0 +1,27 @@
+{
+  "owner": "buxibuxi",
+  "slug": "stock-copilot-pro",
+  "displayName": "Stock Copilot Pro",
+  "latest": {
+    "version": "0.2.4",
+    "publishedAt": 1771302911891,
+    "commit": "https://github.com/openclaw/skills/commit/f66e6d59ba1b75130ac31af178dcbd52586db21e"
+  },
+  "history": [
+    {
+      "version": "0.2.3",
+      "publishedAt": 1771249438701,
+      "commit": "https://github.com/openclaw/skills/commit/8f04597108a76876f11dd5bffb500a5c5cd23076"
+    },
+    {
+      "version": "0.2.2",
+      "publishedAt": 1771159124874,
+      "commit": "https://github.com/openclaw/skills/commit/3cd01c752e96a0408ae3886b083ea6b322962fa1"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1771131572863,
+      "commit": "https://github.com/openclaw/skills/commit/4442cdaa0f1ac05610ed8db33c38b03139152eeb"
+    }
+  ]
+}

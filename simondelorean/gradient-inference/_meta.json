@@ -1,0 +1,17 @@
+{
+  "owner": "simondelorean",
+  "slug": "gradient-inference",
+  "displayName": "Gradient Inference",
+  "latest": {
+    "version": "0.1.3",
+    "publishedAt": 1771261009504,
+    "commit": "https://github.com/openclaw/skills/commit/9c9891d962a573af4023112a3b3220ec102a4871"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1771236274912,
+      "commit": "https://github.com/openclaw/skills/commit/955eb33d63d2cb0c1b710ff0d800477806df2617"
+    }
+  ]
+}

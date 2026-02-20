@@ -1,0 +1,11 @@
+{
+  "owner": "lukeslp",
+  "slug": "geepers-orchestrate",
+  "displayName": "Geepers Orchestrate",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771400104760,
+    "commit": "https://github.com/openclaw/skills/commit/cb05e3b7776a7c2ed076593c203529c139733723"
+  },
+  "history": []
+}

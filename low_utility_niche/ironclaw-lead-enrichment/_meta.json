@@ -1,0 +1,11 @@
+{
+  "owner": "aspenas",
+  "slug": "ironclaw-lead-enrichment",
+  "displayName": "Ironclaw Lead Enrichment",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771340011319,
+    "commit": "https://github.com/openclaw/skills/commit/e85c51ed4b925e0adec924a401bf38cb62668b82"
+  },
+  "history": []
+}

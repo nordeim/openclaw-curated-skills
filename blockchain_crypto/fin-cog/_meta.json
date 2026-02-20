@@ -1,0 +1,17 @@
+{
+  "owner": "nitishgargiitd",
+  "slug": "fin-cog",
+  "displayName": "fin-cog",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770774124388,
+    "commit": "https://github.com/openclaw/skills/commit/b36bcfcecf64acfc3a422d20c5ea7355b830c919"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770511411985,
+      "commit": "https://github.com/openclaw/skills/commit/fcb92b7b3a227b46b63edd816f893cc573f527bb"
+    }
+  ]
+}

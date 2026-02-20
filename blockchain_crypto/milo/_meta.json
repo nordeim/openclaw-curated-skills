@@ -1,0 +1,11 @@
+{
+  "owner": "motimilo",
+  "slug": "milo",
+  "displayName": "Milo",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770831801741,
+    "commit": "https://github.com/openclaw/skills/commit/27eeb47802f217affd626538972f37c2b4926190"
+  },
+  "history": []
+}

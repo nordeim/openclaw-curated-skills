@@ -1,0 +1,11 @@
+{
+  "owner": "thomyg",
+  "slug": "m365-pnp-cli",
+  "displayName": "Skill",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771240951113,
+    "commit": "https://github.com/openclaw/skills/commit/fe60554349440a83fc500154785b407e97bec435"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "bugmaker2",
+  "slug": "fractal-memory",
+  "displayName": "Fractal Memory",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771396366564,
+    "commit": "https://github.com/openclaw/skills/commit/7810c0b04a665021eca377bf819931fc2a9bbd28"
+  },
+  "history": []
+}

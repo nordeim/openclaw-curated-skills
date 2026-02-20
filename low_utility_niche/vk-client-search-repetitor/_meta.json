@@ -1,0 +1,11 @@
+{
+  "owner": "danil4091",
+  "slug": "vk-client-search-repetitor",
+  "displayName": "Автоматический поиск клиентов (родителей) для репетитора по математике в группах ВКонтакте с умной фильтрацией и приоритизацией онлайн-запросов.",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771181966596,
+    "commit": "https://github.com/openclaw/skills/commit/16f95c26615b0bd5fe77133682754321d75daa4f"
+  },
+  "history": []
+}

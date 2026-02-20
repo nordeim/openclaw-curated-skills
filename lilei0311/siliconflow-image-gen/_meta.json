@@ -1,0 +1,11 @@
+{
+  "owner": "lilei0311",
+  "slug": "siliconflow-image-gen",
+  "displayName": "SiliconFlow Image Gen",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771156325888,
+    "commit": "https://github.com/openclaw/skills/commit/d8735ef93546b9b109788b1534fcf31953848406"
+  },
+  "history": []
+}

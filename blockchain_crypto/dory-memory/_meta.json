@@ -1,0 +1,11 @@
+{
+  "owner": "justinhartbiz",
+  "slug": "dory-memory",
+  "displayName": "Dory-Proof Memory System",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770515052867,
+    "commit": "https://github.com/openclaw/skills/commit/8639da1ab4b4458bc08d26cf302121067f912a01"
+  },
+  "history": []
+}

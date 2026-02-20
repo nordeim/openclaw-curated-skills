@@ -1,0 +1,11 @@
+{
+  "owner": "0xraini",
+  "slug": "yt-digest",
+  "displayName": "YouTube Digest",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770657926933,
+    "commit": "https://github.com/openclaw/skills/commit/be8f42e842a10b520b584c3349cacd0d09c85ae4"
+  },
+  "history": []
+}

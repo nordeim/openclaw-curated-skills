@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "service-uptime",
+  "displayName": "Service Uptime",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526286867,
+    "commit": "https://github.com/openclaw/skills/commit/fd8630de5ae918e127b12bf681d2cfa780152221"
+  },
+  "history": []
+}

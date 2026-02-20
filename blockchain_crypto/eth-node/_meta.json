@@ -1,0 +1,11 @@
+{
+  "owner": "apexfork",
+  "slug": "eth-node",
+  "displayName": "Ethereum Node",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771219476921,
+    "commit": "https://github.com/openclaw/skills/commit/7579c2539149c6a90e244caddde7fb1a02485f98"
+  },
+  "history": []
+}

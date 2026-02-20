@@ -1,0 +1,27 @@
+{
+  "owner": "lkcair",
+  "slug": "stocks",
+  "displayName": "Stocks and Financial Data Pull",
+  "latest": {
+    "version": "4.1.6",
+    "publishedAt": 1771246921836,
+    "commit": "https://github.com/openclaw/skills/commit/895b62ad5a458376a36375b54912015819e7f6b4"
+  },
+  "history": [
+    {
+      "version": "4.1.5",
+      "publishedAt": 1771246785474,
+      "commit": "https://github.com/openclaw/skills/commit/2d32cbac143de223adad0e7a1c693f4fa3a45247"
+    },
+    {
+      "version": "4.0.5",
+      "publishedAt": 1771235784533,
+      "commit": "https://github.com/openclaw/skills/commit/c3e7fade66696a4b301c17ecd2e0444a6dd13f89"
+    },
+    {
+      "version": "4.0.0",
+      "publishedAt": 1771051043288,
+      "commit": "https://github.com/openclaw/skills/commit/441767e48f8c049e3a7652fd647dd89b01e141e8"
+    }
+  ]
+}

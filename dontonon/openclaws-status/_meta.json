@@ -1,0 +1,11 @@
+{
+  "owner": "dontonon",
+  "slug": "openclaws-status",
+  "displayName": "OpenClaw Status API",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771127019303,
+    "commit": "https://github.com/openclaw/skills/commit/89ea9805f2478dc7f0a194bb8d4ec7ddb4794c04"
+  },
+  "history": []
+}

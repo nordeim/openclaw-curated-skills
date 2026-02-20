@@ -1,0 +1,17 @@
+{
+  "owner": "rachmann-alexander",
+  "slug": "owid-oc",
+  "displayName": "Our world in data",
+  "latest": {
+    "version": "0.1.3",
+    "publishedAt": 1771333807650,
+    "commit": "https://github.com/openclaw/skills/commit/deac4c046425308e900f2ba93f2879268ef80833"
+  },
+  "history": [
+    {
+      "version": "0.1.2",
+      "publishedAt": 1771322916704,
+      "commit": "https://github.com/openclaw/skills/commit/8646763641acce4b8603460b5d9edc086409ce95"
+    }
+  ]
+}

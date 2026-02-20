@@ -1,0 +1,11 @@
+{
+  "owner": "dylanb",
+  "slug": "axe-devtools",
+  "displayName": "Axe DevTools",
+  "latest": {
+    "version": "4.0.0",
+    "publishedAt": 1770908892162,
+    "commit": "https://github.com/openclaw/skills/commit/c84a88c8a7b57ad991780fbc7093c19069d1424a"
+  },
+  "history": []
+}

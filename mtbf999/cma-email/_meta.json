@@ -1,0 +1,11 @@
+{
+  "owner": "mtbf999",
+  "slug": "cma-email",
+  "displayName": "CMA Email",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770829055199,
+    "commit": "https://github.com/openclaw/skills/commit/1547b74ebbfcea3a1e7150311ad090044b119d18"
+  },
+  "history": []
+}

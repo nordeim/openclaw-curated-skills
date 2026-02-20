@@ -1,0 +1,11 @@
+{
+  "owner": "kangjjang",
+  "slug": "youtube-shorts",
+  "displayName": "YouTube Shorts 자동 생성",
+  "latest": {
+    "version": "2.0.1",
+    "publishedAt": 1771482716889,
+    "commit": "https://github.com/openclaw/skills/commit/0e8a15b0ee1ceae367d627a3acb44666d543fecd"
+  },
+  "history": []
+}

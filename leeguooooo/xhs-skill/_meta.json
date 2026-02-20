@@ -1,0 +1,27 @@
+{
+  "owner": "leeguooooo",
+  "slug": "xhs-skill",
+  "displayName": "Xhs Skill",
+  "latest": {
+    "version": "1.0.8",
+    "publishedAt": 1770959502928,
+    "commit": "https://github.com/openclaw/skills/commit/011a746bf6b91da068dad230c23ff75558b2af34"
+  },
+  "history": [
+    {
+      "version": "1.0.5",
+      "publishedAt": 1770918476694,
+      "commit": "https://github.com/openclaw/skills/commit/b72d0aeb7cb2eb684fd8723a31d1f53e9feba373"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770872279577,
+      "commit": "https://github.com/openclaw/skills/commit/442ad8d47e8878cd1b7de717cfd0ebbc91a005bd"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770743175506,
+      "commit": "https://github.com/openclaw/skills/commit/c6b68741905d770684f390f0c6dbc6948f9aae2a"
+    }
+  ]
+}

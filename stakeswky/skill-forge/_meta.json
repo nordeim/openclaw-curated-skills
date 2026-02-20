@@ -1,0 +1,11 @@
+{
+  "owner": "stakeswky",
+  "slug": "skill-forge",
+  "displayName": "Skill Forge",
+  "latest": {
+    "version": "0.3.0",
+    "publishedAt": 1771149448809,
+    "commit": "https://github.com/openclaw/skills/commit/6aed50901986f00d97e6196e7507348778e56a63"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "fratua",
+  "slug": "env-setup",
+  "displayName": "Env Setup",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771181336498,
+    "commit": "https://github.com/openclaw/skills/commit/d159364a8c90cd8a3364e5432af6e4ff48fc37c8"
+  },
+  "history": []
+}

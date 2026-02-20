@@ -1,0 +1,11 @@
+{
+  "owner": "anshumanbh",
+  "slug": "securevibes-scanner",
+  "displayName": "SecureVibes Scanner",
+  "latest": {
+    "version": "0.4.0",
+    "publishedAt": 1771235106301,
+    "commit": "https://github.com/openclaw/skills/commit/76f610c930f7976b473eb17cd8d3a20f27d1c2f3"
+  },
+  "history": []
+}

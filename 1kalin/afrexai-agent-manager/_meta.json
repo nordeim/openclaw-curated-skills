@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-agent-manager",
+  "displayName": "AI Agent Manager Playbook",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771344889443,
+    "commit": "https://github.com/openclaw/skills/commit/d75cb8382222f96640b3265cf4654354a2726cfe"
+  },
+  "history": []
+}

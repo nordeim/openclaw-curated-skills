@@ -1,0 +1,11 @@
+{
+  "owner": "imaxtomas",
+  "slug": "mcp-ssh-manager",
+  "displayName": "MCP SSH Manager",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1770463776741,
+    "commit": "https://github.com/openclaw/skills/commit/3f716786f43a1d7edad5da1727ccd315542fd2b4"
+  },
+  "history": []
+}

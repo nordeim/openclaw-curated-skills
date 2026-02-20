@@ -1,0 +1,17 @@
+{
+  "owner": "geodeterra",
+  "slug": "wiim",
+  "displayName": "WiiM",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1770609804008,
+    "commit": "https://github.com/openclaw/skills/commit/c82786fa3c3e350846c20bad384919d450a0d137"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770573610519,
+      "commit": "https://github.com/openclaw/skills/commit/cf814a6bc7560125a64e214535d08f40d38a96ac"
+    }
+  ]
+}

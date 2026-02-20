@@ -1,0 +1,11 @@
+{
+  "owner": "kiszly",
+  "slug": "fred-navigator",
+  "displayName": "FRED-Navigator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771416662830,
+    "commit": "https://github.com/openclaw/skills/commit/0a9beabf96e65ba509329dc8b5c44d623eeadac2"
+  },
+  "history": []
+}

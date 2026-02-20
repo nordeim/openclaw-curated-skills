@@ -1,0 +1,17 @@
+{
+  "owner": "philippwassibauer",
+  "slug": "crunch-coordinate",
+  "displayName": "Crunch Coordinate",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1771401773011,
+    "commit": "https://github.com/openclaw/skills/commit/82285b03dbabfc8a619f8f0f60d784043c489f22"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770992881928,
+      "commit": "https://github.com/openclaw/skills/commit/0cc62c8abe8e770a8979ed4f92c66c419b5db505"
+    }
+  ]
+}

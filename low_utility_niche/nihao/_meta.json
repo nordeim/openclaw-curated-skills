@@ -1,0 +1,17 @@
+{
+  "owner": "dergigi",
+  "slug": "nihao",
+  "displayName": "nihao",
+  "latest": {
+    "version": "0.3.0",
+    "publishedAt": 1771450305706,
+    "commit": "https://github.com/openclaw/skills/commit/fb3c6b83e49a33139e8a7cf49b66ede2dd0af8cb"
+  },
+  "history": [
+    {
+      "version": "0.1.1",
+      "publishedAt": 1771344289053,
+      "commit": "https://github.com/openclaw/skills/commit/832de916e3aeac896e97ffc51518dfb9a23862dd"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "j-shao1",
+  "slug": "pipe17-openclaw-skill",
+  "displayName": "Pipe17 Openclaw Skill",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770666704227,
+    "commit": "https://github.com/openclaw/skills/commit/deb740dff89cbe4b211306034da94a1b0ca3b4d1"
+  },
+  "history": []
+}

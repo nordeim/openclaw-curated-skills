@@ -1,0 +1,11 @@
+{
+  "owner": "jatinbansal1998",
+  "slug": "zerodha-kite",
+  "displayName": "Zerodha",
+  "latest": {
+    "version": "v1.0.1",
+    "publishedAt": 1771503373534,
+    "commit": "https://github.com/openclaw/skills/commit/2427099291f717d9acb62aa04cf6c250b7dc079c"
+  },
+  "history": []
+}

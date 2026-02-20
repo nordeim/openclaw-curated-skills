@@ -1,0 +1,11 @@
+{
+  "owner": "dendisuhubdy",
+  "slug": "clawnet",
+  "displayName": "ClawNet",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771082370603,
+    "commit": "https://github.com/openclaw/skills/commit/7b0f1c5dd4ff8c02ef4b6e92d7e823526eb152a7"
+  },
+  "history": []
+}

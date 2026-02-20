@@ -1,0 +1,11 @@
+{
+  "owner": "codedao12",
+  "slug": "receipt-subscription-cleaner",
+  "displayName": "Receipt Subscription Cleaner",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770630876877,
+    "commit": "https://github.com/openclaw/skills/commit/881c2666c5be72de7604cd417283637bd76b2354"
+  },
+  "history": []
+}

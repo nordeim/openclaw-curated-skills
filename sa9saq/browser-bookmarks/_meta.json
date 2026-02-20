@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "browser-bookmarks",
+  "displayName": "Browser Bookmarks",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526200719,
+    "commit": "https://github.com/openclaw/skills/commit/e0ee11e7f18d21d748814f859d6696d641521dd0"
+  },
+  "history": []
+}

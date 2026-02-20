@@ -1,0 +1,11 @@
+{
+  "owner": "vassiliylakhonin",
+  "slug": "vassili-clawhub-cli",
+  "displayName": "ClawHub CLI",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771431015314,
+    "commit": "https://github.com/openclaw/skills/commit/9bab9ee122911bd5366b3612e565ba92383f3041"
+  },
+  "history": []
+}

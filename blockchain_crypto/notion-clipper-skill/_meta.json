@@ -1,0 +1,11 @@
+{
+  "owner": "ewingyangs",
+  "slug": "notion-clipper-skill",
+  "displayName": "notion-clipper-skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770876326699,
+    "commit": "https://github.com/openclaw/skills/commit/47df8f213d5ed79d9ef2410d2792523c628cf1fe"
+  },
+  "history": []
+}

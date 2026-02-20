@@ -1,0 +1,11 @@
+{
+  "owner": "alihmaou",
+  "slug": "ipwebcam",
+  "displayName": "Android IP Webcam monitoring and alert",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771422139031,
+    "commit": "https://github.com/openclaw/skills/commit/842a4f256bb6b08cac9f2ad384ec6f996ac3fba4"
+  },
+  "history": []
+}

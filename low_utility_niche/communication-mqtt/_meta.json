@@ -1,0 +1,11 @@
+{
+  "owner": "hyunwoo91",
+  "slug": "communication-mqtt",
+  "displayName": "communication-mqtt",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770799077316,
+    "commit": "https://github.com/openclaw/skills/commit/84d3da3f35a1fad14a1fe2d1c1a39e6501ee867c"
+  },
+  "history": []
+}

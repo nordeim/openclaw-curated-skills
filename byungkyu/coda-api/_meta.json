@@ -1,0 +1,11 @@
+{
+  "owner": "byungkyu",
+  "slug": "coda-api",
+  "displayName": "Coda",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770895491838,
+    "commit": "https://github.com/openclaw/skills/commit/9ad418d5638cac378a2580260b9ac751ffe6c45e"
+  },
+  "history": []
+}

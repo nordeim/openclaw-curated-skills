@@ -1,0 +1,11 @@
+{
+  "owner": "fabe",
+  "slug": "mycroft",
+  "displayName": "mycroft",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771430192490,
+    "commit": "https://github.com/openclaw/skills/commit/8a6fea5b4bf3dac65b850057a973ced8301a32b3"
+  },
+  "history": []
+}

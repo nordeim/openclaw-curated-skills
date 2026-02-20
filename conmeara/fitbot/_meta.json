@@ -1,0 +1,11 @@
+{
+  "owner": "conmeara",
+  "slug": "fitbot",
+  "displayName": "Fitbot",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771456709783,
+    "commit": "https://github.com/openclaw/skills/commit/5ffdec632b1eb6e1390cc9c705928ab45a2119f8"
+  },
+  "history": []
+}

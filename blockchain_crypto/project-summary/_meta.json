@@ -1,0 +1,11 @@
+{
+  "owner": "fratua",
+  "slug": "project-summary",
+  "displayName": "Project Summary",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771181344170,
+    "commit": "https://github.com/openclaw/skills/commit/1622721e4b811c94d605f6d5befb9ec03930fc7b"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "0xrag",
+  "slug": "pay-for-service",
+  "displayName": "Pay For Service",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770843401932,
+    "commit": "https://github.com/openclaw/skills/commit/9e6deb79c94b37463df98aab2c338021a02f2de9"
+  },
+  "history": []
+}

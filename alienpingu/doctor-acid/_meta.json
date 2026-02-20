@@ -1,0 +1,11 @@
+{
+  "owner": "alienpingu",
+  "slug": "doctor-acid",
+  "displayName": "AcidDoc",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770728642367,
+    "commit": "https://github.com/openclaw/skills/commit/d399aa8ed33dded2ef5d729665240dab0e82e884"
+  },
+  "history": []
+}

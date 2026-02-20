@@ -1,0 +1,22 @@
+{
+  "owner": "simantak-dabhade",
+  "slug": "tinyfish-web-agent",
+  "displayName": "TinyFish Web Agent",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770762734705,
+    "commit": "https://github.com/openclaw/skills/commit/517cea6bc294926767226204ee507576eb403f0f"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1769560154253,
+      "commit": "https://github.com/clawdbot/skills/commit/79d61695dc0430411855383abddd7a301e7278b6"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1769541342386,
+      "commit": "https://github.com/clawdbot/skills/commit/1e170d48ad5524f5387e2179045fb238c6b1a6d1"
+    }
+  ]
+}

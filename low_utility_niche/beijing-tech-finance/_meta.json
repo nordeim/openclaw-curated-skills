@@ -1,0 +1,11 @@
+{
+  "owner": "wasinc",
+  "slug": "beijing-tech-finance",
+  "displayName": "Beijing Tech Finance",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770968462541,
+    "commit": "https://github.com/openclaw/skills/commit/168db2f38a7d02f54e76c74fe86bd78adbb30f75"
+  },
+  "history": []
+}

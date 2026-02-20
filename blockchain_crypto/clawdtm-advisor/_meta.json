@@ -1,0 +1,11 @@
+{
+  "owner": "0xmythril",
+  "slug": "clawdtm-advisor",
+  "displayName": "Clawdtm Advisor",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771178816914,
+    "commit": "https://github.com/openclaw/skills/commit/1ff3ab6e7312327f278df635eff72d47a6b5d1dc"
+  },
+  "history": []
+}

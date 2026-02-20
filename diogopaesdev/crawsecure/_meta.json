@@ -1,0 +1,17 @@
+{
+  "owner": "diogopaesdev",
+  "slug": "crawsecure",
+  "displayName": "CrawSecure",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770688620464,
+    "commit": "https://github.com/openclaw/skills/commit/7beb5533d57df32c5cc7d6db918e8297e85318ba"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770354813479,
+      "commit": "https://github.com/openclaw/skills/commit/c5c190d8a2005da636e8ad813ada073a8f505c17"
+    }
+  ]
+}

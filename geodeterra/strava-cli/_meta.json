@@ -1,0 +1,11 @@
+{
+  "owner": "geodeterra",
+  "slug": "strava-cli",
+  "displayName": "Strava CLI",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770967578491,
+    "commit": "https://github.com/openclaw/skills/commit/ba0f81868d6159f833ab78d745fdf368bb11fee6"
+  },
+  "history": []
+}

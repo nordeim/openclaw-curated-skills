@@ -1,0 +1,17 @@
+{
+  "owner": "otherpowers",
+  "slug": "scent-trails",
+  "displayName": "Scent Trails",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771436823769,
+    "commit": "https://github.com/openclaw/skills/commit/2254cc0b800aeb7fe80ce00ef9b1de6973ed4ca8"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770153019304,
+      "commit": "https://github.com/clawdbot/skills/commit/997f87e36e9d7453a5655ba0a6b3bafe674ec5ac"
+    }
+  ]
+}

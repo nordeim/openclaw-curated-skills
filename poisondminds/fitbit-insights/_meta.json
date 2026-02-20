@@ -1,0 +1,11 @@
+{
+  "owner": "poisondminds",
+  "slug": "fitbit-insights",
+  "displayName": "Fitbit Insights",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770616543360,
+    "commit": "https://github.com/openclaw/skills/commit/300fda9511a9d3305d45483126c39ac7e2b668b2"
+  },
+  "history": []
+}

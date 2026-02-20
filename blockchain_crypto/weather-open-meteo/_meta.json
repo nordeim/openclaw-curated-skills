@@ -1,0 +1,17 @@
+{
+  "owner": "vdiogov",
+  "slug": "weather-open-meteo",
+  "displayName": "Weather Open‑Meteo",
+  "latest": {
+    "version": "0.1.3",
+    "publishedAt": 1771454589717,
+    "commit": "https://github.com/openclaw/skills/commit/b72dc1b03344a9c48f34721f778fef3cc385ae2b"
+  },
+  "history": [
+    {
+      "version": "0.1.2",
+      "publishedAt": 1771449970579,
+      "commit": "https://github.com/openclaw/skills/commit/57414220233b90917c896f40cc52fee444621c15"
+    }
+  ]
+}

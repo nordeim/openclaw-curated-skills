@@ -1,0 +1,17 @@
+{
+  "owner": "hassffw",
+  "slug": "memory-compression-system",
+  "displayName": "memory-compression-system",
+  "latest": {
+    "version": "3.0.1",
+    "publishedAt": 1771179891377,
+    "commit": "https://github.com/openclaw/skills/commit/28f3d55f68665629a72534f34895c6e29a3eece2"
+  },
+  "history": [
+    {
+      "version": "3.0.0",
+      "publishedAt": 1771178936016,
+      "commit": "https://github.com/openclaw/skills/commit/b57720322dca045086c8012e94ea4987f2cd9666"
+    }
+  ]
+}

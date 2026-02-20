@@ -1,0 +1,11 @@
+{
+  "owner": "warm-wm",
+  "slug": "volcengine-video-generate",
+  "displayName": "volcengine-video-generate",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770689098084,
+    "commit": "https://github.com/openclaw/skills/commit/857ea57973401982d63ca131a0fce407082a83d8"
+  },
+  "history": []
+}

@@ -1,0 +1,42 @@
+{
+  "owner": "ide-rea",
+  "slug": "baidu-search",
+  "displayName": "baidu web search",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770955893565,
+    "commit": "https://github.com/openclaw/skills/commit/7dc78d84dc25a80f19f8f5719b3465398d833617"
+  },
+  "history": [
+    {
+      "version": "1.0.6",
+      "publishedAt": 1770655751929,
+      "commit": "https://github.com/openclaw/skills/commit/d1d39c0bd823ba51cb97607cfa8b64c2129bb306"
+    },
+    {
+      "version": "1.0.5",
+      "publishedAt": 1770608945826,
+      "commit": "https://github.com/openclaw/skills/commit/bdd5f50cacff140f3ebbb6f3ac0e088d7975ea86"
+    },
+    {
+      "version": "1.0.4",
+      "publishedAt": 1770564501972,
+      "commit": "https://github.com/openclaw/skills/commit/c533fa3fa34e1c14f0d7f1b43f021d762f8d2488"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770457789321,
+      "commit": "https://github.com/openclaw/skills/commit/575c8d8431ed47e0e1d5e6babf6567d053c79f43"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770346221259,
+      "commit": "https://github.com/openclaw/skills/commit/067c03797c3530f91dcfa23a43a460600d6200bb"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770291754419,
+      "commit": "https://github.com/clawdbot/skills/commit/0863c24001bb5f7838cded13694179cbc69fed37"
+    }
+  ]
+}

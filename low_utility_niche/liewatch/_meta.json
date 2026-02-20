@@ -1,0 +1,17 @@
+{
+  "owner": "evinelias",
+  "slug": "liewatch",
+  "displayName": "LIE.WATCH",
+  "latest": {
+    "version": "1.0.7",
+    "publishedAt": 1770715297215,
+    "commit": "https://github.com/openclaw/skills/commit/f440553ca5e9651cfe526954950a089abf75b8e4"
+  },
+  "history": [
+    {
+      "version": "1.0.5",
+      "publishedAt": 1770669041692,
+      "commit": "https://github.com/openclaw/skills/commit/95d09f483ddc0c17aea2235e9aac721e5c72ad32"
+    }
+  ]
+}

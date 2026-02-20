@@ -1,0 +1,11 @@
+{
+  "owner": "zaynjarvis",
+  "slug": "openviking-mcp",
+  "displayName": "OpenViking MCP Server",
+  "latest": {
+    "version": "0.1.2",
+    "publishedAt": 1770635155069,
+    "commit": "https://github.com/openclaw/skills/commit/1d7fdd29f69910a9c156a110086ada2d249eb884"
+  },
+  "history": []
+}

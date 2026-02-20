@@ -1,0 +1,11 @@
+{
+  "owner": "stonega",
+  "slug": "clawearn",
+  "displayName": "Claw Earn",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1770691360098,
+    "commit": "https://github.com/openclaw/skills/commit/cca2fc5a96780c86afd92e6696d1db62cc7114fb"
+  },
+  "history": []
+}

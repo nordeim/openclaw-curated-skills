@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "site-uptime-monitor",
+  "displayName": "Uptime Monitor",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770523656928,
+    "commit": "https://github.com/openclaw/skills/commit/38ba92dc5b7f7b534c5bc15fd6878800e8328a4b"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "chenkuansun",
+  "slug": "openclaw-world",
+  "displayName": "OpenClaw World",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770700269014,
+    "commit": "https://github.com/openclaw/skills/commit/56bfb49cfced968bcfc60f53f29aedd9577d686c"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "adlai88",
+  "slug": "polymarket-ai-divergence",
+  "displayName": "Polymarket Ai Divergence",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1771301042397,
+    "commit": "https://github.com/openclaw/skills/commit/529c4d301dc662aaf72d6cdd356ca021e07aea4f"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1771081143600,
+      "commit": "https://github.com/openclaw/skills/commit/4eef74cdcc5425e06e46320406229e0053bbacb0"
+    }
+  ]
+}

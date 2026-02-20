@@ -1,0 +1,22 @@
+{
+  "owner": "idoshamun",
+  "slug": "daily-dev-agentic",
+  "displayName": "Daily Dev Agentic",
+  "latest": {
+    "version": "0.5.3",
+    "publishedAt": 1770983976536,
+    "commit": "https://github.com/openclaw/skills/commit/d1b77aae577603f96a70d4ddb70a16f4383d4362"
+  },
+  "history": [
+    {
+      "version": "0.3.0",
+      "publishedAt": 1770937271581,
+      "commit": "https://github.com/openclaw/skills/commit/e9254243545494d3f497ea37d29fc5acbb647475"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770936628154,
+      "commit": "https://github.com/openclaw/skills/commit/8128b99ef5616bd7b0a8cb00e2119d46daeabdbf"
+    }
+  ]
+}

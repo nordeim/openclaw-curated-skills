@@ -1,0 +1,11 @@
+{
+  "owner": "ashwinramachandran2002",
+  "slug": "seeddance-ai-video",
+  "displayName": "SeedDance AI Video Generation",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771528136681,
+    "commit": "https://github.com/openclaw/skills/commit/00fc6075c46286b8eac8196e3bc5b739c027161d"
+  },
+  "history": []
+}

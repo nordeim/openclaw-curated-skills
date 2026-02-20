@@ -1,0 +1,17 @@
+{
+  "owner": "eucalyptus-viminalis",
+  "slug": "leak-publish",
+  "displayName": "Leak Publish",
+  "latest": {
+    "version": "2026.2.17",
+    "publishedAt": 1771280135961,
+    "commit": "https://github.com/openclaw/skills/commit/7be7ec9e9a36ddb5d27ad06a6b7eeca9b4e00959"
+  },
+  "history": [
+    {
+      "version": "2026.2.17-beta.1",
+      "publishedAt": 1771212391553,
+      "commit": "https://github.com/openclaw/skills/commit/814f583e7b5546f2d3748793ac950f4ddb2b3685"
+    }
+  ]
+}

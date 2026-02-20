@@ -1,0 +1,11 @@
+{
+  "owner": "shukiclaw",
+  "slug": "mission-control-builder",
+  "displayName": "Mission Control Builder",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771503696992,
+    "commit": "https://github.com/openclaw/skills/commit/e7829745a6fc05d6c8623850a9f3f3f5ddddfb1f"
+  },
+  "history": []
+}

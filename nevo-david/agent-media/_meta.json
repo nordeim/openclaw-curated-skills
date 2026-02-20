@@ -1,0 +1,11 @@
+{
+  "owner": "nevo-david",
+  "slug": "agent-media",
+  "displayName": "Agent Media: Generate AI-powered videos and images from the terminal using the `agent-media` CLI.",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771434709864,
+    "commit": "https://github.com/openclaw/skills/commit/8f3685f9e887fc1911ec04c9471448bba7706b39"
+  },
+  "history": []
+}

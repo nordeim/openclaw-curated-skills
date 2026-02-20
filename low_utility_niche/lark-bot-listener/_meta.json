@@ -1,0 +1,11 @@
+{
+  "owner": "wangyendt",
+  "slug": "lark-bot-listener",
+  "displayName": "Pywayne Lark Bot Listener",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771230214770,
+    "commit": "https://github.com/openclaw/skills/commit/6674c49ffe14808d18cab1c729fd6eeca487ab8e"
+  },
+  "history": []
+}

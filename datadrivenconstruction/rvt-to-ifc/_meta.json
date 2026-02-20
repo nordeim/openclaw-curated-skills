@@ -1,0 +1,17 @@
+{
+  "owner": "datadrivenconstruction",
+  "slug": "rvt-to-ifc",
+  "displayName": "Rvt To Ifc",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1771000484753,
+    "commit": "https://github.com/openclaw/skills/commit/6490ab939720861389e01509448a07a0e17766f3"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770474866400,
+      "commit": "https://github.com/openclaw/skills/commit/ff48da2033c59b0f1c8a4486393c276814036750"
+    }
+  ]
+}

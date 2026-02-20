@@ -1,0 +1,11 @@
+{
+  "owner": "lukeslp",
+  "slug": "geepers-data",
+  "displayName": "Geepers Data",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771397533507,
+    "commit": "https://github.com/openclaw/skills/commit/4b236567fb0b678794b9401107b0048b6685cb7e"
+  },
+  "history": []
+}

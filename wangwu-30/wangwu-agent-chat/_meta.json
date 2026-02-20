@@ -1,0 +1,11 @@
+{
+  "owner": "wangwu-30",
+  "slug": "wangwu-agent-chat",
+  "displayName": "AgentChat",
+  "latest": {
+    "version": "0.0.1",
+    "publishedAt": 1771179534267,
+    "commit": "https://github.com/openclaw/skills/commit/b4a76f5e852b96d47a09bc6c4212f0eea199429a"
+  },
+  "history": []
+}

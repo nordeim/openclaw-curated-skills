@@ -1,0 +1,11 @@
+{
+  "owner": "samoculus",
+  "slug": "flow-n-intel",
+  "displayName": "pve(dot)trade wrapped",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770607197374,
+    "commit": "https://github.com/openclaw/skills/commit/4baa60648b2231a67720fc4abee64703d001b002"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "a-sumo",
+  "slug": "eywa",
+  "displayName": "Eywa",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770862324655,
+    "commit": "https://github.com/openclaw/skills/commit/2698a684ef9b1cc159366e3a302a90ba9b0d6b94"
+  },
+  "history": []
+}

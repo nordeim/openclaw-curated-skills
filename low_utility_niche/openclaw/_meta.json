@@ -1,0 +1,11 @@
+{
+  "owner": "zscole",
+  "slug": "openclaw",
+  "displayName": "Openclaw",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770568594079,
+    "commit": "https://github.com/openclaw/skills/commit/c2257426ab3d5d0e5e7cdfa4690fb8dee6dc80f1"
+  },
+  "history": []
+}

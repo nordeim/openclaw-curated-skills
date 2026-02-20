@@ -1,0 +1,11 @@
+{
+  "owner": "mart1n-xyz",
+  "slug": "bunpro-sync",
+  "displayName": "Bunpro",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771252698489,
+    "commit": "https://github.com/openclaw/skills/commit/77d31792152370afa26ab1d12ccc2cba3caa75a2"
+  },
+  "history": []
+}

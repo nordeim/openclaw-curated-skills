@@ -1,0 +1,17 @@
+{
+  "owner": "alexandr-belogubov",
+  "slug": "hotmention",
+  "displayName": "Hotmention",
+  "latest": {
+    "version": "1.3.0",
+    "publishedAt": 1771255592077,
+    "commit": "https://github.com/openclaw/skills/commit/f9ba7487e980591d9c7ac1ae623fcc5f6535be09"
+  },
+  "history": [
+    {
+      "version": "1.2.0",
+      "publishedAt": 1771239742520,
+      "commit": "https://github.com/openclaw/skills/commit/e5fa78592eeccf93362b6bd3ebce0f9aaf0d71ae"
+    }
+  ]
+}

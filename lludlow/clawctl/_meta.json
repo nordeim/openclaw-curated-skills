@@ -1,0 +1,11 @@
+{
+  "owner": "lludlow",
+  "slug": "clawctl",
+  "displayName": "Clawctl",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770668128052,
+    "commit": "https://github.com/openclaw/skills/commit/5f2c36096115ad49b456cfb90c805dd8e84cf675"
+  },
+  "history": []
+}

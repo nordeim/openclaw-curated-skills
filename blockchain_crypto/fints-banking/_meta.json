@@ -1,0 +1,22 @@
+{
+  "owner": "h4gen",
+  "slug": "fints-banking",
+  "displayName": "FinTS Banking",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771350871879,
+    "commit": "https://github.com/openclaw/skills/commit/648dfa947479cc7e24d456c90bf2f9ebf480ce3f"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1771331844487,
+      "commit": "https://github.com/openclaw/skills/commit/707b86c79997af3e3c33939a49a7f267c8253ec8"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771327300460,
+      "commit": "https://github.com/openclaw/skills/commit/ed90ff4ffd3e87dfb0a5e51f9b31159036ddac66"
+    }
+  ]
+}

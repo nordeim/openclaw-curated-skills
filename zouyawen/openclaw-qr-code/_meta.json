@@ -1,0 +1,11 @@
+{
+  "owner": "zouyawen",
+  "slug": "openclaw-qr-code",
+  "displayName": "QR Code",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770878590938,
+    "commit": "https://github.com/openclaw/skills/commit/eebbe078ebdeaff14e45cecaa987119554b32760"
+  },
+  "history": []
+}

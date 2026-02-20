@@ -1,0 +1,11 @@
+{
+  "owner": "joeykrug",
+  "slug": "memory-lancedb-hybrid",
+  "displayName": "LanceDB Hybrid Search",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1770665942414,
+    "commit": "https://github.com/openclaw/skills/commit/27c2415046659a65abea2f927871777ac4c1b311"
+  },
+  "history": []
+}

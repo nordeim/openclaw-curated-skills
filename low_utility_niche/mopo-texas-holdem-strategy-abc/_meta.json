@@ -1,0 +1,17 @@
+{
+  "owner": "cyberpinkman",
+  "slug": "mopo-texas-holdem-strategy-abc",
+  "displayName": "MoPo Texas Hold'em Strategy ABC",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1770980295054,
+    "commit": "https://github.com/openclaw/skills/commit/20b3d43d03775d2e4083172584cca110705636b4"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1770811743318,
+      "commit": "https://github.com/openclaw/skills/commit/81f58bdf1a96de19827a5df521a7e21f408ac52b"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "wangyan",
+  "slug": "gemini-image-generator",
+  "displayName": "Gemini Image Generator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771527755990,
+    "commit": "https://github.com/openclaw/skills/commit/fd4aaa50eacc7a27d27bbe5af5a4e80f5ee24439"
+  },
+  "history": []
+}

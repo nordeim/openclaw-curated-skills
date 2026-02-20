@@ -1,0 +1,11 @@
+{
+  "owner": "stusatwork-oss",
+  "slug": "errantry-framework",
+  "displayName": "Agent Errantry Alignment",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770912660206,
+    "commit": "https://github.com/openclaw/skills/commit/314811fed2681da0a1176c5f7170ab4b88638395"
+  },
+  "history": []
+}

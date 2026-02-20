@@ -1,0 +1,11 @@
+{
+  "owner": "highlander89",
+  "slug": "agent-memory-continuity",
+  "displayName": "Agent Memory Continuity",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771171825138,
+    "commit": "https://github.com/openclaw/skills/commit/fbf7a30fded82150bf9ff9102a03d0cbacd20ac6"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "crossservicesolutions",
+  "slug": "merge-pdf",
+  "displayName": "Merge PDF",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770555605824,
+    "commit": "https://github.com/openclaw/skills/commit/cf05fae458adc4d8e2d4861e4bc5a28fbc9cc92c"
+  },
+  "history": []
+}

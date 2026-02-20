@@ -1,0 +1,11 @@
+{
+  "owner": "xcrong",
+  "slug": "openclawlog",
+  "displayName": "OpenClawLog",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770991606275,
+    "commit": "https://github.com/openclaw/skills/commit/34807270ec72f7113d6183c7f91b10608ba06b2b"
+  },
+  "history": []
+}

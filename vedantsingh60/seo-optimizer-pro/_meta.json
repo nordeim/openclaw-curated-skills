@@ -1,0 +1,22 @@
+{
+  "owner": "vedantsingh60",
+  "slug": "seo-optimizer-pro",
+  "displayName": "SEO Optimizer Pro",
+  "latest": {
+    "version": "1.0.6",
+    "publishedAt": 1771271180367,
+    "commit": "https://github.com/openclaw/skills/commit/45e4686601d0f643306acacdb464a994a6b3a5aa"
+  },
+  "history": [
+    {
+      "version": "1.0.5",
+      "publishedAt": 1771106925782,
+      "commit": "https://github.com/openclaw/skills/commit/c80da808dc1350de4ac34493a3de633401b0dc81"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770051358708,
+      "commit": "https://github.com/clawdbot/skills/commit/05fbdd8de762eadb823091f5a422c2bcc213b3cc"
+    }
+  ]
+}

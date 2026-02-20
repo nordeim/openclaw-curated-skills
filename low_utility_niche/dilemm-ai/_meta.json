@@ -1,0 +1,11 @@
+{
+  "owner": "zyori",
+  "slug": "dilemm-ai",
+  "displayName": "DilemmAI Competition",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770484651274,
+    "commit": "https://github.com/openclaw/skills/commit/e23be655d424076c52419133ff6cd103ff3d7f04"
+  },
+  "history": []
+}

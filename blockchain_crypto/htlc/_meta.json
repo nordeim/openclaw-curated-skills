@@ -1,0 +1,11 @@
+{
+  "owner": "web4agent",
+  "slug": "htlc",
+  "displayName": "Hash Time Locked Contract",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771499088172,
+    "commit": "https://github.com/openclaw/skills/commit/8c5549bc920423b635f82547aa8fb51814decadf"
+  },
+  "history": []
+}

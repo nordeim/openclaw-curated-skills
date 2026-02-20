@@ -1,0 +1,11 @@
+{
+  "owner": "teltel-call-center",
+  "slug": "teltel-send-sms-text-message",
+  "displayName": "Send SMS text and bulk messages via TelTel.io API",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770492883306,
+    "commit": "https://github.com/openclaw/skills/commit/5c98f43945b56a09ad91117c6f082bb8324e8cf6"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "cyberash-dev",
+  "slug": "claude-cost-cli",
+  "displayName": "Claude Cost Cli",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770838076783,
+    "commit": "https://github.com/openclaw/skills/commit/81b5ea11808dd05fe03114edb712b1c50d3d4f29"
+  },
+  "history": []
+}

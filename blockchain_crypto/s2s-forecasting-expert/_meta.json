@@ -1,0 +1,11 @@
+{
+  "owner": "manmeet3591",
+  "slug": "s2s-forecasting-expert",
+  "displayName": "S2S Forecasting Expert (FuXi, FengWu, AIFS)",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771269723958,
+    "commit": "https://github.com/openclaw/skills/commit/7e1e7707c52d7969d87f03c7dd22a04324289722"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "ianalloway",
+  "slug": "nft-tracker",
+  "displayName": "Nft Tracker",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771116425759,
+    "commit": "https://github.com/openclaw/skills/commit/80b44addecf6bd3d9dde8da806c7e49c69aa1748"
+  },
+  "history": []
+}

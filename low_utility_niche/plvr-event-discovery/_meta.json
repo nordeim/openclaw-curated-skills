@@ -1,0 +1,17 @@
+{
+  "owner": "kimchichobo",
+  "slug": "plvr-event-discovery",
+  "displayName": "PLVR Event Discovery",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770776957308,
+    "commit": "https://github.com/openclaw/skills/commit/037a92cd0b1e9f5b02fdf8a5c38d5471a0c448d0"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770736664415,
+      "commit": "https://github.com/openclaw/skills/commit/9a10b0c80630d3f392c41f9387036fed31e1477c"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "owner": "buddyh",
+  "slug": "narrator",
+  "displayName": "Narrator",
+  "latest": {
+    "version": "1.3.2",
+    "publishedAt": 1771278908694,
+    "commit": "https://github.com/openclaw/skills/commit/0f757b986d0cb0df775f05dec4ec83b82cae162d"
+  },
+  "history": [
+    {
+      "version": "1.3.1",
+      "publishedAt": 1771278867557,
+      "commit": "https://github.com/openclaw/skills/commit/f72779654ed3048ac9aa457e544d87c68997ca70"
+    },
+    {
+      "version": "1.3.0",
+      "publishedAt": 1770916326987,
+      "commit": "https://github.com/openclaw/skills/commit/c42ded3faaf1b690ecd86f50bd48b660a82e62b7"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770156310727,
+      "commit": "https://github.com/clawdbot/skills/commit/90662ab4dc9887c26ff4b1cf46da3b138dc957f8"
+    }
+  ]
+}

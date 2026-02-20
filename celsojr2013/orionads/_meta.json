@@ -1,0 +1,17 @@
+{
+  "owner": "celsojr2013",
+  "slug": "orionads",
+  "displayName": "Orion Ads",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771179702360,
+    "commit": "https://github.com/openclaw/skills/commit/713e8257a8da74b66ac1155e4e638c94364d3183"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770139071477,
+      "commit": "https://github.com/clawdbot/skills/commit/eca544ca08c34a141179728ed73a48aa43dfd779"
+    }
+  ]
+}

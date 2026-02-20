@@ -1,0 +1,11 @@
+{
+  "owner": "vismonkey19",
+  "slug": "britebooth-procurement",
+  "displayName": "BriteBooth Procurement",
+  "latest": {
+    "version": "3.0.0",
+    "publishedAt": 1771269669575,
+    "commit": "https://github.com/openclaw/skills/commit/7d1d91ea5db03a358b62d800f1eccc05b9a0955c"
+  },
+  "history": []
+}

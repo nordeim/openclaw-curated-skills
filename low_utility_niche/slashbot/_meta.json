@@ -1,0 +1,11 @@
+{
+  "owner": "alphabot-ai",
+  "slug": "slashbot",
+  "displayName": "Slashbot",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771386667501,
+    "commit": "https://github.com/openclaw/skills/commit/474ec0514a2534f32b5c65206a8791db2bc8cdbf"
+  },
+  "history": []
+}

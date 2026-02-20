@@ -1,0 +1,11 @@
+{
+  "owner": "crossservicesolutions",
+  "slug": "compress-pdf",
+  "displayName": "Compress PDF",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770555517922,
+    "commit": "https://github.com/openclaw/skills/commit/d0bda2471b5adf2d34d3e1954121a5ba3d8bc96a"
+  },
+  "history": []
+}

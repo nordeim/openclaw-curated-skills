@@ -1,0 +1,11 @@
+{
+  "owner": "mastrophot",
+  "slug": "near-agent-skills",
+  "displayName": "NEAR Agent Skills",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771299026196,
+    "commit": "https://github.com/openclaw/skills/commit/eee66506c425387264e8b044804aff2b3720aca7"
+  },
+  "history": []
+}

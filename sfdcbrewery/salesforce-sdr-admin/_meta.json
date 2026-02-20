@@ -1,0 +1,11 @@
+{
+  "owner": "sfdcbrewery",
+  "slug": "salesforce-sdr-admin",
+  "displayName": "Salesforce SDR Admin (Browser)",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770597713172,
+    "commit": "https://github.com/openclaw/skills/commit/5154444bc6f6ae994a4f4b4776fff80ebba4b7c8"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "cruellacodes",
+  "slug": "escrow-agent",
+  "displayName": "a trustless escrow protocol for agent-to-agent transactions on Solana and Base.",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771262718505,
+    "commit": "https://github.com/openclaw/skills/commit/a7d109fee5f0ee565c3b925e89a04aebbf672fa9"
+  },
+  "history": []
+}

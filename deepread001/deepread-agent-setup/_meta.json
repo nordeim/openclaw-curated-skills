@@ -1,0 +1,11 @@
+{
+  "owner": "deepread001",
+  "slug": "deepread-agent-setup",
+  "displayName": "DeepRead OCR — Agent Self-Signup",
+  "latest": {
+    "version": "1.0.5",
+    "publishedAt": 1771501552547,
+    "commit": "https://github.com/openclaw/skills/commit/99c46121592995a2709b448e9e38a1bc0898f0fd"
+  },
+  "history": []
+}

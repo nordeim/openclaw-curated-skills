@@ -1,0 +1,17 @@
+{
+  "owner": "sinwooklee",
+  "slug": "stock-expert",
+  "displayName": "Stock Expert",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771509089965,
+    "commit": "https://github.com/openclaw/skills/commit/d15ded2f62ec6b1981f9de160a937f9e58d069fa"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771410466054,
+      "commit": "https://github.com/openclaw/skills/commit/fe15a5038d38e604dba20a6c177cc5fb268b6971"
+    }
+  ]
+}

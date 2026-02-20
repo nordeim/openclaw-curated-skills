@@ -1,0 +1,11 @@
+{
+  "owner": "datadrivenconstruction",
+  "slug": "llm-data-automation",
+  "displayName": "Llm Data Automation",
+  "latest": {
+    "version": "2.1.0",
+    "publishedAt": 1771172635983,
+    "commit": "https://github.com/openclaw/skills/commit/d79dafdee3c57b09c7077fa46d96125e2a9479d8"
+  },
+  "history": []
+}

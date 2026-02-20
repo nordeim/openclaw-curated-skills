@@ -1,0 +1,11 @@
+{
+  "owner": "zscole",
+  "slug": "agentic-money",
+  "displayName": "Agentic Money",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770686552055,
+    "commit": "https://github.com/openclaw/skills/commit/0fd60ec401ee66f15e93b7edbe5fd6c7aabeac38"
+  },
+  "history": []
+}

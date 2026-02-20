@@ -1,0 +1,17 @@
+{
+  "owner": "new-ground",
+  "slug": "shipmytoken",
+  "displayName": "Ship My Token",
+  "latest": {
+    "version": "1.5.0",
+    "publishedAt": 1771346193045,
+    "commit": "https://github.com/openclaw/skills/commit/449c0ed4795f484b54da10bcbc2ef8b8d649add5"
+  },
+  "history": [
+    {
+      "version": "1.4.3",
+      "publishedAt": 1771344746009,
+      "commit": "https://github.com/openclaw/skills/commit/eb88f83a86cd902cab80c35aedafbe932e8fb415"
+    }
+  ]
+}

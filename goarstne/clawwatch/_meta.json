@@ -1,0 +1,11 @@
+{
+  "owner": "goarstne",
+  "slug": "clawwatch",
+  "displayName": "ClawWatch",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771084816385,
+    "commit": "https://github.com/openclaw/skills/commit/a7024575d22099310da5722b344c7cf22e774da7"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "drg3nz0",
+  "slug": "openclaw-macos-security",
+  "displayName": "Clawhub Upload",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1770683234483,
+    "commit": "https://github.com/openclaw/skills/commit/992400e9574119d3c8abab2335d9dec0da118909"
+  },
+  "history": []
+}

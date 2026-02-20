@@ -1,0 +1,11 @@
+{
+  "owner": "be1human",
+  "slug": "respond-first",
+  "displayName": "Respond First",
+  "latest": {
+    "version": "11.0.0",
+    "publishedAt": 1770724160118,
+    "commit": "https://github.com/openclaw/skills/commit/e50e591041a0e08a82fb2912eb56c7b3a0fa0fef"
+  },
+  "history": []
+}

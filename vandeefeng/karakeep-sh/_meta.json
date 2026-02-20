@@ -1,0 +1,17 @@
+{
+  "owner": "vandeefeng",
+  "slug": "karakeep-sh",
+  "displayName": "karakeep-sh",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771043361261,
+    "commit": "https://github.com/openclaw/skills/commit/1af3d52f5c1183c2f8341145acef1fc82a823550"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770991124127,
+      "commit": "https://github.com/openclaw/skills/commit/2c88cf71716ca8f9a3b91172eae9d00febd8b9d9"
+    }
+  ]
+}

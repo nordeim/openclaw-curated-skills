@@ -1,0 +1,11 @@
+{
+  "owner": "nagellack5c",
+  "slug": "lan-media-server",
+  "displayName": "LAN Media Server",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770648434763,
+    "commit": "https://github.com/openclaw/skills/commit/3ab023991c8b247dc6fcaa529fb15efdcf7f8102"
+  },
+  "history": []
+}

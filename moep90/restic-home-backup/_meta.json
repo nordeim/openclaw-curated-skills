@@ -1,0 +1,22 @@
+{
+  "owner": "moep90",
+  "slug": "restic-home-backup",
+  "displayName": "Restic Home Backup",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771188538209,
+    "commit": "https://github.com/openclaw/skills/commit/2735cf53e0d0f2de60ca58901d705bae52c4a343"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771188470212,
+      "commit": "https://github.com/openclaw/skills/commit/aec7434cc62bd130a9ec4f04dfa1a5232bb17034"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771183872066,
+      "commit": "https://github.com/openclaw/skills/commit/16ab7e72b722c03753ee64847090842b00ec6466"
+    }
+  ]
+}

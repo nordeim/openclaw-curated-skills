@@ -1,0 +1,22 @@
+{
+  "owner": "obcraft",
+  "slug": "apiosk",
+  "displayName": "Apiosk Skill",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771192503066,
+    "commit": "https://github.com/openclaw/skills/commit/bca7a8441efa0e97a69dc728955a9620ea5bf8e8"
+  },
+  "history": [
+    {
+      "version": "1.0.5",
+      "publishedAt": 1770975892654,
+      "commit": "https://github.com/openclaw/skills/commit/2947abc19a3fd3363c7ad97d05ce7ba97ec29b1e"
+    },
+    {
+      "version": "1.0.3",
+      "publishedAt": 1770935734956,
+      "commit": "https://github.com/openclaw/skills/commit/f64be82c586db2778e654f1e9be9c8f1f4ff4fbe"
+    }
+  ]
+}

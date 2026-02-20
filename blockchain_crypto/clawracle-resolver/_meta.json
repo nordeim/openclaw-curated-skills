@@ -1,0 +1,11 @@
+{
+  "owner": "deeakpan",
+  "slug": "clawracle-resolver",
+  "displayName": "Clawracle Oracle Resolver",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770897491154,
+    "commit": "https://github.com/openclaw/skills/commit/68bc2010184d77a799df65d03ce4fd34d9434329"
+  },
+  "history": []
+}

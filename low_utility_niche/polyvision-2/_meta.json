@@ -1,0 +1,22 @@
+{
+  "owner": "pryorx",
+  "slug": "polyvision",
+  "displayName": "Polyvision",
+  "latest": {
+    "version": "1.0.5",
+    "publishedAt": 1770752132786,
+    "commit": "https://github.com/openclaw/skills/commit/3d9944ccf5c526d0028a265b43d2198c7d384a96"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770645933281,
+      "commit": "https://github.com/openclaw/skills/commit/ba00d13b6e40cb57e959a4aa25c6459e1f6f63b5"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770605664681,
+      "commit": "https://github.com/openclaw/skills/commit/b2dcb29f6ca38de7e1bb6059f669f93f54fc1043"
+    }
+  ]
+}

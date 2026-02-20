@@ -1,0 +1,22 @@
+{
+  "owner": "tradmangh",
+  "slug": "m365-calendar",
+  "displayName": "M365 Calendar (Graph)",
+  "latest": {
+    "version": "0.1.9",
+    "publishedAt": 1771421485467,
+    "commit": "https://github.com/openclaw/skills/commit/30772bbf236e19ae39e686b8392dd50118757319"
+  },
+  "history": [
+    {
+      "version": "0.1.3",
+      "publishedAt": 1771417450161,
+      "commit": "https://github.com/openclaw/skills/commit/3efd61b4763a7fdf27f736ff3a65d1ab08710cf4"
+    },
+    {
+      "version": "0.1.2",
+      "publishedAt": 1771413921541,
+      "commit": "https://github.com/openclaw/skills/commit/c331b63788dae67829419851396dae75dad01026"
+    }
+  ]
+}

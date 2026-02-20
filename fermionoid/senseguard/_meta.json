@@ -1,0 +1,17 @@
+{
+  "owner": "fermionoid",
+  "slug": "senseguard",
+  "displayName": "Senseguard",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770479123780,
+    "commit": "https://github.com/openclaw/skills/commit/fd8cf05c6f6567dd5516e30bb4491ecbabae7bb4"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770451920755,
+      "commit": "https://github.com/openclaw/skills/commit/f5b73c4aee4f46d82d601c5ca442e798b1c10a0c"
+    }
+  ]
+}

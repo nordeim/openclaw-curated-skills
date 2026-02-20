@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "podcast-publisher",
+  "displayName": "Podcast Publisher",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526382682,
+    "commit": "https://github.com/openclaw/skills/commit/19aebaf8e931810b41637428efe822055ad6e4a6"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "datadrivenconstruction",
+  "slug": "df-merger",
+  "displayName": "Df Merger",
+  "latest": {
+    "version": "2.1.0",
+    "publishedAt": 1771172326949,
+    "commit": "https://github.com/openclaw/skills/commit/e59eeaa6d32fbb4e9797c7eae240c3fc9508510f"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770475428983,
+      "commit": "https://github.com/openclaw/skills/commit/7046c9379191eb50482828875d414d31e3c90479"
+    }
+  ]
+}

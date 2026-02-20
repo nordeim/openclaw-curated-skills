@@ -1,0 +1,17 @@
+{
+  "owner": "simonenavifare",
+  "slug": "navifare-hidden-flight-deals",
+  "displayName": "Navifare - Flight Price Double-Check, Finds Hidden Deals",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771418317756,
+    "commit": "https://github.com/openclaw/skills/commit/e8654e6739fdd1145690bc1c57f72f8114cd5c9c"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770902933151,
+      "commit": "https://github.com/openclaw/skills/commit/1ba65a12dbb260bf632fb2c6aeb218539f6e3777"
+    }
+  ]
+}

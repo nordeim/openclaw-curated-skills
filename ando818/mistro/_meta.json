@@ -1,0 +1,17 @@
+{
+  "owner": "ando818",
+  "slug": "mistro",
+  "displayName": "mistro-connect",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1771290551583,
+    "commit": "https://github.com/openclaw/skills/commit/accf2ed7934904e9f4f259592e6d4d58a5e026bb"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771235447929,
+      "commit": "https://github.com/openclaw/skills/commit/a537ba9753d44fdbf3168d2cffb30cfa62690871"
+    }
+  ]
+}

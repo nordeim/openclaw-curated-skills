@@ -1,0 +1,11 @@
+{
+  "owner": "xammarie",
+  "slug": "jarvis-migration-risk-radar-01",
+  "displayName": "Jarvis Migration Risk Radar 01",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771439585371,
+    "commit": "https://github.com/openclaw/skills/commit/4772c6340b6bc38aabf617ddaba009be3e9651d5"
+  },
+  "history": []
+}

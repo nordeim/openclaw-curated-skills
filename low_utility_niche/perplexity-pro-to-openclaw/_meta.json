@@ -1,0 +1,11 @@
+{
+  "owner": "hantok",
+  "slug": "perplexity-pro-to-openclaw",
+  "displayName": "Perplexity Pro Openclaw",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771427244567,
+    "commit": "https://github.com/openclaw/skills/commit/7808037afa02f002ef5cf5d373e337d29f068064"
+  },
+  "history": []
+}

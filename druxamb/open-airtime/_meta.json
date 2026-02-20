@@ -1,0 +1,11 @@
+{
+  "owner": "druxamb",
+  "slug": "open-airtime",
+  "displayName": "OpenAirtime",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770462961651,
+    "commit": "https://github.com/openclaw/skills/commit/7ca5622b778241e54e12e26f7661180ba8bb64c7"
+  },
+  "history": []
+}

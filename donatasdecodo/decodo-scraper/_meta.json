@@ -1,0 +1,17 @@
+{
+  "owner": "donatasdecodo",
+  "slug": "decodo-scraper",
+  "displayName": "Decodo Scraper",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771534138338,
+    "commit": "https://github.com/openclaw/skills/commit/4f55d5b7de7877cc29268933b6735ba9aa6f55ca"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770994986688,
+      "commit": "https://github.com/openclaw/skills/commit/a37826b700ded42bdfc6f504af6314f11bc9976c"
+    }
+  ]
+}

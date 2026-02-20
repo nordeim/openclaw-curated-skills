@@ -1,0 +1,11 @@
+{
+  "owner": "1morebuild",
+  "slug": "byr-cli",
+  "displayName": "BYR CLI Skill",
+  "latest": {
+    "version": "0.1.2",
+    "publishedAt": 1771425482317,
+    "commit": "https://github.com/openclaw/skills/commit/fc90812fc834ffb4ade50e3b68737d89190cca31"
+  },
+  "history": []
+}

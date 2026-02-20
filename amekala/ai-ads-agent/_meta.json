@@ -1,0 +1,17 @@
+{
+  "owner": "amekala",
+  "slug": "ai-ads-agent",
+  "displayName": "Openclaw Skill",
+  "latest": {
+    "version": "1.3.1",
+    "publishedAt": 1771216880008,
+    "commit": "https://github.com/openclaw/skills/commit/48637f40462c21275154895b92a879d91dfac8f5"
+  },
+  "history": [
+    {
+      "version": "1.3.0",
+      "publishedAt": 1771117865434,
+      "commit": "https://github.com/openclaw/skills/commit/17f67a5e66c7c1d2d023b300aee175643219e14e"
+    }
+  ]
+}

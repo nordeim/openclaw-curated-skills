@@ -1,0 +1,11 @@
+{
+  "owner": "tangusers",
+  "slug": "minimax-mcp",
+  "displayName": "Minimax Mcp",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1770952864985,
+    "commit": "https://github.com/openclaw/skills/commit/2612f1eec1af6ec8a9396add4edae1095787c63f"
+  },
+  "history": []
+}

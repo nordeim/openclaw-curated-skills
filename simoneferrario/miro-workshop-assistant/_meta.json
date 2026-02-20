@@ -1,0 +1,11 @@
+{
+  "owner": "simoneferrario",
+  "slug": "miro-workshop-assistant",
+  "displayName": "Miro board",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770885992671,
+    "commit": "https://github.com/openclaw/skills/commit/519ce8122bca8205f6e1043852260f09d43c2772"
+  },
+  "history": []
+}

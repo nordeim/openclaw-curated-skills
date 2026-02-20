@@ -1,0 +1,11 @@
+{
+  "owner": "wizsmol",
+  "slug": "aifrens-onboard",
+  "displayName": "AI Frens Onboarding",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770583666685,
+    "commit": "https://github.com/openclaw/skills/commit/e2a95a417b998e9c75f59d2420687b4c264b7400"
+  },
+  "history": []
+}

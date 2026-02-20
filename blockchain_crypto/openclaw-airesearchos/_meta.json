@@ -1,0 +1,11 @@
+{
+  "owner": "bowtiedbluefin",
+  "slug": "openclaw-airesearchos",
+  "displayName": "AIresearchOS",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770795324318,
+    "commit": "https://github.com/openclaw/skills/commit/e2f587745b49ff963dfe51660cc48c3bbdb49e34"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "ollieparsley",
+  "slug": "zenplus-health",
+  "displayName": "Zen+ Health",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1771019223696,
+    "commit": "https://github.com/openclaw/skills/commit/401c0ec4bc91048dfd95d1eb3e778b37d6ebef75"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "aetosset",
+  "slug": "scrapyard",
+  "displayName": "SCRAPYARD",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770758203727,
+    "commit": "https://github.com/openclaw/skills/commit/fbd56869fd9a54986d2853bdcd17b446e76a8f9d"
+  },
+  "history": []
+}

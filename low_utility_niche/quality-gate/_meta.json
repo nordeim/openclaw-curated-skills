@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "quality-gate",
+  "displayName": "quality-gate",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770791282571,
+    "commit": "https://github.com/openclaw/skills/commit/ea741de261e9e6cc58eac96f8f71663372007f3b"
+  },
+  "history": []
+}

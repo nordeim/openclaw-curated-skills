@@ -1,0 +1,11 @@
+{
+  "owner": "marcoracer",
+  "slug": "uv-priority",
+  "displayName": "Prioritize uv",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771534424427,
+    "commit": "https://github.com/openclaw/skills/commit/4d5c6ae54fc82b59f960c4c45046cee70b6d0d40"
+  },
+  "history": []
+}

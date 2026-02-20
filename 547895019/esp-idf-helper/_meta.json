@@ -1,0 +1,11 @@
+{
+  "owner": "547895019",
+  "slug": "esp-idf-helper",
+  "displayName": "ESP-IDF Helper",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771152649659,
+    "commit": "https://github.com/openclaw/skills/commit/0fb6d615d35749fd493151118ebb5411c18bcecf"
+  },
+  "history": []
+}

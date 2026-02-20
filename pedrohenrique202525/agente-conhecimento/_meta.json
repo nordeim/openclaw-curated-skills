@@ -1,0 +1,11 @@
+{
+  "owner": "pedrohenrique202525",
+  "slug": "agente-conhecimento",
+  "displayName": "Agente Conhecimento",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771371688126,
+    "commit": "https://github.com/openclaw/skills/commit/e459646ab4aaedd37f6c023ea5b44ac3e70d4419"
+  },
+  "history": []
+}

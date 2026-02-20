@@ -1,0 +1,17 @@
+{
+  "owner": "eddygk",
+  "slug": "skill-vetting",
+  "displayName": "Skill Vetting",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771269554901,
+    "commit": "https://github.com/openclaw/skills/commit/5e0a0159e9b479a6dc9c3f3748ae1cebde3a78e1"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770042032111,
+      "commit": "https://github.com/clawdbot/skills/commit/b9fc3ade46f19ddf3dca17a73c8cd90acf506048"
+    }
+  ]
+}

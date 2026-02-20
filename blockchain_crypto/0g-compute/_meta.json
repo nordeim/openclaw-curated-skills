@@ -1,0 +1,11 @@
+{
+  "owner": "in-liberty420",
+  "slug": "0g-compute",
+  "displayName": "0G Compute",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771257351575,
+    "commit": "https://github.com/openclaw/skills/commit/41213fdccf17b2402d9263444355040a0ffc495f"
+  },
+  "history": []
+}

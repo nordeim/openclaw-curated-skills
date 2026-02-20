@@ -1,0 +1,11 @@
+{
+  "owner": "sidshekhar",
+  "slug": "prediction-markets-gina",
+  "displayName": "Polymarket via Gina",
+  "latest": {
+    "version": "0.2.0",
+    "publishedAt": 1771066831835,
+    "commit": "https://github.com/openclaw/skills/commit/28198672fad12dd39d26eccf8180b71e299c16e4"
+  },
+  "history": []
+}

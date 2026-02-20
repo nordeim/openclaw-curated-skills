@@ -1,0 +1,11 @@
+{
+  "owner": "deepseekoracle",
+  "slug": "lyra-coin-launch-manager",
+  "displayName": "LYRA Coin Launch Manager",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770519287737,
+    "commit": "https://github.com/openclaw/skills/commit/6ab8be99d0e0761834bb05436744334432bacae9"
+  },
+  "history": []
+}

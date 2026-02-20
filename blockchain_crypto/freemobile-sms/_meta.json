@@ -1,0 +1,11 @@
+{
+  "owner": "dclauzel",
+  "slug": "freemobile-sms",
+  "displayName": "Free Mobile SMS",
+  "latest": {
+    "version": "0.0.1",
+    "publishedAt": 1770986068435,
+    "commit": "https://github.com/openclaw/skills/commit/f44bacccb2084b121a35186d8b88ffea7e60914d"
+  },
+  "history": []
+}

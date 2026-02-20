@@ -1,0 +1,11 @@
+{
+  "owner": "alannetwork",
+  "slug": "yield-farming-agent",
+  "displayName": "Yield Farming Agent",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771367894652,
+    "commit": "https://github.com/openclaw/skills/commit/1b5a8ca551bec1b1d1c3b39f9430bb719f9ef5fb"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "ifoster01",
+  "slug": "stripe-best-practices",
+  "displayName": "Stripe Best Practices",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770416198953,
+    "commit": "https://github.com/openclaw/skills/commit/233df88e91777eef795befa11f25f13d88ba93fd"
+  },
+  "history": []
+}

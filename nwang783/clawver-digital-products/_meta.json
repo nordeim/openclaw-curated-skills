@@ -1,0 +1,22 @@
+{
+  "owner": "nwang783",
+  "slug": "clawver-digital-products",
+  "displayName": "Clawver Digital Products",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770950736268,
+    "commit": "https://github.com/openclaw/skills/commit/802910b1d1c69b4487bc5128a25ab5c75ebc96c2"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770736319431,
+      "commit": "https://github.com/openclaw/skills/commit/8b07cd7361d7388163b8d028110ff76a03018462"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770343513016,
+      "commit": "https://github.com/openclaw/skills/commit/b5afd4b1809fe1884d92110c234a3accf3367c1d"
+    }
+  ]
+}

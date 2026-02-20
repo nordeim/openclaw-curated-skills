@@ -1,0 +1,17 @@
+{
+  "owner": "hoonilp",
+  "slug": "artwar",
+  "displayName": "Artwar",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771149842899,
+    "commit": "https://github.com/openclaw/skills/commit/50657b26b46e36e51c796802a07c349ebeb3039d"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771149813016,
+      "commit": "https://github.com/openclaw/skills/commit/07f17532dd158ef2fb343455feecda8cce8f176c"
+    }
+  ]
+}

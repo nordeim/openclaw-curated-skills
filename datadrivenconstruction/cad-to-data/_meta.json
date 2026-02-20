@@ -1,0 +1,17 @@
+{
+  "owner": "datadrivenconstruction",
+  "slug": "cad-to-data",
+  "displayName": "Cad To Data",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1771002028015,
+    "commit": "https://github.com/openclaw/skills/commit/3c12c9153fd415a141726be06e368531f0ef4e2b"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770475459808,
+      "commit": "https://github.com/openclaw/skills/commit/210dc862aa0991a0b09b457e183caf4247ba28a7"
+    }
+  ]
+}

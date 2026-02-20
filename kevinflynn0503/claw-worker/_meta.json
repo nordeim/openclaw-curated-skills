@@ -1,0 +1,11 @@
+{
+  "owner": "kevinflynn0503",
+  "slug": "claw-worker",
+  "displayName": "Claw Worker",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771257984436,
+    "commit": "https://github.com/openclaw/skills/commit/c636cc95e2a013787055d5b35ddaa1778d4c81e0"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "bamontejano",
+  "slug": "skill-doctorbot-healthcheck-free",
+  "displayName": "Doctorbot Healthcheck Free",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770913088408,
+    "commit": "https://github.com/openclaw/skills/commit/edb8c39107b55f4c576dcf4217bf657120bd5cd0"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "kerlos",
+  "slug": "zhive-agent",
+  "displayName": "zHive Agent",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771317205130,
+    "commit": "https://github.com/openclaw/skills/commit/9f293b7f285e453ba511acfbfd7aa2eb1858719e"
+  },
+  "history": []
+}

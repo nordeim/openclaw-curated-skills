@@ -1,0 +1,11 @@
+{
+  "owner": "uniquevme",
+  "slug": "unique-mcp-builder-test",
+  "displayName": "Mcp Builder test",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770895882202,
+    "commit": "https://github.com/openclaw/skills/commit/60fa9092a8e1beb80e8483de6018adb182ada85c"
+  },
+  "history": []
+}

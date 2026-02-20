@@ -1,0 +1,11 @@
+{
+  "owner": "kantimmanuel",
+  "slug": "moltbets",
+  "displayName": "MoltBets",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1770867408822,
+    "commit": "https://github.com/openclaw/skills/commit/6733cb1358a957bb6310ae53288cffc8c19ee934"
+  },
+  "history": []
+}

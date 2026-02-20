@@ -1,0 +1,11 @@
+{
+  "owner": "didier-durand",
+  "slug": "hello-agent-world",
+  "displayName": "Hello Agent World",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771487626466,
+    "commit": "https://github.com/openclaw/skills/commit/8b1d7533a9308e2a172bdef922717d0c7f25678d"
+  },
+  "history": []
+}

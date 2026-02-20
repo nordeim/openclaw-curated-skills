@@ -1,0 +1,11 @@
+{
+  "owner": "huixionghexiyi",
+  "slug": "free-groq-voice",
+  "displayName": "Free Groq Voice Recognition",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771154852805,
+    "commit": "https://github.com/openclaw/skills/commit/87362428b5d3716365eb788c808bd5ed48b2091a"
+  },
+  "history": []
+}

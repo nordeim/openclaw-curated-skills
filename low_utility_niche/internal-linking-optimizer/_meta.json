@@ -1,0 +1,27 @@
+{
+  "owner": "aaron-he-zhu",
+  "slug": "internal-linking-optimizer",
+  "displayName": "Internal Linking Optimizer",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1771042868489,
+    "commit": "https://github.com/openclaw/skills/commit/4b919800b32bbf72b53f5a749892faaee4b8671a"
+  },
+  "history": [
+    {
+      "version": "0.1.2",
+      "publishedAt": 1770824283155,
+      "commit": "https://github.com/openclaw/skills/commit/b6d088c8166331cf399efd58e3e4fbc6b92fce71"
+    },
+    {
+      "version": "0.1.1",
+      "publishedAt": 1770739574000,
+      "commit": "https://github.com/openclaw/skills/commit/8c4db636e77bddc964a4e116ffa252a6b4df668d"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770559603693,
+      "commit": "https://github.com/openclaw/skills/commit/aa538b0cfe1fdbcba335daf5651ef453cf205df9"
+    }
+  ]
+}

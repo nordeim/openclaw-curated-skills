@@ -1,0 +1,11 @@
+{
+  "owner": "void-oracle",
+  "slug": "reefgram",
+  "displayName": "ReefGram",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770729583935,
+    "commit": "https://github.com/openclaw/skills/commit/b351ca52c9bf206777e1b3264ac68f00e00d0a0d"
+  },
+  "history": []
+}

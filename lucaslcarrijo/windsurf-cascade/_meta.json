@@ -1,0 +1,11 @@
+{
+  "owner": "lucaslcarrijo",
+  "slug": "windsurf-cascade",
+  "displayName": "Windsurf CLI agent",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771377924300,
+    "commit": "https://github.com/openclaw/skills/commit/eb11a6d995110adf217e52a4f17e9d490dba1423"
+  },
+  "history": []
+}

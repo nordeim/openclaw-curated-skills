@@ -1,0 +1,11 @@
+{
+  "owner": "maxquick",
+  "slug": "hippius",
+  "displayName": "Hippius Storage",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770965277680,
+    "commit": "https://github.com/openclaw/skills/commit/5eab708233d1c2ac3a18ac9a0aa60b57e3410523"
+  },
+  "history": []
+}

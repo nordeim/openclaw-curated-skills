@@ -1,0 +1,17 @@
+{
+  "owner": "neiljo-gy",
+  "slug": "open-persona",
+  "displayName": "openpersona",
+  "latest": {
+    "version": "0.6.0",
+    "publishedAt": 1771420480093,
+    "commit": "https://github.com/openclaw/skills/commit/4c983cfc8ca227ca9f4a77323ee7531ec13e4df6"
+  },
+  "history": [
+    {
+      "version": "0.3.0",
+      "publishedAt": 1771167493467,
+      "commit": "https://github.com/openclaw/skills/commit/d9b1daac2fdc1e96559b7a7f2bcf8216fbfcae89"
+    }
+  ]
+}

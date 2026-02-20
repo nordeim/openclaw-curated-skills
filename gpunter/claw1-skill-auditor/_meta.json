@@ -1,0 +1,11 @@
+{
+  "owner": "gpunter",
+  "slug": "claw1-skill-auditor",
+  "displayName": "CLAW-1 Skill Auditor",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771408228079,
+    "commit": "https://github.com/openclaw/skills/commit/c69ac3d8bd681281636ea636b216fedc09e9df82"
+  },
+  "history": []
+}

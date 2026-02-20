@@ -1,0 +1,17 @@
+{
+  "owner": "quanru",
+  "slug": "midscene-computer-browser",
+  "displayName": "Midscene Automations Skills for Browser",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771041219187,
+    "commit": "https://github.com/openclaw/skills/commit/405cf2c0454bd28ad7ad93dbcd85440862533cc6"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770883271436,
+      "commit": "https://github.com/openclaw/skills/commit/db6c6cd089d9ee2f689a9988687801f2532aac4d"
+    }
+  ]
+}

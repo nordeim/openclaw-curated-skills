@@ -1,0 +1,27 @@
+{
+  "owner": "phenomenoner",
+  "slug": "context-clean-up",
+  "displayName": "Context Clean Up",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1771447733986,
+    "commit": "https://github.com/openclaw/skills/commit/76e27b937ba355a6ceffaf460636466d9406c79d"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770804975173,
+      "commit": "https://github.com/openclaw/skills/commit/f7685cc2659cb0ceafc02fadcbbb5c7993ae4e7f"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770618964778,
+      "commit": "https://github.com/openclaw/skills/commit/1c4c810043771b7330c45305af95039c326143a0"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770475109562,
+      "commit": "https://github.com/openclaw/skills/commit/0c1e9aa6d4f3d331394dcd985daa503bd992be90"
+    }
+  ]
+}

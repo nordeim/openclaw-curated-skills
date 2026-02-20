@@ -1,0 +1,11 @@
+{
+  "owner": "iam-rekt",
+  "slug": "kelp-forest",
+  "displayName": "Kelp Forest",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770651991891,
+    "commit": "https://github.com/openclaw/skills/commit/855eb6438684ebdee79bc5511827a99d7f2ce815"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "lksrz",
+  "slug": "aic-dashboard",
+  "displayName": "AI Commander Dashboard",
+  "latest": {
+    "version": "1.8.0",
+    "publishedAt": 1771405198802,
+    "commit": "https://github.com/openclaw/skills/commit/d4bc89682bdb9720fe1b63c96e62856c1bda6950"
+  },
+  "history": [
+    {
+      "version": "1.6.0",
+      "publishedAt": 1771403521646,
+      "commit": "https://github.com/openclaw/skills/commit/c451e89050c138e2a3164b16275f6c4807f18115"
+    }
+  ]
+}

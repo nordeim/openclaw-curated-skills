@@ -1,0 +1,17 @@
+{
+  "owner": "flexoid",
+  "slug": "ticktick-full",
+  "displayName": "Ticktick CLI (Full Edition)",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771020831156,
+    "commit": "https://github.com/openclaw/skills/commit/132c3d2f669b27511db34664a3c0b580d258985d"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770845323915,
+      "commit": "https://github.com/openclaw/skills/commit/97be93641eab5d368f8d5ce4ed9ddc9de6b60343"
+    }
+  ]
+}

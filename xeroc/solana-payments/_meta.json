@@ -1,0 +1,11 @@
+{
+  "owner": "xeroc",
+  "slug": "solana-payments",
+  "displayName": "Solana Payments",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770544818878,
+    "commit": "https://github.com/openclaw/skills/commit/2540f653a57b117c948a137747409e9d528a0d98"
+  },
+  "history": []
+}

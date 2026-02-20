@@ -1,0 +1,11 @@
+{
+  "owner": "ngmeyer",
+  "slug": "x-oauth-api",
+  "displayName": "X OAuth API",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770863976834,
+    "commit": "https://github.com/openclaw/skills/commit/60af59e12a0855cad54fad04f32f1d1f4a1c0423"
+  },
+  "history": []
+}

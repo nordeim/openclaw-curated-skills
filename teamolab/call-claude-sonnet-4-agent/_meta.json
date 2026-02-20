@@ -1,0 +1,11 @@
+{
+  "owner": "teamolab",
+  "slug": "call-claude-sonnet-4-agent",
+  "displayName": "Call Claude Sonnet 4 Agent",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771140505885,
+    "commit": "https://github.com/openclaw/skills/commit/e68a7f684755adf91136a40bc3f9dc6891d01396"
+  },
+  "history": []
+}

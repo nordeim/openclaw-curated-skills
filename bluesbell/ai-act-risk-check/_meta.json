@@ -1,0 +1,11 @@
+{
+  "owner": "bluesbell",
+  "slug": "ai-act-risk-check",
+  "displayName": "Ai Act Risk Check",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770560008863,
+    "commit": "https://github.com/openclaw/skills/commit/1d35c397da32f4bf661157e8ebfb32a8e3600f5e"
+  },
+  "history": []
+}

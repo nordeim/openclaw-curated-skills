@@ -1,0 +1,11 @@
+{
+  "owner": "dylanport",
+  "slug": "whistle-rpc",
+  "displayName": "Whistle RPC",
+  "latest": {
+    "version": "1.0.5",
+    "publishedAt": 1771000231394,
+    "commit": "https://github.com/openclaw/skills/commit/57a00236bc78a842e026ad220e2e8e9bc5524d50"
+  },
+  "history": []
+}

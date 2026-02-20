@@ -1,0 +1,11 @@
+{
+  "owner": "wangyendt",
+  "slug": "dsp-2",
+  "displayName": "Pywayne Dsp",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771215064727,
+    "commit": "https://github.com/openclaw/skills/commit/611fd70a594d66f75e8b28fe42c52ca2a032dcfa"
+  },
+  "history": []
+}

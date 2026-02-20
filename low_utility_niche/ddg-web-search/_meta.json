@@ -1,0 +1,11 @@
+{
+  "owner": "jakelin",
+  "slug": "ddg-web-search",
+  "displayName": "DuckDuckGo Web Search",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771148054829,
+    "commit": "https://github.com/openclaw/skills/commit/a11bc1251799c4c0fccdc38a1d055b61150616ad"
+  },
+  "history": []
+}

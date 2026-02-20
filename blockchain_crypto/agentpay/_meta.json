@@ -1,0 +1,11 @@
+{
+  "owner": "kar69-96",
+  "slug": "agentpay",
+  "displayName": "Agentpay",
+  "latest": {
+    "version": "0.2.0",
+    "publishedAt": 1770639090213,
+    "commit": "https://github.com/openclaw/skills/commit/3307beb0cef7231c8ffd6c24a56896bc19d55e45"
+  },
+  "history": []
+}

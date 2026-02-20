@@ -1,0 +1,17 @@
+{
+  "owner": "darkphoenix2704",
+  "slug": "nocodb-official",
+  "displayName": "NocoDB Skiils",
+  "latest": {
+    "version": "0.0.2",
+    "publishedAt": 1771053684988,
+    "commit": "https://github.com/openclaw/skills/commit/08f2a7b2fedc55465ab6baf9d4d526b1f3fce3e4"
+  },
+  "history": [
+    {
+      "version": "0.0.1",
+      "publishedAt": 1770037049372,
+      "commit": "https://github.com/clawdbot/skills/commit/35ce7819af978826fc0bde0a9a3f0adf0aa20255"
+    }
+  ]
+}

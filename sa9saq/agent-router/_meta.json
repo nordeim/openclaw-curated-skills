@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "agent-router",
+  "displayName": "Agent Router",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526192593,
+    "commit": "https://github.com/openclaw/skills/commit/f4ab34895b92a94ef20919a4c804317787dc18cf"
+  },
+  "history": []
+}

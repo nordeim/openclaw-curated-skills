@@ -1,0 +1,22 @@
+{
+  "owner": "itsgustav",
+  "slug": "paylobster",
+  "displayName": "Paylobster",
+  "latest": {
+    "version": "4.4.0",
+    "publishedAt": 1770804616492,
+    "commit": "https://github.com/openclaw/skills/commit/636c44c6aff45f997db2ae168cdbd2d7f8046fb8"
+  },
+  "history": [
+    {
+      "version": "4.3.0",
+      "publishedAt": 1770802824308,
+      "commit": "https://github.com/openclaw/skills/commit/3d4ee75074cb3f1e649e42c589ba6c76937fe085"
+    },
+    {
+      "version": "3.0.0",
+      "publishedAt": 1770691917387,
+      "commit": "https://github.com/openclaw/skills/commit/661d6a1e2833a63e1473705809a0ab658dfead88"
+    }
+  ]
+}

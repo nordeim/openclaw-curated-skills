@@ -1,0 +1,17 @@
+{
+  "owner": "fermartz",
+  "slug": "astranova",
+  "displayName": "Astranova",
+  "latest": {
+    "version": "1.0.5",
+    "publishedAt": 1771271081097,
+    "commit": "https://github.com/openclaw/skills/commit/494793af4587cd1c435d644df211b0ac444c9fba"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771091401825,
+      "commit": "https://github.com/openclaw/skills/commit/a7ace81cae1eee69e5211e458fe7fc919c72bd26"
+    }
+  ]
+}

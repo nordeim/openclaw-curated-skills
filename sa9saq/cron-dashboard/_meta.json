@@ -1,0 +1,22 @@
+{
+  "owner": "sa9saq",
+  "slug": "cron-dashboard",
+  "displayName": "cron-dashboard",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770791041715,
+    "commit": "https://github.com/openclaw/skills/commit/9237c8d71cc254d69e7ef3602c64c683fcc208c7"
+  },
+  "history": [
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770526210867,
+      "commit": "https://github.com/openclaw/skills/commit/51b87c6d35dc702df070a078adfa80154de8b659"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770503754537,
+      "commit": "https://github.com/openclaw/skills/commit/9a2fd9cca7d15af2cb848de51118d027d18c9e61"
+    }
+  ]
+}

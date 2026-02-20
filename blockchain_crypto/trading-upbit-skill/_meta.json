@@ -1,0 +1,22 @@
+{
+  "owner": "kuns9",
+  "slug": "trading-upbit-skill",
+  "displayName": "Trading upbit skill",
+  "latest": {
+    "version": "1.0.14",
+    "publishedAt": 1771164868264,
+    "commit": "https://github.com/openclaw/skills/commit/6252babaa24fb85cbe8c53aad8962a822b94d7dc"
+  },
+  "history": [
+    {
+      "version": "1.0.12",
+      "publishedAt": 1771159968983,
+      "commit": "https://github.com/openclaw/skills/commit/0d144bab130075fd90368e4e60870b98479d71b1"
+    },
+    {
+      "version": "1.0.3",
+      "publishedAt": 1771081723508,
+      "commit": "https://github.com/openclaw/skills/commit/4af7a066af25b0b0d05a4a19a51759c9fa812a54"
+    }
+  ]
+}

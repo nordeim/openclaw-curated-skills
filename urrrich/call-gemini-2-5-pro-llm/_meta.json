@@ -1,0 +1,11 @@
+{
+  "owner": "urrrich",
+  "slug": "call-gemini-2-5-pro-llm",
+  "displayName": "Call Gemini 2 5 Pro Llm",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771142779939,
+    "commit": "https://github.com/openclaw/skills/commit/3375d0f4150620c935a2edadb972119c25e5f50a"
+  },
+  "history": []
+}

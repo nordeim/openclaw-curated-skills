@@ -1,0 +1,17 @@
+{
+  "owner": "jrojas537",
+  "slug": "soccer-cli",
+  "displayName": "Soccer Cli",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771329842918,
+    "commit": "https://github.com/openclaw/skills/commit/2d1bc995c836fd76136094d45b240b457655d294"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771311743856,
+      "commit": "https://github.com/openclaw/skills/commit/ea7bfc0aa81ec65547c43984f0f54edf9d87c2b6"
+    }
+  ]
+}

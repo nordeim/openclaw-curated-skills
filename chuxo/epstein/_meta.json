@@ -1,0 +1,17 @@
+{
+  "owner": "chuxo",
+  "slug": "epstein",
+  "displayName": "Epstein Files Search",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770665572232,
+    "commit": "https://github.com/openclaw/skills/commit/bfd8aa3045d6d2e8daf0b0bf55841faad72569f6"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770593054084,
+      "commit": "https://github.com/openclaw/skills/commit/85777b515b1c29c3cab845931cfaf125cc88ece5"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "lifehackjohn",
+  "slug": "qr-password",
+  "displayName": "QR Password",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771238384488,
+    "commit": "https://github.com/openclaw/skills/commit/5f3e3951869f8f53919d69a404f52dfff654c798"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "zxrys",
+  "slug": "arxiv-paper-reviews",
+  "displayName": "arXiv Paper Reviews",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770807287731,
+    "commit": "https://github.com/openclaw/skills/commit/edfe7a317b9d62aca4dff5c58ffb4520eda67d05"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770375758644,
+      "commit": "https://github.com/openclaw/skills/commit/1d96fa5a26c37b730c1c84047e739b97d7bae696"
+    }
+  ]
+}

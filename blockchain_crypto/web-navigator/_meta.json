@@ -1,0 +1,11 @@
+{
+  "owner": "mematron",
+  "slug": "web-navigator",
+  "displayName": "Web Navigator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771298877948,
+    "commit": "https://github.com/openclaw/skills/commit/44e471037b121dd1f1c66bd0709c482c40556a41"
+  },
+  "history": []
+}

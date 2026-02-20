@@ -1,0 +1,22 @@
+{
+  "owner": "g9pedro",
+  "slug": "skillbench",
+  "displayName": "SkillBench",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1770744521286,
+    "commit": "https://github.com/openclaw/skills/commit/5c9cf5f07898e1e05229817279637e2edb2d898a"
+  },
+  "history": [
+    {
+      "version": "1.7.0",
+      "publishedAt": 1770711955253,
+      "commit": "https://github.com/openclaw/skills/commit/2cffc152a5e04bd128c3e0df2cc0eea6fefdff62"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770710161839,
+      "commit": "https://github.com/openclaw/skills/commit/625f0da79faa2ccfe072fe0034dd3dc76c16085b"
+    }
+  ]
+}

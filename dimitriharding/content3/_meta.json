@@ -1,0 +1,11 @@
+{
+  "owner": "dimitriharding",
+  "slug": "content3",
+  "displayName": "Use the Content3 Agent API to create short-form videos, manage content libraries, submit reviews for human approval, and draft social media posts.",
+  "latest": {
+    "version": "1.0.5",
+    "publishedAt": 1771387436269,
+    "commit": "https://github.com/openclaw/skills/commit/e9504f917450931064d02ef8bd362e57e96c70f4"
+  },
+  "history": []
+}

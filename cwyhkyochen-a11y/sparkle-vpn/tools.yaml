@@ -1,0 +1,14 @@
+tools:
+  - id: sparkle_vpn_start
+    name: Start Sparkle VPN
+    description: Launch Sparkle VPN and activate DirectAccess connection
+    command: bash
+    args:
+      - /home/admin/.openclaw/workspace/skills/sparkle-vpn/scripts/start-vpn.sh
+    
+  - id: sparkle_vpn_stop
+    name: Stop Sparkle VPN
+    description: Deactivate VPN and close Sparkle application
+    command: bash
+    args:
+      - /home/admin/.openclaw/workspace/skills/sparkle-vpn/scripts/stop-vpn.sh

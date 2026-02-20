@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-fpa-engine",
+  "displayName": "FP&A Engine",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771349113265,
+    "commit": "https://github.com/openclaw/skills/commit/8eda68550c88093c8830435666788d1e1a5cbda8"
+  },
+  "history": []
+}

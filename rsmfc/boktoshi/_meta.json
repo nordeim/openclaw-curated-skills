@@ -1,0 +1,17 @@
+{
+  "owner": "rsmfc",
+  "slug": "boktoshi",
+  "displayName": "Boktoshi Bot Trading Skill",
+  "latest": {
+    "version": "1.1.1",
+    "publishedAt": 1771032720720,
+    "commit": "https://github.com/openclaw/skills/commit/6044a7c5c3263aff9122e32b74ba29ba1070e965"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1769977496516,
+      "commit": "https://github.com/clawdbot/skills/commit/3d1e20b1141d60877db1f1e6edf1dd494d8c896a"
+    }
+  ]
+}

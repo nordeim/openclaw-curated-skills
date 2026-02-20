@@ -1,0 +1,17 @@
+{
+  "owner": "avegancafe",
+  "slug": "semver-helper",
+  "displayName": "Semver Helper",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771450940341,
+    "commit": "https://github.com/openclaw/skills/commit/51d6b664478338ebd860dfc1e77741e91cd52242"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771447772872,
+      "commit": "https://github.com/openclaw/skills/commit/fe397040bf0e1cadc2859661bdb2b44175f49eba"
+    }
+  ]
+}

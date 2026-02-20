@@ -1,0 +1,11 @@
+{
+  "owner": "osipov-anton",
+  "slug": "viboost",
+  "displayName": "Viboost",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1770856935691,
+    "commit": "https://github.com/openclaw/skills/commit/b5090cd0e31ba3ad28eb8717b3798b1a6f7b2551"
+  },
+  "history": []
+}

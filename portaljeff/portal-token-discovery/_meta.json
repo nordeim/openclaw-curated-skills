@@ -1,0 +1,11 @@
+{
+  "owner": "portaljeff",
+  "slug": "portal-token-discovery",
+  "displayName": "Portal Token Discovery",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771241071505,
+    "commit": "https://github.com/openclaw/skills/commit/fdb3ebd23a6dc6808360658a1e398d61ff51ce33"
+  },
+  "history": []
+}

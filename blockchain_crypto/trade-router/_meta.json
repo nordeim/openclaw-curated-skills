@@ -1,0 +1,11 @@
+{
+  "owner": "re-bruce-wayne",
+  "slug": "trade-router",
+  "displayName": "Trade Router",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771372682631,
+    "commit": "https://github.com/openclaw/skills/commit/dcfbaa96d81d97b0d4945642ff16a9a9a9f35dd0"
+  },
+  "history": []
+}

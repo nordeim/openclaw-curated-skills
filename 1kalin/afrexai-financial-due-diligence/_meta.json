@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-financial-due-diligence",
+  "displayName": "Financial Due Diligence Analyzer",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771173823640,
+    "commit": "https://github.com/openclaw/skills/commit/a55aed7c5534e83a1f74099d12f72bb5b0329c08"
+  },
+  "history": []
+}

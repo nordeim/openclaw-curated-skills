@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-budget-tracker",
+  "displayName": "Budget & Expense Tracker",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770967596799,
+    "commit": "https://github.com/openclaw/skills/commit/7d6d8ad274cc903089413984ae32226e0502bdd4"
+  },
+  "history": []
+}

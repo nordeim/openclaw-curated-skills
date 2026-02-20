@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "japan-news-digest",
+  "displayName": "Japan News Digest",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526365044,
+    "commit": "https://github.com/openclaw/skills/commit/be16c8af69681b4f77ac20623cd19eb18aefb050"
+  },
+  "history": []
+}

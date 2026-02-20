@@ -1,0 +1,11 @@
+{
+  "owner": "benny-conn",
+  "slug": "trackyard",
+  "displayName": "Trackyard",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771456477318,
+    "commit": "https://github.com/openclaw/skills/commit/f68e189b3f0132b33fe7a5b3b3f9550e72977b87"
+  },
+  "history": []
+}

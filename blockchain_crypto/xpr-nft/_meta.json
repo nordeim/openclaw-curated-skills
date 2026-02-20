@@ -1,0 +1,11 @@
+{
+  "owner": "paulgnz",
+  "slug": "xpr-nft",
+  "displayName": "XPR NFT (AtomicAssets)",
+  "latest": {
+    "version": "0.2.11",
+    "publishedAt": 1771017980965,
+    "commit": "https://github.com/openclaw/skills/commit/9b39a2ceb7fc6693790a73eddd203753e2bf3b89"
+  },
+  "history": []
+}

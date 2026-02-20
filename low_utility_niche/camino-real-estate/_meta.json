@@ -1,0 +1,11 @@
+{
+  "owner": "james-southendsolutions",
+  "slug": "camino-real-estate",
+  "displayName": "Real Estate Intelligence",
+  "latest": {
+    "version": "0.2.0",
+    "publishedAt": 1771301407264,
+    "commit": "https://github.com/openclaw/skills/commit/4b47d6434911187e26d34cf1e8370e718dae8609"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "jakelin",
+  "slug": "property-search",
+  "displayName": "property.com.au Research",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771150205672,
+    "commit": "https://github.com/openclaw/skills/commit/e696d932760b06d0f75e0d9ad4d73cca6a76ec44"
+  },
+  "history": []
+}

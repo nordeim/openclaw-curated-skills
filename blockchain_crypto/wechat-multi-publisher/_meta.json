@@ -1,0 +1,11 @@
+{
+  "owner": "x402spark-jpg",
+  "slug": "wechat-multi-publisher",
+  "displayName": "WeChat MP Multi-Publisher",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771403692643,
+    "commit": "https://github.com/openclaw/skills/commit/e3b591f6757d7680a3b058e9a50e371ec18c0036"
+  },
+  "history": []
+}

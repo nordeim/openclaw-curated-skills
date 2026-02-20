@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-release-notes",
+  "displayName": "Release Notes Generator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770993805557,
+    "commit": "https://github.com/openclaw/skills/commit/4b189cbd668b7c7426c4c0b083727cbf88f2e22c"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "547895019",
+  "slug": "public-apis-skill-creator",
+  "displayName": "Public APIs Skill Creator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771166504800,
+    "commit": "https://github.com/openclaw/skills/commit/670ec0013d2d63ae03b40a426f14ff3f51913280"
+  },
+  "history": []
+}

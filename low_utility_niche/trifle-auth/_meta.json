@@ -1,0 +1,11 @@
+{
+  "owner": "okwme",
+  "slug": "trifle-auth",
+  "displayName": "Trifle Auth",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771421661800,
+    "commit": "https://github.com/openclaw/skills/commit/694f02367d745605013acae0356082b1fa334352"
+  },
+  "history": []
+}

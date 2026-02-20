@@ -1,0 +1,11 @@
+{
+  "owner": "xeroc",
+  "slug": "cold-email-personalization",
+  "displayName": "Cold Email Personalization",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771246456112,
+    "commit": "https://github.com/openclaw/skills/commit/8973e12716abb8bc16e8335accd3f74a9f754076"
+  },
+  "history": []
+}

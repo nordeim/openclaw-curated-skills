@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Macro Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; background: #1a1a1a; color: white; padding: 20px; box-sizing: border-box; }
+        .main-container { display: flex; width: 100%; max-width: 1100px; gap: 30px; align-items: flex-start; }
+        .chart-section { flex: 1.2; text-align: center; background: #2a2a2a; border-radius: 12px; padding: 30px; }
+        .history-section { flex: 0.8; background: #2a2a2a; border-radius: 12px; padding: 25px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px; }
+        .goals-section { padding: 18px; background: #1a1a1a; border-radius: 10px; font-size: 0.9rem; border: 1px solid #333; }
+        .goal-bar { height: 10px; background: #333; border-radius: 5px; margin: 8px 0 18px 0; overflow: hidden; border: 1px solid #444; }
+        .progress { height: 100%; background: #4caf50; transition: width 0.5s ease-out; }
+        .progress.over { background: #f44336; }
+        .progress.protein { background: #36A2EB; }
+        h2 { margin: 0; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; color: #eee; border-bottom: 1px solid #444; padding-bottom: 10px; }
+        h3 { color: #888; margin: 10px 0 25px 0; font-weight: normal; }
+        table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+        th { text-align: left; color: #666; padding: 12px 8px; border-bottom: 1px solid #444; text-transform: uppercase; font-size: 0.75rem; }
+        td { padding: 10px 8px; border-bottom: 1px solid #333; color: #ccc; }
+        .val { font-weight: bold; color: #fff; }
+        canvas { max-width: 100%; height: auto !important; }
+        .metric-header { display: flex; justify-content: space-between; align-items: baseline; }
+        .metric-label { font-weight: bold; color: #aaa; }
+        .metric-stats { font-size: 0.8rem; color: #666; }
+        .metric-current { color: #fff; font-weight: bold; font-size: 0.9rem; }
+        .insight-box { background: #1a1a2e; border: 1px solid #36A2EB; padding: 15px; border-radius: 10px; font-size: 0.85rem; color: #ccc; line-height: 1.4; }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="history-section">
+            <div class="table-container">
+                <h2>Last 7 Days</h2>
+                <table id="historyTable">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Kcal</th>
+                            <th>P / C / F</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <div class="goals-section">
+                <h2>Daily Goals</h2>
+                <div id="goalBars" style="margin-top:15px"></div>
+            </div>
+
+            <div class="insight-box">
+                <h2 style="border-bottom: none; color: #36A2EB; margin-bottom: 10px; font-size: 0.9rem;">Insights & Tips</h2>
+                <div id="recommendations">Calculating...</div>
+            </div>
+        </div>
+        
+        <div class="chart-section">
+            <h2 id="headerDate">Macro Distribution</h2>
+            <h3 id="totalCalories">Loading Data...</h3>
+            <div style="position: relative; margin: auto;">
+                <canvas id="macroChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const fallbackGoals = { "daily_goals": { "calories": 2000, "protein": 120, "carbs": 250, "fats": 85 } };
+        const fallbackInsights = { "tips": ["Log your first meal to see AI insights!"] };
+        const fallbackData = [
+          { "date": "2026-02-16", "calories": 862, "protein": 42, "carbs": 75, "fats": 38 },
+          { "date": "2026-02-17", "calories": 1480, "protein": 100, "carbs": 90, "fats": 80 },
+          { "date": "2026-02-18", "calories": 1192, "protein": 58.4, "carbs": 93.6, "fats": 45.6 }
+        ];
+
+        function renderUI(data, goalsJson, insights) {
+            const goals = goalsJson.daily_goals;
+            const latest = data[data.length - 1];
+            document.getElementById('headerDate').innerText = `Macro Distribution - ${latest.date}`;
+            document.getElementById('totalCalories').innerText = `Current: ${latest.calories} / Target: ${goals.calories} kcal`;
+
+            // Table
+            const tableBody = document.querySelector('#historyTable tbody');
+            tableBody.innerHTML = '';
+            data.slice(-7).reverse().forEach(entry => {
+                const row = `<tr>
+                    <td>${entry.date.split('-').slice(1).join('/')}</td>
+                    <td class="val">${Math.round(entry.calories)}</td>
+                    <td>${Math.round(entry.protein)} / ${Math.round(entry.carbs)} / ${Math.round(entry.fats)}</td>
+                </tr>`;
+                tableBody.innerHTML += row;
+            });
+
+            // Insights
+            const recs = document.getElementById('recommendations');
+            recs.innerText = ''; // Clear calculating text
+            if (insights && insights.tips && Array.isArray(insights.tips)) {
+                insights.tips.forEach(t => {
+                    const tipDiv = document.createElement('div');
+                    tipDiv.style.marginBottom = '8px';
+                    tipDiv.textContent = t;
+                    recs.appendChild(tipDiv);
+                });
+            } else {
+                recs.innerHTML = '<b>On track:</b> Keep hitting those targets!';
+            }
+
+            // Goal Bars & Insights
+            const goalBars = document.getElementById('goalBars');
+            goalBars.innerHTML = '';
+            
+            const metrics = [
+                { label: 'Calories', current: latest.calories, target: goals.calories, class: '' },
+                { label: 'Protein', current: latest.protein, target: goals.protein, class: 'protein' },
+                { label: 'Carbs', current: latest.carbs, target: goals.carbs, class: '' },
+                { label: 'Fats', current: latest.fats, target: goals.fats, class: '' }
+            ];
+
+            metrics.forEach(m => {
+                const pct = (m.current / m.target) * 100;
+                const isOver = m.current > m.target && m.label !== 'Protein' && m.label !== 'Calories';
+                
+                goalBars.innerHTML += `
+                    <div class="metric-header">
+                        <span class="metric-label">${m.label}</span>
+                        <span class="metric-stats">
+                            <span class="metric-current">${Math.round(m.current)}</span> / ${m.target}${m.label === 'Calories' ? '' : 'g'}
+                        </span>
+                    </div>
+                    <div class="goal-bar">
+                        <div class="progress ${m.class} ${isOver ? 'over' : ''}" style="width: ${Math.min(pct, 100)}%"></div>
+                    </div>
+                `;
+            });
+
+            // Pie Chart
+            const ctx = document.getElementById('macroChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: [`Protein (${Math.round(latest.protein)}g)`, `Carbs (${Math.round(latest.carbs)}g)`, `Fats (${Math.round(latest.fats)}g)`],
+                    datasets: [{
+                        data: [latest.protein, latest.carbs, latest.fats],
+                        backgroundColor: ['#36A2EB', '#FFCE56', '#FF6384'],
+                        borderColor: '#2a2a2a',
+                        borderWidth: 4,
+                        hoverOffset: 15
+                    }]
+                },
+                options: {
+                    cutout: '65%',
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'bottom', labels: { color: '#aaa', padding: 20, font: { size: 12 } } }
+                    }
+                }
+            });
+        }
+
+        async function init() {
+            let data = fallbackData;
+            let goals = fallbackGoals;
+            let insights = fallbackInsights;
+            try {
+                const dRes = await fetch('../nutrition/daily_macros.json?v=' + Date.now());
+                if (dRes.ok) data = await dRes.json();
+                
+                const gRes = await fetch('../nutrition/targets.json?v=' + Date.now());
+                if (gRes.ok) goals = await gRes.json();
+
+                const iRes = await fetch('../nutrition/insights.json?v=' + Date.now());
+                if (iRes.ok) insights = await iRes.json();
+            } catch (e) { console.warn('Using fallbacks', e); }
+            renderUI(data, goals, insights);
+        }
+        init();
+    </script>
+</body>
+</html>

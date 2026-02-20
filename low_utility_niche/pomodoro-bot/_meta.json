@@ -1,0 +1,11 @@
+{
+  "owner": "nouop",
+  "slug": "pomodoro-bot",
+  "displayName": "Pomodoro Bot",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770628902889,
+    "commit": "https://github.com/openclaw/skills/commit/c2ad1be94ab519a04395f3c9fc37fde325e8f0d0"
+  },
+  "history": []
+}

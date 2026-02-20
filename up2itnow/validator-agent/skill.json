@@ -1,0 +1,8 @@
+{
+  "name": "validator-agent",
+  "description": "Pre-deployment quality gate for OpenClaw skills. Runs 10-section validation: security scans, test verification, secret detection, code quality, documentation, and more. Generates a structured VALIDATION_REPORT.md.",
+  "version": "1.0.0",
+  "author": "up2itnow",
+  "license": "MIT",
+  "tags": ["security", "validation", "audit", "testing", "quality", "pre-deploy", "ci-cd", "code-review"]
+}

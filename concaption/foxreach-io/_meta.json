@@ -1,0 +1,11 @@
+{
+  "owner": "concaption",
+  "slug": "foxreach-io",
+  "displayName": "Foxreach Cold Outrach",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771365057092,
+    "commit": "https://github.com/openclaw/skills/commit/cb7294651be9d52c3cb579810445e65543eabc6e"
+  },
+  "history": []
+}

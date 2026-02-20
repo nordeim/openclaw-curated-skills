@@ -1,0 +1,17 @@
+{
+  "owner": "samotheos",
+  "slug": "composio-connect",
+  "displayName": "Composio Connect",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771278821535,
+    "commit": "https://github.com/openclaw/skills/commit/03c96f99eb0119f5f818696bda3f648f2f357709"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771085017299,
+      "commit": "https://github.com/openclaw/skills/commit/67f6ea5ffab18f1c11f166f008e45135ea3966f8"
+    }
+  ]
+}

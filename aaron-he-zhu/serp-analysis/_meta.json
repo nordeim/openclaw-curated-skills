@@ -1,0 +1,27 @@
+{
+  "owner": "aaron-he-zhu",
+  "slug": "serp-analysis",
+  "displayName": "Serp Analysis",
+  "latest": {
+    "version": "2.0.0",
+    "publishedAt": 1771043005136,
+    "commit": "https://github.com/openclaw/skills/commit/01310fdd227bcca56392c68d8c90365f1eca8743"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1770824372336,
+      "commit": "https://github.com/openclaw/skills/commit/afab2f70cf91816a1d001f5948bf1494af3f4874"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770739640980,
+      "commit": "https://github.com/openclaw/skills/commit/a5b7305e5b34bd4f05b3bea2b6d7687dc60dc8bc"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770559685467,
+      "commit": "https://github.com/openclaw/skills/commit/e12e479d7addbf78d0f514f891904db5762ff769"
+    }
+  ]
+}

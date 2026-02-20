@@ -1,0 +1,11 @@
+{
+  "owner": "zomgirprogrammer",
+  "slug": "searxng-web",
+  "displayName": "Searxng Web",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771265989305,
+    "commit": "https://github.com/openclaw/skills/commit/bcabd35e710d5b06bdb8c2dc626e097695fcfb23"
+  },
+  "history": []
+}

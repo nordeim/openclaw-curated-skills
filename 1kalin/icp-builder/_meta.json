@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "icp-builder",
+  "displayName": "ICP Builder",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770950353108,
+    "commit": "https://github.com/openclaw/skills/commit/ab685fcc60c8ad3b92cfdffd7e495c74ba3052e4"
+  },
+  "history": []
+}

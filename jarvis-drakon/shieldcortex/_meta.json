@@ -1,0 +1,11 @@
+{
+  "owner": "jarvis-drakon",
+  "slug": "shieldcortex",
+  "displayName": "ShieldCortex",
+  "latest": {
+    "version": "2.10.0",
+    "publishedAt": 1770998187600,
+    "commit": "https://github.com/openclaw/skills/commit/9a7e6c600f9dce007fc45d5e45a20744181d9157"
+  },
+  "history": []
+}

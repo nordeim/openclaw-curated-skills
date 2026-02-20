@@ -1,0 +1,11 @@
+{
+  "owner": "mahone-bot",
+  "slug": "playwright-npx",
+  "displayName": "Playwright (scripts) + npx",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771081676566,
+    "commit": "https://github.com/openclaw/skills/commit/41f0075b81f3b9d3f059a24277de8608b514d55c"
+  },
+  "history": []
+}

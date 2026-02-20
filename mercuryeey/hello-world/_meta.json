@@ -1,0 +1,11 @@
+{
+  "owner": "mercuryeey",
+  "slug": "hello-world",
+  "displayName": "Hello World",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771314963817,
+    "commit": "https://github.com/openclaw/skills/commit/11dd2b9da66a33f5990c9015f9495638a3fda9e0"
+  },
+  "history": []
+}

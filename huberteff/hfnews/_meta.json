@@ -1,0 +1,11 @@
+{
+  "owner": "huberteff",
+  "slug": "hfnews",
+  "displayName": "hfnews",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771062085963,
+    "commit": "https://github.com/openclaw/skills/commit/204ee512ba3e02e0508813cf05afc831b79c59bf"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "fluxmira-moltbot",
+  "slug": "clawsea-market",
+  "displayName": "ClawSea NFT Marketplace",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770685065184,
+    "commit": "https://github.com/openclaw/skills/commit/162df4b3cf639ad3edeeb0762f79428d4a07c200"
+  },
+  "history": []
+}

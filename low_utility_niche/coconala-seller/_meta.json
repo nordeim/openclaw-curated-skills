@@ -1,0 +1,17 @@
+{
+  "owner": "sa9saq",
+  "slug": "coconala-seller",
+  "displayName": "coconala-seller",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770791008877,
+    "commit": "https://github.com/openclaw/skills/commit/0289b4f15d7e173838709831abbdc8bb87442de1"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770790239966,
+      "commit": "https://github.com/openclaw/skills/commit/760041e6729cf02d624c782137b3e17edd2b88e2"
+    }
+  ]
+}

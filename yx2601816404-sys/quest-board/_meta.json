@@ -1,0 +1,11 @@
+{
+  "owner": "yx2601816404-sys",
+  "slug": "quest-board",
+  "displayName": "Quest Board",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771495352711,
+    "commit": "https://github.com/openclaw/skills/commit/04168dfe4c3888108db6dfc3221ad6c7e76c7cba"
+  },
+  "history": []
+}

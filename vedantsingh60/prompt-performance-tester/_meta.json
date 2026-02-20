@@ -1,0 +1,17 @@
+{
+  "owner": "vedantsingh60",
+  "slug": "prompt-performance-tester",
+  "displayName": "Prompt Performance Tester - UnisAI",
+  "latest": {
+    "version": "1.1.5",
+    "publishedAt": 1771272473120,
+    "commit": "https://github.com/openclaw/skills/commit/153ef708afdefd933d4d8c7435dd4bd3b8283454"
+  },
+  "history": [
+    {
+      "version": "1.1.4",
+      "publishedAt": 1770003904686,
+      "commit": "https://github.com/clawdbot/skills/commit/16be9113906b019144b0250465571594e7fee552"
+    }
+  ]
+}

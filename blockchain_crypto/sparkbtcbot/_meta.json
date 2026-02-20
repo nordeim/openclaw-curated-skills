@@ -1,0 +1,17 @@
+{
+  "owner": "echennells",
+  "slug": "sparkbtcbot",
+  "displayName": "Spark Bitcoin L2 for AI Agents",
+  "latest": {
+    "version": "0.3.1",
+    "publishedAt": 1771268537653,
+    "commit": "https://github.com/openclaw/skills/commit/f451033e358801013324d46d8de8e039962f7d32"
+  },
+  "history": [
+    {
+      "version": "0.2.0",
+      "publishedAt": 1770098827638,
+      "commit": "https://github.com/clawdbot/skills/commit/fccd14035132837c1b068fac266da54ec0088766"
+    }
+  ]
+}

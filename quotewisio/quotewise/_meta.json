@@ -1,0 +1,11 @@
+{
+  "owner": "quotewisio",
+  "slug": "quotewise",
+  "displayName": "Quotewise semantic quote search via MCP",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770516288781,
+    "commit": "https://github.com/openclaw/skills/commit/d9814bfd494edb103e7910218f9faf270b25b11c"
+  },
+  "history": []
+}

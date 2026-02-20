@@ -1,0 +1,11 @@
+{
+  "owner": "cecwxf",
+  "slug": "multi-agent-sync",
+  "displayName": "Multi Agent Sync",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771316537339,
+    "commit": "https://github.com/openclaw/skills/commit/581c6e7db595fd5b57f956d3cf7e4ef86950c650"
+  },
+  "history": []
+}

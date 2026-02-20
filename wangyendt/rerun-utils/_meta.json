@@ -1,0 +1,11 @@
+{
+  "owner": "wangyendt",
+  "slug": "rerun-utils",
+  "displayName": "Pywayne Visualization Rerun Utils",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771375045225,
+    "commit": "https://github.com/openclaw/skills/commit/d8b3c9b2f0b23a05ed662a0b4a0737b70f830250"
+  },
+  "history": []
+}

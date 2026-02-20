@@ -1,0 +1,11 @@
+{
+  "owner": "baron-talkspresso",
+  "slug": "talkspresso",
+  "displayName": "Talkspresso",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771458962228,
+    "commit": "https://github.com/openclaw/skills/commit/d046f440330fc1b2562ae434071b2326a80cb7af"
+  },
+  "history": []
+}

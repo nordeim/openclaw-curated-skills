@@ -1,0 +1,11 @@
+{
+  "owner": "guifav",
+  "slug": "cloudflare-guard",
+  "displayName": "Cloudflare Guard",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1771446353616,
+    "commit": "https://github.com/openclaw/skills/commit/4fcefe9797adbc273cdd148b9eeb12b36fd4f405"
+  },
+  "history": []
+}

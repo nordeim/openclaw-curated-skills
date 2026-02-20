@@ -1,0 +1,17 @@
+{
+  "owner": "lepetitpince",
+  "slug": "clawdo",
+  "displayName": "clawdo - Todo List for Agents",
+  "latest": {
+    "version": "1.1.4",
+    "publishedAt": 1770638514883,
+    "commit": "https://github.com/openclaw/skills/commit/14eafb7f73a318e583cab2cb0a481887ab19139a"
+  },
+  "history": [
+    {
+      "version": "1.1.3",
+      "publishedAt": 1770509648430,
+      "commit": "https://github.com/openclaw/skills/commit/0af41bc044212cf6e3e8045a39c4f1aef0b67036"
+    }
+  ]
+}

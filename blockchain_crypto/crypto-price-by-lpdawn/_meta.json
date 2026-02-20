@@ -1,0 +1,11 @@
+{
+  "owner": "lpdawn",
+  "slug": "crypto-price-by-lpdawn",
+  "displayName": "Crypto Price By Lpdawn",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771323720394,
+    "commit": "https://github.com/openclaw/skills/commit/ca43d57ed883cc8b7070d8634ee2ee97d27b2452"
+  },
+  "history": []
+}

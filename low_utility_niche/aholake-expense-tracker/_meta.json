@@ -1,0 +1,11 @@
+{
+  "owner": "aholake",
+  "slug": "aholake-expense-tracker",
+  "displayName": "Expense Tracker",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771285560987,
+    "commit": "https://github.com/openclaw/skills/commit/63c33d4fb3eb134ee5eda88feb096fe6e2259b5a"
+  },
+  "history": []
+}

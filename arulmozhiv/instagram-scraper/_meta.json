@@ -1,0 +1,17 @@
+{
+  "owner": "arulmozhiv",
+  "slug": "instagram-scraper",
+  "displayName": "Instagram Scraper",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1770701389555,
+    "commit": "https://github.com/openclaw/skills/commit/440820270a64c0e3607b1cbac298c90bd9fa6253"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770622039052,
+      "commit": "https://github.com/openclaw/skills/commit/64eb06467b9cb9746cb746ae1d68996605031493"
+    }
+  ]
+}

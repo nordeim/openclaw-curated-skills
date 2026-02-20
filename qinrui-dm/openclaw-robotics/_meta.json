@@ -1,0 +1,11 @@
+{
+  "owner": "qinrui-dm",
+  "slug": "openclaw-robotics",
+  "displayName": "Robotics",
+  "latest": {
+    "version": "2.1.0",
+    "publishedAt": 1771206085275,
+    "commit": "https://github.com/openclaw/skills/commit/1db1ff5fe0a55981f9ab308621aa695bb661f4f5"
+  },
+  "history": []
+}

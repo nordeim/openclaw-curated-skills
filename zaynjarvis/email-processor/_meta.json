@@ -1,0 +1,11 @@
+{
+  "owner": "zaynjarvis",
+  "slug": "email-processor",
+  "displayName": "Email Processor",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770690357396,
+    "commit": "https://github.com/openclaw/skills/commit/5363786f780d4909a4da1ef9146e9d853bb53b0f"
+  },
+  "history": []
+}

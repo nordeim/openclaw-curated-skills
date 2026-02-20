@@ -1,0 +1,11 @@
+{
+  "owner": "webcraft3r",
+  "slug": "consortiumai-analysis",
+  "displayName": "Consortium AI Analysis",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770656283596,
+    "commit": "https://github.com/openclaw/skills/commit/606b50862fd900fe08e7206fe4ad2e5208e3df5d"
+  },
+  "history": []
+}

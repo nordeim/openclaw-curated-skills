@@ -1,0 +1,11 @@
+{
+  "owner": "hannatao",
+  "slug": "qianfan-knowledgebase-search",
+  "displayName": "Qianfan KnowledgeBase Search",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770642696625,
+    "commit": "https://github.com/openclaw/skills/commit/eb36c74fc736ef18196014d28e77dad3d02660e1"
+  },
+  "history": []
+}

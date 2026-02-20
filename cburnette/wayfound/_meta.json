@@ -1,0 +1,17 @@
+{
+  "owner": "cburnette",
+  "slug": "wayfound",
+  "displayName": "Wayfound",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1770922067081,
+    "commit": "https://github.com/openclaw/skills/commit/ffe7699852ae4bbd5500febeef3f72c7b4c2f1c3"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770856449603,
+      "commit": "https://github.com/openclaw/skills/commit/6de4c4bad8d5b57a82b040bee9e5cd74b64c472e"
+    }
+  ]
+}

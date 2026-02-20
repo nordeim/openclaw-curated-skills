@@ -1,0 +1,11 @@
+{
+  "owner": "donnycui",
+  "slug": "bilibili-youtube-watcher",
+  "displayName": "Bilibili & YouTube Watcher",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771437611626,
+    "commit": "https://github.com/openclaw/skills/commit/0d0422524886bd45f8bc0321bbc5dcd120eab344"
+  },
+  "history": []
+}

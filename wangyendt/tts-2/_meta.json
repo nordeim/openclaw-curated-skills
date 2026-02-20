@@ -1,0 +1,11 @@
+{
+  "owner": "wangyendt",
+  "slug": "tts-2",
+  "displayName": "Pywayne Tts",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771259050131,
+    "commit": "https://github.com/openclaw/skills/commit/d05095b09f8711b499f9bd12264ab6cec04dda1b"
+  },
+  "history": []
+}

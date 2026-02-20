@@ -1,0 +1,11 @@
+{
+  "owner": "angusthefuzz",
+  "slug": "pmc-harvest",
+  "displayName": "PMC Harvest",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771094361198,
+    "commit": "https://github.com/openclaw/skills/commit/a345ff98c54df42f4ec5b92d960b13a560067f1a"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "ualiu",
+  "slug": "klawdin",
+  "displayName": "klawdin",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1771471769610,
+    "commit": "https://github.com/openclaw/skills/commit/ef999915aeee9566c0ba23da44eccee59604cd79"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1771354540572,
+      "commit": "https://github.com/openclaw/skills/commit/b7dc2fbfb4f586585b1892e1711b10fba3e656af"
+    }
+  ]
+}

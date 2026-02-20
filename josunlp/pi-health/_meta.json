@@ -1,0 +1,11 @@
+{
+  "owner": "josunlp",
+  "slug": "pi-health",
+  "displayName": "Pi Health",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770642362900,
+    "commit": "https://github.com/openclaw/skills/commit/fed7e966e672bee039bd1de0ce0ed8c0a5229f8b"
+  },
+  "history": []
+}

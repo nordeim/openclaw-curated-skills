@@ -1,0 +1,11 @@
+{
+  "owner": "0xtommythomas-dev",
+  "slug": "soulflow",
+  "displayName": "SoulFlow — Agent Teams Workflow Skill",
+  "latest": {
+    "version": "1.1.2",
+    "publishedAt": 1770918278525,
+    "commit": "https://github.com/openclaw/skills/commit/f2954525a1f89a76a054a685ae7a0c88e29b80c5"
+  },
+  "history": []
+}

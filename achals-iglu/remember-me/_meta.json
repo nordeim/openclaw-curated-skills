@@ -1,0 +1,17 @@
+{
+  "owner": "achals-iglu",
+  "slug": "remember-me",
+  "displayName": "Remember Me",
+  "latest": {
+    "version": "0.1.2",
+    "publishedAt": 1770916423112,
+    "commit": "https://github.com/openclaw/skills/commit/9af0a7f5df5efba7240d625f3a7b2e602af7561f"
+  },
+  "history": [
+    {
+      "version": "0.1.1",
+      "publishedAt": 1770835919381,
+      "commit": "https://github.com/openclaw/skills/commit/4efbb46d0ebaa8313ed52bd4b1da13a08a2d189b"
+    }
+  ]
+}

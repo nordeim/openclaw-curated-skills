@@ -1,0 +1,22 @@
+{
+  "owner": "ajtgjmdjp",
+  "slug": "tdnet-disclosure-mcp",
+  "displayName": "Tdnet Disclosure Mcp",
+  "latest": {
+    "version": "0.1.2",
+    "publishedAt": 1771175659967,
+    "commit": "https://github.com/openclaw/skills/commit/18d643501c895a3069cbac1243ad8c36d4c789bf"
+  },
+  "history": [
+    {
+      "version": "0.1.1",
+      "publishedAt": 1771100877124,
+      "commit": "https://github.com/openclaw/skills/commit/358279857056bcd258170ea90d3ec2ad0c817dd1"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1771089657717,
+      "commit": "https://github.com/openclaw/skills/commit/17f3776884e3781def8fbb514b2d53e626b9720b"
+    }
+  ]
+}

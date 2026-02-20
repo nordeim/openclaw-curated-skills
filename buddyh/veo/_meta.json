@@ -1,0 +1,17 @@
+{
+  "owner": "buddyh",
+  "slug": "veo",
+  "displayName": "Veo",
+  "latest": {
+    "version": "1.3.0",
+    "publishedAt": 1770915785653,
+    "commit": "https://github.com/openclaw/skills/commit/f372da5bd5b80373bc97503b55d254f7fc929939"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1768443749359,
+      "commit": "https://github.com/clawdbot/skills/commit/9844d32de4c506c137d45f47b0989011bee5f448"
+    }
+  ]
+}

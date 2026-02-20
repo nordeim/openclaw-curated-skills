@@ -1,0 +1,11 @@
+{
+  "owner": "stevenartzt",
+  "slug": "sol-build-session",
+  "displayName": "Sol Build Session",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770563511893,
+    "commit": "https://github.com/openclaw/skills/commit/bcc5b3eb0a4a3948ccfdea6608ecd135264ab72f"
+  },
+  "history": []
+}

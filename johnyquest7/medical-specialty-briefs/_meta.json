@@ -1,0 +1,11 @@
+{
+  "owner": "johnyquest7",
+  "slug": "medical-specialty-briefs",
+  "displayName": "Medical Briefs",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771285017371,
+    "commit": "https://github.com/openclaw/skills/commit/9dbb275726a64a134b90ade42ffcb72ed49719bc"
+  },
+  "history": []
+}

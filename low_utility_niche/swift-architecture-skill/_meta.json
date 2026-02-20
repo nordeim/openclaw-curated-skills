@@ -1,0 +1,17 @@
+{
+  "owner": "efremidze",
+  "slug": "swift-architecture-skill",
+  "displayName": "Swift Architecture Skill",
+  "latest": {
+    "version": "0.3.1",
+    "publishedAt": 1771316871113,
+    "commit": "https://github.com/openclaw/skills/commit/7d598b153673786e15c18d433ea1e8978531b9ea"
+  },
+  "history": [
+    {
+      "version": "0.3.0",
+      "publishedAt": 1771223353909,
+      "commit": "https://github.com/openclaw/skills/commit/1a2719daecac68652d7366d612d2c00437316d32"
+    }
+  ]
+}

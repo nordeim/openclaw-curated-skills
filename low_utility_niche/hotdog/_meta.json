@@ -1,0 +1,32 @@
+{
+  "owner": "mishafyi",
+  "slug": "hotdog",
+  "displayName": "Hotdog",
+  "latest": {
+    "version": "10.1.1",
+    "publishedAt": 1770726274959,
+    "commit": "https://github.com/openclaw/skills/commit/2c9996ca32abf9bd00046f5981714128c73ac56e"
+  },
+  "history": [
+    {
+      "version": "8.0.0",
+      "publishedAt": 1770659105925,
+      "commit": "https://github.com/openclaw/skills/commit/07b4f3154f0b7c6613eba3fb27669aaa086c7a10"
+    },
+    {
+      "version": "1.5.4",
+      "publishedAt": 1770547987781,
+      "commit": "https://github.com/openclaw/skills/commit/f60419902d52d57cbf392fac5b5942d88b1e823e"
+    },
+    {
+      "version": "1.3.0",
+      "publishedAt": 1770510352922,
+      "commit": "https://github.com/openclaw/skills/commit/888c11b62e8f7e2b1626c1f482063cd46b2cfa32"
+    },
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770467890503,
+      "commit": "https://github.com/openclaw/skills/commit/8493dfd8ee1c9ed35fe2d702bc12349dd48b7a0c"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "ooxxxxoo",
+  "slug": "autonomous-agent-instant-message-system",
+  "displayName": "Prismer",
+  "latest": {
+    "version": "0.0.2",
+    "publishedAt": 1770749869554,
+    "commit": "https://github.com/openclaw/skills/commit/0ce7bdbbe6b1f6b718364fb7e8c729c0aec2a085"
+  },
+  "history": []
+}

@@ -1,0 +1,67 @@
+{
+  "owner": "phineas1500",
+  "slug": "moltopia",
+  "displayName": "Openclaw Skill",
+  "latest": {
+    "version": "2.9.1",
+    "publishedAt": 1771371922373,
+    "commit": "https://github.com/openclaw/skills/commit/73024041979445ecea569be09247896d6a733601"
+  },
+  "history": [
+    {
+      "version": "2.9.0",
+      "publishedAt": 1771266314095,
+      "commit": "https://github.com/openclaw/skills/commit/d614e736492d7fcbb7549353e130f885e17c2571"
+    },
+    {
+      "version": "2.8.1",
+      "publishedAt": 1771012639197,
+      "commit": "https://github.com/openclaw/skills/commit/48ba36e9eae2a91979ed4cf928004c84185c6435"
+    },
+    {
+      "version": "2.7.0",
+      "publishedAt": 1770942311984,
+      "commit": "https://github.com/openclaw/skills/commit/a3de0680ed365ea0e321583c1b83d7b6f1b12096"
+    },
+    {
+      "version": "2.6.0",
+      "publishedAt": 1770874915299,
+      "commit": "https://github.com/openclaw/skills/commit/e83c460ae4f67e94b00b3594898e30cbce3ea01c"
+    },
+    {
+      "version": "2.5.0",
+      "publishedAt": 1770848890517,
+      "commit": "https://github.com/openclaw/skills/commit/1a625fb559b457dddc1cd3a29d74a06ebd5c7399"
+    },
+    {
+      "version": "2.1.0",
+      "publishedAt": 1770781262661,
+      "commit": "https://github.com/openclaw/skills/commit/31f9d4aea2a15df86073c8a30b249ea738e7255a"
+    },
+    {
+      "version": "1.8.0",
+      "publishedAt": 1770586273542,
+      "commit": "https://github.com/openclaw/skills/commit/2bee0211169fb0595270dde2e6d619dcb1dfdb27"
+    },
+    {
+      "version": "1.5.0",
+      "publishedAt": 1770529079075,
+      "commit": "https://github.com/openclaw/skills/commit/355a4cfa0b5e341dd79e448cf63f9c64106e3ec3"
+    },
+    {
+      "version": "1.4.3",
+      "publishedAt": 1770511120520,
+      "commit": "https://github.com/openclaw/skills/commit/0cc71857766a14c4fead3ddae3a8100e9836ab9f"
+    },
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770441702372,
+      "commit": "https://github.com/openclaw/skills/commit/6f20038ba544a15b86981f32759e4492c6596878"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770326251733,
+      "commit": "https://github.com/openclaw/skills/commit/7c754a3621f2ec9e8c4a7c3b5f19c36bcc2545eb"
+    }
+  ]
+}

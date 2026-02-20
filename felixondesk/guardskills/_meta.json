@@ -1,0 +1,11 @@
+{
+  "owner": "felixondesk",
+  "slug": "guardskills",
+  "displayName": "GuardSkills",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771092687344,
+    "commit": "https://github.com/openclaw/skills/commit/ffaa0b00caeb837b61e5f8ea93d75c4b4fc80862"
+  },
+  "history": []
+}

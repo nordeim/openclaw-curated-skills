@@ -1,0 +1,17 @@
+{
+  "owner": "juampihernandez",
+  "slug": "talent-powers",
+  "displayName": "builder-data",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771010798811,
+    "commit": "https://github.com/openclaw/skills/commit/7003d43e699890811aff5608e09eb0fd21fd3836"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770151468392,
+      "commit": "https://github.com/clawdbot/skills/commit/bffe6f3e73daf9ae92eea9a4c269b738d05e12d2"
+    }
+  ]
+}

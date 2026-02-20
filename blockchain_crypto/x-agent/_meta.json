@@ -1,0 +1,11 @@
+{
+  "owner": "inceptivco",
+  "slug": "x-agent",
+  "displayName": "x-agent",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771029448341,
+    "commit": "https://github.com/openclaw/skills/commit/b34518b6634304d369ca43ebec558931f08fd62b"
+  },
+  "history": []
+}

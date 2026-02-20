@@ -1,0 +1,11 @@
+{
+  "owner": "nulltea",
+  "slug": "hackmd",
+  "displayName": "HackMD",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770581675788,
+    "commit": "https://github.com/openclaw/skills/commit/c60be6634a6dfc21968bc38f7346644288eac672"
+  },
+  "history": []
+}

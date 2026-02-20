@@ -1,0 +1,11 @@
+{
+  "owner": "phibuc87",
+  "slug": "msp-toolkit",
+  "displayName": "EDI MSP Toolkit",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771199860900,
+    "commit": "https://github.com/openclaw/skills/commit/72cc52c45345888fed2d1f11b7f56a0df4bdfcce"
+  },
+  "history": []
+}

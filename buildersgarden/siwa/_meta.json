@@ -1,0 +1,22 @@
+{
+  "owner": "buildersgarden",
+  "slug": "siwa",
+  "displayName": "Sign-in with Agent",
+  "latest": {
+    "version": "0.0.4",
+    "publishedAt": 1771431222377,
+    "commit": "https://github.com/openclaw/skills/commit/493a6d2a0b0509bbf81c485896f50826bfc1a867"
+  },
+  "history": [
+    {
+      "version": "0.0.2",
+      "publishedAt": 1771008535118,
+      "commit": "https://github.com/openclaw/skills/commit/b32b6a18db27a91c02c9ea475ea89cab12d213d0"
+    },
+    {
+      "version": "0.0.1",
+      "publishedAt": 1770806264138,
+      "commit": "https://github.com/openclaw/skills/commit/8737812e2a8c19ee4916870adad7a01ac1419fa0"
+    }
+  ]
+}

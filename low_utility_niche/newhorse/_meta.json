@@ -1,0 +1,11 @@
+{
+  "owner": "xcrong",
+  "slug": "newhorse",
+  "displayName": "牛马",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770992738992,
+    "commit": "https://github.com/openclaw/skills/commit/3cbcdee871e32b249cb882537873e45fdbe584d5"
+  },
+  "history": []
+}

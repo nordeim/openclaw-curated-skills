@@ -1,0 +1,17 @@
+{
+  "owner": "aaron-he-zhu",
+  "slug": "entity-optimizer",
+  "displayName": "Entity Optimizer",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1771042729944,
+    "commit": "https://github.com/openclaw/skills/commit/6814be07d387df7c35e7a1895aa7a09df60938e6"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770823831463,
+      "commit": "https://github.com/openclaw/skills/commit/0eb5e7853892db7f9a0d7f25043942a0d4e4eda0"
+    }
+  ]
+}

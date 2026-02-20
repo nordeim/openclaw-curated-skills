@@ -1,0 +1,17 @@
+{
+  "owner": "operator-auteng-ai",
+  "slug": "markdown-publish-share",
+  "displayName": "Markdown Publish & Share",
+  "latest": {
+    "version": "1.0.5",
+    "publishedAt": 1770918772390,
+    "commit": "https://github.com/openclaw/skills/commit/637d6c688f7bd130b50421b6eb11f8e82e27684c"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1770871108040,
+      "commit": "https://github.com/openclaw/skills/commit/1ba233afcf3b7fffe8922acd8d38d31819f199d6"
+    }
+  ]
+}

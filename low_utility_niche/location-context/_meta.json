@@ -1,0 +1,11 @@
+{
+  "owner": "james-southendsolutions",
+  "slug": "location-context",
+  "displayName": "Location Context",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771271966758,
+    "commit": "https://github.com/openclaw/skills/commit/7c343b2e58ade1f8d444491e060ab429855dd10a"
+  },
+  "history": []
+}

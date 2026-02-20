@@ -1,0 +1,11 @@
+{
+  "owner": "fourthdensity",
+  "slug": "telegram-context",
+  "displayName": "Telegram Context",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771103920724,
+    "commit": "https://github.com/openclaw/skills/commit/24b7c4064cda58a38f391aab803069119fa16c01"
+  },
+  "history": []
+}

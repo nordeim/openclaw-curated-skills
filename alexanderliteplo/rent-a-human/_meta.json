@@ -1,0 +1,11 @@
+{
+  "owner": "alexanderliteplo",
+  "slug": "rent-a-human",
+  "displayName": "rentahuman.ai",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771225551250,
+    "commit": "https://github.com/openclaw/skills/commit/4597e3e61d6da4e8583430f6397dded52a61bcbf"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "pors",
+  "slug": "b2b-first-ten",
+  "displayName": "B2B First Ten",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770896698466,
+    "commit": "https://github.com/openclaw/skills/commit/3bbb2268c87c3e8394453d8c03e29628eeb85183"
+  },
+  "history": []
+}

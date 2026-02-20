@@ -1,0 +1,11 @@
+{
+  "owner": "smile-xuc",
+  "slug": "haibo-jina-reader",
+  "displayName": "Jina Reader",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770748110858,
+    "commit": "https://github.com/openclaw/skills/commit/93d54f13d578385548beafbefe41907a8862bbad"
+  },
+  "history": []
+}

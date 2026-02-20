@@ -1,0 +1,11 @@
+{
+  "owner": "olearycrew",
+  "slug": "pinchbench",
+  "displayName": "PinchBench",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771345729108,
+    "commit": "https://github.com/openclaw/skills/commit/22de0cb2bcb1db263b9775ac549d81d86b36fb99"
+  },
+  "history": []
+}

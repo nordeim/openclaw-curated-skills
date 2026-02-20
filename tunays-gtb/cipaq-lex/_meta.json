@@ -1,0 +1,11 @@
+{
+  "owner": "tunays-gtb",
+  "slug": "cipaq-lex",
+  "displayName": "Cipaq Lex",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770644791164,
+    "commit": "https://github.com/openclaw/skills/commit/baf332892ae2f0888496b0984e1ac0d5574d43c0"
+  },
+  "history": []
+}

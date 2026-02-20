@@ -1,0 +1,11 @@
+{
+  "owner": "vokaplok",
+  "slug": "generect",
+  "displayName": "Generect API",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770819865257,
+    "commit": "https://github.com/openclaw/skills/commit/fa46534d504109bd0862aa0a2b7c9416a2b1e9dc"
+  },
+  "history": []
+}

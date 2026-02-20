@@ -1,0 +1,47 @@
+{
+  "owner": "anajuliabit",
+  "slug": "memoclaw",
+  "displayName": "Memoclaw Skill",
+  "latest": {
+    "version": "1.13.0",
+    "publishedAt": 1771331604686,
+    "commit": "https://github.com/openclaw/skills/commit/592a3d31aeda10f6e8bd6fb59a4a0f5c11fb3337"
+  },
+  "history": [
+    {
+      "version": "1.11.1",
+      "publishedAt": 1771279706326,
+      "commit": "https://github.com/openclaw/skills/commit/7909388c22f20b9f443ac9960bf09fe674eda87f"
+    },
+    {
+      "version": "1.9.0",
+      "publishedAt": 1771211260244,
+      "commit": "https://github.com/openclaw/skills/commit/2ec7a88e968ee046523b7413747a9d8fbc9d4849"
+    },
+    {
+      "version": "1.8.7",
+      "publishedAt": 1771211226343,
+      "commit": "https://github.com/openclaw/skills/commit/b209ec544ccd05b9b647d00bca592fa1b080d3c0"
+    },
+    {
+      "version": "1.8.3",
+      "publishedAt": 1771135673400,
+      "commit": "https://github.com/openclaw/skills/commit/c1fab1e4cdd6b3963773adabc77f91d5cccc27de"
+    },
+    {
+      "version": "1.8.1",
+      "publishedAt": 1771106179348,
+      "commit": "https://github.com/openclaw/skills/commit/cf2fc3867d71a4b701c5aa02b16ae0d6c73326ee"
+    },
+    {
+      "version": "1.8.0",
+      "publishedAt": 1771091663856,
+      "commit": "https://github.com/openclaw/skills/commit/db045a06b5139c356cec58bc7b30e233873b83de"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770636105538,
+      "commit": "https://github.com/openclaw/skills/commit/c008af204a02586322324ab6eb51cea8e3964119"
+    }
+  ]
+}

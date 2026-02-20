@@ -1,0 +1,17 @@
+{
+  "owner": "humanjudge-arthur",
+  "slug": "openclaw-validate",
+  "displayName": "OpenClaw Validate",
+  "latest": {
+    "version": "4.0.1",
+    "publishedAt": 1771144363657,
+    "commit": "https://github.com/openclaw/skills/commit/77f72d7162bc90b0c972c988254728d6d09a14c2"
+  },
+  "history": [
+    {
+      "version": "4.0.0",
+      "publishedAt": 1771144114760,
+      "commit": "https://github.com/openclaw/skills/commit/c74b2566e3bd70f94faedc65906a70c4ba3c22ef"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "james-southendsolutions",
+  "slug": "camino-safety-checker",
+  "displayName": "Safety Checker for a location",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771299716512,
+    "commit": "https://github.com/openclaw/skills/commit/512f7a2c2afcdde23f5c527eeea2b288468c21c4"
+  },
+  "history": []
+}

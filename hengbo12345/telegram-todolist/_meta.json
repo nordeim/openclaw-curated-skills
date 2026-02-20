@@ -1,0 +1,11 @@
+{
+  "owner": "hengbo12345",
+  "slug": "telegram-todolist",
+  "displayName": "Telegram Todo List",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770887844215,
+    "commit": "https://github.com/openclaw/skills/commit/4a2391ed3bd53bee7f20ba01a9b5319c2e262636"
+  },
+  "history": []
+}

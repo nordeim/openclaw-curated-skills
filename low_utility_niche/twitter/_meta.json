@@ -1,0 +1,11 @@
+{
+  "owner": "blueberrywoodsym",
+  "slug": "twitter",
+  "displayName": "twitter",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771346247587,
+    "commit": "https://github.com/openclaw/skills/commit/c2d744158c907c0c87ec5ad4cea64b3d66593e5f"
+  },
+  "history": []
+}

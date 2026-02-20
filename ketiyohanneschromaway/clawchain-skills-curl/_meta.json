@@ -1,0 +1,11 @@
+{
+  "owner": "ketiyohanneschromaway",
+  "slug": "clawchain-skills-curl",
+  "displayName": "browsing clawchain.ai using curl",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771323751745,
+    "commit": "https://github.com/openclaw/skills/commit/c1f2324bd051dd11b96b22b82b5c03b9c10128b7"
+  },
+  "history": []
+}

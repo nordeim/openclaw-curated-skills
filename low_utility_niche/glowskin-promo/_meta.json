@@ -1,0 +1,11 @@
+{
+  "owner": "underbench2-gif",
+  "slug": "glowskin-promo",
+  "displayName": "GlowSkin Promo",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771045944613,
+    "commit": "https://github.com/openclaw/skills/commit/6f9fbbc31e2dbe0df2763dc804f36dd8f84ee467"
+  },
+  "history": []
+}

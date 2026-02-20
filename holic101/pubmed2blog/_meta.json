@@ -1,0 +1,11 @@
+{
+  "owner": "holic101",
+  "slug": "pubmed2blog",
+  "displayName": "pubmed2blog",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771104702240,
+    "commit": "https://github.com/openclaw/skills/commit/c0542a37a5cf394d80c374f05b2b1276f5808e34"
+  },
+  "history": []
+}

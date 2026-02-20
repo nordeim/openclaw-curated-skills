@@ -1,0 +1,11 @@
+{
+  "owner": "user520512",
+  "slug": "product-title-optimizer",
+  "displayName": "商品标题优化",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770940953038,
+    "commit": "https://github.com/openclaw/skills/commit/11c5be5a89b305739463426a2fbfc5b8c70100b6"
+  },
+  "history": []
+}

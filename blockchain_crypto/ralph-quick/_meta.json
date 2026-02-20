@@ -1,0 +1,11 @@
+{
+  "owner": "dorukardahan",
+  "slug": "ralph-quick",
+  "displayName": "Ralph Quick Security Check",
+  "latest": {
+    "version": "3.0.0",
+    "publishedAt": 1771467433836,
+    "commit": "https://github.com/openclaw/skills/commit/026c1cf200e3fc5c470ec6a1b5079fc9e226d9da"
+  },
+  "history": []
+}

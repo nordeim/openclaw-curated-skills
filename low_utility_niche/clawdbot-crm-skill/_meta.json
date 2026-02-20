@@ -1,0 +1,11 @@
+{
+  "owner": "xz-cn",
+  "slug": "clawdbot-crm-skill",
+  "displayName": "zCloak-CRM",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770629037435,
+    "commit": "https://github.com/openclaw/skills/commit/db7e9165cae5a11a6d65a1a4ab26972afc4acc91"
+  },
+  "history": []
+}

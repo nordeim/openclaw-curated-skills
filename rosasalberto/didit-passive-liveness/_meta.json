@@ -1,0 +1,11 @@
+{
+  "owner": "rosasalberto",
+  "slug": "didit-passive-liveness",
+  "displayName": "Didit Passive Liveness",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1771082190786,
+    "commit": "https://github.com/openclaw/skills/commit/5be87a6e6c0bf10c0bb7531b95c7a17954baca12"
+  },
+  "history": []
+}

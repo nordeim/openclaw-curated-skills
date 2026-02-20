@@ -1,0 +1,11 @@
+{
+  "owner": "hmyaoyuan",
+  "slug": "weibo-manager",
+  "displayName": "Weibo Manager",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770981449852,
+    "commit": "https://github.com/openclaw/skills/commit/3528ccbf4d2b1ce6fdbcd4093983f02b6eef7e35"
+  },
+  "history": []
+}

@@ -1,0 +1,22 @@
+{
+  "owner": "swancho",
+  "slug": "mac-reminders-agent",
+  "displayName": "Mac Reminders Agent",
+  "latest": {
+    "version": "1.1.2",
+    "publishedAt": 1770769367856,
+    "commit": "https://github.com/openclaw/skills/commit/381deab47fcbfc35dc7d3e130a1adb9ed3eaab65"
+  },
+  "history": [
+    {
+      "version": "1.1.1",
+      "publishedAt": 1770684587328,
+      "commit": "https://github.com/openclaw/skills/commit/5f4e2b85790745777ac97a839d8b5288ae2b2a9b"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770172178163,
+      "commit": "https://github.com/clawdbot/skills/commit/68b80d814a912473f255cadb75ccf7354e743e96"
+    }
+  ]
+}

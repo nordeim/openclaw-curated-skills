@@ -1,0 +1,11 @@
+{
+  "owner": "jk-0001",
+  "slug": "market-research-2",
+  "displayName": "Market Research",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771277325675,
+    "commit": "https://github.com/openclaw/skills/commit/02ebe37634ed8d8ba1da6c7d6e2f37655822cce7"
+  },
+  "history": []
+}

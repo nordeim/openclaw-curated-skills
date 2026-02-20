@@ -1,0 +1,11 @@
+{
+  "owner": "kleberbaum",
+  "slug": "iam",
+  "displayName": "iam",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771371056991,
+    "commit": "https://github.com/openclaw/skills/commit/0613ecb5533d15bb8fcf651ffdead44c66054647"
+  },
+  "history": []
+}

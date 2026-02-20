@@ -1,0 +1,11 @@
+{
+  "owner": "peetzweg",
+  "slug": "wheel-of-fortune",
+  "displayName": "Wheel of Fortune",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770926492701,
+    "commit": "https://github.com/openclaw/skills/commit/9309b592653a6bd1b888a470271c9c9175e27702"
+  },
+  "history": []
+}

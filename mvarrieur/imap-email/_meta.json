@@ -1,0 +1,17 @@
+{
+  "owner": "mvarrieur",
+  "slug": "imap-email",
+  "displayName": "IMAP Email Reader",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1770823426808,
+    "commit": "https://github.com/openclaw/skills/commit/711fafc28da84977c6f36ce8230b79a2228dc341"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1769365589026,
+      "commit": "https://github.com/clawdbot/skills/commit/28c1363620c62d9805df1152208022593c0f892f"
+    }
+  ]
+}

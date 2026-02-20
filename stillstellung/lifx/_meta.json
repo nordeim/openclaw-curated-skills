@@ -1,0 +1,11 @@
+{
+  "owner": "stillstellung",
+  "slug": "lifx",
+  "displayName": "LIFX Light Control",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771207950835,
+    "commit": "https://github.com/openclaw/skills/commit/95a21d8bd393ba48e39cf97a71b9179fc48abf75"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "cwyhkyochen-a11y",
+  "slug": "sparkle-vpn",
+  "displayName": "Sparkle VPN",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771405000605,
+    "commit": "https://github.com/openclaw/skills/commit/d8382f1e186e1b76e75cfb3736a244bf5d7617c9"
+  },
+  "history": []
+}

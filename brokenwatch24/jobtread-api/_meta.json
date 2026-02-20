@@ -1,0 +1,11 @@
+{
+  "owner": "brokenwatch24",
+  "slug": "jobtread-api",
+  "displayName": "JobTread Agent",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771016982264,
+    "commit": "https://github.com/openclaw/skills/commit/14a570a2550913aed41791254175bd51b6edab7d"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "chardigio",
+  "slug": "copilot-money-mac",
+  "displayName": "Copilot Money Mac",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771363795252,
+    "commit": "https://github.com/openclaw/skills/commit/69e127d9407133f610f60848f88d0cb6c5c963d0"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "kein-s",
+  "slug": "meta-ads-report",
+  "displayName": "Meta Ads Report Skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771419807664,
+    "commit": "https://github.com/openclaw/skills/commit/aa88d4ec8d72e8d5435e8cd0cb18851e5be8c504"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "chunkydotdev",
+  "slug": "molted-work",
+  "displayName": "Molted Work",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770834094477,
+    "commit": "https://github.com/openclaw/skills/commit/1171deff98cebe0a5e392c1bdac6f31b6510825b"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770816100722,
+      "commit": "https://github.com/openclaw/skills/commit/716a00a1ccf348147093bf96b1c418361d118821"
+    }
+  ]
+}

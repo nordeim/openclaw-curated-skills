@@ -1,0 +1,17 @@
+{
+  "owner": "suhteevah",
+  "slug": "depguard",
+  "displayName": "DepGuard",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771098131970,
+    "commit": "https://github.com/openclaw/skills/commit/e61bc7a28f2ca1eab762c5abcc1c5b7a6e56534f"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771063072960,
+      "commit": "https://github.com/openclaw/skills/commit/318e18869143a054961e9af454a32cfd54d1d0f2"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "devsandip",
+  "slug": "scrask-bot",
+  "displayName": "Scrask",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771380206488,
+    "commit": "https://github.com/openclaw/skills/commit/7c710b5f09f3e6a58cff3b54462e32ef6e913cde"
+  },
+  "history": []
+}

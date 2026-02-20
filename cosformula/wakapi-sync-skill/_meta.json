@@ -1,0 +1,17 @@
+{
+  "owner": "cosformula",
+  "slug": "wakapi-sync-skill",
+  "displayName": "Wakapi Sync",
+  "latest": {
+    "version": "0.2.1",
+    "publishedAt": 1771133245402,
+    "commit": "https://github.com/openclaw/skills/commit/ef9a06202bf125f7a04f3c494170fd995bbf95dd"
+  },
+  "history": [
+    {
+      "version": "0.1.1",
+      "publishedAt": 1771057912722,
+      "commit": "https://github.com/openclaw/skills/commit/a909bbecda86a6f9ea279ca0a2689d0b5c68613a"
+    }
+  ]
+}

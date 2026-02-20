@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-compliance-engine",
+  "displayName": "Compliance & Audit Readiness Engine",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771259335584,
+    "commit": "https://github.com/openclaw/skills/commit/7790ee0a779ad43b60a0083c10a764396b93c929"
+  },
+  "history": []
+}

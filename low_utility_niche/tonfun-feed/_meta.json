@@ -1,0 +1,11 @@
+{
+  "owner": "alphafanx",
+  "slug": "tonfun-feed",
+  "displayName": "TON.fun Feed Relay",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771078390341,
+    "commit": "https://github.com/openclaw/skills/commit/06aa217428c949a852f59a903a9054f00eb7e543"
+  },
+  "history": []
+}

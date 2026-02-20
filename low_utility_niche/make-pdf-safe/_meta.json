@@ -1,0 +1,11 @@
+{
+  "owner": "crossservicesolutions",
+  "slug": "make-pdf-safe",
+  "displayName": "Make PDF safe",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770603970341,
+    "commit": "https://github.com/openclaw/skills/commit/3721db1b576d02fb0f5519dcda619e36ba72aebb"
+  },
+  "history": []
+}

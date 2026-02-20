@@ -1,0 +1,11 @@
+{
+  "owner": "naybu256",
+  "slug": "tokportal",
+  "displayName": "TokPortal",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771066535856,
+    "commit": "https://github.com/openclaw/skills/commit/0eaea4b4b723f01e98cb78aa4d0540b2d088886d"
+  },
+  "history": []
+}

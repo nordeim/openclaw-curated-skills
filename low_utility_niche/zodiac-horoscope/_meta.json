@@ -1,0 +1,17 @@
+{
+  "owner": "dowands",
+  "slug": "zodiac-horoscope",
+  "displayName": "Zodiac Horoscope",
+  "latest": {
+    "version": "1.3.0",
+    "publishedAt": 1771169697999,
+    "commit": "https://github.com/openclaw/skills/commit/3959a7554dc8b1dff1e96f8ef864a8b564ef83ea"
+  },
+  "history": [
+    {
+      "version": "1.2.0",
+      "publishedAt": 1771169539427,
+      "commit": "https://github.com/openclaw/skills/commit/157624d379c1320d6ce78ad97bb5f099d76c3634"
+    }
+  ]
+}

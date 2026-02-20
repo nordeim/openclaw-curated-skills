@@ -1,0 +1,11 @@
+{
+  "owner": "johannes-berggren",
+  "slug": "avatar",
+  "displayName": "Avatar",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770503967734,
+    "commit": "https://github.com/openclaw/skills/commit/29f1b8ef1fc63fd457824fd86967de113cf38535"
+  },
+  "history": []
+}

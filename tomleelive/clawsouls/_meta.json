@@ -1,0 +1,32 @@
+{
+  "owner": "tomleelive",
+  "slug": "clawsouls",
+  "displayName": "ClawSouls",
+  "latest": {
+    "version": "0.4.1",
+    "publishedAt": 1771511668128,
+    "commit": "https://github.com/openclaw/skills/commit/ba3f90ec477fd7632829fd47c229aaa6f368e7a6"
+  },
+  "history": [
+    {
+      "version": "0.3.4",
+      "publishedAt": 1771256103247,
+      "commit": "https://github.com/openclaw/skills/commit/1f477ea3386d48ff2b7ff453c68031537449776c"
+    },
+    {
+      "version": "0.2.4",
+      "publishedAt": 1771066315986,
+      "commit": "https://github.com/openclaw/skills/commit/df3ddcdd5be97aafc9d4d6f86f0b7dad1113381e"
+    },
+    {
+      "version": "0.2.3",
+      "publishedAt": 1770993910263,
+      "commit": "https://github.com/openclaw/skills/commit/1794f57c12a800bcaf963cd6747b8177a954290c"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770913631752,
+      "commit": "https://github.com/openclaw/skills/commit/69daecfc9d63eb23042727d51d4054dcb0c8eaf4"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "sa9saq",
+  "slug": "approval-queue",
+  "displayName": "Approval Queue",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526198661,
+    "commit": "https://github.com/openclaw/skills/commit/026b7b218bae2b8526c91dd151d9e6b418c47ea6"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770482598570,
+      "commit": "https://github.com/openclaw/skills/commit/e34374b17bd32f77762983b60386b804a36e0d5e"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "asabovetech",
+  "slug": "pocket-ai",
+  "displayName": "Pocket AI Integration",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771459571477,
+    "commit": "https://github.com/openclaw/skills/commit/e6787733d301e4f9cddc152e6579ed874a1ceb8d"
+  },
+  "history": []
+}

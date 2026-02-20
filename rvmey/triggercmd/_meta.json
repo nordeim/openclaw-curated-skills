@@ -1,0 +1,17 @@
+{
+  "owner": "rvmey",
+  "slug": "triggercmd",
+  "displayName": "TRIGGERcmd - Run commands on your computers remotely",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1771383732864,
+    "commit": "https://github.com/openclaw/skills/commit/ca51f03df61445dc7a5f4d1cfb084996c11f68cb"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1771279114452,
+      "commit": "https://github.com/openclaw/skills/commit/a7e380baf8f8a31d7209c4ed994718dbe8a99576"
+    }
+  ]
+}

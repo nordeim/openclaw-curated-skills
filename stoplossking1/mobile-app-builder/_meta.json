@@ -1,0 +1,11 @@
+{
+  "owner": "stoplossking1",
+  "slug": "mobile-app-builder",
+  "displayName": "Mobile App Builder",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771297362537,
+    "commit": "https://github.com/openclaw/skills/commit/68178c82c01dfd1109116e45fed325394d83ea48"
+  },
+  "history": []
+}

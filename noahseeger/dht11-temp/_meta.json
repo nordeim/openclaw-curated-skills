@@ -1,0 +1,11 @@
+{
+  "owner": "noahseeger",
+  "slug": "dht11-temp",
+  "displayName": "Dht11 Temp",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771322999943,
+    "commit": "https://github.com/openclaw/skills/commit/fffe397eea77826a5bb67133f9292fd706eee139"
+  },
+  "history": []
+}

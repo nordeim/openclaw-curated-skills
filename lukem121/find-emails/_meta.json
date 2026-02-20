@@ -1,0 +1,11 @@
+{
+  "owner": "lukem121",
+  "slug": "find-emails",
+  "displayName": "Scrape Emails By URL",
+  "latest": {
+    "version": "0.1.3",
+    "publishedAt": 1770892973884,
+    "commit": "https://github.com/openclaw/skills/commit/dd5c87c4140ab579db90ae3f5effd1a3d0b4ab51"
+  },
+  "history": []
+}

@@ -1,0 +1,17 @@
+{
+  "owner": "sa9saq",
+  "slug": "env-doctor",
+  "displayName": "env-doctor",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1770791180538,
+    "commit": "https://github.com/openclaw/skills/commit/abc55df1ceed7137ec4c3d600ea8fc9580a18340"
+  },
+  "history": [
+    {
+      "version": "1.1.0",
+      "publishedAt": 1770526236631,
+      "commit": "https://github.com/openclaw/skills/commit/d61e3faceb612fd14c20c17ee137d96479516b93"
+    }
+  ]
+}

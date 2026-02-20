@@ -1,0 +1,11 @@
+{
+  "owner": "ruigomeseu",
+  "slug": "beeminder",
+  "displayName": "Beeminder",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770681068704,
+    "commit": "https://github.com/openclaw/skills/commit/48832bad8d1222af614fec44cf135002ab6c6a4b"
+  },
+  "history": []
+}

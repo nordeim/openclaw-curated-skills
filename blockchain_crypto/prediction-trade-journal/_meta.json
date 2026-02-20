@@ -1,0 +1,17 @@
+{
+  "owner": "adlai88",
+  "slug": "prediction-trade-journal",
+  "displayName": "Prediction Trade Journal",
+  "latest": {
+    "version": "1.1.5",
+    "publishedAt": 1771314824380,
+    "commit": "https://github.com/openclaw/skills/commit/fbf5cae9f00b9d3c56c5dd41312c6ca57268a650"
+  },
+  "history": [
+    {
+      "version": "1.1.2",
+      "publishedAt": 1771081169296,
+      "commit": "https://github.com/openclaw/skills/commit/71cd21e169b68ef696556b0a6a708af3f97229c9"
+    }
+  ]
+}

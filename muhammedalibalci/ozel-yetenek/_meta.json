@@ -1,0 +1,17 @@
+{
+  "owner": "muhammedalibalci",
+  "slug": "ozel-yetenek",
+  "displayName": "Ozel Yetenek",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771240509214,
+    "commit": "https://github.com/openclaw/skills/commit/52299d3bec2984c13fc9e76b92c53171ce8465a1"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771074297398,
+      "commit": "https://github.com/openclaw/skills/commit/21b4eda919e5e9cda5e3ae08fe0cebfe02d99297"
+    }
+  ]
+}

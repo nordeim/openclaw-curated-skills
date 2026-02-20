@@ -1,0 +1,11 @@
+{
+  "owner": "ashtiwariasu",
+  "slug": "llmcouncil-router",
+  "displayName": "LLM Council Router",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771337692434,
+    "commit": "https://github.com/openclaw/skills/commit/d978079a5a3d3cb8701895d9c4f16a94e404498d"
+  },
+  "history": []
+}

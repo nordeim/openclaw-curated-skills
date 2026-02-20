@@ -1,0 +1,17 @@
+{
+  "owner": "paulgnz",
+  "slug": "xpr-creative",
+  "displayName": "XPR Creative",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771045830519,
+    "commit": "https://github.com/openclaw/skills/commit/94253fffd9a3d08ce7607ea253b2056bfdfac206"
+  },
+  "history": [
+    {
+      "version": "0.2.11",
+      "publishedAt": 1771018010472,
+      "commit": "https://github.com/openclaw/skills/commit/761385273a316cfe889a09a03ce69528df706d1e"
+    }
+  ]
+}

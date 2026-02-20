@@ -1,0 +1,17 @@
+{
+  "owner": "sa9saq",
+  "slug": "lan-scanner",
+  "displayName": "Network Scanner",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526376818,
+    "commit": "https://github.com/openclaw/skills/commit/00257a87fc8e5713bd5c1e0deb188a838fe787bc"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1770503773203,
+      "commit": "https://github.com/openclaw/skills/commit/8cdf870d5f9988cdc9dd3fd28b8509ed59faa8e8"
+    }
+  ]
+}

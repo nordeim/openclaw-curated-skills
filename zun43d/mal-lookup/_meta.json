@@ -1,0 +1,11 @@
+{
+  "owner": "zun43d",
+  "slug": "mal-lookup",
+  "displayName": "Mal Lookup",
+  "latest": {
+    "version": "1.3.1",
+    "publishedAt": 1770597783481,
+    "commit": "https://github.com/openclaw/skills/commit/885698bc2152fb5131dfb8431c20c19b51d09366"
+  },
+  "history": []
+}

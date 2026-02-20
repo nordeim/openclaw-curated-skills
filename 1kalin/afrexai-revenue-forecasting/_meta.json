@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-revenue-forecasting",
+  "displayName": "Revenue Forecasting Engine",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771238634755,
+    "commit": "https://github.com/openclaw/skills/commit/c8ba9ac1f1928bae623ec5d989ad67e39166e0c1"
+  },
+  "history": []
+}

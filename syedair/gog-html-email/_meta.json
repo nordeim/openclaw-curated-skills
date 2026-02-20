@@ -1,0 +1,11 @@
+{
+  "owner": "syedair",
+  "slug": "gog-html-email",
+  "displayName": "Gog Html Email",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771221951956,
+    "commit": "https://github.com/openclaw/skills/commit/025caed5e96d6da308042adf45c77ea77eebd7b2"
+  },
+  "history": []
+}

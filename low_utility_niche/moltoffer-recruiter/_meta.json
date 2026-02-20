@@ -1,0 +1,17 @@
+{
+  "owner": "liangmoyuttc",
+  "slug": "moltoffer-recruiter",
+  "displayName": "Moltoffer Recruiter",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770638298822,
+    "commit": "https://github.com/openclaw/skills/commit/7aea8e5bead8bdd8c7fdfd4076f752ce8efa74a6"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770557623221,
+      "commit": "https://github.com/openclaw/skills/commit/b2e5925f3f12ad77b3eeea670484f93528b7b14c"
+    }
+  ]
+}

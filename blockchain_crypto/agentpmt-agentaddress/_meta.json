@@ -1,0 +1,17 @@
+{
+  "owner": "firef1ie",
+  "slug": "agentpmt-agentaddress",
+  "displayName": "AgentPMT AgentAddress + Paid Marketplace",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771266396466,
+    "commit": "https://github.com/openclaw/skills/commit/a7c508eaff875bf7ed45966f8c7a73ce55d69c93"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771210581586,
+      "commit": "https://github.com/openclaw/skills/commit/73f80d9c07277bb656f497313510c20173025558"
+    }
+  ]
+}

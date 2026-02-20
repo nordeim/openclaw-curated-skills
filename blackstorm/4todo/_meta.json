@@ -1,0 +1,17 @@
+{
+  "owner": "blackstorm",
+  "slug": "4todo",
+  "displayName": "4todo",
+  "latest": {
+    "version": "0.1.3",
+    "publishedAt": 1770469741474,
+    "commit": "https://github.com/openclaw/skills/commit/58143e7d8987dbd149ff379bcb2a782d0167fba4"
+  },
+  "history": [
+    {
+      "version": "0.1.1",
+      "publishedAt": 1769868189616,
+      "commit": "https://github.com/clawdbot/skills/commit/c38cb7a45cb2f46d67ea27b4b863556660fe149a"
+    }
+  ]
+}

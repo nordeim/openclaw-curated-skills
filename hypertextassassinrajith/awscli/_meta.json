@@ -1,0 +1,11 @@
+{
+  "owner": "hypertextassassinrajith",
+  "slug": "awscli",
+  "displayName": "Awscli",
+  "latest": {
+    "version": "0.1.2",
+    "publishedAt": 1770953011843,
+    "commit": "https://github.com/openclaw/skills/commit/0262c7d69fb71f9e44938d95f529d497593a6b58"
+  },
+  "history": []
+}

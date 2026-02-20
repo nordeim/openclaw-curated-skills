@@ -1,0 +1,11 @@
+{
+  "owner": "wbic16",
+  "slug": "sq-memory",
+  "displayName": "SQ Memory",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770872890771,
+    "commit": "https://github.com/openclaw/skills/commit/fb5cf795e0d5bb776d2979173c29999fe136200c"
+  },
+  "history": []
+}

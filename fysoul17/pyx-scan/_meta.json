@@ -1,0 +1,17 @@
+{
+  "owner": "fysoul17",
+  "slug": "pyx-scan",
+  "displayName": "Pyx Scan",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771076404216,
+    "commit": "https://github.com/openclaw/skills/commit/1d777e88822f3c45e5409a30cc706614e8650da4"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770904381438,
+      "commit": "https://github.com/openclaw/skills/commit/477ddd2bc7cdd259eacc9e6a382dcbbbe980df39"
+    }
+  ]
+}

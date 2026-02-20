@@ -1,0 +1,17 @@
+{
+  "owner": "rustiqly",
+  "slug": "sonic-build",
+  "displayName": "sonic-build",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771126384324,
+    "commit": "https://github.com/openclaw/skills/commit/e22e4eaac166a07d1a9c244e062e6a3e238a394e"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770967691179,
+      "commit": "https://github.com/openclaw/skills/commit/3115d58a140cd3bcc609f08eb57712ca72281cc7"
+    }
+  ]
+}

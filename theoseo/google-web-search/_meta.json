@@ -1,0 +1,17 @@
+{
+  "owner": "theoseo",
+  "slug": "google-web-search",
+  "displayName": "Google Web Search",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1770790715799,
+    "commit": "https://github.com/openclaw/skills/commit/13608403b4fb100d791d8760cc334caf0ac61d82"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1769938416779,
+      "commit": "https://github.com/clawdbot/skills/commit/6a93cf0f069562f5c55ed499b05a722fb4e70837"
+    }
+  ]
+}

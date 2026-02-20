@@ -1,0 +1,11 @@
+{
+  "owner": "brandonwise",
+  "slug": "workspace-cleaner",
+  "displayName": "Workspace Cleaner",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771170146716,
+    "commit": "https://github.com/openclaw/skills/commit/5b4ee0521e7ff94bd6b6279395dabfd09e947ea2"
+  },
+  "history": []
+}

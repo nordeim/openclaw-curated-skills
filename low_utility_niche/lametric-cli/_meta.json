@@ -1,0 +1,22 @@
+{
+  "owner": "dedene",
+  "slug": "lametric-cli",
+  "displayName": "Lametric Cli",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771266284860,
+    "commit": "https://github.com/openclaw/skills/commit/5accac05d584688ce5ae2e5f67bb4e54515b2eab"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771067202089,
+      "commit": "https://github.com/openclaw/skills/commit/194ea12ebb0ce4a94860c8d5236a0f504edcd43a"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770996981580,
+      "commit": "https://github.com/openclaw/skills/commit/f9111e15aac999c8791d17b707749dda164e6bfc"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "urrrich",
+  "slug": "call-grok4-llm",
+  "displayName": "Call Grok4 Llm",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1771143893753,
+    "commit": "https://github.com/openclaw/skills/commit/b5164fe5e0444393780078d01fe928225cedf53c"
+  },
+  "history": []
+}

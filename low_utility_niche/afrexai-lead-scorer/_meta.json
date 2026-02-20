@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-lead-scorer",
+  "displayName": "Lead Scorer",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770951518563,
+    "commit": "https://github.com/openclaw/skills/commit/0e25508fe40ab1f8bb218a43ce41f08797282626"
+  },
+  "history": []
+}

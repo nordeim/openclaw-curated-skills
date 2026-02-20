@@ -1,0 +1,17 @@
+{
+  "owner": "misakiga",
+  "slug": "wechat-mp-publisher",
+  "displayName": "wechat-mp-publisher",
+  "latest": {
+    "version": "2.0.2",
+    "publishedAt": 1771030738060,
+    "commit": "https://github.com/openclaw/skills/commit/adc85cf9c76577f58f29119af1ac61a41c53a453"
+  },
+  "history": [
+    {
+      "version": "2.0.1",
+      "publishedAt": 1770968267147,
+      "commit": "https://github.com/openclaw/skills/commit/6dbd32c8c45828aa7ca139537219e9634ea53513"
+    }
+  ]
+}

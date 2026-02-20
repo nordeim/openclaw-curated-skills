@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "customer-onboarding",
+  "displayName": "Customer Onboarding",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770951127117,
+    "commit": "https://github.com/openclaw/skills/commit/3d21a86e127ac3c56ad18c76bfbea0a38bce2d18"
+  },
+  "history": []
+}

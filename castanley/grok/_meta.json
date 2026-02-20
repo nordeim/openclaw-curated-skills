@@ -1,0 +1,11 @@
+{
+  "owner": "castanley",
+  "slug": "grok",
+  "displayName": "xAI Grok Search",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771140440493,
+    "commit": "https://github.com/openclaw/skills/commit/dce4000e5a5a41cc0246202f2e39dde7b8d8ad2a"
+  },
+  "history": []
+}

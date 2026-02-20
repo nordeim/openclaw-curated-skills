@@ -1,0 +1,11 @@
+{
+  "owner": "codejika",
+  "slug": "shop",
+  "displayName": "ShopClaw | Give your claw shopping tasks with strict controls",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1771103352418,
+    "commit": "https://github.com/openclaw/skills/commit/9f39f714662b22c8ccfbe6d41f7b935875cdae7f"
+  },
+  "history": []
+}

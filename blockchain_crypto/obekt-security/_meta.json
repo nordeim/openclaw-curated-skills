@@ -1,0 +1,11 @@
+{
+  "owner": "obekt",
+  "slug": "obekt-security",
+  "displayName": "ObekT Security",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770580651445,
+    "commit": "https://github.com/openclaw/skills/commit/47aea310ef75863580af3b03f8e6f0ddb4a4b82e"
+  },
+  "history": []
+}

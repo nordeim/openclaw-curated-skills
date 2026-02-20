@@ -1,0 +1,17 @@
+{
+  "owner": "sufnoobzac",
+  "slug": "clawcontract",
+  "displayName": "clawcontract",
+  "latest": {
+    "version": "1.0.8",
+    "publishedAt": 1771074700485,
+    "commit": "https://github.com/openclaw/skills/commit/375a3d1bd108913fc190a70adf3730bf24d4f63e"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1771005753442,
+      "commit": "https://github.com/openclaw/skills/commit/6175b1ccf4cb3ee3de10f5dc082def662cec7da1"
+    }
+  ]
+}

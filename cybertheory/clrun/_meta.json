@@ -1,0 +1,11 @@
+{
+  "owner": "cybertheory",
+  "slug": "clrun",
+  "displayName": "clrun - Interactive CLI for agent with a LLM readable YAML response surface",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771290555712,
+    "commit": "https://github.com/openclaw/skills/commit/b6bfa5fa18b98573a68a630fdf3256e4af7543b5"
+  },
+  "history": []
+}

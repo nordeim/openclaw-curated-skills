@@ -1,0 +1,22 @@
+{
+  "owner": "wiimdy",
+  "slug": "openfunderse-strategy",
+  "displayName": "OpenFunderse Strategy",
+  "latest": {
+    "version": "2.0.2",
+    "publishedAt": 1771183517569,
+    "commit": "https://github.com/openclaw/skills/commit/9e0a58e2763dd35937eebf381eef76ec862ea7fe"
+  },
+  "history": [
+    {
+      "version": "1.1.2",
+      "publishedAt": 1771090216756,
+      "commit": "https://github.com/openclaw/skills/commit/d923b4cddc4c1431bb2741514edd749e5a4847ec"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771072702777,
+      "commit": "https://github.com/openclaw/skills/commit/64be1863fbfd1a20e6e20d11842f23dd418bda44"
+    }
+  ]
+}

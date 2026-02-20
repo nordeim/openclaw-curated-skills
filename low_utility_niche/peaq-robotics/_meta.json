@@ -1,0 +1,22 @@
+{
+  "owner": "lavish0000",
+  "slug": "peaq-robotics",
+  "displayName": "peaq Robotics",
+  "latest": {
+    "version": "0.1.7",
+    "publishedAt": 1771275718571,
+    "commit": "https://github.com/openclaw/skills/commit/1bbbe811dca810e2ab6f76076f6852d3e389f77f"
+  },
+  "history": [
+    {
+      "version": "0.1.3",
+      "publishedAt": 1771247122780,
+      "commit": "https://github.com/openclaw/skills/commit/4f847d05e34d76f3bee78ecae8b3ac44c967a5ef"
+    },
+    {
+      "version": "0.1.0",
+      "publishedAt": 1770060521684,
+      "commit": "https://github.com/clawdbot/skills/commit/db4194df5bed12a4541890349345486b02d49522"
+    }
+  ]
+}

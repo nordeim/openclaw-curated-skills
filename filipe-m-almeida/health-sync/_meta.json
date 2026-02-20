@@ -1,0 +1,11 @@
+{
+  "owner": "filipe-m-almeida",
+  "slug": "health-sync",
+  "displayName": "health-sync",
+  "latest": {
+    "version": "0.2.5",
+    "publishedAt": 1771481152975,
+    "commit": "https://github.com/openclaw/skills/commit/6a3489d43de8bcd0e4df300d11843747d2059f5d"
+  },
+  "history": []
+}

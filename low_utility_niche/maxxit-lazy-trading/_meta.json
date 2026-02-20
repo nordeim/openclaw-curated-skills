@@ -1,0 +1,42 @@
+{
+  "owner": "abhi152003",
+  "slug": "maxxit-lazy-trading",
+  "displayName": "Maxxit Lazy Trader",
+  "latest": {
+    "version": "1.2.3",
+    "publishedAt": 1771482008861,
+    "commit": "https://github.com/openclaw/skills/commit/f0c91ab6ed5a48f811abdfda07302a105963929d"
+  },
+  "history": [
+    {
+      "version": "1.2.2",
+      "publishedAt": 1771412476932,
+      "commit": "https://github.com/openclaw/skills/commit/70c6c5d64ea4415cd93727c67c4372ee52f08821"
+    },
+    {
+      "version": "1.2.0",
+      "publishedAt": 1771334534986,
+      "commit": "https://github.com/openclaw/skills/commit/9d5fe16f6ff1cc092546f0d4d517a26d219af516"
+    },
+    {
+      "version": "1.1.1",
+      "publishedAt": 1771067100825,
+      "commit": "https://github.com/openclaw/skills/commit/51bf00632e180c795da596f7af107032890e4898"
+    },
+    {
+      "version": "1.0.5",
+      "publishedAt": 1770829983425,
+      "commit": "https://github.com/openclaw/skills/commit/19e0d51f8b57b7dbb120c164de27b028aa42b3b1"
+    },
+    {
+      "version": "1.0.3",
+      "publishedAt": 1770743010171,
+      "commit": "https://github.com/openclaw/skills/commit/6d65d4d3da253bd80459444410b8461c692ffb48"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770205858439,
+      "commit": "https://github.com/clawdbot/skills/commit/d50d03ab9a2a3b273df7f18a286b919dcd72876c"
+    }
+  ]
+}

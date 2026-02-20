@@ -1,0 +1,27 @@
+{
+  "owner": "mogens9",
+  "slug": "ai-podcast",
+  "displayName": "Magic Podcast",
+  "latest": {
+    "version": "1.0.10",
+    "publishedAt": 1771483783530,
+    "commit": "https://github.com/openclaw/skills/commit/d8c67ce8a7766b22956b58aec28e9089875a6bec"
+  },
+  "history": [
+    {
+      "version": "1.0.8",
+      "publishedAt": 1771356903282,
+      "commit": "https://github.com/openclaw/skills/commit/bf329c2ccdaf1e69237b9ee5ea059d4abbaf580b"
+    },
+    {
+      "version": "1.0.6",
+      "publishedAt": 1771350318819,
+      "commit": "https://github.com/openclaw/skills/commit/6a035bd8a775f548500afd0f14026e2acd215f64"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771332978377,
+      "commit": "https://github.com/openclaw/skills/commit/f741bc14f5236c9b145dce3bf97e155be4ebac96"
+    }
+  ]
+}

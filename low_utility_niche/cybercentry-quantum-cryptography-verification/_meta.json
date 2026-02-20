@@ -1,0 +1,11 @@
+{
+  "owner": "cybercentry",
+  "slug": "cybercentry-quantum-cryptography-verification",
+  "displayName": "Cybercentry Quantum Cryptography Verification",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771224382964,
+    "commit": "https://github.com/openclaw/skills/commit/dcf8ec0cb7c43649afa1c22fb6cf63a00b0513f0"
+  },
+  "history": []
+}

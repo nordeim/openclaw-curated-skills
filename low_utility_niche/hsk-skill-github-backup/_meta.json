@@ -1,0 +1,11 @@
+{
+  "owner": "walbertus",
+  "slug": "hsk-skill-github-backup",
+  "displayName": "Hsk Skill Github Backup",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771427954683,
+    "commit": "https://github.com/openclaw/skills/commit/5ed0dde8bc4b8623edb976072eabdd10dc5e9971"
+  },
+  "history": []
+}

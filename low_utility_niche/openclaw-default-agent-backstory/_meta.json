@@ -1,0 +1,11 @@
+{
+  "owner": "msaum",
+  "slug": "openclaw-default-agent-backstory",
+  "displayName": "Openclaw Default Agent Backstory",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771480274467,
+    "commit": "https://github.com/openclaw/skills/commit/e0616d56442ee0e79e37b019491696f4a4cb2436"
+  },
+  "history": []
+}

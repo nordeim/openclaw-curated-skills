@@ -1,0 +1,17 @@
+{
+  "owner": "dorogoy",
+  "slug": "miniflux-skill",
+  "displayName": "Miniflux Skill",
+  "latest": {
+    "version": "0.2.3",
+    "publishedAt": 1771248997254,
+    "commit": "https://github.com/openclaw/skills/commit/615bdb69241bac3c8c008e186f27d8b29145d789"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1771141265298,
+      "commit": "https://github.com/openclaw/skills/commit/ff0d03862c8a9de0342f94c5ff54f502add33097"
+    }
+  ]
+}

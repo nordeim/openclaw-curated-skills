@@ -1,0 +1,27 @@
+{
+  "owner": "lior539",
+  "slug": "remote-jobs-finder",
+  "displayName": "Remote Jobs Finder",
+  "latest": {
+    "version": "1.6.2",
+    "publishedAt": 1771240989261,
+    "commit": "https://github.com/openclaw/skills/commit/d57907986151b971f8e0eb8d15c352ac4b46d4ec"
+  },
+  "history": [
+    {
+      "version": "1.4.2",
+      "publishedAt": 1771220935383,
+      "commit": "https://github.com/openclaw/skills/commit/fece6e0e415a361ee83cc2064a65eea511c635e1"
+    },
+    {
+      "version": "1.4.0",
+      "publishedAt": 1771217861758,
+      "commit": "https://github.com/openclaw/skills/commit/4378917499b365b6a5cac9314e97ecd3dc0e6d4a"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771101900355,
+      "commit": "https://github.com/openclaw/skills/commit/6a65e922bc00ea18a618de920f6562b57aac851e"
+    }
+  ]
+}

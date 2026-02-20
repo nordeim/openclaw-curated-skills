@@ -1,0 +1,32 @@
+{
+  "owner": "seenfinity",
+  "slug": "solana-connect",
+  "displayName": "Solana Connect",
+  "latest": {
+    "version": "3.0.0",
+    "publishedAt": 1771275282992,
+    "commit": "https://github.com/openclaw/skills/commit/18382ebc16ea69c1c66e78f4639c8970c860eb5c"
+  },
+  "history": [
+    {
+      "version": "2.0.4",
+      "publishedAt": 1771273513331,
+      "commit": "https://github.com/openclaw/skills/commit/6acba4d12f4dd2fd52d8b61bb0decdf7339fb985"
+    },
+    {
+      "version": "2.0.1",
+      "publishedAt": 1771272906974,
+      "commit": "https://github.com/openclaw/skills/commit/25e2a73f1645612466d3d4534903febe14cc179b"
+    },
+    {
+      "version": "2.0.0",
+      "publishedAt": 1771271629580,
+      "commit": "https://github.com/openclaw/skills/commit/614af488e1007d651ad9bc2d46efea6eef2ca885"
+    },
+    {
+      "version": "1.4.0",
+      "publishedAt": 1771162020642,
+      "commit": "https://github.com/openclaw/skills/commit/f5bef8d495db6152ea37c2ef86f950c3fbf9df7d"
+    }
+  ]
+}

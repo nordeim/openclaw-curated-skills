@@ -1,0 +1,11 @@
+{
+  "owner": "geeklord",
+  "slug": "runware-image",
+  "displayName": "Generate images using Runware API",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771162798610,
+    "commit": "https://github.com/openclaw/skills/commit/591564b1f9864a6510bd293c36a6c8f9f8d0d5a5"
+  },
+  "history": []
+}

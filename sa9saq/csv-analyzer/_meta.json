@@ -1,0 +1,11 @@
+{
+  "owner": "sa9saq",
+  "slug": "csv-analyzer",
+  "displayName": "Csv Analyzer",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1770526220204,
+    "commit": "https://github.com/openclaw/skills/commit/969149bd060f8c46d84b3330a0e5fa2175903d7f"
+  },
+  "history": []
+}

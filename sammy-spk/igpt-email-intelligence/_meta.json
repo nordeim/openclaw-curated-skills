@@ -1,0 +1,11 @@
+{
+  "owner": "sammy-spk",
+  "slug": "igpt-email-intelligence",
+  "displayName": "iGPT Email Intelligence",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771493167865,
+    "commit": "https://github.com/openclaw/skills/commit/1a8124423747aa8af354875e02c718050113df1a"
+  },
+  "history": []
+}

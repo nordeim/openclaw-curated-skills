@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-support-operations",
+  "displayName": "Customer Support Operations Engine",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771504178780,
+    "commit": "https://github.com/openclaw/skills/commit/8d8552297f60424968dd29afc1972fc2f3f19d45"
+  },
+  "history": []
+}

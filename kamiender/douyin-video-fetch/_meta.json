@@ -1,0 +1,11 @@
+{
+  "owner": "kamiender",
+  "slug": "douyin-video-fetch",
+  "displayName": "Douyin Video Fetch",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771312380231,
+    "commit": "https://github.com/openclaw/skills/commit/85aa026f2e6a49b849e8a778db8b62ab1091cfca"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "jononovo",
+  "slug": "secure-clawhub",
+  "displayName": "SecureClawHub | Easily submit or find best-in-class OpenClaw skills and services — curated by category, rated for trust, and built for business.",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770690691181,
+    "commit": "https://github.com/openclaw/skills/commit/b7101c3e92feedde253c777006261bf0a0c0833c"
+  },
+  "history": []
+}

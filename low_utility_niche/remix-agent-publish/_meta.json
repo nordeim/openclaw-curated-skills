@@ -1,0 +1,11 @@
+{
+  "owner": "chuckstock",
+  "slug": "remix-agent-publish",
+  "displayName": "Remix Agent Publish",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770761328810,
+    "commit": "https://github.com/openclaw/skills/commit/08c2a9a86c08bf6662d58d204a070829af4ac2e0"
+  },
+  "history": []
+}

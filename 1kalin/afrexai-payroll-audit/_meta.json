@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-payroll-audit",
+  "displayName": "Payroll Compliance Audit",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771157585103,
+    "commit": "https://github.com/openclaw/skills/commit/5727753d7746f47584e54a14aa06b7d86fba132b"
+  },
+  "history": []
+}

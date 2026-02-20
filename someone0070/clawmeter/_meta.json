@@ -1,0 +1,11 @@
+{
+  "owner": "someone0070",
+  "slug": "clawmeter",
+  "displayName": "Clawmeter",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771189194010,
+    "commit": "https://github.com/openclaw/skills/commit/f78365c77bb36c24f8fd37264e34e813ad5eae82"
+  },
+  "history": []
+}

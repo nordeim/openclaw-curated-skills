@@ -1,0 +1,11 @@
+{
+  "owner": "chrisochrisochriso-cmyk",
+  "slug": "clawsec",
+  "displayName": "ClawSec",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771512346265,
+    "commit": "https://github.com/openclaw/skills/commit/95bfd824f0e6087c72b888d0f5792fe088b3818f"
+  },
+  "history": []
+}

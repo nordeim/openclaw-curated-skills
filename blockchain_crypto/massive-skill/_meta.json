@@ -1,0 +1,17 @@
+{
+  "owner": "bruce-shi",
+  "slug": "massive-skill",
+  "displayName": "Massive(Polygon)",
+  "latest": {
+    "version": "1.0.5",
+    "publishedAt": 1771352319098,
+    "commit": "https://github.com/openclaw/skills/commit/b08f88a21174f72c4574ae367fe1308312898698"
+  },
+  "history": [
+    {
+      "version": "1.0.2",
+      "publishedAt": 1771275424613,
+      "commit": "https://github.com/openclaw/skills/commit/fe750247dba9004cdfab6a31411722d53683478f"
+    }
+  ]
+}

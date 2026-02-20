@@ -1,0 +1,11 @@
+{
+  "owner": "javainthinking",
+  "slug": "powerdrill-skills",
+  "displayName": "Powerdrill Data Analysis",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770800597704,
+    "commit": "https://github.com/openclaw/skills/commit/0fe1a8e12fbc58ca3fb563f0bfb593a39c420058"
+  },
+  "history": []
+}

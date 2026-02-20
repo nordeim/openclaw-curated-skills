@@ -1,0 +1,11 @@
+{
+  "owner": "phips0812",
+  "slug": "31third-safe-rebalancer",
+  "displayName": "31Third Safe Rebalancer",
+  "latest": {
+    "version": "0.1.0-alpha.0",
+    "publishedAt": 1771001623529,
+    "commit": "https://github.com/openclaw/skills/commit/b3bf450c2e3e21db4a396377d5bfe2ba2e5fff29"
+  },
+  "history": []
+}

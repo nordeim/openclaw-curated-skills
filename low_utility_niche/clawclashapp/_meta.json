@@ -1,0 +1,11 @@
+{
+  "owner": "zacember",
+  "slug": "clawclashapp",
+  "displayName": "Clawclash",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771469436423,
+    "commit": "https://github.com/openclaw/skills/commit/c3c34bd49028daaa440bdf891c831ebb04260a4c"
+  },
+  "history": []
+}

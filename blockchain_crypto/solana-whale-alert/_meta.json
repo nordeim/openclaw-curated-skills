@@ -1,0 +1,11 @@
+{
+  "owner": "satoshi891102",
+  "slug": "solana-whale-alert",
+  "displayName": "Solana Whale Alert",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770500007612,
+    "commit": "https://github.com/openclaw/skills/commit/d2d1673c2a63e1a6ddf232b32712f8bda5c11846"
+  },
+  "history": []
+}

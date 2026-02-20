@@ -1,0 +1,17 @@
+{
+  "owner": "jishnu-baruah",
+  "slug": "moltiguild",
+  "displayName": "moltiguild",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771273989004,
+    "commit": "https://github.com/openclaw/skills/commit/d651ed3a4fc9ffc9c4e07ab67aae0fd54221f7fa"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771139893336,
+      "commit": "https://github.com/openclaw/skills/commit/9556ff3d228e92f3e43c80fc97d5ab42118dd7e3"
+    }
+  ]
+}

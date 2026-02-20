@@ -1,0 +1,11 @@
+{
+  "owner": "bitbrujo",
+  "slug": "cherry-mcp",
+  "displayName": "Cherry Mcp",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1770619273543,
+    "commit": "https://github.com/openclaw/skills/commit/a79768a1175ab99a587415e65316cbc653a35855"
+  },
+  "history": []
+}

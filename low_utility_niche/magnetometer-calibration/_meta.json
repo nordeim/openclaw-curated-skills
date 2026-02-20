@@ -1,0 +1,11 @@
+{
+  "owner": "wangyendt",
+  "slug": "magnetometer-calibration",
+  "displayName": "Pywayne Calibration Magnetometer Calibration",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771161931378,
+    "commit": "https://github.com/openclaw/skills/commit/9b4cd04f39dbc67418d3c9a0f5a40ff7887606f1"
+  },
+  "history": []
+}

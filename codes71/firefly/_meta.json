@@ -1,0 +1,11 @@
+{
+  "owner": "codes71",
+  "slug": "firefly",
+  "displayName": "Firefly AI",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771277764375,
+    "commit": "https://github.com/openclaw/skills/commit/98ee9abc1925990f42c6e293049f6db65ecb991f"
+  },
+  "history": []
+}

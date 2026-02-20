@@ -1,0 +1,11 @@
+{
+  "owner": "allmightysauron",
+  "slug": "solax-cloud-api",
+  "displayName": "Solar Cloud API",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770659662370,
+    "commit": "https://github.com/openclaw/skills/commit/e0f906b95d1b0a3c7e59c522671cd15640d30932"
+  },
+  "history": []
+}

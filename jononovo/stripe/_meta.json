@@ -1,0 +1,11 @@
+{
+  "owner": "jononovo",
+  "slug": "stripe",
+  "displayName": "Stripe Agent Wallet | Use Stripe top-up your agentic wallet - Private Beta",
+  "latest": {
+    "version": "2.3.2",
+    "publishedAt": 1771108724090,
+    "commit": "https://github.com/openclaw/skills/commit/703a0699bb7e91e86b90beaa57b11a29e5ecfc21"
+  },
+  "history": []
+}

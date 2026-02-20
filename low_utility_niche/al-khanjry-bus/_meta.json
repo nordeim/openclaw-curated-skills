@@ -1,0 +1,17 @@
+{
+  "owner": "mohammedfarish",
+  "slug": "al-khanjry-bus",
+  "displayName": "Al Khanjry Bus - Dubai to Muscat",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771168596070,
+    "commit": "https://github.com/openclaw/skills/commit/513e46da7d0a3df3bef41d4ad9cd0f30029d8ced"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771166581255,
+      "commit": "https://github.com/openclaw/skills/commit/653292879ef0cd2df61ffd40a954cbdcd9e2d649"
+    }
+  ]
+}

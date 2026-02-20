@@ -1,0 +1,17 @@
+{
+  "owner": "ucmai",
+  "slug": "ucm",
+  "displayName": "Ucm",
+  "latest": {
+    "version": "1.0.5",
+    "publishedAt": 1771425067070,
+    "commit": "https://github.com/openclaw/skills/commit/18576d6fb12b5794de5d53b295971c33631bc798"
+  },
+  "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1771260379496,
+      "commit": "https://github.com/openclaw/skills/commit/a3dd3c8b29e47ee22b77dc0ab91e3df0f0b01c53"
+    }
+  ]
+}

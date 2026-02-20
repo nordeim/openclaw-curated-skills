@@ -1,0 +1,11 @@
+{
+  "owner": "ingogiebel",
+  "slug": "arc-creator",
+  "displayName": "ARC Creator",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770670823077,
+    "commit": "https://github.com/openclaw/skills/commit/e98c826f2c2d7bff669edc555c1c511662e14052"
+  },
+  "history": []
+}

@@ -1,0 +1,27 @@
+{
+  "owner": "gstdcoin",
+  "slug": "gstd",
+  "displayName": "Decentralized Agent-to-Agent protocol for the GSTD Grid. MCP, Hive Memory, TON, Miner.",
+  "latest": {
+    "version": "1.0.5",
+    "publishedAt": 1771441254147,
+    "commit": "https://github.com/openclaw/skills/commit/9c05792c0da5dcf98885825b83f4a03597a546d2"
+  },
+  "history": [
+    {
+      "version": "1.0.4",
+      "publishedAt": 1771229792694,
+      "commit": "https://github.com/openclaw/skills/commit/35ecc535a895eeda4c54b06cd2f8210f30d01956"
+    },
+    {
+      "version": "1.0.3",
+      "publishedAt": 1771096988763,
+      "commit": "https://github.com/openclaw/skills/commit/732edd4cd5ee88af0bf3de6b638a111a7bfe51e6"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1771089346376,
+      "commit": "https://github.com/openclaw/skills/commit/9b326bc01e02bc3711aec1ec0966e2cffbc506f8"
+    }
+  ]
+}

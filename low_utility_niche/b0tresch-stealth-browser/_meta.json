@@ -1,0 +1,11 @@
+{
+  "owner": "b0tresch",
+  "slug": "b0tresch-stealth-browser",
+  "displayName": "Stealth Browser",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770872062824,
+    "commit": "https://github.com/openclaw/skills/commit/3d9d4725a6b7d270e9a7a2944ad98fd33e347b28"
+  },
+  "history": []
+}

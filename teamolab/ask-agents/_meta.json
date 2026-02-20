@@ -1,0 +1,11 @@
+{
+  "owner": "teamolab",
+  "slug": "ask-agents",
+  "displayName": "Ask Agents",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771140383500,
+    "commit": "https://github.com/openclaw/skills/commit/1bb487fd2b46c94668da26cf83dafe6edfbbb826"
+  },
+  "history": []
+}

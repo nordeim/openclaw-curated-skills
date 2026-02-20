@@ -1,0 +1,42 @@
+{
+  "owner": "smithnodebyte",
+  "slug": "smithnode",
+  "displayName": "Smithnode",
+  "latest": {
+    "version": "1.0.13",
+    "publishedAt": 1771173867975,
+    "commit": "https://github.com/openclaw/skills/commit/299cddd54457bf4f2680961c27cddcf9aa72c59e"
+  },
+  "history": [
+    {
+      "version": "1.0.12",
+      "publishedAt": 1771173743773,
+      "commit": "https://github.com/openclaw/skills/commit/8e69d9672a719d1e1dcfe6454fa2d168a2f266b7"
+    },
+    {
+      "version": "1.0.11",
+      "publishedAt": 1771173627866,
+      "commit": "https://github.com/openclaw/skills/commit/03faa51ea3d91e8b27be792b3df8f92761b96d2b"
+    },
+    {
+      "version": "1.0.8",
+      "publishedAt": 1771172495135,
+      "commit": "https://github.com/openclaw/skills/commit/9662ef544e668200684950fd704fd97a35498ec2"
+    },
+    {
+      "version": "1.0.7",
+      "publishedAt": 1771171922797,
+      "commit": "https://github.com/openclaw/skills/commit/e11ed4589d00dfaae4d8598559ad98b1c08ce820"
+    },
+    {
+      "version": "1.0.6",
+      "publishedAt": 1771161765284,
+      "commit": "https://github.com/openclaw/skills/commit/5bdba019448631cdf6212e151ffbe3baf6e4f274"
+    },
+    {
+      "version": "1.0.4",
+      "publishedAt": 1771019018519,
+      "commit": "https://github.com/openclaw/skills/commit/f1e44c6addeea17633e6da3f6538f5ed79e3b091"
+    }
+  ]
+}

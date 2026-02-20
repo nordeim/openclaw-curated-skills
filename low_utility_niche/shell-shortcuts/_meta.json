@@ -1,0 +1,17 @@
+{
+  "owner": "wangyendt",
+  "slug": "shell-shortcuts",
+  "displayName": "Shell Shortcuts",
+  "latest": {
+    "version": "0.1.1",
+    "publishedAt": 1771375097310,
+    "commit": "https://github.com/openclaw/skills/commit/721ba43e59725e0ab7f9e664faf848c97314ec6a"
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "publishedAt": 1771165898195,
+      "commit": "https://github.com/openclaw/skills/commit/ded8913d7f61ba8dc9e731c65442a5e8704127b6"
+    }
+  ]
+}

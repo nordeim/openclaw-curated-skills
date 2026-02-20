@@ -1,0 +1,17 @@
+{
+  "owner": "datadrivenconstruction",
+  "slug": "qto-report",
+  "displayName": "Qto Report",
+  "latest": {
+    "version": "2.1.0",
+    "publishedAt": 1771176632703,
+    "commit": "https://github.com/openclaw/skills/commit/1e7426d05e798da6c7b30d602cde3c03215cdcd3"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770475622570,
+      "commit": "https://github.com/openclaw/skills/commit/b3c951b583526e64207d3869533eecf6547baf35"
+    }
+  ]
+}

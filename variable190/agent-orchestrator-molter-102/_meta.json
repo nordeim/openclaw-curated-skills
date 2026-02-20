@@ -1,0 +1,11 @@
+{
+  "owner": "variable190",
+  "slug": "agent-orchestrator-molter-102",
+  "displayName": "Agent Orchestrator",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771200653294,
+    "commit": "https://github.com/openclaw/skills/commit/dfdbdc4eb56df981df69f86a6f0fe9c605699332"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "motimilo",
+  "slug": "clawbazaar",
+  "displayName": "CLAWBAZAAR",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770570343311,
+    "commit": "https://github.com/openclaw/skills/commit/311b36b661514873a7200e03015d162c72c697f3"
+  },
+  "history": []
+}

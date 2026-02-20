@@ -1,0 +1,11 @@
+{
+  "owner": "kj-script",
+  "slug": "impossible-finance-skill",
+  "displayName": "impossible finance skills",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771424238141,
+    "commit": "https://github.com/openclaw/skills/commit/6f69febdd0c2119c9d748e060a265512a9850cf5"
+  },
+  "history": []
+}

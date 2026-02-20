@@ -1,0 +1,17 @@
+{
+  "owner": "arthurelgindell",
+  "slug": "dellight-cio-intelligence",
+  "displayName": "DELLIGHT CIO Intelligence Operations",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1771064064819,
+    "commit": "https://github.com/openclaw/skills/commit/e281dff084190c6a3e65ca626582947690f230eb"
+  },
+  "history": [
+    {
+      "version": "1.1.0",
+      "publishedAt": 1771063954067,
+      "commit": "https://github.com/openclaw/skills/commit/f040dc30af9a82cc46aba2d3d983654833178de9"
+    }
+  ]
+}

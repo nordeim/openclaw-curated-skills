@@ -1,0 +1,17 @@
+{
+  "owner": "sergical",
+  "slug": "sentry-observability",
+  "displayName": "Sentry Observability",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771342035429,
+    "commit": "https://github.com/openclaw/skills/commit/d11b7149638f5637c0f5addd40716e2387e30911"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771307771232,
+      "commit": "https://github.com/openclaw/skills/commit/36d52b1ff7b99038bb107fc1d4df02f436baed28"
+    }
+  ]
+}

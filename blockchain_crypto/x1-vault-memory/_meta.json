@@ -1,0 +1,17 @@
+{
+  "owner": "lokoweb3",
+  "slug": "x1-vault-memory",
+  "displayName": "X1 Vault Memory",
+  "latest": {
+    "version": "0.1.10",
+    "publishedAt": 1771477690324,
+    "commit": "https://github.com/openclaw/skills/commit/c672e028d8b62eeefa9278c9399e4eef29c2b151"
+  },
+  "history": [
+    {
+      "version": "0.1.3",
+      "publishedAt": 1771397206224,
+      "commit": "https://github.com/openclaw/skills/commit/ba565042b70c608f8a1cbddb1f584464ac7eb028"
+    }
+  ]
+}

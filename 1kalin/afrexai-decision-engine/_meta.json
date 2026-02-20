@@ -1,0 +1,11 @@
+{
+  "owner": "1kalin",
+  "slug": "afrexai-decision-engine",
+  "displayName": "Decision Engine",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771439119335,
+    "commit": "https://github.com/openclaw/skills/commit/252595b31348fcd727c2515e302200c399d66277"
+  },
+  "history": []
+}

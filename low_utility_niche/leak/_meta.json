@@ -1,0 +1,42 @@
+{
+  "owner": "eucalyptus-viminalis",
+  "slug": "leak",
+  "displayName": "Leak",
+  "latest": {
+    "version": "2026.2.17",
+    "publishedAt": 1771280143390,
+    "commit": "https://github.com/openclaw/skills/commit/890fecb09fd521362207307bc22f4f175a1d5cb6"
+  },
+  "history": [
+    {
+      "version": "2026.2.17-beta.1",
+      "publishedAt": 1771212403175,
+      "commit": "https://github.com/openclaw/skills/commit/98cd6cab59190b00013c1c2c51320f8809a586ef"
+    },
+    {
+      "version": "2026.2.17-beta.0",
+      "publishedAt": 1771208372887,
+      "commit": "https://github.com/openclaw/skills/commit/97904deb4bc13b202dac6b686f379c9c20c7ae60"
+    },
+    {
+      "version": "2026.2.16",
+      "publishedAt": 1771203223379,
+      "commit": "https://github.com/openclaw/skills/commit/c793d928d056f2f25aece526a1cadd160c90d393"
+    },
+    {
+      "version": "2026.2.15",
+      "publishedAt": 1771116575008,
+      "commit": "https://github.com/openclaw/skills/commit/52a3aab28472d6bd414e6da19c34d85917f1ea27"
+    },
+    {
+      "version": "2026.2.15-beta.1",
+      "publishedAt": 1771064066127,
+      "commit": "https://github.com/openclaw/skills/commit/790a9a63480b4bbe15c442700a4dbdcbd301f6c3"
+    },
+    {
+      "version": "2026.2.14",
+      "publishedAt": 1771024540315,
+      "commit": "https://github.com/openclaw/skills/commit/d98193e4cd01d3795dc1aba99129775bde76e244"
+    }
+  ]
+}

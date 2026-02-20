@@ -1,0 +1,11 @@
+{
+  "owner": "joelccodes",
+  "slug": "clawdex-trading",
+  "displayName": "ClawDex Trading",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771008390582,
+    "commit": "https://github.com/openclaw/skills/commit/8155e296d0b4a4c085069946acd880a632c3fa6d"
+  },
+  "history": []
+}

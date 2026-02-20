@@ -1,0 +1,17 @@
+{
+  "owner": "rgba-research",
+  "slug": "context-aware-delegation",
+  "displayName": "Context-Aware Delegation (SmartBeat)",
+  "latest": {
+    "version": "1.0.2",
+    "publishedAt": 1771089429172,
+    "commit": "https://github.com/openclaw/skills/commit/1f711573b0c5521dbd9172fc1f093e38dcf6a091"
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "publishedAt": 1771008732900,
+      "commit": "https://github.com/openclaw/skills/commit/cd38a146d539567d56989a2bda1cb5b705ea4a87"
+    }
+  ]
+}

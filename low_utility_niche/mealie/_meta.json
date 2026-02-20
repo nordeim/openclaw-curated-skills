@@ -1,0 +1,11 @@
+{
+  "owner": "g1mb01d",
+  "slug": "mealie",
+  "displayName": "Mealie API skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770892353323,
+    "commit": "https://github.com/openclaw/skills/commit/0f59637628f170d9cc76d9e8d2cca2dd76d3beac"
+  },
+  "history": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "deepread-agent-setup",
+  "version": "1.0.5",
+  "description": "Zero-friction agent self-signup for DeepRead OCR. Your AI agent gets its own API key in seconds — no dashboard, no copy/paste. Just click Approve.",
+  "author": "DeepRead <hello@deepread.tech>",
+  "homepage": "https://www.deepread.tech",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepread-tech/skills"
+  },
+  "keywords": [
+    "ocr",
+    "agent-auth",
+    "device-flow",
+    "self-service",
+    "zero-config",
+    "signup",
+    "api-key",
+    "document-processing",
+    "pdf",
+    "structured-data"
+  ],
+  "license": "MIT",
+  "openclaw": {
+    "homepage": "https://www.deepread.tech"
+  }
+}

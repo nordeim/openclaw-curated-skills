@@ -1,0 +1,11 @@
+{
+  "owner": "marposins",
+  "slug": "pcap-analyzer",
+  "displayName": "PCAP Analyzer",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771278588698,
+    "commit": "https://github.com/openclaw/skills/commit/cb35021582a565266159651ecad27509bed0d0f6"
+  },
+  "history": []
+}

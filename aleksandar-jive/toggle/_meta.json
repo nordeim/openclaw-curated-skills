@@ -1,0 +1,11 @@
+{
+  "owner": "aleksandar-jive",
+  "slug": "toggle",
+  "displayName": "Toggle",
+  "latest": {
+    "version": "1.0.4",
+    "publishedAt": 1771501750858,
+    "commit": "https://github.com/openclaw/skills/commit/f245d8668601584841c93b1d1356cbc3ccade609"
+  },
+  "history": []
+}

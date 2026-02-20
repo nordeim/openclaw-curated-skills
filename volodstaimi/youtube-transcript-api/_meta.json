@@ -1,0 +1,11 @@
+{
+  "owner": "volodstaimi",
+  "slug": "youtube-transcript-api",
+  "displayName": "Youtube Transcript Api",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771419034459,
+    "commit": "https://github.com/openclaw/skills/commit/5f08c54b5b953700bc1ce277537209a609e87152"
+  },
+  "history": []
+}

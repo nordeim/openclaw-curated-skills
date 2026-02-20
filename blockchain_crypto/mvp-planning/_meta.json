@@ -1,0 +1,11 @@
+{
+  "owner": "jk-0001",
+  "slug": "mvp-planning",
+  "displayName": "Mvp Planning",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771395613888,
+    "commit": "https://github.com/openclaw/skills/commit/fb3fb29b1156216f701065a49a7342ec2961d1ba"
+  },
+  "history": []
+}

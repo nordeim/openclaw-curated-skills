@@ -1,0 +1,17 @@
+{
+  "owner": "solarx56",
+  "slug": "godaddy-api",
+  "displayName": "GoDaddy API",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771466543703,
+    "commit": "https://github.com/openclaw/skills/commit/4d1b91eb7cd1d593c91b2c65786b77ef292826c8"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771285766624,
+      "commit": "https://github.com/openclaw/skills/commit/8550e8cc5075fd40c6d4b613765cd69a25a3b975"
+    }
+  ]
+}

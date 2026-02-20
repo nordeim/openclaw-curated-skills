@@ -1,0 +1,11 @@
+{
+  "owner": "jonathan-sokol",
+  "slug": "ahrefs-connection",
+  "displayName": "Ahrefs Connection",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771089025210,
+    "commit": "https://github.com/openclaw/skills/commit/01cc84658b1dc0046b6f026bbd78ff6c13f41325"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "zolobaby",
+  "slug": "kb-search",
+  "displayName": "kb-search",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771434326354,
+    "commit": "https://github.com/openclaw/skills/commit/e2c7cc0684906955f1de011dee5c49023ecd7f47"
+  },
+  "history": []
+}

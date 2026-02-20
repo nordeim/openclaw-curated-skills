@@ -1,0 +1,11 @@
+{
+  "owner": "omprasad122007-rgb",
+  "slug": "lite-sqlite",
+  "displayName": "Lite Sqlite",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771404667287,
+    "commit": "https://github.com/openclaw/skills/commit/5d59b5c838c49d732ff0ebab711f87ff9af21280"
+  },
+  "history": []
+}

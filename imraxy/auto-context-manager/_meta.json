@@ -1,0 +1,11 @@
+{
+  "owner": "imraxy",
+  "slug": "auto-context-manager",
+  "displayName": "Auto Context Manager",
+  "latest": {
+    "version": "1.1.0",
+    "publishedAt": 1771093573666,
+    "commit": "https://github.com/openclaw/skills/commit/4ac2819077d506c70c699c1697a3f9bfc1dffdb1"
+  },
+  "history": []
+}

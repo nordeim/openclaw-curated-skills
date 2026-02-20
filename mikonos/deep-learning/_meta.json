@@ -1,0 +1,11 @@
+{
+  "owner": "mikonos",
+  "slug": "deep-learning",
+  "displayName": "Deep Learning (Zettelkasten)",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770919089714,
+    "commit": "https://github.com/openclaw/skills/commit/9cf4d474a3a05a82a4cb120e8baf26e47d655ec8"
+  },
+  "history": []
+}

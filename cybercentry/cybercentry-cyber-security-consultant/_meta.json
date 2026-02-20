@@ -1,0 +1,17 @@
+{
+  "owner": "cybercentry",
+  "slug": "cybercentry-cyber-security-consultant",
+  "displayName": "Cybercentry Cyber Security Consultant",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771152502092,
+    "commit": "https://github.com/openclaw/skills/commit/5ed62450616864c4570f0f14617da0c24e99582a"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771062131805,
+      "commit": "https://github.com/openclaw/skills/commit/325abc9ee0d5f74d6158649911822b8a3a330065"
+    }
+  ]
+}

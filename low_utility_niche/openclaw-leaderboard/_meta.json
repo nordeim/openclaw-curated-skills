@@ -1,0 +1,11 @@
+{
+  "owner": "jamipuchi",
+  "slug": "openclaw-leaderboard",
+  "displayName": "OpenClaw Leaderboard",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770556077585,
+    "commit": "https://github.com/openclaw/skills/commit/0c581f0662ea9c57b65e0b67e3c3492dcd5bc8d4"
+  },
+  "history": []
+}

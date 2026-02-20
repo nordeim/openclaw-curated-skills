@@ -1,0 +1,11 @@
+{
+  "owner": "hagiss",
+  "slug": "askhuman",
+  "displayName": "AskHuman",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771159919621,
+    "commit": "https://github.com/openclaw/skills/commit/efb68ffa679944245316fb2f1586db7d83c16b38"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "netmsglog",
+  "slug": "reddit-explore",
+  "displayName": "Reddit Explore",
+  "latest": {
+    "version": "0.0.3",
+    "publishedAt": 1770783746310,
+    "commit": "https://github.com/openclaw/skills/commit/afebf7de773743db1629a37bafc337e97fb7cd01"
+  },
+  "history": []
+}

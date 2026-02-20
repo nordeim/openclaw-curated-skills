@@ -1,0 +1,11 @@
+{
+  "owner": "sfkiwi",
+  "slug": "local-vosk",
+  "displayName": "Local Vosk STT",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770729136246,
+    "commit": "https://github.com/openclaw/skills/commit/8428e64bc147489f6fb19548e50d3c55b948dacf"
+  },
+  "history": []
+}

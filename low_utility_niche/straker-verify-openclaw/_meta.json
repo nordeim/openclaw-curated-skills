@@ -1,0 +1,11 @@
+{
+  "owner": "indynz",
+  "slug": "straker-verify-openclaw",
+  "displayName": "Straker Verify",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1770677862049,
+    "commit": "https://github.com/openclaw/skills/commit/db868d8d837cb3ec484c09654a3ab6d0fc44be3b"
+  },
+  "history": []
+}

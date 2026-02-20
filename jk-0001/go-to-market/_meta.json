@@ -1,0 +1,11 @@
+{
+  "owner": "jk-0001",
+  "slug": "go-to-market",
+  "displayName": "Go To Market",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1771277262675,
+    "commit": "https://github.com/openclaw/skills/commit/625ee2230e5584773ce5f2fddad4759b6d93f0a6"
+  },
+  "history": []
+}

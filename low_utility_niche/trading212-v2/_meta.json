@@ -1,0 +1,11 @@
+{
+  "owner": "nandichi",
+  "slug": "trading212-v2",
+  "displayName": "trading212 Skill",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1771186060093,
+    "commit": "https://github.com/openclaw/skills/commit/c3da973a2521243a30d78f37634a459bbd654c3c"
+  },
+  "history": []
+}

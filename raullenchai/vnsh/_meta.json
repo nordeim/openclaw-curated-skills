@@ -1,0 +1,17 @@
+{
+  "owner": "raullenchai",
+  "slug": "vnsh",
+  "displayName": "Vnsh Skill",
+  "latest": {
+    "version": "1.1.1",
+    "publishedAt": 1771040241953,
+    "commit": "https://github.com/openclaw/skills/commit/b681eefbe235712f22ab4be17f3d5b2336ffe53f"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770700661452,
+      "commit": "https://github.com/openclaw/skills/commit/f94328f67eca1e5f1f51a0ba8bd111447948d352"
+    }
+  ]
+}

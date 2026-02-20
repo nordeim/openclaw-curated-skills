@@ -1,0 +1,11 @@
+{
+  "owner": "noyadev00-gmailcom",
+  "slug": "noya-agent-skill",
+  "displayName": "Noya Agent Skill",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1771505109629,
+    "commit": "https://github.com/openclaw/skills/commit/aa11ee72bc590474689739ea7e0f3fdf0f37fb2e"
+  },
+  "history": []
+}

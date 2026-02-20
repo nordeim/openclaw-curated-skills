@@ -1,0 +1,11 @@
+{
+  "owner": "kristapsk",
+  "slug": "agent-wallet-nwc-bridge",
+  "displayName": "Nostr Wallet Connect (NWC) bridge for mdk-agent-wallet, which is self-custodial Bitcoin Lightning wallet for AI agents.",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770799930599,
+    "commit": "https://github.com/openclaw/skills/commit/3ef165157740528796ced2b078448209cc594d18"
+  },
+  "history": []
+}

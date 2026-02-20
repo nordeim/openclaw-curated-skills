@@ -1,0 +1,11 @@
+{
+  "owner": "oymy",
+  "slug": "dida365-cli",
+  "displayName": "Dida365 Cli",
+  "latest": {
+    "version": "3.0.3",
+    "publishedAt": 1771138287090,
+    "commit": "https://github.com/openclaw/skills/commit/35fd24821b14e862817ce48f886d7b6f0bdb649d"
+  },
+  "history": []
+}

@@ -1,0 +1,22 @@
+{
+  "owner": "thebigoranger",
+  "slug": "tex-render",
+  "displayName": "TeX Render",
+  "latest": {
+    "version": "1.1.4",
+    "publishedAt": 1771271704996,
+    "commit": "https://github.com/openclaw/skills/commit/e00fe47c6c629c37c2c8705f44796ebc151ebaf5"
+  },
+  "history": [
+    {
+      "version": "1.1.3",
+      "publishedAt": 1771206118987,
+      "commit": "https://github.com/openclaw/skills/commit/70b74cdb75da717724d8ac59d1363bff6656abbc"
+    },
+    {
+      "version": "1.1.0",
+      "publishedAt": 1771202798449,
+      "commit": "https://github.com/openclaw/skills/commit/557d825aada06c3652f54330021abd3cb5648690"
+    }
+  ]
+}
