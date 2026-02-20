@@ -1,6 +1,3 @@
-# Social Communication Skills
-# Total: 137 skills
-
 10e9928a/email-daily-summary
 1kalin/linkedin-writer
 al-one/edge-tts-uvx

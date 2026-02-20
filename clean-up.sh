@@ -11,3 +11,6 @@ chmod +x kk1 && ./kk1
 rm kk?
 rm suspicious_list.txt
 grep '^description: ' */SKILL.md > description.md
+
+ls -l ../todo.txt && rm todo.txt
+

@@ -1,6 +1,3 @@
-# Utilities Tools Skills
-# Total: 156 skills
-
 aaigotchi/gotchi-finder
 ajspig/honcho-setup
 amar1432/error-guard

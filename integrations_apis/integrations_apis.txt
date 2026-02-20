@@ -1,6 +1,3 @@
-# Integrations Apis Skills
-# Total: 16 skills
-
 adisahani/phone-calling
 byungkyu/beehiiv
 byungkyu/google-meet
