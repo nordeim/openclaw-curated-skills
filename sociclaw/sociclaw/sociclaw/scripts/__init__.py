@@ -1,1 +1,0 @@
-"""SociClaw scripts package."""

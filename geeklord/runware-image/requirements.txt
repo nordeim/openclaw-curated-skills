@@ -1,3 +1,0 @@
-requests>=2.28.0
-python-dotenv
-pytest>=7.0.0

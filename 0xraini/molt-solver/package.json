@@ -1,8 +1,0 @@
-{
-  "name": "molt-solver",
-  "version": "1.0.0",
-  "description": "Automated solver for Moltbook verification math challenges",
-  "main": "index.js",
-  "type": "module",
-  "dependencies": {}
-}

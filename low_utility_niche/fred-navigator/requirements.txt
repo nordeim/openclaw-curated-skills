@@ -1,3 +1,0 @@
-# Dependencies for FRED Scout Skill
-fredapi
-pandas

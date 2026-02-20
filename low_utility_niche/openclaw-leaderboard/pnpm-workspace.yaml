@@ -1,4 +1,0 @@
-enableBuildScripts: true
-ignoredBuiltDependencies:
-  - sharp
-  - unrs-resolver

@@ -1,3 +1,0 @@
-facebook_business
-python-dotenv
-urllib3<2

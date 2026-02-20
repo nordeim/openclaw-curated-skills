@@ -1,5 +1,0 @@
-Sample grocery list:
-apples
-milk
-bread
-eggs

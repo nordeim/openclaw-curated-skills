@@ -1,0 +1,37 @@
+please meticulously extract lines in @description.md that are crypto related or malformed description or potentially malicious lines out into another file named `suspicious_list.txt`. Also include in @suspicious_list.txt lines that may otherwise pass but contain improperly quoted `description:` field that does not meet a proper `yaml` format
+
+  The problematic lines you need to extract would include:
+
+  1. Crypto-related content
+  2. Malformed descriptions (truncated, broken YAML)
+  3. Malicious-looking or sensitive or drug-related or illegal or criminal-related or adult or harmful or pornography or violent or weapon/arm or betting/gambling content
+  4. sporting-related content
+
+  Key patterns to look for:
+
+  • Crypto terms: token, blockchain, ETH, USDC, Solana, DeFi, NFT, smart contract, crypto, cryptocurrency, wallet, coin, mainnet, testnet, ERC-20, erc20, perp, perps, DEX, AMM, liquidity, yield, sking, borrowing, lending, vault, prediction market, polymarket, etc.
+  • Malformed: descriptions that are truncated (ending with ...), contain unescaped special chars
+  • Malicious: "malware", "exploit", "hack", "attack", "scam", "rug pull", "honeypot"
+
+  You should also include lines that are considered improperly quoted YAML strings.
+
+  Crypto-related terms to look for:
+
+  • token, blockchain, ETH, USDC, Solana, DeFi, NFT, smart contract, crypto, cryptocurrency, wallet, coin, mainnet, testnet, ERC-20, erc20, perp, perps, DEX, AMM, liquidity, yield, staking, borrowing, lending, vault, prediction market, polymarket, etc.
+
+  Malformed descriptions:
+
+  • Truncated (ending with ...)
+  • Unescaped special characters
+  • Multi-line without proper YAML formatting
+
+  Malicious content:
+
+  • "malware", "exploit", "hack", "attack", "scam", "rug pull", "honeypot"
+
+  Improperly quoted YAML:
+
+  • Strings that should be quoted but aren't
+  • Strings with special characters without quotes
+
+  Then create the suspicious_list.txt file with the relevant lines. Now analyze the file and extract lines that are crypto-related, malformed, or potentially malicious, as well as including improperly quoted YAML description fields.

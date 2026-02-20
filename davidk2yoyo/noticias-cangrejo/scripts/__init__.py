@@ -1,1 +1,0 @@
-"""NoticiasCangrejo scripts package."""

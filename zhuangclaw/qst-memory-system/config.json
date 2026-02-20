@@ -1,8 +1,0 @@
-{
-  "e8_dim": 16,
-  "top_k": 5,
-  "storage_type": "hybrid",
-  "embedding_type": "simple",
-  "auto_consolidate": true,
-  "decay_interval": 100
-}
