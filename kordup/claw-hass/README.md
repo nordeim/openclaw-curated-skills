@@ -1,1 +1,0 @@
-# OpenClaw Home Assistant Plugin
