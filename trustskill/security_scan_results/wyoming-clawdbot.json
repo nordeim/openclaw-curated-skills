@@ -1,0 +1,61 @@
+{
+  "skill_path": "/home/project/openclaw/curated_skills/ai_agent_infrastructure/wyoming-clawdbot",
+  "files_scanned": 6,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "dynamic_import",
+      "description": "exec() call",
+      "file": "wyoming_clawdbot.py",
+      "line": 95,
+      "snippet": "s          proc = await asyncio.create_subprocess_exec(             *cmd,             stdout=asyncio",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "shell_command",
+      "description": "Subprocess usage",
+      "file": "wyoming_clawdbot.py",
+      "line": 97,
+      "snippet": "xec(             *cmd,             stdout=asyncio.subprocess.PIPE,             stderr=asyncio.subpro",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "shell_command",
+      "description": "Subprocess usage",
+      "file": "wyoming_clawdbot.py",
+      "line": 98,
+      "snippet": "yncio.subprocess.PIPE,             stderr=asyncio.subprocess.PIPE,         )         stdout, stderr",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "wyoming_clawdbot.py",
+      "line": 108,
+      "snippet": "e JSON response         try:             result = json.loads(stdout.decode())             # Extract",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "wyoming_clawdbot.py",
+      "line": 108,
+      "snippet": "e JSON response         try:             result = json.loads(stdout.decode())             # Extract",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 4,
+    "INFO": 0
+  },
+  "security_assessment": "\ud83d\udfe2 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.04401755332946777,
+  "timestamp": "2026-02-21T23:47:01.840842",
+  "skill_name": "wyoming-clawdbot"
+}

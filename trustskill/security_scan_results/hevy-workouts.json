@@ -1,0 +1,25 @@
+{
+  "skill_path": "/home/project/openclaw/curated_skills/ai_agent_infrastructure/hevy-workouts",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "commands.md",
+      "line": 8,
+      "snippet": "r or passed via `--api-key`.  ```bash export HEVY_API_KEY=<key> ```  ## Global Flags  | Flag | Descr",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "\ud83d\udfe2 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.11720824241638184,
+  "timestamp": "2026-02-21T23:46:58.571375",
+  "skill_name": "hevy-workouts"
+}

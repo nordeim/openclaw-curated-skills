@@ -1,0 +1,25 @@
+{
+  "skill_path": "/home/project/openclaw/curated_skills/ai_agent_infrastructure/update",
+  "files_scanned": 2,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 107,
+      "snippet": "o: 3.1.0 \u2192 3.1.2  **Skills Already Current (5)**: gemini, sag, things-mac, himalaya, peekaboo  No is",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "\ud83d\udfe2 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.059902191162109375,
+  "timestamp": "2026-02-21T23:47:01.834025",
+  "skill_name": "update"
+}
