@@ -1,0 +1,42 @@
+{
+  "skill_path": "notebooklm-cli-cookies",
+  "files_scanned": 5,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "bootstrap_vps_systemd_one_liner.sh",
+      "line": 226,
+      "snippet": "mport pathlib import sys  cfg_path = pathlib.Path(os.environ[\"OPENCLOW_CFG_ENV\"]) skill_name = os.en",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "bootstrap_vps_systemd_one_liner.sh",
+      "line": 227,
+      "snippet": "Path(os.environ[\"OPENCLOW_CFG_ENV\"]) skill_name = os.environ[\"SKILL_NAME_ENV\"] nlm_path = os.environ",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "bootstrap_vps_systemd_one_liner.sh",
+      "line": 228,
+      "snippet": "ll_name = os.environ[\"SKILL_NAME_ENV\"] nlm_path = os.environ[\"NLM_STORAGE_ENV\"] target_home = os.env",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 3,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.04334664344787598,
+  "timestamp": "2026-02-21T13:36:02.656377"
+}

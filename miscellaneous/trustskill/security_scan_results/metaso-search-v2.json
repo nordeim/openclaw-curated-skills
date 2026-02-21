@@ -1,0 +1,51 @@
+{
+  "skill_path": "metaso-search-v2",
+  "files_scanned": 6,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 54,
+      "snippet": "配置  **必要配置：** ```bash # Linux/macOS export METASO_API_KEY=\"您的API密钥\"  # Windows (PowerShell) $env:MET",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 57,
+      "snippet": "KEY=\"您的API密钥\"  # Windows (PowerShell) $env:METASO_API_KEY=\"您的API密钥\" ```  **OpenClaw 配置：** 在 OpenClaw",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "metaso-api.js",
+      "line": 11,
+      "snippet": "constructor() {     // 必须从环境变量获取 API 密钥     this.apiKey = process.env.METASO_API_KEY;          if (",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "metaso-api.js",
+      "line": 11,
+      "snippet": "this.apiKey = process.env.METASO_API_KEY;",
+      "confidence": 0.85
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 4,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.03497123718261719,
+  "timestamp": "2026-02-21T13:35:59.873983"
+}

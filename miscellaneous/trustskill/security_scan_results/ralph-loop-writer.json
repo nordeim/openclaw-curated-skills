@@ -1,0 +1,51 @@
+{
+  "skill_path": "ralph-loop-writer",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 288,
+      "snippet": "`] (if stop file enabled)  ## What it does  Runs [claude/gemini/grok] with PROMPT.md as input [N tim",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 288,
+      "snippet": "stop file enabled)  ## What it does  Runs [claude/gemini/grok] with PROMPT.md as input [N times / fo",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 307,
+      "snippet": "alphLinuxCommands.md - Full Bash reference - RalphGemini.md - Full Gemini CLI guide - RalphGrok.md -",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 307,
+      "snippet": ".md - Full Bash reference - RalphGemini.md - Full Gemini CLI guide - RalphGrok.md - Full Grok CLI gu",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 4,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.042638301849365234,
+  "timestamp": "2026-02-21T13:36:09.672308"
+}

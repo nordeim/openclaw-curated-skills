@@ -1,0 +1,69 @@
+{
+  "skill_path": "nl2ms-ui",
+  "files_scanned": 10,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "examples-android-ts.md",
+      "line": 7,
+      "snippet": "nectedDevices } from '@midscene/android'; import \"dotenv/config\"; // read environment variables from",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "examples-ios-ts.md",
+      "line": 7,
+      "snippet": "romWebDriverAgent } from '@midscene/ios'; import \"dotenv/config\"; // read environment variables from",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "examples-pc-ts.md",
+      "line": 7,
+      "snippet": "1：发送消息脚本  ```typescript //消息在群聊中发送小表情 import * as dotenv from \"dotenv\"; import { fileURLToPath } fro",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "examples-pc-ts.md",
+      "line": 7,
+      "snippet": "typescript //消息在群聊中发送小表情 import * as dotenv from \"dotenv\"; import { fileURLToPath } from 'url'; impo",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "examples-pc-ts.md",
+      "line": 16,
+      "snippet": "name = dirname(__filename);  // 加载环境变量，指定.env文件路径 dotenv.config({    path: join(__dirname, \"../../.e",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "examples-web-ts.md",
+      "line": 8,
+      "snippet": "tAgent } from \"@midscene/web/playwright\"; import \"dotenv/config\"; import fs from \"fs\"; import path f",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 6,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟡 WARNING: Multiple medium-risk issues found. Review recommended.",
+  "scan_time": 0.04849815368652344,
+  "timestamp": "2026-02-21T13:36:02.105297"
+}

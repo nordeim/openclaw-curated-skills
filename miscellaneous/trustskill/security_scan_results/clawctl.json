@@ -1,0 +1,132 @@
+{
+  "skill_path": "clawctl",
+  "files_scanned": 11,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 1,
+      "snippet": "# CLAUDE.md  This file provides guidance to Claude C",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 3,
+      "snippet": "# CLAUDE.md  This file provides guidance to Claude Code (claude.ai/code) when working with cod",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 3,
+      "snippet": "E.md  This file provides guidance to Claude Code (claude.ai/code) when working with code in this rep",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Token",
+      "file": "cli.py",
+      "line": 467,
+      "snippet": "token = load_or_create_token()",
+      "confidence": 0.85
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Token",
+      "file": "cli.py",
+      "line": 477,
+      "snippet": "token = load_or_create_token()",
+      "confidence": 0.85
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "db.py",
+      "line": 13,
+      "snippet": "ontextmanager from pathlib import Path  DB_PATH = os.environ.get(\"CLAW_DB\", os.path.expanduser(\"~/.o",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "db.py",
+      "line": 14,
+      "snippet": "aw/clawctl.db\")) AGENT_EXPLICIT = \"CLAW_AGENT\" in os.environ AGENT = os.environ.get(\"CLAW_AGENT\", os",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "db.py",
+      "line": 15,
+      "snippet": "ENT_EXPLICIT = \"CLAW_AGENT\" in os.environ AGENT = os.environ.get(\"CLAW_AGENT\", os.getenv(\"USER\", \"un",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "getenv call",
+      "file": "db.py",
+      "line": 15,
+      "snippet": "n os.environ AGENT = os.environ.get(\"CLAW_AGENT\", os.getenv(\"USER\", \"unknown\"))   @contextmanager de",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Token",
+      "file": "server.py",
+      "line": 23,
+      "snippet": "token = TOKEN_PATH.read_text().strip()",
+      "confidence": 0.85
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Token",
+      "file": "server.py",
+      "line": 26,
+      "snippet": "token = secrets.token_urlsafe(16)",
+      "confidence": 0.85
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Token",
+      "file": "server.py",
+      "line": 31,
+      "snippet": "TOKEN = load_or_create_token()",
+      "confidence": 0.85
+    },
+    {
+      "level": "MEDIUM",
+      "category": "vulnerable_dependency",
+      "description": "PYSEC-2019-18: Flask before 1.0 has potential security issues",
+      "file": "server.py",
+      "line": 10,
+      "snippet": "import flask",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 13,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟡 WARNING: Multiple medium-risk issues found. Review recommended.",
+  "scan_time": 0.13155865669250488,
+  "timestamp": "2026-02-21T13:35:44.095293"
+}

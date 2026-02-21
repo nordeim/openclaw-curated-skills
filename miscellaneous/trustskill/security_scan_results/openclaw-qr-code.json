@@ -1,0 +1,33 @@
+{
+  "skill_path": "openclaw-qr-code",
+  "files_scanned": 2,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Raw GitHub content",
+      "file": "SKILL.md",
+      "line": 20,
+      "snippet": "support**, install from GitHub:  ```bash curl -s https://raw.githubusercontent.com/zouyawen/opencla",
+      "confidence": 0.7
+    },
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Raw GitHub content",
+      "file": "SKILL.md",
+      "line": 95,
+      "snippet": "# Full feature installation (recommended) curl -s https://raw.githubusercontent.com/zouyawen/opencla",
+      "confidence": 0.7
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.014817953109741211,
+  "timestamp": "2026-02-21T13:36:04.422525"
+}

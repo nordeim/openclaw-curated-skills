@@ -1,0 +1,42 @@
+{
+  "skill_path": "git-crypt-backup",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "SKILL.md",
+      "line": 44,
+      "snippet": "e encryption  **Workspace `.gitattributes`:** ``` SOUL.md filter=git-crypt diff=git-crypt USER.md fi",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "SKILL.md",
+      "line": 45,
+      "snippet": "s`:** ``` SOUL.md filter=git-crypt diff=git-crypt USER.md filter=git-crypt diff=git-crypt HEARTBEAT.",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "SKILL.md",
+      "line": 47,
+      "snippet": "rypt HEARTBEAT.md filter=git-crypt diff=git-crypt MEMORY.md filter=git-crypt diff=git-crypt memory/*",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 3,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🔴 CRITICAL: High-risk issues detected. Manual review required.",
+  "scan_time": 0.017015457153320312,
+  "timestamp": "2026-02-21T13:35:51.192975"
+}

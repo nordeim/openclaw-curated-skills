@@ -1,0 +1,33 @@
+{
+  "skill_path": "skill-cleaner",
+  "files_scanned": 5,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "clean.ts",
+      "line": 24,
+      "snippet": "unction checkVirusTotal(hash: string) {     const apiKey = process.env.VIRUSTOTAL_API_KEY;     if (!",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "clean.ts",
+      "line": 24,
+      "snippet": "const apiKey = process.env.VIRUSTOTAL_API_KEY;",
+      "confidence": 0.85
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.046880245208740234,
+  "timestamp": "2026-02-21T13:36:14.004851"
+}

@@ -1,0 +1,114 @@
+{
+  "skill_path": "sys-updater",
+  "files_scanned": 13,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 1,
+      "snippet": "# CLAUDE.md  This file provides guidance to Claude C",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 3,
+      "snippet": "# CLAUDE.md  This file provides guidance to Claude Code (claude.ai/code) when working with cod",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 3,
+      "snippet": "E.md  This file provides guidance to Claude Code (claude.ai/code) when working with code in this rep",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 46,
+      "snippet": "on ├── docs/                  # Documentation ├── CLAUDE.md             # Instructions for Claude Co",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 46,
+      "snippet": "tion ├── CLAUDE.md             # Instructions for Claude Code └── README.md ```  ## Schedule  Defaul",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "extending.md",
+      "line": 100,
+      "snippet": "ates | | `openclaw` | OpenClaw model updates | | `claude` | Claude Code updates |  ## Unified Report",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "extending.md",
+      "line": 100,
+      "snippet": "openclaw` | OpenClaw model updates | | `claude` | Claude Code updates |  ## Unified Report  A future",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "apt_maint.py",
+      "line": 173,
+      "snippet": "ressing the warning about CLI stability     env = os.environ.copy()     env[\"LANG\"] = \"C.UTF-8\"",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "getenv call",
+      "file": "apt_maint.py",
+      "line": 37,
+      "snippet": "DIR\", BASE_DIR / \"state\" / \"apt\")) LOG_DIR = Path(os.getenv(\"SYS_UPDATER_LOG_DIR\", BASE_DIR / \"state",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "getenv call",
+      "file": "pkg_maint.py",
+      "line": 32,
+      "snippet": "DIR\", BASE_DIR / \"state\" / \"apt\")) LOG_DIR = Path(os.getenv(\"SYS_UPDATER_LOG_DIR\", BASE_DIR / \"state",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "getenv call",
+      "file": "pkg_maint.py",
+      "line": 40,
+      "snippet": "ediately without quarantine SKILLS_WORKDIR = Path(os.getenv(\"CLAWHUB_WORKDIR\", \"/home/moltuser/clawd",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 11,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟡 WARNING: Multiple medium-risk issues found. Review recommended.",
+  "scan_time": 0.15268564224243164,
+  "timestamp": "2026-02-21T13:36:16.411521"
+}

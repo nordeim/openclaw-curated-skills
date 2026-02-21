@@ -1,0 +1,42 @@
+{
+  "skill_path": "openclaw-auto-updater",
+  "files_scanned": 4,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "summary-examples.md",
+      "line": 18,
+      "snippet": ".1.0 → 3.1.2  **Skills Already Current (5)** prj, gemini, browser, sag, himalaya  ✅ All updates comp",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "summary-examples.md",
+      "line": 43,
+      "snippet": ".1.0 → 2.2.0  **Skills Already Current (6)** prd, gemini, browser, sag, things-mac, peekaboo  ✅ Skil",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "summary-examples.md",
+      "line": 63,
+      "snippet": "ro` manually  **Skills Already Current (6)** prj, gemini, browser, sag, himalaya, peekaboo  ⚠️ Compl",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 3,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.024153470993041992,
+  "timestamp": "2026-02-21T13:36:04.290459"
+}

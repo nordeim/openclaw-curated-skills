@@ -1,0 +1,294 @@
+{
+  "skill_path": "transcribee",
+  "files_scanned": 8,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 1,
+      "snippet": "# CLAUDE.md  This file provides guidance to Claude C",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 3,
+      "snippet": "# CLAUDE.md  This file provides guidance to Claude Code (claude.ai/code) when working with cod",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 3,
+      "snippet": "E.md  This file provides guidance to Claude Code (claude.ai/code) when working with code in this rep",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 45,
+      "snippet": "ry Classification** (`classifyAndOrganize`): Uses Claude Sonnet 4 to analyze the transcript and deci",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 58,
+      "snippet": "classification and summary - **Category Reuse**: Claude analyzes existing categories and reuses the",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 64,
+      "snippet": "structure into compact string representation for Claude  ### TypeScript Interfaces  The codebase us",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 74,
+      "snippet": "for library representation - `OrganizationPlan`: Claude's decision on which category to use  ## Cla",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 76,
+      "snippet": "`: Claude's decision on which category to use  ## Claude AI Integration  The system uses Claude Sonn",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 78,
+      "snippet": "to use  ## Claude AI Integration  The system uses Claude Sonnet 4 (`claude-sonnet-4-20250514`) for c",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 78,
+      "snippet": "AI Integration  The system uses Claude Sonnet 4 (`claude-sonnet-4-20250514`) for category classifica",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "CLAUDE.md",
+      "line": 81,
+      "snippet": "middle/end sampling - **Context-Aware**: Provides Claude with full library structure to reuse existi",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 18,
+      "snippet": "esearch/ │   ├── ilya-sutskever-agi-2024/ │   └── anthropic-constitutional-ai/ ├── Startups/ │   ├──",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 10,
+      "snippet": "rt { ElevenLabsClient } from 'elevenlabs'; import Anthropic from '@anthropic-ai/sdk';  const execFil",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 10,
+      "snippet": "ient } from 'elevenlabs'; import Anthropic from '@anthropic-ai/sdk';  const execFileAsync = promisif",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 36,
+      "snippet": "_LABS_API_KEY in .env');         })(), });  const anthropic = new Anthropic({     apiKey:         pr",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 36,
+      "snippet": ".env');         })(), });  const anthropic = new Anthropic({     apiKey:         process.env.ANTHRO",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 38,
+      "snippet": "= new Anthropic({     apiKey:         process.env.ANTHROPIC_API_KEY ??         (() => {",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 40,
+      "snippet": "(() => {             throw new Error('Missing ANTHROPIC_API_KEY in .env');         })(), });  //",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 380,
+      "snippet": "\"high/medium/low\" }`;      const message = await anthropic.messages.create({         model: 'claude",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 381,
+      "snippet": "await anthropic.messages.create({         model: 'claude-sonnet-4-20250514',         max_tokens: 204",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 393,
+      "snippet": "throw new Error('Unexpected response type from Claude');     }      // Parse JSON response     co",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 718,
+      "snippet": "ng library');      // classify and organize using Claude     console.time('🤖  category classificatio",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "index.ts",
+      "line": 8,
+      "snippet": "s'; import { promisify } from 'node:util'; import dotenv from 'dotenv'; import { ElevenLabsClient }",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "index.ts",
+      "line": 8,
+      "snippet": "promisify } from 'node:util'; import dotenv from 'dotenv'; import { ElevenLabsClient } from 'elevenl",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "index.ts",
+      "line": 14,
+      "snippet": "dk';  const execFileAsync = promisify(execFile);  dotenv.config({ path: path.resolve(__dirname, '.en",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "pnpm-lock.yaml",
+      "line": 11,
+      "snippet": "false  importers:    .:     dependencies:       '@anthropic-ai/sdk':         specifier: ^0.67.0",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "pnpm-lock.yaml",
+      "line": 30,
+      "snippet": "2.15.12         version: 22.15.12  packages:    '@anthropic-ai/sdk@0.67.0':     resolution: {integri",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "pnpm-lock.yaml",
+      "line": 471,
+      "snippet": "{node: '>= 8'}     hasBin: true  snapshots:    '@anthropic-ai/sdk@0.67.0':     dependencies:",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "pnpm-lock.yaml",
+      "line": 14,
+      "snippet": "specifier: ^0.67.0         version: 0.67.0       dotenv:         specifier: ^16.5.0         version",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "pnpm-lock.yaml",
+      "line": 232,
+      "snippet": "p4VdGnMHk3MQ==}     engines: {node: '>=0.4.0'}    dotenv@16.5.0:     resolution: {integrity: sha512-",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "pnpm-lock.yaml",
+      "line": 593,
+      "snippet": "which: 2.0.2    delayed-stream@1.0.0: {}    dotenv@16.5.0: {}    dunder-proto@1.0.1:     depen",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 31,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟡 WARNING: Multiple medium-risk issues found. Review recommended.",
+  "scan_time": 0.11152362823486328,
+  "timestamp": "2026-02-21T13:36:18.992941"
+}

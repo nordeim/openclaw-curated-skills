@@ -1,0 +1,33 @@
+{
+  "skill_path": "deepread",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "HTTP request",
+      "file": "SKILL.md",
+      "line": 488,
+      "snippet": "_id, api_key):     while True:         response = requests.get(             f\"https://api.deepread.t",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 37,
+      "snippet": "b ```  Save your API key: ```bash export DEEPREAD_API_KEY=\"sk_live_your_key_here\" ```  ### 2. Clawdb",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.03965449333190918,
+  "timestamp": "2026-02-21T13:35:47.468763"
+}

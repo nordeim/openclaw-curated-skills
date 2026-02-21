@@ -1,0 +1,6 @@
+command_injection.txt
+credential_access.txt
+data_exfiltration.txt
+file_deletion.txt
+hardcoded_secrets.txt
+sensitive_file_access.txt

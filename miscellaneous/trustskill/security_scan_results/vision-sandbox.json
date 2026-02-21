@@ -1,0 +1,114 @@
+{
+  "skill_path": "vision-sandbox",
+  "files_scanned": 9,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "AGENTS.md",
+      "line": 33,
+      "snippet": "our Google Gemini API key.  ```bash export GEMINI_API_KEY=\"your_api_key_here\" ```  ## 3. Build, Lint",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "AGENTS.md",
+      "line": 33,
+      "snippet": "KEY`: Your Google Gemini API key.  ```bash export GEMINI_API_KEY=\"your_api_key_here\" ```  ## 3. Buil",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "pyproject.toml",
+      "line": 4,
+      "snippet": "rsion = \"1.0.0\" description = \"Agentic Vision via Gemini's native Code Execution sandbox\" readme = \"",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "vision_executor.py",
+      "line": 14,
+      "snippet": "mini's native code execution sandbox.     \"\"\"     api_key = os.getenv(\"GEMINI_API_KEY\")     if not a",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "vision_executor.py",
+      "line": 24,
+      "snippet": "\")         sys.exit(1)      client = genai.Client(api_key=api_key)      # Load image     with open(i",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "vision_executor.py",
+      "line": 10,
+      "snippet": "run_vision_sandbox(image_path, prompt, model_id=\"gemini-3-flash-preview\"):     \"\"\"     Executes a v",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "vision_executor.py",
+      "line": 12,
+      "snippet": "eview\"):     \"\"\"     Executes a vision task using Gemini's native code execution sandbox.     \"\"\"",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "vision_executor.py",
+      "line": 14,
+      "snippet": "ecution sandbox.     \"\"\"     api_key = os.getenv(\"GEMINI_API_KEY\")     if not api_key:         print",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "vision_executor.py",
+      "line": 16,
+      "snippet": "I_KEY\")     if not api_key:         print(\"Error: GEMINI_API_KEY not found in environment.\")",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "vision_executor.py",
+      "line": 88,
+      "snippet": "r.add_argument(         \"-m\", \"--model\", default=\"gemini-3-flash-preview\", help=\"Model ID\"     )",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "getenv call",
+      "file": "vision_executor.py",
+      "line": 14,
+      "snippet": "ive code execution sandbox.     \"\"\"     api_key = os.getenv(\"GEMINI_API_KEY\")     if not api_key:",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 11,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟡 WARNING: Multiple medium-risk issues found. Review recommended.",
+  "scan_time": 0.0360569953918457,
+  "timestamp": "2026-02-21T13:36:20.244325"
+}

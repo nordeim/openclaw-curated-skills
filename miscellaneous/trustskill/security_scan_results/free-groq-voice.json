@@ -1,0 +1,69 @@
+{
+  "skill_path": "free-groq-voice",
+  "files_scanned": 4,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "README.md",
+      "line": 14,
+      "snippet": "l: whisper-large-v3    - Language: zh    - Proxy: http://127.0.0.1:7890 (if needed)    ``` 3. **Send",
+      "confidence": 0.7
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 96,
+      "snippet": "tails  **API Endpoint:** ``` https://api.groq.com/openai/v1/audio/transcriptions ```  **Model:** `wh",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "SKILL.md",
+      "line": 45,
+      "snippet": "d:** ```markdown ### Proxy Settings - HTTP Proxy: http://127.0.0.1:7890  ### Voice Recognition (FREE",
+      "confidence": 0.7
+    },
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "SKILL.md",
+      "line": 110,
+      "snippet": "ents:** - Use HTTP proxy (not SOCKS5) - Default: `http://127.0.0.1:7890`  ## Troubleshooting  **❌ \"F",
+      "confidence": 0.7
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "transcribe.sh",
+      "line": 29,
+      "snippet": "l -s --proxy \"$PROXY\" \\     \"https://api.groq.com/openai/v1/audio/transcriptions\" \\     -H \"Authoriz",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "transcribe.sh",
+      "line": 8,
+      "snippet": "ILE=\"$1\" LANGUAGE=\"${2:-zh}\" PROXY=\"${GROQ_PROXY:-http://127.0.0.1:7890}\"  if [ -z \"$GROQ_API_KEY\" ]",
+      "confidence": 0.7
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 6,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟡 WARNING: Multiple medium-risk issues found. Review recommended.",
+  "scan_time": 0.02185678482055664,
+  "timestamp": "2026-02-21T13:35:50.618009"
+}

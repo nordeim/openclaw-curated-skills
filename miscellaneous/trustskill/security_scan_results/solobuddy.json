@@ -1,0 +1,69 @@
+{
+  "skill_path": "solobuddy",
+  "files_scanned": 10,
+  "findings": [
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Shell config access",
+      "file": "twitter-monitor.md",
+      "line": 124,
+      "snippet": "andle\" -n 10      # Search ```  Credentials in `~/.zshrc`: ```bash export AUTH_TOKEN=\"...\" export CT",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Shell config access",
+      "file": "twitter-monitor.md",
+      "line": 138,
+      "snippet": "to x.com in browser → Update AUTH_TOKEN/CT0 in ~/.zshrc and scripts  **Logs:** → `/tmp/twitter-moni",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "Auth token usage",
+      "file": "twitter-monitor.md",
+      "line": 126,
+      "snippet": "ch ```  Credentials in `~/.zshrc`: ```bash export AUTH_TOKEN=\"...\" export CT0=\"...\" ```  ## Troubles",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "Auth token usage",
+      "file": "twitter-monitor.md",
+      "line": 138,
+      "snippet": "found:** → Re-login to x.com in browser → Update AUTH_TOKEN/CT0 in ~/.zshrc and scripts  **Logs:**",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "soul-wizard.md",
+      "line": 24,
+      "snippet": "`` 🔍 Сканирую проект...  Найдено: - README.md ✓ - CLAUDE.md ✓ - docs/*.md (N файлов)  Шаг 1/5: Кто я",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "soul-wizard.md",
+      "line": 142,
+      "snippet": "\": [\"loneliness\"],     \"_sources\": [\"README.md\", \"CLAUDE.md\"]   } } EOF ```  ## State Management  Tr",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 2,
+    "MEDIUM": 4,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🔴 CRITICAL: High-risk issues detected. Manual review required.",
+  "scan_time": 0.05493736267089844,
+  "timestamp": "2026-02-21T13:36:15.127866"
+}
