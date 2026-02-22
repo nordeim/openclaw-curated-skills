@@ -1,0 +1,5 @@
+# Security-pinned versions (verified 2026-02-22)
+# requests>=2.32.0 fixes PYSEC-2018-28 (SSL bypass) and PYSEC-2024-35 (DoS)
+requests>=2.32.0
+beautifulsoup4>=4.12.0
+feedparser>=6.0.0
