@@ -1,0 +1,24 @@
+{
+  "skill_path": "wechat-publisher",
+  "files_scanned": 8,
+  "findings": [
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "setup.sh",
+      "line": 20,
+      "snippet": "AT_APP_SECRET=your_app_secret\"     exit 1 fi  # 从 TOOLS.md 提取凭证 WECHAT_APP_ID=$(grep \"export WECHAT_",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 1,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🔴 CRITICAL: High-risk issues detected. Manual review required.",
+  "scan_time": 0.06484723091125488,
+  "timestamp": "2026-02-22T22:40:34.849921"
+}

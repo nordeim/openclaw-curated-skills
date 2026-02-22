@@ -1,0 +1,51 @@
+{
+  "skill_path": "notion-clipper-skill",
+  "files_scanned": 11,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "SKILL.md",
+      "line": 165,
+      "snippet": "oxy` / `HTTP_PROXY` | Proxy for Notion API (e.g. `http://127.0.0.1:7890`) | | `http_proxy` / `HTTPS_",
+      "confidence": 0.7
+    },
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "SKILL.md",
+      "line": 171,
+      "snippet": "proxy on port 7890):** ```bash export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:",
+      "confidence": 0.7
+    },
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "SKILL.md",
+      "line": 171,
+      "snippet": "port https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1",
+      "confidence": 0.7
+    },
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "cdp.ts",
+      "line": 170,
+      "snippet": "try {       const res = await fetchWithTimeout(`http://127.0.0.1:${port}/json/version`, { timeoutM",
+      "confidence": 0.7
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 4,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.16066908836364746,
+  "timestamp": "2026-02-22T22:40:25.096503"
+}

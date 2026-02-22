@@ -1,0 +1,87 @@
+{
+  "skill_path": "temp-mail",
+  "files_scanned": 4,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "httpx usage",
+      "file": "requirements.txt",
+      "line": 1,
+      "snippet": "httpx>=0.24.0 # rich is optional, not required for",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "temp_mail.py",
+      "line": 15,
+      "snippet": "crets import string import sys import time import urllib.parse import asyncio  from rich import prin",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "temp_mail.py",
+      "line": 35,
+      "snippet": "ent, addr: str):     url = f\"{VORTEX_URL}/emails/{urllib.parse.quote(addr, safe='')}\"     headers =",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "httpx usage",
+      "file": "temp_mail.py",
+      "line": 4,
+      "snippet": "t # requires-python = \">=3.11\" # dependencies = [\"httpx\", \"rich\"] # /// \"\"\"temp_mail: simple helper",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "httpx usage",
+      "file": "temp_mail.py",
+      "line": 70,
+      "snippet": "eturn []   async def main_async(args):     import httpx     async with httpx.AsyncClient() as client",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "httpx usage",
+      "file": "temp_mail.py",
+      "line": 71,
+      "snippet": "main_async(args):     import httpx     async with httpx.AsyncClient() as client:         if args.cmd",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "temp_mail.py",
+      "line": 20,
+      "snippet": "ort asyncio  from rich import print  VORTEX_URL = os.environ.get(\"VORTEX_URL\", \"https://vtx-api.skyf",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "temp_mail.py",
+      "line": 21,
+      "snippet": ", \"https://vtx-api.skyfall.dev\") DEFAULT_DOMAIN = os.environ.get(\"VORTEX_DOMAIN\", \"skyfall.dev\")   d",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 8,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟡 WARNING: Multiple medium-risk issues found. Review recommended.",
+  "scan_time": 0.03622007369995117,
+  "timestamp": "2026-02-22T22:40:32.715924"
+}

@@ -1,0 +1,42 @@
+{
+  "skill_path": "xiaohongshu-publisher",
+  "files_scanned": 5,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "content-guide.md",
+      "line": 70,
+      "snippet": "(#AI助手 #效率工具 #自动化) - 2-3 product tags (#OpenClaw #ClaudeCode etc.) - 2-3 topic-specific tags (relate",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "gen_cover.py",
+      "line": 67,
+      "snippet": "aths.\"\"\"     for path in search_paths:         if os.path.exists(path):             return path",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "gen_cover.py",
+      "line": 281,
+      "snippet": ").save(args.output, \"PNG\", quality=95)     size = os.path.getsize(args.output)     print(f\"Cover sav",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 2,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.0690622329711914,
+  "timestamp": "2026-02-22T22:40:36.669885"
+}

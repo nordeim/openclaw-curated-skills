@@ -1,0 +1,33 @@
+{
+  "skill_path": "zenplus-health",
+  "files_scanned": 4,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "README.md",
+      "line": 18,
+      "snippet": "SE_URL=\"https://api.zenplus.health\"    export ZEN_API_KEY=\"zen_ak_your_40_character_key\"    ``` 3. *",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "README.md",
+      "line": 18,
+      "snippet": "export ZEN_API_KEY=\"zen_ak_your_40_character_key\"",
+      "confidence": 0.85
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.06585216522216797,
+  "timestamp": "2026-02-22T22:40:36.919398"
+}

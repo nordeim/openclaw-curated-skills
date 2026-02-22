@@ -1,0 +1,60 @@
+{
+  "skill_path": "protonmail",
+  "files_scanned": 4,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "file_access_outside_workspace",
+      "description": "Home directory access",
+      "file": "daily-scan.py",
+      "line": 58,
+      "snippet": "if not config['password']:         legacy_file = Path.home() / \".config/hydroxide/bridge-password\"",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "daily-scan.py",
+      "line": 51,
+      "snippet": "fig['password'] = value          config['host'] = os.environ.get('PROTONMAIL_HOST', config['host'])",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "file_access_outside_workspace",
+      "description": "Home directory access",
+      "file": "protonmail.py",
+      "line": 56,
+      "snippet": "if not config['password']:         legacy_file = Path.home() / \".config/hydroxide/bridge-password\"",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "protonmail.py",
+      "line": 49,
+      "snippet": "riables override config file     config['host'] = os.environ.get('PROTONMAIL_HOST', config['host'])",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "protonmail.py",
+      "line": 18,
+      "snippet": "rt os from email.header import decode_header from pathlib import Path import sys  # Configuration wi",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 4,
+    "LOW": 1,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.10326552391052246,
+  "timestamp": "2026-02-22T22:40:29.904353"
+}

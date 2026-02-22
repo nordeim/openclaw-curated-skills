@@ -1,0 +1,24 @@
+{
+  "skill_path": "klawdin",
+  "files_scanned": 2,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "SKILL.md",
+      "line": 31,
+      "snippet": "echo \"Registered. Export: KLAWDIN_API_KEY=$KLAWDIN_API_KEY\"",
+      "confidence": 0.95
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.027388334274291992,
+  "timestamp": "2026-02-22T22:40:22.067370"
+}

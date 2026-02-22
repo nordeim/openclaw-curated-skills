@@ -1,0 +1,3677 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-02-22T22:44:13.656973",
+    "total_skills": 148,
+    "scan_mode": "deep",
+    "scanner_version": "v3.1"
+  },
+  "summary": {
+    "by_severity": {
+      "HIGH": 1,
+      "MEDIUM": 83,
+      "LOW": 74,
+      "INFO": 0
+    },
+    "by_category": {
+      "hardcoded_secret": 4,
+      "file_access_outside_workspace": 10,
+      "file_operation": 60,
+      "suspicious_url": 9,
+      "environment_access": 16,
+      "shell_command": 2,
+      "api_key_usage": 30,
+      "yaml_parsing": 2,
+      "json_parsing": 10,
+      "network_request": 14,
+      "sensitive_file_access": 1
+    },
+    "skills_with_issues": 36,
+    "skills_clean": 112
+  },
+  "high_severity_findings": [
+    {
+      "skill": "wechat-publisher",
+      "category": "sensitive_file_access",
+      "severity": "HIGH",
+      "description": "Memory file access",
+      "file": "setup.sh",
+      "line": 20,
+      "snippet": "AT_APP_SECRET=your_app_secret\"     exit 1 fi  # \u4ece TOOLS.md \u63d0\u53d6\u51ed\u8bc1 WECHAT_APP_ID=$(grep \"export WECHAT_",
+      "confidence": 0.8
+    }
+  ],
+  "medium_severity_findings": [
+    {
+      "skill": "agent-voice",
+      "category": "hardcoded_secret",
+      "severity": "MEDIUM",
+      "description": "Generic API Key",
+      "file": "SKILL.md",
+      "line": 75,
+      "snippet": "export AGENT_BLOG_API_KEY=\"your-api-key-here\"",
+      "confidence": 0.85
+    },
+    {
+      "skill": "aholake-expense-tracker",
+      "category": "file_access_outside_workspace",
+      "severity": "MEDIUM",
+      "description": "Home directory access",
+      "file": "log_expense.py",
+      "line": 15,
+      "snippet": "workspace_path is None:         workspace_path = Path.home() / \".openclaw\" / \"workspace\"     else:",
+      "confidence": 0.8
+    },
+    {
+      "skill": "baoyu-post-to-x",
+      "category": "suspicious_url",
+      "severity": "MEDIUM",
+      "description": "Direct IP access (HTTP)",
+      "file": "x-utils.ts",
+      "line": 116,
+      "snippet": "ait fetchJson<{ webSocketDebuggerUrl?: string }>(`http://127.0.0.1:${port}/json/version`);       if",
+      "confidence": 0.7
+    },
+    {
+      "skill": "calendar-reminders",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "calendar_reminder_plan.py",
+      "line": 66,
+      "snippet": "tart_local + dt.timedelta(days=1)      env = dict(os.environ)     env.setdefault(\"PYTHONWARNINGS\", \"",
+      "confidence": 0.8
+    },
+    {
+      "skill": "calendar-reminders",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "calendar_reminder_plan.py",
+      "line": 107,
+      "snippet": "dt.timedelta(days=1)).isoformat()      env = dict(os.environ)     env[\"TZ\"] = str(cfg.get(\"timezone\"",
+      "confidence": 0.8
+    },
+    {
+      "skill": "calendar-reminders",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "calendar_reminder_plan.py",
+      "line": 172,
+      "snippet": "tParser()     ap.add_argument(\"--config\", default=os.environ.get(\"OPENCLAW_CALENDAR_CONFIG\") or DEFA",
+      "confidence": 0.8
+    },
+    {
+      "skill": "clawd-presence",
+      "category": "file_access_outside_workspace",
+      "severity": "MEDIUM",
+      "description": "Home directory access",
+      "file": "configure.py",
+      "line": 31,
+      "snippet": "ot config locations CLAWDBOT_CONFIG_PATHS = [     Path.home() / \".config\" / \"clawd\" / \"config.yaml\",",
+      "confidence": 0.8
+    },
+    {
+      "skill": "clawd-presence",
+      "category": "file_access_outside_workspace",
+      "severity": "MEDIUM",
+      "description": "Home directory access",
+      "file": "configure.py",
+      "line": 32,
+      "snippet": "home() / \".config\" / \"clawd\" / \"config.yaml\",     Path.home() / \".config\" / \"clawd\" / \"config.yml\",",
+      "confidence": 0.8
+    },
+    {
+      "skill": "clawd-presence",
+      "category": "file_access_outside_workspace",
+      "severity": "MEDIUM",
+      "description": "Home directory access",
+      "file": "configure.py",
+      "line": 33,
+      "snippet": ".home() / \".config\" / \"clawd\" / \"config.yml\",     Path.home() / \".clawd\" / \"config.yaml\",     Path.h",
+      "confidence": 0.8
+    },
+    {
+      "skill": "clawd-presence",
+      "category": "file_access_outside_workspace",
+      "severity": "MEDIUM",
+      "description": "Home directory access",
+      "file": "configure.py",
+      "line": 34,
+      "snippet": ",     Path.home() / \".clawd\" / \"config.yaml\",     Path.home() / \".clawd\" / \"config.yml\",     Path.ho",
+      "confidence": 0.8
+    },
+    {
+      "skill": "clawd-presence",
+      "category": "file_access_outside_workspace",
+      "severity": "MEDIUM",
+      "description": "Home directory access",
+      "file": "configure.py",
+      "line": 35,
+      "snippet": "\",     Path.home() / \".clawd\" / \"config.yml\",     Path.home() / \".config\" / \"clawdbot\" / \"config.yam",
+      "confidence": 0.8
+    },
+    {
+      "skill": "clawd-presence",
+      "category": "file_access_outside_workspace",
+      "severity": "MEDIUM",
+      "description": "Home directory access",
+      "file": "configure.py",
+      "line": 36,
+      "snippet": "e() / \".config\" / \"clawdbot\" / \"config.yaml\",     Path.home() / \".config\" / \"clawdbot\" / \"config.yml",
+      "confidence": 0.8
+    },
+    {
+      "skill": "clawd-presence",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "configure.py",
+      "line": 10,
+      "snippet": "t 300     python3 configure.py --letter C --name \"CLAUDE\" --timeout 600 \"\"\"  from __future__ import",
+      "confidence": 0.8
+    },
+    {
+      "skill": "clawdbites",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 305,
+      "snippet": "Extract 5-8 key frames with ffmpeg    \u2514\u2500\u2500 Send to Claude vision    \u2514\u2500\u2500 Ask: \"Extract any recipe text",
+      "confidence": 0.8
+    },
+    {
+      "skill": "confirm-form",
+      "category": "suspicious_url",
+      "severity": "MEDIUM",
+      "description": "Raw GitHub content",
+      "file": "generate.js",
+      "line": 118,
+      "snippet": "onst previewUrl = `https://htmlpreview.github.io/?https://gist.githubusercontent.com/${GITHUB_USER}/",
+      "confidence": 0.7
+    },
+    {
+      "skill": "dev-chronicle",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "gather.sh",
+      "line": 62,
+      "snippet": "ate in \"$HOME/.openclaw/workspace/memory\" \"$HOME/.claude/workspace/memory\"; do     [ -d \"$candidate\"",
+      "confidence": 0.8
+    },
+    {
+      "skill": "dev-chronicle",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "gather.sh",
+      "line": 67,
+      "snippet": "in \"$HOME/.openclaw/agents/main/sessions\" \"$HOME/.claude/agents/main/sessions\"; do     [ -d \"$candid",
+      "confidence": 0.8
+    },
+    {
+      "skill": "expense-tracker",
+      "category": "file_access_outside_workspace",
+      "severity": "MEDIUM",
+      "description": "Home directory access",
+      "file": "log_expense.py",
+      "line": 15,
+      "snippet": "workspace_path is None:         workspace_path = Path.home() / \".openclaw\" / \"workspace\"     else:",
+      "confidence": 0.8
+    },
+    {
+      "skill": "freedcamp-agent-skill",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "API secret usage",
+      "file": "SKILL.md",
+      "line": 51,
+      "snippet": "nfig unset skills.entries.freedcamp.env.FREEDCAMP_API_SECRET ```  ## First calls (sanity + discovery",
+      "confidence": 0.8
+    },
+    {
+      "skill": "freedcamp-agent-skill",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "API secret usage",
+      "file": "REFERENCE.md",
+      "line": 13,
+      "snippet": "t: generate `hash = HMAC-SHA1(apiKey + timestamp, apiSecret)`, then send `api_key`, `timestamp`, and",
+      "confidence": 0.8
+    },
+    {
+      "skill": "giphy",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 25,
+      "snippet": "ary (current shell session)  ```bash export GIPHY_API_KEY=\"your-api-key\" ```  ### Option B: Persiste",
+      "confidence": 0.8
+    },
+    {
+      "skill": "giphy",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 33,
+      "snippet": "ended)  Add to `~/.openclaw/.env`:  ```bash GIPHY_API_KEY=your-api-key ```  Then restart OpenClaw so",
+      "confidence": 0.8
+    },
+    {
+      "skill": "gowa",
+      "category": "suspicious_url",
+      "severity": "MEDIUM",
+      "description": "Raw GitHub content",
+      "file": "SKILL.md",
+      "line": 269,
+      "snippet": "e  Full OpenAPI 3.0 spec available at: - OpenAPI: https://raw.githubusercontent.com/aldinokemal/go-w",
+      "confidence": 0.7
+    },
+    {
+      "skill": "klawdin",
+      "category": "hardcoded_secret",
+      "severity": "MEDIUM",
+      "description": "Generic API Key",
+      "file": "SKILL.md",
+      "line": 31,
+      "snippet": "echo \"Registered. Export: KLAWDIN_API_KEY=$KLAWDIN_API_KEY\"",
+      "confidence": 0.95
+    },
+    {
+      "skill": "meetup-planner",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 38,
+      "snippet": "b.com/apresmoi/meetup-planner.git  # Copy to your Claude skills directory mkdir -p ~/.claude/skills/",
+      "confidence": 0.8
+    },
+    {
+      "skill": "meetup-planner",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 39,
+      "snippet": "Copy to your Claude skills directory mkdir -p ~/.claude/skills/meetup-planner cp -r meetup-planner/",
+      "confidence": 0.8
+    },
+    {
+      "skill": "meetup-planner",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 40,
+      "snippet": "e/skills/meetup-planner cp -r meetup-planner/* ~/.claude/skills/meetup-planner/ ```  ## \ud83d\ude80 Quick Star",
+      "confidence": 0.8
+    },
+    {
+      "skill": "meetup-planner",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 73,
+      "snippet": "AI/ML meetups, hackathons, and tech conferences  Claude: Awesome! What's your location?  You: San F",
+      "confidence": 0.8
+    },
+    {
+      "skill": "meetup-planner",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 77,
+      "snippet": "esome! What's your location?  You: San Francisco  Claude: Perfect! [continues preference collection.",
+      "confidence": 0.8
+    },
+    {
+      "skill": "notion-clipper-skill",
+      "category": "suspicious_url",
+      "severity": "MEDIUM",
+      "description": "Direct IP access (HTTP)",
+      "file": "SKILL.md",
+      "line": 165,
+      "snippet": "oxy` / `HTTP_PROXY` | Proxy for Notion API (e.g. `http://127.0.0.1:7890`) | | `http_proxy` / `HTTPS_",
+      "confidence": 0.7
+    },
+    {
+      "skill": "notion-clipper-skill",
+      "category": "suspicious_url",
+      "severity": "MEDIUM",
+      "description": "Direct IP access (HTTP)",
+      "file": "SKILL.md",
+      "line": 171,
+      "snippet": "proxy on port 7890):** ```bash export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:",
+      "confidence": 0.7
+    },
+    {
+      "skill": "notion-clipper-skill",
+      "category": "suspicious_url",
+      "severity": "MEDIUM",
+      "description": "Direct IP access (HTTP)",
+      "file": "SKILL.md",
+      "line": 171,
+      "snippet": "port https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1",
+      "confidence": 0.7
+    },
+    {
+      "skill": "notion-clipper-skill",
+      "category": "suspicious_url",
+      "severity": "MEDIUM",
+      "description": "Direct IP access (HTTP)",
+      "file": "cdp.ts",
+      "line": 170,
+      "snippet": "try {       const res = await fetchWithTimeout(`http://127.0.0.1:${port}/json/version`, { timeoutM",
+      "confidence": 0.7
+    },
+    {
+      "skill": "pocketsmith-skill",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 24,
+      "snippet": "e into your personal skills directory mkdir -p ~/.claude/skills cd ~/.claude/skills git clone https:",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith-skill",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 25,
+      "snippet": "skills directory mkdir -p ~/.claude/skills cd ~/.claude/skills git clone https://github.com/lextoum",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith-skill",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 37,
+      "snippet": "ne into your project's skills directory mkdir -p .claude/skills cd .claude/skills git clone https://",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith-skill",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 38,
+      "snippet": "ct's skills directory mkdir -p .claude/skills cd .claude/skills git clone https://github.com/lextoum",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith-skill",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 81,
+      "snippet": "sync ```  ### Verify Installation  ```bash cd ~/.claude/skills/pocketsmith  # or respective directo",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith-skill",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "auth.py",
+      "line": 15,
+      "snippet": "SMITH_DEVELOPER_KEY is not set.     \"\"\"     key = os.environ.get(\"POCKETSMITH_DEVELOPER_KEY\")     if",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith-skill",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "auth.py",
+      "line": 30,
+      "snippet": "is set, False otherwise.     \"\"\"     return bool(os.environ.get(\"POCKETSMITH_DEVELOPER_KEY\"))",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith-skill",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "cli.py",
+      "line": 30,
+      "snippet": "unc)     def wrapper(*args, **kwargs):         if os.environ.get(\"POCKETSMITH_ALLOW_WRITES\", \"\").low",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith-skill",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "httpx usage",
+      "file": "client.py",
+      "line": 5,
+      "snippet": "ion.\"\"\"  from typing import Any, Optional  import httpx  from .auth import get_developer_key  BASE_U",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith-skill",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "httpx usage",
+      "file": "client.py",
+      "line": 16,
+      "snippet": "ef __init__(self):         self._client: Optional[httpx.Client] = None      def _get_client(self) ->",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith-skill",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "httpx usage",
+      "file": "client.py",
+      "line": 18,
+      "snippet": "ttpx.Client] = None      def _get_client(self) -> httpx.Client:         \"\"\"Get or create the HTTP cl",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith-skill",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "httpx usage",
+      "file": "client.py",
+      "line": 21,
+      "snippet": "self._client is None:             self._client = httpx.Client(                 base_url=BASE_URL,",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 24,
+      "snippet": "e into your personal skills directory mkdir -p ~/.claude/skills cd ~/.claude/skills git clone https:",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 25,
+      "snippet": "skills directory mkdir -p ~/.claude/skills cd ~/.claude/skills git clone https://github.com/lextoum",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 37,
+      "snippet": "ne into your project's skills directory mkdir -p .claude/skills cd .claude/skills git clone https://",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 38,
+      "snippet": "ct's skills directory mkdir -p .claude/skills cd .claude/skills git clone https://github.com/lextoum",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 81,
+      "snippet": "sync ```  ### Verify Installation  ```bash cd ~/.claude/skills/pocketsmith  # or respective directo",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "auth.py",
+      "line": 15,
+      "snippet": "SMITH_DEVELOPER_KEY is not set.     \"\"\"     key = os.environ.get(\"POCKETSMITH_DEVELOPER_KEY\")     if",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "auth.py",
+      "line": 30,
+      "snippet": "is set, False otherwise.     \"\"\"     return bool(os.environ.get(\"POCKETSMITH_DEVELOPER_KEY\"))",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "cli.py",
+      "line": 30,
+      "snippet": "unc)     def wrapper(*args, **kwargs):         if os.environ.get(\"POCKETSMITH_ALLOW_WRITES\", \"\").low",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "httpx usage",
+      "file": "client.py",
+      "line": 5,
+      "snippet": "ion.\"\"\"  from typing import Any, Optional  import httpx  from .auth import get_developer_key  BASE_U",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "httpx usage",
+      "file": "client.py",
+      "line": 16,
+      "snippet": "ef __init__(self):         self._client: Optional[httpx.Client] = None      def _get_client(self) ->",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "httpx usage",
+      "file": "client.py",
+      "line": 18,
+      "snippet": "ttpx.Client] = None      def _get_client(self) -> httpx.Client:         \"\"\"Get or create the HTTP cl",
+      "confidence": 0.8
+    },
+    {
+      "skill": "pocketsmith",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "httpx usage",
+      "file": "client.py",
+      "line": 21,
+      "snippet": "self._client is None:             self._client = httpx.Client(                 base_url=BASE_URL,",
+      "confidence": 0.8
+    },
+    {
+      "skill": "postfast",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "API key assignment",
+      "file": "README-PUBLISHING-GUIDE.md",
+      "line": 122,
+      "snippet": "* \u2014 Environment variable: ```bash export POSTFAST_API_KEY=\"your-api-key\" ```  **Option B** \u2014 OpenCla",
+      "confidence": 0.8
+    },
+    {
+      "skill": "postfast",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 18,
+      "snippet": "vironment variable:    ```bash    export POSTFAST_API_KEY=\"your-api-key\"    ```  Base URL: `https://",
+      "confidence": 0.8
+    },
+    {
+      "skill": "postfast",
+      "category": "hardcoded_secret",
+      "severity": "MEDIUM",
+      "description": "Generic API Key",
+      "file": "blog-post-openclaw-skill.md",
+      "line": 86,
+      "snippet": "export POSTFAST_API_KEY=\"your-api-key-here\"",
+      "confidence": 0.85
+    },
+    {
+      "skill": "protonmail",
+      "category": "file_access_outside_workspace",
+      "severity": "MEDIUM",
+      "description": "Home directory access",
+      "file": "daily-scan.py",
+      "line": 58,
+      "snippet": "if not config['password']:         legacy_file = Path.home() / \".config/hydroxide/bridge-password\"",
+      "confidence": 0.8
+    },
+    {
+      "skill": "protonmail",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "daily-scan.py",
+      "line": 51,
+      "snippet": "fig['password'] = value          config['host'] = os.environ.get('PROTONMAIL_HOST', config['host'])",
+      "confidence": 0.8
+    },
+    {
+      "skill": "protonmail",
+      "category": "file_access_outside_workspace",
+      "severity": "MEDIUM",
+      "description": "Home directory access",
+      "file": "protonmail.py",
+      "line": 56,
+      "snippet": "if not config['password']:         legacy_file = Path.home() / \".config/hydroxide/bridge-password\"",
+      "confidence": 0.8
+    },
+    {
+      "skill": "protonmail",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "protonmail.py",
+      "line": 49,
+      "snippet": "riables override config file     config['host'] = os.environ.get('PROTONMAIL_HOST', config['host'])",
+      "confidence": 0.8
+    },
+    {
+      "skill": "send-email",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "getenv call",
+      "file": "send_email.py",
+      "line": 20,
+      "snippet": "= os.getenv(\"EMAIL_SENDER\") AUTHORIZATION_CODE = os.getenv(\"EMAIL_SMTP_PASSWORD\") USE_TLS = (os.get",
+      "confidence": 0.8
+    },
+    {
+      "skill": "send-email",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "getenv call",
+      "file": "send_email.py",
+      "line": 21,
+      "snippet": "ODE = os.getenv(\"EMAIL_SMTP_PASSWORD\") USE_TLS = (os.getenv(\"EMAIL_USE_TLS\") or \"false\").lower() ==",
+      "confidence": 0.8
+    },
+    {
+      "skill": "teltel-send-sms-text-message",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "API key assignment",
+      "file": "send_sms_bulk.js",
+      "line": 34,
+      "snippet": "{   const args = parseArgs(process.argv);   const apiKey = args.apikey || process.env.TELTEL_API_KEY",
+      "confidence": 0.8
+    },
+    {
+      "skill": "temp-mail",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "httpx usage",
+      "file": "requirements.txt",
+      "line": 1,
+      "snippet": "httpx>=0.24.0 # rich is optional, not required for",
+      "confidence": 0.8
+    },
+    {
+      "skill": "temp-mail",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "urllib usage",
+      "file": "temp_mail.py",
+      "line": 15,
+      "snippet": "crets import string import sys import time import urllib.parse import asyncio  from rich import prin",
+      "confidence": 0.8
+    },
+    {
+      "skill": "temp-mail",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "urllib usage",
+      "file": "temp_mail.py",
+      "line": 35,
+      "snippet": "ent, addr: str):     url = f\"{VORTEX_URL}/emails/{urllib.parse.quote(addr, safe='')}\"     headers =",
+      "confidence": 0.8
+    },
+    {
+      "skill": "temp-mail",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "httpx usage",
+      "file": "temp_mail.py",
+      "line": 4,
+      "snippet": "t # requires-python = \">=3.11\" # dependencies = [\"httpx\", \"rich\"] # /// \"\"\"temp_mail: simple helper",
+      "confidence": 0.8
+    },
+    {
+      "skill": "temp-mail",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "httpx usage",
+      "file": "temp_mail.py",
+      "line": 70,
+      "snippet": "eturn []   async def main_async(args):     import httpx     async with httpx.AsyncClient() as client",
+      "confidence": 0.8
+    },
+    {
+      "skill": "temp-mail",
+      "category": "network_request",
+      "severity": "MEDIUM",
+      "description": "httpx usage",
+      "file": "temp_mail.py",
+      "line": 71,
+      "snippet": "main_async(args):     import httpx     async with httpx.AsyncClient() as client:         if args.cmd",
+      "confidence": 0.8
+    },
+    {
+      "skill": "temp-mail",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "temp_mail.py",
+      "line": 20,
+      "snippet": "ort asyncio  from rich import print  VORTEX_URL = os.environ.get(\"VORTEX_URL\", \"https://vtx-api.skyf",
+      "confidence": 0.8
+    },
+    {
+      "skill": "temp-mail",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "temp_mail.py",
+      "line": 21,
+      "snippet": ", \"https://vtx-api.skyfall.dev\") DEFAULT_DOMAIN = os.environ.get(\"VORTEX_DOMAIN\", \"skyfall.dev\")   d",
+      "confidence": 0.8
+    },
+    {
+      "skill": "vexa",
+      "category": "suspicious_url",
+      "severity": "MEDIUM",
+      "description": "Direct IP access (HTTP)",
+      "file": "webhook-setup.md",
+      "line": 66,
+      "snippet": "hostname: openclaw-hooks.vexa.ai        service: http://127.0.0.1:18789      - service: http_status",
+      "confidence": 0.7
+    },
+    {
+      "skill": "vexa",
+      "category": "suspicious_url",
+      "severity": "MEDIUM",
+      "description": "Direct IP access (HTTP)",
+      "file": "webhook-setup.md",
+      "line": 79,
+      "snippet": "el down), the script sends a **mock webhook** to `http://127.0.0.1:<gateway.port>/hooks/vexa`. This",
+      "confidence": 0.7
+    },
+    {
+      "skill": "xai-search",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "API key assignment",
+      "file": "xai-search.py",
+      "line": 28,
+      "snippet": "gv[1]     query = \" \".join(sys.argv[2:])          api_key = os.environ.get(\"XAI_API_KEY\")     if not",
+      "confidence": 0.8
+    },
+    {
+      "skill": "xai-search",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "API key assignment",
+      "file": "xai-search.py",
+      "line": 43,
+      "snippet": "h)\")         sys.exit(1)          client = Client(api_key=api_key)     chat = client.chat.create(",
+      "confidence": 0.8
+    },
+    {
+      "skill": "xai-search",
+      "category": "environment_access",
+      "severity": "MEDIUM",
+      "description": "Environment variable access",
+      "file": "xai-search.py",
+      "line": 28,
+      "snippet": "query = \" \".join(sys.argv[2:])          api_key = os.environ.get(\"XAI_API_KEY\")     if not api_key:",
+      "confidence": 0.8
+    },
+    {
+      "skill": "xiaohongshu-publisher",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "AI service API",
+      "file": "content-guide.md",
+      "line": 70,
+      "snippet": "(#AI\u52a9\u624b #\u6548\u7387\u5de5\u5177 #\u81ea\u52a8\u5316) - 2-3 product tags (#OpenClaw #ClaudeCode etc.) - 2-3 topic-specific tags (relate",
+      "confidence": 0.8
+    },
+    {
+      "skill": "zenplus-health",
+      "category": "api_key_usage",
+      "severity": "MEDIUM",
+      "description": "API key assignment",
+      "file": "README.md",
+      "line": 18,
+      "snippet": "SE_URL=\"https://api.zenplus.health\"    export ZEN_API_KEY=\"zen_ak_your_40_character_key\"    ``` 3. *",
+      "confidence": 0.8
+    },
+    {
+      "skill": "zenplus-health",
+      "category": "hardcoded_secret",
+      "severity": "MEDIUM",
+      "description": "Generic API Key",
+      "file": "README.md",
+      "line": 18,
+      "snippet": "export ZEN_API_KEY=\"zen_ak_your_40_character_key\"",
+      "confidence": 0.85
+    }
+  ],
+  "all_skills_results": [
+    {
+      "skill_name": "wechat-publisher",
+      "findings_count": 1,
+      "has_high": true,
+      "has_medium": false,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "wechat-publisher",
+          "category": "sensitive_file_access",
+          "severity": "HIGH",
+          "description": "Memory file access",
+          "file": "setup.sh",
+          "line": 20,
+          "snippet": "AT_APP_SECRET=your_app_secret\"     exit 1 fi  # \u4ece TOOLS.md \u63d0\u53d6\u51ed\u8bc1 WECHAT_APP_ID=$(grep \"export WECHAT_",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "clawd-presence",
+      "findings_count": 17,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "clawd-presence",
+          "category": "file_access_outside_workspace",
+          "severity": "MEDIUM",
+          "description": "Home directory access",
+          "file": "configure.py",
+          "line": 31,
+          "snippet": "ot config locations CLAWDBOT_CONFIG_PATHS = [     Path.home() / \".config\" / \"clawd\" / \"config.yaml\",",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_access_outside_workspace",
+          "severity": "MEDIUM",
+          "description": "Home directory access",
+          "file": "configure.py",
+          "line": 32,
+          "snippet": "home() / \".config\" / \"clawd\" / \"config.yaml\",     Path.home() / \".config\" / \"clawd\" / \"config.yml\",",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_access_outside_workspace",
+          "severity": "MEDIUM",
+          "description": "Home directory access",
+          "file": "configure.py",
+          "line": 33,
+          "snippet": ".home() / \".config\" / \"clawd\" / \"config.yml\",     Path.home() / \".clawd\" / \"config.yaml\",     Path.h",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_access_outside_workspace",
+          "severity": "MEDIUM",
+          "description": "Home directory access",
+          "file": "configure.py",
+          "line": 34,
+          "snippet": ",     Path.home() / \".clawd\" / \"config.yaml\",     Path.home() / \".clawd\" / \"config.yml\",     Path.ho",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_access_outside_workspace",
+          "severity": "MEDIUM",
+          "description": "Home directory access",
+          "file": "configure.py",
+          "line": 35,
+          "snippet": "\",     Path.home() / \".clawd\" / \"config.yml\",     Path.home() / \".config\" / \"clawdbot\" / \"config.yam",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_access_outside_workspace",
+          "severity": "MEDIUM",
+          "description": "Home directory access",
+          "file": "configure.py",
+          "line": 36,
+          "snippet": "e() / \".config\" / \"clawdbot\" / \"config.yaml\",     Path.home() / \".config\" / \"clawdbot\" / \"config.yml",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "configure.py",
+          "line": 10,
+          "snippet": "t 300     python3 configure.py --letter C --name \"CLAUDE\" --timeout 600 \"\"\"  from __future__ import",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "configure.py",
+          "line": 59,
+          "snippet": "t.mkdir(parents=True, exist_ok=True)         with open(CONFIG_FILE, \"w\", encoding=\"utf-8\") as f:",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Pathlib usage",
+          "file": "configure.py",
+          "line": 18,
+          "snippet": "ions  import argparse import json import sys from pathlib import Path from typing import Any  CONFIG",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "yaml_parsing",
+          "severity": "LOW",
+          "description": "PyYAML usage",
+          "file": "configure.py",
+          "line": 167,
+          "snippet": "clawdbot config\")             print(\"Tip: Install PyYAML (pip install pyyaml) if not installed\")",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "yaml_parsing",
+          "severity": "LOW",
+          "description": "PyYAML usage",
+          "file": "configure.py",
+          "line": 167,
+          "snippet": "print(\"Tip: Install PyYAML (pip install pyyaml) if not installed\")             if not any(",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "display.py",
+          "line": 67,
+          "snippet": "t.mkdir(parents=True, exist_ok=True)         with open(filepath, \"w\", encoding=\"utf-8\") as f:",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Pathlib usage",
+          "file": "display.py",
+          "line": 18,
+          "snippet": "ys import time from datetime import datetime from pathlib import Path from typing import Any  # Path",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "generate_monograms.py",
+          "line": 466,
+          "snippet": "lines = design.strip().split(\"\\n\")         with open(filepath, \"w\") as f:             f.write(\"\\n\"",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Pathlib usage",
+          "file": "generate_monograms.py",
+          "line": 7,
+          "snippet": "Creates geometric block-style letters. \"\"\"  from pathlib import Path  MONO_DIR = Path(__file__).par",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "status.py",
+          "line": 65,
+          "snippet": "t.mkdir(parents=True, exist_ok=True)         with open(STATE_FILE, \"w\", encoding=\"utf-8\") as f:",
+          "confidence": 0.8
+        },
+        {
+          "skill": "clawd-presence",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Pathlib usage",
+          "file": "status.py",
+          "line": 18,
+          "snippet": "otations  import json import sys import time from pathlib import Path from typing import NoReturn  S",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "dev-chronicle",
+      "findings_count": 13,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "dev-chronicle",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "gather.sh",
+          "line": 62,
+          "snippet": "ate in \"$HOME/.openclaw/workspace/memory\" \"$HOME/.claude/workspace/memory\"; do     [ -d \"$candidate\"",
+          "confidence": 0.8
+        },
+        {
+          "skill": "dev-chronicle",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "gather.sh",
+          "line": 67,
+          "snippet": "in \"$HOME/.openclaw/agents/main/sessions\" \"$HOME/.claude/agents/main/sessions\"; do     [ -d \"$candid",
+          "confidence": 0.8
+        },
+        {
+          "skill": "dev-chronicle",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "gather.sh",
+          "line": 36,
+          "snippet": "DIRS=$(python3 -c \" import json, os c = json.load(open('$CONFIG')) for d in c.get('projectDirs', ['~",
+          "confidence": 0.8
+        },
+        {
+          "skill": "dev-chronicle",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "gather.sh",
+          "line": 40,
+          "snippet": "_DEPTH=$(python3 -c \"import json; print(json.load(open('$CONFIG')).get('projectDepth', 3))\" 2>/dev/n",
+          "confidence": 0.8
+        },
+        {
+          "skill": "dev-chronicle",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "gather.sh",
+          "line": 122,
+          "snippet": "endswith('.lock'): continue     try:         with open(f) as fh:             d = json.loads(fh.readl",
+          "confidence": 0.8
+        },
+        {
+          "skill": "dev-chronicle",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "gather.sh",
+          "line": 126,
+          "snippet": "and ts <= end:             lines = sum(1 for _ in open(f))             sid = os.path.basename(f).rep",
+          "confidence": 0.8
+        },
+        {
+          "skill": "dev-chronicle",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "gather.sh",
+          "line": 38,
+          "snippet": "n c.get('projectDirs', ['~/Projects']):     print(os.path.expanduser(d)) \" 2>/dev/null || echo \"$HOM",
+          "confidence": 0.8
+        },
+        {
+          "skill": "dev-chronicle",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "gather.sh",
+          "line": 119,
+          "snippet": "ATE', '$DATE' found = 0 for f in sorted(glob.glob(os.path.join(sdir, '*.jsonl'))):     if f.endswith",
+          "confidence": 0.8
+        },
+        {
+          "skill": "dev-chronicle",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "gather.sh",
+          "line": 127,
+          "snippet": "lines = sum(1 for _ in open(f))             sid = os.path.basename(f).replace('.jsonl','')",
+          "confidence": 0.8
+        },
+        {
+          "skill": "dev-chronicle",
+          "category": "json_parsing",
+          "severity": "LOW",
+          "description": "JSON parsing",
+          "file": "gather.sh",
+          "line": 123,
+          "snippet": "try:         with open(f) as fh:             d = json.loads(fh.readline())         ts = d.get('time",
+          "confidence": 0.8
+        },
+        {
+          "skill": "dev-chronicle",
+          "category": "json_parsing",
+          "severity": "LOW",
+          "description": "JSON file loading",
+          "file": "gather.sh",
+          "line": 36,
+          "snippet": "PROJECT_DIRS=$(python3 -c \" import json, os c = json.load(open('$CONFIG')) for d in c.get('project",
+          "confidence": 0.8
+        },
+        {
+          "skill": "dev-chronicle",
+          "category": "json_parsing",
+          "severity": "LOW",
+          "description": "JSON file loading",
+          "file": "gather.sh",
+          "line": 40,
+          "snippet": "PROJECT_DEPTH=$(python3 -c \"import json; print(json.load(open('$CONFIG')).get('projectDepth', 3))",
+          "confidence": 0.8
+        },
+        {
+          "skill": "dev-chronicle",
+          "category": "json_parsing",
+          "severity": "LOW",
+          "description": "JSON file loading",
+          "file": "gather.sh",
+          "line": 123,
+          "snippet": "try:         with open(f) as fh:             d = json.loads(fh.readline())         ts = d.get('time",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "calendar-reminders",
+      "findings_count": 12,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "calendar-reminders",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "calendar_reminder_plan.py",
+          "line": 66,
+          "snippet": "tart_local + dt.timedelta(days=1)      env = dict(os.environ)     env.setdefault(\"PYTHONWARNINGS\", \"",
+          "confidence": 0.8
+        },
+        {
+          "skill": "calendar-reminders",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "calendar_reminder_plan.py",
+          "line": 107,
+          "snippet": "dt.timedelta(days=1)).isoformat()      env = dict(os.environ)     env[\"TZ\"] = str(cfg.get(\"timezone\"",
+          "confidence": 0.8
+        },
+        {
+          "skill": "calendar-reminders",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "calendar_reminder_plan.py",
+          "line": 172,
+          "snippet": "tParser()     ap.add_argument(\"--config\", default=os.environ.get(\"OPENCLAW_CALENDAR_CONFIG\") or DEFA",
+          "confidence": 0.8
+        },
+        {
+          "skill": "calendar-reminders",
+          "category": "shell_command",
+          "severity": "LOW",
+          "description": "Subprocess usage",
+          "file": "calendar_reminder_plan.py",
+          "line": 90,
+          "snippet": "l.isoformat(timespec=\"minutes\"),     ]      out = subprocess.check_output(cmd, text=True, env=env)",
+          "confidence": 0.8
+        },
+        {
+          "skill": "calendar-reminders",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "calendar_reminder_plan.py",
+          "line": 22,
+          "snippet": "s from zoneinfo import ZoneInfo  DEFAULT_CONFIG = os.path.expanduser(\"~/.config/openclaw/calendar.js",
+          "confidence": 0.8
+        },
+        {
+          "skill": "calendar-reminders",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "calendar_reminder_plan.py",
+          "line": 23,
+          "snippet": "/.config/openclaw/calendar.json\") DEFAULT_STATE = os.path.expanduser(\"~/.local/state/openclaw/calend",
+          "confidence": 0.8
+        },
+        {
+          "skill": "calendar-reminders",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "calendar_reminder_plan.py",
+          "line": 34,
+          "snippet": "ensure_parent(path: str) -> None:     os.makedirs(os.path.dirname(path), exist_ok=True)   def _utcno",
+          "confidence": 0.8
+        },
+        {
+          "skill": "calendar-reminders",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "calendar_reminder_plan.py",
+          "line": 56,
+          "snippet": "google = cfg.get(\"google\") or {}     gcalcli = os.path.expanduser(google.get(\"gcalcliPath\") or \"g",
+          "confidence": 0.8
+        },
+        {
+          "skill": "calendar-reminders",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "calendar_reminder_plan.py",
+          "line": 178,
+          "snippet": "args = ap.parse_args(argv)      cfg = _load_json(os.path.expanduser(args.config))      tz_name = st",
+          "confidence": 0.8
+        },
+        {
+          "skill": "calendar-reminders",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "calendar_reminder_plan.py",
+          "line": 196,
+          "snippet": "emindIfKeywords\") or [])      state = _load_state(os.path.expanduser(args.state))     now_utc = _utc",
+          "confidence": 0.8
+        },
+        {
+          "skill": "calendar-reminders",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "calendar_reminder_plan.py",
+          "line": 335,
+          "snippet": "\"skipped\": skipped,         \"configPath\": os.path.expanduser(args.config),         \"statePat",
+          "confidence": 0.8
+        },
+        {
+          "skill": "calendar-reminders",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "calendar_reminder_plan.py",
+          "line": 336,
+          "snippet": "ath.expanduser(args.config),         \"statePath\": os.path.expanduser(args.state),     }      print(j",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "send-email",
+      "findings_count": 6,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "send-email",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "getenv call",
+          "file": "send_email.py",
+          "line": 20,
+          "snippet": "= os.getenv(\"EMAIL_SENDER\") AUTHORIZATION_CODE = os.getenv(\"EMAIL_SMTP_PASSWORD\") USE_TLS = (os.get",
+          "confidence": 0.8
+        },
+        {
+          "skill": "send-email",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "getenv call",
+          "file": "send_email.py",
+          "line": 21,
+          "snippet": "ODE = os.getenv(\"EMAIL_SMTP_PASSWORD\") USE_TLS = (os.getenv(\"EMAIL_USE_TLS\") or \"false\").lower() ==",
+          "confidence": 0.8
+        },
+        {
+          "skill": "send-email",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "send_email.py",
+          "line": 48,
+          "snippet": "from email import encoders             with open(attachment_path, 'rb') as f:",
+          "confidence": 0.8
+        },
+        {
+          "skill": "send-email",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "send_email.py",
+          "line": 42,
+          "snippet": "ry:         # \u521b\u5efa\u90ae\u4ef6         if attachment_path and os.path.exists(attachment_path):             msg =",
+          "confidence": 0.8
+        },
+        {
+          "skill": "send-email",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "send_email.py",
+          "line": 54,
+          "snippet": "on',                     f'attachment; filename= {os.path.basename(attachment_path)}'",
+          "confidence": 0.8
+        },
+        {
+          "skill": "send-email",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "send_email.py",
+          "line": 78,
+          "snippet": "if attachment_path:             print(f\"   \u9644\u4ef6: {os.path.basename(attachment_path)}\")         retur",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "protonmail",
+      "findings_count": 5,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "protonmail",
+          "category": "file_access_outside_workspace",
+          "severity": "MEDIUM",
+          "description": "Home directory access",
+          "file": "daily-scan.py",
+          "line": 58,
+          "snippet": "if not config['password']:         legacy_file = Path.home() / \".config/hydroxide/bridge-password\"",
+          "confidence": 0.8
+        },
+        {
+          "skill": "protonmail",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "daily-scan.py",
+          "line": 51,
+          "snippet": "fig['password'] = value          config['host'] = os.environ.get('PROTONMAIL_HOST', config['host'])",
+          "confidence": 0.8
+        },
+        {
+          "skill": "protonmail",
+          "category": "file_access_outside_workspace",
+          "severity": "MEDIUM",
+          "description": "Home directory access",
+          "file": "protonmail.py",
+          "line": 56,
+          "snippet": "if not config['password']:         legacy_file = Path.home() / \".config/hydroxide/bridge-password\"",
+          "confidence": 0.8
+        },
+        {
+          "skill": "protonmail",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "protonmail.py",
+          "line": 49,
+          "snippet": "riables override config file     config['host'] = os.environ.get('PROTONMAIL_HOST', config['host'])",
+          "confidence": 0.8
+        },
+        {
+          "skill": "protonmail",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Pathlib usage",
+          "file": "protonmail.py",
+          "line": 18,
+          "snippet": "rt os from email.header import decode_header from pathlib import Path import sys  # Configuration wi",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "aholake-expense-tracker",
+      "findings_count": 3,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "aholake-expense-tracker",
+          "category": "file_access_outside_workspace",
+          "severity": "MEDIUM",
+          "description": "Home directory access",
+          "file": "log_expense.py",
+          "line": 15,
+          "snippet": "workspace_path is None:         workspace_path = Path.home() / \".openclaw\" / \"workspace\"     else:",
+          "confidence": 0.8
+        },
+        {
+          "skill": "aholake-expense-tracker",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "log_expense.py",
+          "line": 55,
+          "snippet": "|\\n\"          # Append to file     with file_path.open(\"a\") as f:         f.write(entry)          pr",
+          "confidence": 0.8
+        },
+        {
+          "skill": "aholake-expense-tracker",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Pathlib usage",
+          "file": "log_expense.py",
+          "line": 9,
+          "snippet": "mport argparse from datetime import datetime from pathlib import Path   def get_expense_file(year_mo",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "expense-tracker",
+      "findings_count": 3,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "expense-tracker",
+          "category": "file_access_outside_workspace",
+          "severity": "MEDIUM",
+          "description": "Home directory access",
+          "file": "log_expense.py",
+          "line": 15,
+          "snippet": "workspace_path is None:         workspace_path = Path.home() / \".openclaw\" / \"workspace\"     else:",
+          "confidence": 0.8
+        },
+        {
+          "skill": "expense-tracker",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "log_expense.py",
+          "line": 55,
+          "snippet": "|\\n\"          # Append to file     with file_path.open(\"a\") as f:         f.write(entry)          pr",
+          "confidence": 0.8
+        },
+        {
+          "skill": "expense-tracker",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Pathlib usage",
+          "file": "log_expense.py",
+          "line": 9,
+          "snippet": "mport argparse from datetime import datetime from pathlib import Path   def get_expense_file(year_mo",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "xiaohongshu-publisher",
+      "findings_count": 3,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "xiaohongshu-publisher",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "content-guide.md",
+          "line": 70,
+          "snippet": "(#AI\u52a9\u624b #\u6548\u7387\u5de5\u5177 #\u81ea\u52a8\u5316) - 2-3 product tags (#OpenClaw #ClaudeCode etc.) - 2-3 topic-specific tags (relate",
+          "confidence": 0.8
+        },
+        {
+          "skill": "xiaohongshu-publisher",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "gen_cover.py",
+          "line": 67,
+          "snippet": "aths.\"\"\"     for path in search_paths:         if os.path.exists(path):             return path",
+          "confidence": 0.8
+        },
+        {
+          "skill": "xiaohongshu-publisher",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "gen_cover.py",
+          "line": 281,
+          "snippet": ").save(args.output, \"PNG\", quality=95)     size = os.path.getsize(args.output)     print(f\"Cover sav",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "baoyu-post-to-x",
+      "findings_count": 2,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "baoyu-post-to-x",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "x-article.ts",
+          "line": 282,
+          "snippet": "al);               const stillOpen = await isModalOpen();               if (!stillOpen) {",
+          "confidence": 0.8
+        },
+        {
+          "skill": "baoyu-post-to-x",
+          "category": "suspicious_url",
+          "severity": "MEDIUM",
+          "description": "Direct IP access (HTTP)",
+          "file": "x-utils.ts",
+          "line": 116,
+          "snippet": "ait fetchJson<{ webSocketDebuggerUrl?: string }>(`http://127.0.0.1:${port}/json/version`);       if",
+          "confidence": 0.7
+        }
+      ]
+    },
+    {
+      "skill_name": "pocketsmith-skill",
+      "findings_count": 12,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "pocketsmith-skill",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 24,
+          "snippet": "e into your personal skills directory mkdir -p ~/.claude/skills cd ~/.claude/skills git clone https:",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith-skill",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 25,
+          "snippet": "skills directory mkdir -p ~/.claude/skills cd ~/.claude/skills git clone https://github.com/lextoum",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith-skill",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 37,
+          "snippet": "ne into your project's skills directory mkdir -p .claude/skills cd .claude/skills git clone https://",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith-skill",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 38,
+          "snippet": "ct's skills directory mkdir -p .claude/skills cd .claude/skills git clone https://github.com/lextoum",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith-skill",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 81,
+          "snippet": "sync ```  ### Verify Installation  ```bash cd ~/.claude/skills/pocketsmith  # or respective directo",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith-skill",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "auth.py",
+          "line": 15,
+          "snippet": "SMITH_DEVELOPER_KEY is not set.     \"\"\"     key = os.environ.get(\"POCKETSMITH_DEVELOPER_KEY\")     if",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith-skill",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "auth.py",
+          "line": 30,
+          "snippet": "is set, False otherwise.     \"\"\"     return bool(os.environ.get(\"POCKETSMITH_DEVELOPER_KEY\"))",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith-skill",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "cli.py",
+          "line": 30,
+          "snippet": "unc)     def wrapper(*args, **kwargs):         if os.environ.get(\"POCKETSMITH_ALLOW_WRITES\", \"\").low",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith-skill",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "httpx usage",
+          "file": "client.py",
+          "line": 5,
+          "snippet": "ion.\"\"\"  from typing import Any, Optional  import httpx  from .auth import get_developer_key  BASE_U",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith-skill",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "httpx usage",
+          "file": "client.py",
+          "line": 16,
+          "snippet": "ef __init__(self):         self._client: Optional[httpx.Client] = None      def _get_client(self) ->",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith-skill",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "httpx usage",
+          "file": "client.py",
+          "line": 18,
+          "snippet": "ttpx.Client] = None      def _get_client(self) -> httpx.Client:         \"\"\"Get or create the HTTP cl",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith-skill",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "httpx usage",
+          "file": "client.py",
+          "line": 21,
+          "snippet": "self._client is None:             self._client = httpx.Client(                 base_url=BASE_URL,",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "pocketsmith",
+      "findings_count": 12,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "pocketsmith",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 24,
+          "snippet": "e into your personal skills directory mkdir -p ~/.claude/skills cd ~/.claude/skills git clone https:",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 25,
+          "snippet": "skills directory mkdir -p ~/.claude/skills cd ~/.claude/skills git clone https://github.com/lextoum",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 37,
+          "snippet": "ne into your project's skills directory mkdir -p .claude/skills cd .claude/skills git clone https://",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 38,
+          "snippet": "ct's skills directory mkdir -p .claude/skills cd .claude/skills git clone https://github.com/lextoum",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 81,
+          "snippet": "sync ```  ### Verify Installation  ```bash cd ~/.claude/skills/pocketsmith  # or respective directo",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "auth.py",
+          "line": 15,
+          "snippet": "SMITH_DEVELOPER_KEY is not set.     \"\"\"     key = os.environ.get(\"POCKETSMITH_DEVELOPER_KEY\")     if",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "auth.py",
+          "line": 30,
+          "snippet": "is set, False otherwise.     \"\"\"     return bool(os.environ.get(\"POCKETSMITH_DEVELOPER_KEY\"))",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "cli.py",
+          "line": 30,
+          "snippet": "unc)     def wrapper(*args, **kwargs):         if os.environ.get(\"POCKETSMITH_ALLOW_WRITES\", \"\").low",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "httpx usage",
+          "file": "client.py",
+          "line": 5,
+          "snippet": "ion.\"\"\"  from typing import Any, Optional  import httpx  from .auth import get_developer_key  BASE_U",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "httpx usage",
+          "file": "client.py",
+          "line": 16,
+          "snippet": "ef __init__(self):         self._client: Optional[httpx.Client] = None      def _get_client(self) ->",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "httpx usage",
+          "file": "client.py",
+          "line": 18,
+          "snippet": "ttpx.Client] = None      def _get_client(self) -> httpx.Client:         \"\"\"Get or create the HTTP cl",
+          "confidence": 0.8
+        },
+        {
+          "skill": "pocketsmith",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "httpx usage",
+          "file": "client.py",
+          "line": 21,
+          "snippet": "self._client is None:             self._client = httpx.Client(                 base_url=BASE_URL,",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "temp-mail",
+      "findings_count": 8,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "temp-mail",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "httpx usage",
+          "file": "requirements.txt",
+          "line": 1,
+          "snippet": "httpx>=0.24.0 # rich is optional, not required for",
+          "confidence": 0.8
+        },
+        {
+          "skill": "temp-mail",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "urllib usage",
+          "file": "temp_mail.py",
+          "line": 15,
+          "snippet": "crets import string import sys import time import urllib.parse import asyncio  from rich import prin",
+          "confidence": 0.8
+        },
+        {
+          "skill": "temp-mail",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "urllib usage",
+          "file": "temp_mail.py",
+          "line": 35,
+          "snippet": "ent, addr: str):     url = f\"{VORTEX_URL}/emails/{urllib.parse.quote(addr, safe='')}\"     headers =",
+          "confidence": 0.8
+        },
+        {
+          "skill": "temp-mail",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "httpx usage",
+          "file": "temp_mail.py",
+          "line": 4,
+          "snippet": "t # requires-python = \">=3.11\" # dependencies = [\"httpx\", \"rich\"] # /// \"\"\"temp_mail: simple helper",
+          "confidence": 0.8
+        },
+        {
+          "skill": "temp-mail",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "httpx usage",
+          "file": "temp_mail.py",
+          "line": 70,
+          "snippet": "eturn []   async def main_async(args):     import httpx     async with httpx.AsyncClient() as client",
+          "confidence": 0.8
+        },
+        {
+          "skill": "temp-mail",
+          "category": "network_request",
+          "severity": "MEDIUM",
+          "description": "httpx usage",
+          "file": "temp_mail.py",
+          "line": 71,
+          "snippet": "main_async(args):     import httpx     async with httpx.AsyncClient() as client:         if args.cmd",
+          "confidence": 0.8
+        },
+        {
+          "skill": "temp-mail",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "temp_mail.py",
+          "line": 20,
+          "snippet": "ort asyncio  from rich import print  VORTEX_URL = os.environ.get(\"VORTEX_URL\", \"https://vtx-api.skyf",
+          "confidence": 0.8
+        },
+        {
+          "skill": "temp-mail",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "temp_mail.py",
+          "line": 21,
+          "snippet": ", \"https://vtx-api.skyfall.dev\") DEFAULT_DOMAIN = os.environ.get(\"VORTEX_DOMAIN\", \"skyfall.dev\")   d",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "meetup-planner",
+      "findings_count": 5,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "meetup-planner",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 38,
+          "snippet": "b.com/apresmoi/meetup-planner.git  # Copy to your Claude skills directory mkdir -p ~/.claude/skills/",
+          "confidence": 0.8
+        },
+        {
+          "skill": "meetup-planner",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 39,
+          "snippet": "Copy to your Claude skills directory mkdir -p ~/.claude/skills/meetup-planner cp -r meetup-planner/",
+          "confidence": 0.8
+        },
+        {
+          "skill": "meetup-planner",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 40,
+          "snippet": "e/skills/meetup-planner cp -r meetup-planner/* ~/.claude/skills/meetup-planner/ ```  ## \ud83d\ude80 Quick Star",
+          "confidence": 0.8
+        },
+        {
+          "skill": "meetup-planner",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 73,
+          "snippet": "AI/ML meetups, hackathons, and tech conferences  Claude: Awesome! What's your location?  You: San F",
+          "confidence": 0.8
+        },
+        {
+          "skill": "meetup-planner",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "README.md",
+          "line": 77,
+          "snippet": "esome! What's your location?  You: San Francisco  Claude: Perfect! [continues preference collection.",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "notion-clipper-skill",
+      "findings_count": 4,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "notion-clipper-skill",
+          "category": "suspicious_url",
+          "severity": "MEDIUM",
+          "description": "Direct IP access (HTTP)",
+          "file": "SKILL.md",
+          "line": 165,
+          "snippet": "oxy` / `HTTP_PROXY` | Proxy for Notion API (e.g. `http://127.0.0.1:7890`) | | `http_proxy` / `HTTPS_",
+          "confidence": 0.7
+        },
+        {
+          "skill": "notion-clipper-skill",
+          "category": "suspicious_url",
+          "severity": "MEDIUM",
+          "description": "Direct IP access (HTTP)",
+          "file": "SKILL.md",
+          "line": 171,
+          "snippet": "proxy on port 7890):** ```bash export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:",
+          "confidence": 0.7
+        },
+        {
+          "skill": "notion-clipper-skill",
+          "category": "suspicious_url",
+          "severity": "MEDIUM",
+          "description": "Direct IP access (HTTP)",
+          "file": "SKILL.md",
+          "line": 171,
+          "snippet": "port https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1",
+          "confidence": 0.7
+        },
+        {
+          "skill": "notion-clipper-skill",
+          "category": "suspicious_url",
+          "severity": "MEDIUM",
+          "description": "Direct IP access (HTTP)",
+          "file": "cdp.ts",
+          "line": 170,
+          "snippet": "try {       const res = await fetchWithTimeout(`http://127.0.0.1:${port}/json/version`, { timeoutM",
+          "confidence": 0.7
+        }
+      ]
+    },
+    {
+      "skill_name": "postfast",
+      "findings_count": 3,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "postfast",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "API key assignment",
+          "file": "README-PUBLISHING-GUIDE.md",
+          "line": 122,
+          "snippet": "* \u2014 Environment variable: ```bash export POSTFAST_API_KEY=\"your-api-key\" ```  **Option B** \u2014 OpenCla",
+          "confidence": 0.8
+        },
+        {
+          "skill": "postfast",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "API key assignment",
+          "file": "SKILL.md",
+          "line": 18,
+          "snippet": "vironment variable:    ```bash    export POSTFAST_API_KEY=\"your-api-key\"    ```  Base URL: `https://",
+          "confidence": 0.8
+        },
+        {
+          "skill": "postfast",
+          "category": "hardcoded_secret",
+          "severity": "MEDIUM",
+          "description": "Generic API Key",
+          "file": "blog-post-openclaw-skill.md",
+          "line": 86,
+          "snippet": "export POSTFAST_API_KEY=\"your-api-key-here\"",
+          "confidence": 0.85
+        }
+      ]
+    },
+    {
+      "skill_name": "xai-search",
+      "findings_count": 3,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "xai-search",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "API key assignment",
+          "file": "xai-search.py",
+          "line": 28,
+          "snippet": "gv[1]     query = \" \".join(sys.argv[2:])          api_key = os.environ.get(\"XAI_API_KEY\")     if not",
+          "confidence": 0.8
+        },
+        {
+          "skill": "xai-search",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "API key assignment",
+          "file": "xai-search.py",
+          "line": 43,
+          "snippet": "h)\")         sys.exit(1)          client = Client(api_key=api_key)     chat = client.chat.create(",
+          "confidence": 0.8
+        },
+        {
+          "skill": "xai-search",
+          "category": "environment_access",
+          "severity": "MEDIUM",
+          "description": "Environment variable access",
+          "file": "xai-search.py",
+          "line": 28,
+          "snippet": "query = \" \".join(sys.argv[2:])          api_key = os.environ.get(\"XAI_API_KEY\")     if not api_key:",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "freedcamp-agent-skill",
+      "findings_count": 2,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "freedcamp-agent-skill",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "API secret usage",
+          "file": "SKILL.md",
+          "line": 51,
+          "snippet": "nfig unset skills.entries.freedcamp.env.FREEDCAMP_API_SECRET ```  ## First calls (sanity + discovery",
+          "confidence": 0.8
+        },
+        {
+          "skill": "freedcamp-agent-skill",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "API secret usage",
+          "file": "REFERENCE.md",
+          "line": 13,
+          "snippet": "t: generate `hash = HMAC-SHA1(apiKey + timestamp, apiSecret)`, then send `api_key`, `timestamp`, and",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "giphy",
+      "findings_count": 2,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "giphy",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "API key assignment",
+          "file": "SKILL.md",
+          "line": 25,
+          "snippet": "ary (current shell session)  ```bash export GIPHY_API_KEY=\"your-api-key\" ```  ### Option B: Persiste",
+          "confidence": 0.8
+        },
+        {
+          "skill": "giphy",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "API key assignment",
+          "file": "SKILL.md",
+          "line": 33,
+          "snippet": "ended)  Add to `~/.openclaw/.env`:  ```bash GIPHY_API_KEY=your-api-key ```  Then restart OpenClaw so",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "vexa",
+      "findings_count": 2,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "vexa",
+          "category": "suspicious_url",
+          "severity": "MEDIUM",
+          "description": "Direct IP access (HTTP)",
+          "file": "webhook-setup.md",
+          "line": 66,
+          "snippet": "hostname: openclaw-hooks.vexa.ai        service: http://127.0.0.1:18789      - service: http_status",
+          "confidence": 0.7
+        },
+        {
+          "skill": "vexa",
+          "category": "suspicious_url",
+          "severity": "MEDIUM",
+          "description": "Direct IP access (HTTP)",
+          "file": "webhook-setup.md",
+          "line": 79,
+          "snippet": "el down), the script sends a **mock webhook** to `http://127.0.0.1:<gateway.port>/hooks/vexa`. This",
+          "confidence": 0.7
+        }
+      ]
+    },
+    {
+      "skill_name": "zenplus-health",
+      "findings_count": 2,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "zenplus-health",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "API key assignment",
+          "file": "README.md",
+          "line": 18,
+          "snippet": "SE_URL=\"https://api.zenplus.health\"    export ZEN_API_KEY=\"zen_ak_your_40_character_key\"    ``` 3. *",
+          "confidence": 0.8
+        },
+        {
+          "skill": "zenplus-health",
+          "category": "hardcoded_secret",
+          "severity": "MEDIUM",
+          "description": "Generic API Key",
+          "file": "README.md",
+          "line": 18,
+          "snippet": "export ZEN_API_KEY=\"zen_ak_your_40_character_key\"",
+          "confidence": 0.85
+        }
+      ]
+    },
+    {
+      "skill_name": "agent-voice",
+      "findings_count": 1,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "agent-voice",
+          "category": "hardcoded_secret",
+          "severity": "MEDIUM",
+          "description": "Generic API Key",
+          "file": "SKILL.md",
+          "line": 75,
+          "snippet": "export AGENT_BLOG_API_KEY=\"your-api-key-here\"",
+          "confidence": 0.85
+        }
+      ]
+    },
+    {
+      "skill_name": "clawdbites",
+      "findings_count": 1,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "clawdbites",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "AI service API",
+          "file": "SKILL.md",
+          "line": 305,
+          "snippet": "Extract 5-8 key frames with ffmpeg    \u2514\u2500\u2500 Send to Claude vision    \u2514\u2500\u2500 Ask: \"Extract any recipe text",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "confirm-form",
+      "findings_count": 1,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "confirm-form",
+          "category": "suspicious_url",
+          "severity": "MEDIUM",
+          "description": "Raw GitHub content",
+          "file": "generate.js",
+          "line": 118,
+          "snippet": "onst previewUrl = `https://htmlpreview.github.io/?https://gist.githubusercontent.com/${GITHUB_USER}/",
+          "confidence": 0.7
+        }
+      ]
+    },
+    {
+      "skill_name": "gowa",
+      "findings_count": 1,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "gowa",
+          "category": "suspicious_url",
+          "severity": "MEDIUM",
+          "description": "Raw GitHub content",
+          "file": "SKILL.md",
+          "line": 269,
+          "snippet": "e  Full OpenAPI 3.0 spec available at: - OpenAPI: https://raw.githubusercontent.com/aldinokemal/go-w",
+          "confidence": 0.7
+        }
+      ]
+    },
+    {
+      "skill_name": "klawdin",
+      "findings_count": 1,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "klawdin",
+          "category": "hardcoded_secret",
+          "severity": "MEDIUM",
+          "description": "Generic API Key",
+          "file": "SKILL.md",
+          "line": 31,
+          "snippet": "echo \"Registered. Export: KLAWDIN_API_KEY=$KLAWDIN_API_KEY\"",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "skill_name": "teltel-send-sms-text-message",
+      "findings_count": 1,
+      "has_high": false,
+      "has_medium": true,
+      "has_low": false,
+      "findings": [
+        {
+          "skill": "teltel-send-sms-text-message",
+          "category": "api_key_usage",
+          "severity": "MEDIUM",
+          "description": "API key assignment",
+          "file": "send_sms_bulk.js",
+          "line": 34,
+          "snippet": "{   const args = parseArgs(process.argv);   const apiKey = args.apikey || process.env.TELTEL_API_KEY",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "half-full",
+      "findings_count": 16,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "log.py",
+          "line": 28,
+          "snippet": "None):     path = get_log_path(date_str)     with open(path, 'w', encoding='utf-8') as f:         js",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "log.py",
+          "line": 186,
+          "snippet": "_log(data):     path = get_weight_path()     with open(path, 'w', encoding='utf-8') as f:         js",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "log.py",
+          "line": 11,
+          "snippet": "m datetime import datetime, timedelta  DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.pa",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "log.py",
+          "line": 11,
+          "snippet": "port datetime, timedelta  DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "log.py",
+          "line": 11,
+          "snippet": "imedelta  DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "log.py",
+          "line": 11,
+          "snippet": "IR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')  def get_log_",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "log.py",
+          "line": 17,
+          "snippet": "= datetime.now().strftime('%Y-%m-%d')     return os.path.join(DATA_DIR, f'log-{date_str}.json')  de",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "log.py",
+          "line": 175,
+          "snippet": "os.makedirs(DATA_DIR, exist_ok=True)     return os.path.join(DATA_DIR, 'weight.json')  def load_we",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "json_parsing",
+          "severity": "LOW",
+          "description": "JSON parsing",
+          "file": "log.py",
+          "line": 63,
+          "snippet": "_add(args):     log = load_log()          items = json.loads(args.items) if args.items else []",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "json_parsing",
+          "severity": "LOW",
+          "description": "JSON file loading",
+          "file": "log.py",
+          "line": 63,
+          "snippet": "_add(args):     log = load_log()          items = json.loads(args.items) if args.items else []",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "profile.py",
+          "line": 27,
+          "snippet": "(profile):     path = get_profile_path()     with open(path, 'w', encoding='utf-8') as f:         js",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "profile.py",
+          "line": 12,
+          "snippet": "rt math from datetime import datetime  DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.pa",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "profile.py",
+          "line": 12,
+          "snippet": "datetime import datetime  DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "profile.py",
+          "line": 12,
+          "snippet": "datetime  DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "profile.py",
+          "line": 12,
+          "snippet": "IR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')  def get_prof",
+          "confidence": 0.8
+        },
+        {
+          "skill": "half-full",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "profile.py",
+          "line": 16,
+          "snippet": "os.makedirs(DATA_DIR, exist_ok=True)     return os.path.join(DATA_DIR, 'profile.json')  def load_p",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "zulip",
+      "findings_count": 4,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "zulip",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "SKILL.md",
+          "line": 231,
+          "snippet": "tures  ### Upload and Share Files  ```python with open(\"file.pdf\", \"rb\") as f:     result = client.u",
+          "confidence": 0.8
+        },
+        {
+          "skill": "zulip",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "zulip_client.py",
+          "line": 24,
+          "snippet": "if config_file is None:         config_file = os.path.expanduser(\"~/.config/zulip/zuliprc\")",
+          "confidence": 0.8
+        },
+        {
+          "skill": "zulip",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "zulip_client.py",
+          "line": 26,
+          "snippet": "nduser(\"~/.config/zulip/zuliprc\")          if not os.path.exists(config_file):         print(f\"Error",
+          "confidence": 0.8
+        },
+        {
+          "skill": "zulip",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Pathlib usage",
+          "file": "zulip_client.py",
+          "line": 12,
+          "snippet": "rt os import sys import json import argparse from pathlib import Path  try:     import zulip except",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "knowledge-graph",
+      "findings_count": 3,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "knowledge-graph",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Pathlib usage",
+          "file": "kg.py",
+          "line": 20,
+          "snippet": "etime as _dt import json import os import re from pathlib import Path from typing import Any, Dict,",
+          "confidence": 0.8
+        },
+        {
+          "skill": "knowledge-graph",
+          "category": "json_parsing",
+          "severity": "LOW",
+          "description": "JSON parsing",
+          "file": "kg.py",
+          "line": 61,
+          "snippet": "ists():         return []     try:         data = json.loads(path.read_text(\"utf-8\"))     except jso",
+          "confidence": 0.8
+        },
+        {
+          "skill": "knowledge-graph",
+          "category": "json_parsing",
+          "severity": "LOW",
+          "description": "JSON file loading",
+          "file": "kg.py",
+          "line": 61,
+          "snippet": "ists():         return []     try:         data = json.loads(path.read_text(\"utf-8\"))     except jso",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "communication-mqtt",
+      "findings_count": 2,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "communication-mqtt",
+          "category": "json_parsing",
+          "severity": "LOW",
+          "description": "JSON parsing",
+          "file": "subscribe.py",
+          "line": 27,
+          "snippet": ".decode(errors=\"replace\")     try:         data = json.loads(payload_raw)     except Exception:",
+          "confidence": 0.8
+        },
+        {
+          "skill": "communication-mqtt",
+          "category": "json_parsing",
+          "severity": "LOW",
+          "description": "JSON file loading",
+          "file": "subscribe.py",
+          "line": 27,
+          "snippet": ".decode(errors=\"replace\")     try:         data = json.loads(payload_raw)     except Exception:",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "personal-finance",
+      "findings_count": 2,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "personal-finance",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "init_db.py",
+          "line": 5,
+          "snippet": "import sqlite3 import os import sys  DB_PATH = os.path.expanduser(\"~/.openclaw/workspace/skills/p",
+          "confidence": 0.8
+        },
+        {
+          "skill": "personal-finance",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Path manipulation",
+          "file": "init_db.py",
+          "line": 8,
+          "snippet": "ance/finance.db\")  def init_db():     os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)     conn",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "send-email-2",
+      "findings_count": 2,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "send-email-2",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "send_email.py",
+          "line": 286,
+          "snippet": "_type = mime_type.split('/', 1)              with open(filepath, 'rb') as f:                 msg.add",
+          "confidence": 0.8
+        },
+        {
+          "skill": "send-email-2",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Pathlib usage",
+          "file": "send_email.py",
+          "line": 15,
+          "snippet": "mport sys from email.utils import formataddr from pathlib import Path from typing import Optional  i",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "calorie-counter",
+      "findings_count": 1,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "calorie-counter",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "Pathlib usage",
+          "file": "calorie_tracker.py",
+          "line": 9,
+          "snippet": "sqlite3 import sys from datetime import date from pathlib import Path  # Database path relative to s",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "custom-smtp-sender",
+      "findings_count": 1,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "custom-smtp-sender",
+          "category": "file_operation",
+          "severity": "LOW",
+          "description": "File open",
+          "file": "email_sender.py",
+          "line": 40,
+          "snippet": "es     for file_path in attachments:         with open(file_path, 'rb') as attachment:             m",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "resume-optimizer",
+      "findings_count": 1,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": true,
+      "findings": [
+        {
+          "skill": "resume-optimizer",
+          "category": "shell_command",
+          "severity": "LOW",
+          "description": "Subprocess usage",
+          "file": "generate_resume_pdf.py",
+          "line": 21,
+          "snippet": "stalling reportlab...\")     import subprocess     subprocess.check_call(['pip', 'install', 'reportla",
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "skill_name": "abm-outbound",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "adhd-daily-planner",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "ai-meeting-room",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "airtable-automation",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "al-khanjry-bus",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "apollo",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "applicant-screening",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "basecamp-automation",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "beijing-tech-finance",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "better-notion",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "bot-debate",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "botmadang",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "carddav-contacts",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "chaterimo-openclaw-skill",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "chirp",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "clawconnect",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "clawdbot-skill-voice-wake-say",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "clawstin",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "coconala-seller",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "code-task-generator",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "cognary-ai-tasks",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "cold-email",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "composio-connect",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "cpc-mpqc-competence-tracker-compliance-uk",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "craft",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "create-videoconference",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "customer-crm",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "discord-chat",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "dm-bot",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "dropshipping-mentor-nick-skill",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "email-best-practices",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "email-marketing-copy",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "envios",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "feishu-leave-request",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "file-organizer",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "finishing-a-development-branch",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "focus-mode",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "fortune-oracle",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "gamification-xp",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "get-focus-mode",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "gog-html-email",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "gogcli",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "healthy-eating",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "hotmention",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "human-negotiator",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "icloud-findmy",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "instaclaw",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "instagram-poster",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "instapaper",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "jaen",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "job-description",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "kakiyo",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "korean-claw",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "lark-bot-listener",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "lark-custom-bot",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "linkedin-automation",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "linkedin-scraper",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "lofy-career",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "lofy-fitness",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "mailchannels",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "makeovern",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "mindfulness-meditation",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "no-nonsense-tasks",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "nonopost",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "norman-categorize-transactions",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "olvid-channel",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "opentweet-x-poster",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "outlook-email",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "pamela-calls",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "pear-apple",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "pear-icloud",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "penguin-pet",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "personal-ideas",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "personal-love",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "personal-notes",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "personal-travel",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "planka-cli",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "planka",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "pocketalert",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "pollclaw",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "pomodoro-bot",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "pref0",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "prompt-seller",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "quality-gate",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "reasoning-personas",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "receiving-code-review",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "remindme",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "rescuetime",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "senior-dev",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "snipit",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "solo-cli",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "supervisor-proposer",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "telegram-ascii-table",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "test-wa",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "timely",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "timer",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "tokportal",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "truetime",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "twitter",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "verification-checkpoint",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "vocabulary-builder",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "voice-wake-say",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "voicenotes-official",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "whatsapp-local-endpoints-router",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "whatsmolt",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "whisper",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "whiss",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "writing-plans-2",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "x-post-automation",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "x-timeline-digest",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "x-trends-dev",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    },
+    {
+      "skill_name": "xbio",
+      "findings_count": 0,
+      "has_high": false,
+      "has_medium": false,
+      "has_low": false,
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "skill_path": "dev-chronicle",
+  "files_scanned": 6,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "gather.sh",
+      "line": 62,
+      "snippet": "ate in \"$HOME/.openclaw/workspace/memory\" \"$HOME/.claude/workspace/memory\"; do     [ -d \"$candidate\"",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "gather.sh",
+      "line": 67,
+      "snippet": "in \"$HOME/.openclaw/agents/main/sessions\" \"$HOME/.claude/agents/main/sessions\"; do     [ -d \"$candid",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "gather.sh",
+      "line": 36,
+      "snippet": "DIRS=$(python3 -c \" import json, os c = json.load(open('$CONFIG')) for d in c.get('projectDirs', ['~",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "gather.sh",
+      "line": 40,
+      "snippet": "_DEPTH=$(python3 -c \"import json; print(json.load(open('$CONFIG')).get('projectDepth', 3))\" 2>/dev/n",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "gather.sh",
+      "line": 122,
+      "snippet": "endswith('.lock'): continue     try:         with open(f) as fh:             d = json.loads(fh.readl",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "gather.sh",
+      "line": 126,
+      "snippet": "and ts <= end:             lines = sum(1 for _ in open(f))             sid = os.path.basename(f).rep",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "gather.sh",
+      "line": 38,
+      "snippet": "n c.get('projectDirs', ['~/Projects']):     print(os.path.expanduser(d)) \" 2>/dev/null || echo \"$HOM",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "gather.sh",
+      "line": 119,
+      "snippet": "ATE', '$DATE' found = 0 for f in sorted(glob.glob(os.path.join(sdir, '*.jsonl'))):     if f.endswith",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "gather.sh",
+      "line": 127,
+      "snippet": "lines = sum(1 for _ in open(f))             sid = os.path.basename(f).replace('.jsonl','')",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "gather.sh",
+      "line": 123,
+      "snippet": "try:         with open(f) as fh:             d = json.loads(fh.readline())         ts = d.get('time",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "gather.sh",
+      "line": 36,
+      "snippet": "PROJECT_DIRS=$(python3 -c \" import json, os c = json.load(open('$CONFIG')) for d in c.get('project",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "gather.sh",
+      "line": 40,
+      "snippet": "PROJECT_DEPTH=$(python3 -c \"import json; print(json.load(open('$CONFIG')).get('projectDepth', 3))",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "gather.sh",
+      "line": 123,
+      "snippet": "try:         with open(f) as fh:             d = json.loads(fh.readline())         ts = d.get('time",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 11,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.06010270118713379,
+  "timestamp": "2026-02-22T22:40:16.352538"
+}

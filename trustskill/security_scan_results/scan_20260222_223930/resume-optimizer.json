@@ -1,0 +1,24 @@
+{
+  "skill_path": "resume-optimizer",
+  "files_scanned": 7,
+  "findings": [
+    {
+      "level": "LOW",
+      "category": "shell_command",
+      "description": "Subprocess usage",
+      "file": "generate_resume_pdf.py",
+      "line": 21,
+      "snippet": "stalling reportlab...\")     import subprocess     subprocess.check_call(['pip', 'install', 'reportla",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 1,
+    "INFO": 0
+  },
+  "security_assessment": "✅ SAFE: No significant security issues found.",
+  "scan_time": 0.17000126838684082,
+  "timestamp": "2026-02-22T22:40:31.090288"
+}

@@ -1,0 +1,24 @@
+{
+  "skill_path": "clawdbites",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 305,
+      "snippet": "Extract 5-8 key frames with ffmpeg    └── Send to Claude vision    └── Ask: \"Extract any recipe text",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.042983055114746094,
+  "timestamp": "2026-02-22T22:40:13.757875"
+}

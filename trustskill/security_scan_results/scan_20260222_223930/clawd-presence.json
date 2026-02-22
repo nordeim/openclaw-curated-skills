@@ -1,0 +1,168 @@
+{
+  "skill_path": "clawd-presence",
+  "files_scanned": 33,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "file_access_outside_workspace",
+      "description": "Home directory access",
+      "file": "configure.py",
+      "line": 31,
+      "snippet": "ot config locations CLAWDBOT_CONFIG_PATHS = [     Path.home() / \".config\" / \"clawd\" / \"config.yaml\",",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "file_access_outside_workspace",
+      "description": "Home directory access",
+      "file": "configure.py",
+      "line": 32,
+      "snippet": "home() / \".config\" / \"clawd\" / \"config.yaml\",     Path.home() / \".config\" / \"clawd\" / \"config.yml\",",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "file_access_outside_workspace",
+      "description": "Home directory access",
+      "file": "configure.py",
+      "line": 33,
+      "snippet": ".home() / \".config\" / \"clawd\" / \"config.yml\",     Path.home() / \".clawd\" / \"config.yaml\",     Path.h",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "file_access_outside_workspace",
+      "description": "Home directory access",
+      "file": "configure.py",
+      "line": 34,
+      "snippet": ",     Path.home() / \".clawd\" / \"config.yaml\",     Path.home() / \".clawd\" / \"config.yml\",     Path.ho",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "file_access_outside_workspace",
+      "description": "Home directory access",
+      "file": "configure.py",
+      "line": 35,
+      "snippet": "\",     Path.home() / \".clawd\" / \"config.yml\",     Path.home() / \".config\" / \"clawdbot\" / \"config.yam",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "file_access_outside_workspace",
+      "description": "Home directory access",
+      "file": "configure.py",
+      "line": 36,
+      "snippet": "e() / \".config\" / \"clawdbot\" / \"config.yaml\",     Path.home() / \".config\" / \"clawdbot\" / \"config.yml",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "configure.py",
+      "line": 10,
+      "snippet": "t 300     python3 configure.py --letter C --name \"CLAUDE\" --timeout 600 \"\"\"  from __future__ import",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "configure.py",
+      "line": 59,
+      "snippet": "t.mkdir(parents=True, exist_ok=True)         with open(CONFIG_FILE, \"w\", encoding=\"utf-8\") as f:",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "configure.py",
+      "line": 18,
+      "snippet": "ions  import argparse import json import sys from pathlib import Path from typing import Any  CONFIG",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "yaml_parsing",
+      "description": "PyYAML usage",
+      "file": "configure.py",
+      "line": 167,
+      "snippet": "clawdbot config\")             print(\"Tip: Install PyYAML (pip install pyyaml) if not installed\")",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "yaml_parsing",
+      "description": "PyYAML usage",
+      "file": "configure.py",
+      "line": 167,
+      "snippet": "print(\"Tip: Install PyYAML (pip install pyyaml) if not installed\")             if not any(",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "display.py",
+      "line": 67,
+      "snippet": "t.mkdir(parents=True, exist_ok=True)         with open(filepath, \"w\", encoding=\"utf-8\") as f:",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "display.py",
+      "line": 18,
+      "snippet": "ys import time from datetime import datetime from pathlib import Path from typing import Any  # Path",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "generate_monograms.py",
+      "line": 466,
+      "snippet": "lines = design.strip().split(\"\\n\")         with open(filepath, \"w\") as f:             f.write(\"\\n\"",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "generate_monograms.py",
+      "line": 7,
+      "snippet": "Creates geometric block-style letters. \"\"\"  from pathlib import Path  MONO_DIR = Path(__file__).par",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "status.py",
+      "line": 65,
+      "snippet": "t.mkdir(parents=True, exist_ok=True)         with open(STATE_FILE, \"w\", encoding=\"utf-8\") as f:",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "status.py",
+      "line": 18,
+      "snippet": "otations  import json import sys import time from pathlib import Path from typing import NoReturn  S",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 7,
+    "LOW": 10,
+    "INFO": 0
+  },
+  "security_assessment": "🟡 WARNING: Multiple medium-risk issues found. Review recommended.",
+  "scan_time": 0.16483783721923828,
+  "timestamp": "2026-02-22T22:40:13.576444"
+}

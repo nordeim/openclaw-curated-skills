@@ -1,0 +1,123 @@
+{
+  "skill_path": "pocketsmith-skill",
+  "files_scanned": 11,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 24,
+      "snippet": "e into your personal skills directory mkdir -p ~/.claude/skills cd ~/.claude/skills git clone https:",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 25,
+      "snippet": "skills directory mkdir -p ~/.claude/skills cd ~/.claude/skills git clone https://github.com/lextoum",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 37,
+      "snippet": "ne into your project's skills directory mkdir -p .claude/skills cd .claude/skills git clone https://",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 38,
+      "snippet": "ct's skills directory mkdir -p .claude/skills cd .claude/skills git clone https://github.com/lextoum",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 81,
+      "snippet": "sync ```  ### Verify Installation  ```bash cd ~/.claude/skills/pocketsmith  # or respective directo",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "auth.py",
+      "line": 15,
+      "snippet": "SMITH_DEVELOPER_KEY is not set.     \"\"\"     key = os.environ.get(\"POCKETSMITH_DEVELOPER_KEY\")     if",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "auth.py",
+      "line": 30,
+      "snippet": "is set, False otherwise.     \"\"\"     return bool(os.environ.get(\"POCKETSMITH_DEVELOPER_KEY\"))",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "cli.py",
+      "line": 30,
+      "snippet": "unc)     def wrapper(*args, **kwargs):         if os.environ.get(\"POCKETSMITH_ALLOW_WRITES\", \"\").low",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "httpx usage",
+      "file": "client.py",
+      "line": 5,
+      "snippet": "ion.\"\"\"  from typing import Any, Optional  import httpx  from .auth import get_developer_key  BASE_U",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "httpx usage",
+      "file": "client.py",
+      "line": 16,
+      "snippet": "ef __init__(self):         self._client: Optional[httpx.Client] = None      def _get_client(self) ->",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "httpx usage",
+      "file": "client.py",
+      "line": 18,
+      "snippet": "ttpx.Client] = None      def _get_client(self) -> httpx.Client:         \"\"\"Get or create the HTTP cl",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "httpx usage",
+      "file": "client.py",
+      "line": 21,
+      "snippet": "self._client is None:             self._client = httpx.Client(                 base_url=BASE_URL,",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 12,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟡 WARNING: Multiple medium-risk issues found. Review recommended.",
+  "scan_time": 0.23301148414611816,
+  "timestamp": "2026-02-22T22:40:28.705324"
+}

@@ -1,0 +1,123 @@
+{
+  "skill_path": "calendar-reminders",
+  "files_scanned": 4,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "calendar_reminder_plan.py",
+      "line": 66,
+      "snippet": "tart_local + dt.timedelta(days=1)      env = dict(os.environ)     env.setdefault(\"PYTHONWARNINGS\", \"",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "calendar_reminder_plan.py",
+      "line": 107,
+      "snippet": "dt.timedelta(days=1)).isoformat()      env = dict(os.environ)     env[\"TZ\"] = str(cfg.get(\"timezone\"",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "calendar_reminder_plan.py",
+      "line": 172,
+      "snippet": "tParser()     ap.add_argument(\"--config\", default=os.environ.get(\"OPENCLAW_CALENDAR_CONFIG\") or DEFA",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "shell_command",
+      "description": "Subprocess usage",
+      "file": "calendar_reminder_plan.py",
+      "line": 90,
+      "snippet": "l.isoformat(timespec=\"minutes\"),     ]      out = subprocess.check_output(cmd, text=True, env=env)",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "calendar_reminder_plan.py",
+      "line": 22,
+      "snippet": "s from zoneinfo import ZoneInfo  DEFAULT_CONFIG = os.path.expanduser(\"~/.config/openclaw/calendar.js",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "calendar_reminder_plan.py",
+      "line": 23,
+      "snippet": "/.config/openclaw/calendar.json\") DEFAULT_STATE = os.path.expanduser(\"~/.local/state/openclaw/calend",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "calendar_reminder_plan.py",
+      "line": 34,
+      "snippet": "ensure_parent(path: str) -> None:     os.makedirs(os.path.dirname(path), exist_ok=True)   def _utcno",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "calendar_reminder_plan.py",
+      "line": 56,
+      "snippet": "google = cfg.get(\"google\") or {}     gcalcli = os.path.expanduser(google.get(\"gcalcliPath\") or \"g",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "calendar_reminder_plan.py",
+      "line": 178,
+      "snippet": "args = ap.parse_args(argv)      cfg = _load_json(os.path.expanduser(args.config))      tz_name = st",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "calendar_reminder_plan.py",
+      "line": 196,
+      "snippet": "emindIfKeywords\") or [])      state = _load_state(os.path.expanduser(args.state))     now_utc = _utc",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "calendar_reminder_plan.py",
+      "line": 335,
+      "snippet": "\"skipped\": skipped,         \"configPath\": os.path.expanduser(args.config),         \"statePat",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "calendar_reminder_plan.py",
+      "line": 336,
+      "snippet": "ath.expanduser(args.config),         \"statePath\": os.path.expanduser(args.state),     }      print(j",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 3,
+    "LOW": 9,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.10683584213256836,
+  "timestamp": "2026-02-22T22:40:12.412487"
+}

@@ -1,0 +1,33 @@
+{
+  "skill_path": "vexa",
+  "files_scanned": 5,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "webhook-setup.md",
+      "line": 66,
+      "snippet": "hostname: openclaw-hooks.vexa.ai        service: http://127.0.0.1:18789      - service: http_status",
+      "confidence": 0.7
+    },
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "webhook-setup.md",
+      "line": 79,
+      "snippet": "el down), the script sends a **mock webhook** to `http://127.0.0.1:<gateway.port>/hooks/vexa`. This",
+      "confidence": 0.7
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.041608572006225586,
+  "timestamp": "2026-02-22T22:40:34.139994"
+}

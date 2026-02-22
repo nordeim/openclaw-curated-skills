@@ -1,0 +1,42 @@
+{
+  "skill_path": "postfast",
+  "files_scanned": 6,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "README-PUBLISHING-GUIDE.md",
+      "line": 122,
+      "snippet": "* — Environment variable: ```bash export POSTFAST_API_KEY=\"your-api-key\" ```  **Option B** — OpenCla",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 18,
+      "snippet": "vironment variable:    ```bash    export POSTFAST_API_KEY=\"your-api-key\"    ```  Base URL: `https://",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "blog-post-openclaw-skill.md",
+      "line": 86,
+      "snippet": "export POSTFAST_API_KEY=\"your-api-key-here\"",
+      "confidence": 0.85
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 3,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.06543946266174316,
+  "timestamp": "2026-02-22T22:40:29.271242"
+}

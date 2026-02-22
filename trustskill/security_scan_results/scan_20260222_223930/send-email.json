@@ -1,0 +1,69 @@
+{
+  "skill_path": "send-email",
+  "files_scanned": 5,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "getenv call",
+      "file": "send_email.py",
+      "line": 20,
+      "snippet": "= os.getenv(\"EMAIL_SENDER\") AUTHORIZATION_CODE = os.getenv(\"EMAIL_SMTP_PASSWORD\") USE_TLS = (os.get",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "getenv call",
+      "file": "send_email.py",
+      "line": 21,
+      "snippet": "ODE = os.getenv(\"EMAIL_SMTP_PASSWORD\") USE_TLS = (os.getenv(\"EMAIL_USE_TLS\") or \"false\").lower() ==",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "send_email.py",
+      "line": 48,
+      "snippet": "from email import encoders             with open(attachment_path, 'rb') as f:",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "send_email.py",
+      "line": 42,
+      "snippet": "ry:         # 创建邮件         if attachment_path and os.path.exists(attachment_path):             msg =",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "send_email.py",
+      "line": 54,
+      "snippet": "on',                     f'attachment; filename= {os.path.basename(attachment_path)}'",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "send_email.py",
+      "line": 78,
+      "snippet": "if attachment_path:             print(f\"   附件: {os.path.basename(attachment_path)}\")         retur",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 4,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.03996753692626953,
+  "timestamp": "2026-02-22T22:40:31.266722"
+}

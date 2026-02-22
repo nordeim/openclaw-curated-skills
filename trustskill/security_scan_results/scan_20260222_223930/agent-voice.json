@@ -1,0 +1,24 @@
+{
+  "skill_path": "agent-voice",
+  "files_scanned": 2,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "SKILL.md",
+      "line": 75,
+      "snippet": "export AGENT_BLOG_API_KEY=\"your-api-key-here\"",
+      "confidence": 0.85
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.040993690490722656,
+  "timestamp": "2026-02-22T22:40:09.710474"
+}

@@ -1,0 +1,33 @@
+{
+  "skill_path": "giphy",
+  "files_scanned": 2,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 25,
+      "snippet": "ary (current shell session)  ```bash export GIPHY_API_KEY=\"your-api-key\" ```  ### Option B: Persiste",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 33,
+      "snippet": "ended)  Add to `~/.openclaw/.env`:  ```bash GIPHY_API_KEY=your-api-key ```  Then restart OpenClaw so",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.020263195037841797,
+  "timestamp": "2026-02-22T22:40:19.347993"
+}

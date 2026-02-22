@@ -1,0 +1,33 @@
+{
+  "skill_path": "communication-mqtt",
+  "files_scanned": 4,
+  "findings": [
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "subscribe.py",
+      "line": 27,
+      "snippet": ".decode(errors=\"replace\")     try:         data = json.loads(payload_raw)     except Exception:",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "subscribe.py",
+      "line": 27,
+      "snippet": ".decode(errors=\"replace\")     try:         data = json.loads(payload_raw)     except Exception:",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 2,
+    "INFO": 0
+  },
+  "security_assessment": "✅ SAFE: No significant security issues found.",
+  "scan_time": 0.03758645057678223,
+  "timestamp": "2026-02-22T22:40:14.924353"
+}

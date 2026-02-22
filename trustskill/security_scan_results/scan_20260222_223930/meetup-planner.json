@@ -1,0 +1,60 @@
+{
+  "skill_path": "meetup-planner",
+  "files_scanned": 5,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 38,
+      "snippet": "b.com/apresmoi/meetup-planner.git  # Copy to your Claude skills directory mkdir -p ~/.claude/skills/",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 39,
+      "snippet": "Copy to your Claude skills directory mkdir -p ~/.claude/skills/meetup-planner cp -r meetup-planner/",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 40,
+      "snippet": "e/skills/meetup-planner cp -r meetup-planner/* ~/.claude/skills/meetup-planner/ ```  ## 🚀 Quick Star",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 73,
+      "snippet": "AI/ML meetups, hackathons, and tech conferences  Claude: Awesome! What's your location?  You: San F",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 77,
+      "snippet": "esome! What's your location?  You: San Francisco  Claude: Perfect! [continues preference collection.",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 5,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.08124303817749023,
+  "timestamp": "2026-02-22T22:40:24.038577"
+}

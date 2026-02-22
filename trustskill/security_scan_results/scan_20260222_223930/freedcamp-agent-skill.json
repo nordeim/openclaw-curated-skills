@@ -1,0 +1,33 @@
+{
+  "skill_path": "freedcamp-agent-skill",
+  "files_scanned": 5,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API secret usage",
+      "file": "SKILL.md",
+      "line": 51,
+      "snippet": "nfig unset skills.entries.freedcamp.env.FREEDCAMP_API_SECRET ```  ## First calls (sanity + discovery",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API secret usage",
+      "file": "REFERENCE.md",
+      "line": 13,
+      "snippet": "t: generate `hash = HMAC-SHA1(apiKey + timestamp, apiSecret)`, then send `api_key`, `timestamp`, and",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.08337163925170898,
+  "timestamp": "2026-02-22T22:40:18.828417"
+}
