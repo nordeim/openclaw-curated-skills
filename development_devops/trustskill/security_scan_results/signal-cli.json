@@ -1,0 +1,114 @@
+{
+  "skill_path": "signal-cli",
+  "files_scanned": 4,
+  "findings": [
+    {
+      "level": "LOW",
+      "category": "shell_command",
+      "description": "Subprocess usage",
+      "file": "find_contact.py",
+      "line": 5,
+      "snippet": "json, re, subprocess, sys  def run(cmd):     p = subprocess.run(cmd, stdout=subprocess.PIPE, stderr",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "shell_command",
+      "description": "Subprocess usage",
+      "file": "find_contact.py",
+      "line": 5,
+      "snippet": "def run(cmd):     p = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "shell_command",
+      "description": "Subprocess usage",
+      "file": "find_contact.py",
+      "line": 5,
+      "snippet": "ubprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)     if p.returncode !=",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "find_contact.py",
+      "line": 49,
+      "snippet": "u\", args.account, \"listContacts\"])     contacts = json.loads(out)      matches = []      if is_e164(",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "find_contact.py",
+      "line": 49,
+      "snippet": "u\", args.account, \"listContacts\"])     contacts = json.loads(out)      matches = []      if is_e164(",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "shell_command",
+      "description": "Subprocess usage",
+      "file": "send_message.py",
+      "line": 6,
+      "snippet": "s from pathlib import Path  def run(cmd):     p = subprocess.run(cmd, stdout=subprocess.PIPE, stderr",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "shell_command",
+      "description": "Subprocess usage",
+      "file": "send_message.py",
+      "line": 6,
+      "snippet": "def run(cmd):     p = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "shell_command",
+      "description": "Subprocess usage",
+      "file": "send_message.py",
+      "line": 6,
+      "snippet": "ubprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)     if p.returncode !=",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "send_message.py",
+      "line": 3,
+      "snippet": "3 import argparse, json, re, subprocess, sys from pathlib import Path  def run(cmd):     p = subproc",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "send_message.py",
+      "line": 40,
+      "snippet": "\", \"-u\", account, \"listContacts\"])     contacts = json.loads(out)     qn = norm(to)     matches = []",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "send_message.py",
+      "line": 40,
+      "snippet": "\", \"-u\", account, \"listContacts\"])     contacts = json.loads(out)     qn = norm(to)     matches = []",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 11,
+    "INFO": 0
+  },
+  "security_assessment": "✅ SAFE: No significant security issues found.",
+  "scan_time": 0.03908872604370117,
+  "timestamp": "2026-02-22T07:35:45.179732"
+}

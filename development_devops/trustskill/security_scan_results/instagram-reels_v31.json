@@ -1,0 +1,96 @@
+{
+  "skill_path": "instagram-reels",
+  "files_scanned": 2,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 36,
+      "snippet": "t your environment variable:  ```bash export GROQ_API_KEY=\"your-groq-api-key\" ```  ## Usage  Process",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 71,
+      "snippet": "roq Whisper  ```bash curl -s https://api.groq.com/openai/v1/audio/transcriptions \\   -H \"Authorizati",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 110,
+      "snippet": "mp3 2>/dev/null && \\ curl -s https://api.groq.com/openai/v1/audio/transcriptions \\   -H \"Authorizati",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 125,
+      "snippet": "mp3 2>/dev/null && \\ curl -s https://api.groq.com/openai/v1/audio/transcriptions \\   -H \"Authorizati",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "SKILL.md",
+      "line": 58,
+      "snippet": "UDIO_URL=$(python3 -c \" import json d = json.load(open('/tmp/reel.info.json')) for f in d.get('forma",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "SKILL.md",
+      "line": 85,
+      "snippet": "a  ```bash python3 -c \" import json d = json.load(open('/tmp/reel.info.json')) print('Caption:', d.g",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "SKILL.md",
+      "line": 58,
+      "snippet": "```bash AUDIO_URL=$(python3 -c \" import json d = json.load(open('/tmp/reel.info.json')) for f in d.",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "SKILL.md",
+      "line": 85,
+      "snippet": "om metadata  ```bash python3 -c \" import json d = json.load(open('/tmp/reel.info.json')) print('Capt",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "SKILL.md",
+      "line": 36,
+      "snippet": "export GROQ_API_KEY=\"your-groq-api-key\"",
+      "confidence": 0.85
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 5,
+    "LOW": 4,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.025958538055419922,
+  "timestamp": "2026-02-22T09:28:41.126159"
+}

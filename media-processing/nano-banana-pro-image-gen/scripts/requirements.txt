@@ -1,0 +1,5 @@
+# Security Requirements for nano-banana-pro-image-gen
+# Generated: 2026-02-22
+# Reason: Mitigation of PYSEC-2018-28 (requests SSL certificate bypass)
+
+requests>=2.22.0

@@ -1,0 +1,24 @@
+{
+  "skill_path": "imap-smtp-email",
+  "files_scanned": 7,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "package.json",
+      "line": 4,
+      "snippet": ".0.0\",   \"description\": \"IMAP/SMTP email tool for Claude. Works with Gmail, Outlook, 163.com, vip.16",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.08721494674682617,
+  "timestamp": "2026-02-22T09:28:40.967597"
+}

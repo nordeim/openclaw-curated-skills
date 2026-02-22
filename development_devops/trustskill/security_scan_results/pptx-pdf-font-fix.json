@@ -1,0 +1,42 @@
+{
+  "skill_path": "pptx-pdf-font-fix",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "fix_font_transparency.py",
+      "line": 111,
+      "snippet": "x font transparency in a PPTX file.\"\"\"     if not os.path.exists(input_path):         raise FileNotF",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "fix_font_transparency.py",
+      "line": 155,
+      "snippet": "gs()      if not args.output:         base, ext = os.path.splitext(args.input)         args.output =",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "shutil usage",
+      "file": "fix_font_transparency.py",
+      "line": 136,
+      "snippet": "zout.writestr(item, data)          shutil.copy2(tmp_output, output_path)      return",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 3,
+    "INFO": 0
+  },
+  "security_assessment": "✅ SAFE: No significant security issues found.",
+  "scan_time": 0.033966064453125,
+  "timestamp": "2026-02-22T07:35:36.556905"
+}

@@ -1,0 +1,51 @@
+{
+  "skill_path": "zotero-sholar",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "save_paper.py",
+      "line": 122,
+      "snippet": "h.join(td, safe_filename)                         urllib.request.urlretrieve(pdf_url, pdf_path)",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "data_download",
+      "description": "File download via urllib",
+      "file": "save_paper.py",
+      "line": 122,
+      "snippet": "h.join(td, safe_filename)                         urllib.request.urlretrieve(pdf_url, pdf_path)",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "save_paper.py",
+      "line": 121,
+      "snippet": "ctory() as td:                         pdf_path = os.path.join(td, safe_filename)",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "save_paper.py",
+      "line": 32,
+      "snippet": "api_key = parts[1].strip()",
+      "confidence": 0.85
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 3,
+    "LOW": 1,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.03675508499145508,
+  "timestamp": "2026-02-22T09:28:46.429787"
+}

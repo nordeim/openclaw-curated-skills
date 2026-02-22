@@ -1,0 +1,9 @@
+# Sarvam AI Skill Dependencies
+# 
+# Security: These versions are pinned to ensure known vulnerabilities
+# are not present. See SKILL.md for details.
+#
+# PYSEC-2018-28 (SSL certificate bypass) was fixed in requests 2.20.0
+# We use 2.20.0 as minimum to ensure this vulnerability is not present.
+
+requests>=2.20.0
