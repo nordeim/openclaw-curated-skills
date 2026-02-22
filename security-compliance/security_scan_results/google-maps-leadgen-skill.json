@@ -1,0 +1,61 @@
+{
+  "skill_path": "/home/project/openclaw/curated_skills/ai_agent_infrastructure/google-maps-leadgen-skill",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "gmaps_leads_export.py",
+      "line": 8,
+      "snippet": "e import subprocess from pathlib import Path from urllib.parse import quote_plus   def mc_call(tool:",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "gmaps_leads_export.py",
+      "line": 63,
+      "snippet": "\"place_id\", \"google_maps_url\"]     with out_path.open(\"w\", newline=\"\", encoding=\"utf-8\") as f:",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "gmaps_leads_export.py",
+      "line": 7,
+      "snippet": "csv import json import re import subprocess from pathlib import Path from urllib.parse import quote",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "gmaps_leads_export.py",
+      "line": 21,
+      "snippet": "trip():         return {}     try:         return json.loads(p.stdout)     except Exception:",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "gmaps_leads_export.py",
+      "line": 21,
+      "snippet": "trip():         return {}     try:         return json.loads(p.stdout)     except Exception:",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 4,
+    "INFO": 0
+  },
+  "security_assessment": "\ud83d\udfe2 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.03302574157714844,
+  "timestamp": "2026-02-21T23:46:58.091945",
+  "skill_name": "google-maps-leadgen-skill"
+}

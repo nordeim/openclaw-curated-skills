@@ -1,0 +1,15 @@
+{
+  "skill_path": "/home/project/openclaw/curated_skills/ai_agent_infrastructure/nostr-nak",
+  "files_scanned": 3,
+  "findings": [],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "\u2705 SAFE: No significant security issues found.",
+  "scan_time": 0.07270359992980957,
+  "timestamp": "2026-02-21T23:46:59.866076",
+  "skill_name": "nostr-nak"
+}

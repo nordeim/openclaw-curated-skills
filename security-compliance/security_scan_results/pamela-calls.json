@@ -1,0 +1,24 @@
+{
+  "skill_path": "pamela-calls",
+  "files_scanned": 2,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 75,
+      "snippet": "pamela import PamelaClient  client = PamelaClient(api_key=\"pk_live_...\")  call = client.create_call(",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.017780780792236328,
+  "timestamp": "2026-02-21T13:36:06.672037"
+}

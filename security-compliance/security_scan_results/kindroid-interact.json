@@ -1,0 +1,33 @@
+{
+  "skill_path": "kindroid-interact",
+  "files_scanned": 5,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "kindroid.js",
+      "line": 26,
+      "snippet": "adFileSync(configPath, 'utf8'));             this.apiKey = config.api_key;             this.aiId = t",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "kindroid.sh",
+      "line": 98,
+      "snippet": "local companion=\"$1\"     validate_config          API_KEY=$(jq -r '.api_key' \"$CONFIG_FILE\")     if",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.03427743911743164,
+  "timestamp": "2026-02-21T13:35:56.516397"
+}

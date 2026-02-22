@@ -1,0 +1,588 @@
+{
+  "scan_metadata": {
+    "timestamp": "2026-02-21T13:39:08.404149",
+    "total_skills_scanned": 295,
+    "scanner_version": "TrustSkill v3.0",
+    "mode": "standard"
+  },
+  "summary": {
+    "total_findings": 784,
+    "by_severity": {
+      "HIGH": 121,
+      "MEDIUM": 663,
+      "LOW": 0,
+      "INFO": 0
+    },
+    "by_category": {
+      "api_key_usage": 425,
+      "suspicious_url": 23,
+      "hardcoded_secret": 48,
+      "environment_access": 71,
+      "file_access_outside_workspace": 8,
+      "network_request": 88,
+      "vulnerable_dependency": 30,
+      "file_deletion": 3,
+      "credential_access": 5,
+      "deserialization": 1,
+      "sensitive_file_access": 61,
+      "data_exfiltration": 12,
+      "command_injection": 3,
+      "obfuscation": 3,
+      "dynamic_import": 3
+    }
+  },
+  "critical_findings": [
+    {
+      "skill": "balance-checker",
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "file": "query_balance.py",
+      "line": 152,
+      "description": "Secret Key"
+    },
+    {
+      "skill": "clawnet",
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "file": "beacon.rs",
+      "line": 13,
+      "description": "Secret Key"
+    },
+    {
+      "skill": "clawnet",
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "file": "identity.rs",
+      "line": 9,
+      "description": "Secret Key"
+    },
+    {
+      "skill": "clawnet",
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "file": "node.rs",
+      "line": 18,
+      "description": "Secret Key"
+    },
+    {
+      "skill": "echo-sales-ai",
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "file": "config.yaml",
+      "line": 6,
+      "description": "High-entropy string (entropy: 5.63)"
+    },
+    {
+      "skill": "echo-sales-ai",
+      "level": "HIGH",
+      "category": "credential_access",
+      "file": "echo_skill.py",
+      "line": 102,
+      "description": "Token file access"
+    },
+    {
+      "skill": "echo-sales-ai",
+      "level": "HIGH",
+      "category": "credential_access",
+      "file": "echo_skill.py",
+      "line": 110,
+      "description": "Token file access"
+    },
+    {
+      "skill": "echo-sales-ai",
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "file": "echo_skill.py",
+      "line": 46,
+      "description": "OpenAI API Key"
+    },
+    {
+      "skill": "echo-sales-ai",
+      "level": "HIGH",
+      "category": "credential_access",
+      "file": "email_type_classifier.py",
+      "line": 104,
+      "description": "Token file access"
+    },
+    {
+      "skill": "echo-sales-ai",
+      "level": "HIGH",
+      "category": "credential_access",
+      "file": "email_type_classifier.py",
+      "line": 112,
+      "description": "Token file access"
+    },
+    {
+      "skill": "echo-sales-ai",
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "file": "email_type_classifier.py",
+      "line": 46,
+      "description": "OpenAI API Key"
+    },
+    {
+      "skill": "email-summary",
+      "level": "HIGH",
+      "category": "credential_access",
+      "file": "fetch_emails.py",
+      "line": 59,
+      "description": "Token file access"
+    },
+    {
+      "skill": "eve-online-item-search",
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "file": "search.py",
+      "line": 6,
+      "description": "urllib network request"
+    },
+    {
+      "skill": "find-emails",
+      "level": "HIGH",
+      "category": "command_injection",
+      "file": "find_emails.py",
+      "line": 14,
+      "description": "compile() execution with variable"
+    },
+    {
+      "skill": "gitignore-sync",
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "file": "update_gitignore.py",
+      "line": 20,
+      "description": "urllib network request"
+    },
+    {
+      "skill": "gitignore-sync",
+      "level": "HIGH",
+      "category": "command_injection",
+      "file": "update_gitignore.py",
+      "line": 184,
+      "description": "compile() execution with variable"
+    },
+    {
+      "skill": "hfnews",
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "file": "news.py",
+      "line": 7,
+      "description": "urllib network request"
+    },
+    {
+      "skill": "litellm",
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "file": "SKILL.md",
+      "line": 89,
+      "description": "OpenAI API Key"
+    },
+    {
+      "skill": "senseguard",
+      "level": "HIGH",
+      "category": "command_injection",
+      "file": "rule_engine.py",
+      "line": 241,
+      "description": "compile() execution with variable"
+    },
+    {
+      "skill": "supermetrics-openclawd",
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "file": "supermetrics.py",
+      "line": 11,
+      "description": "urllib network request"
+    },
+    {
+      "skill": "zotero-paper",
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "file": "save_paper.py",
+      "line": 99,
+      "description": "urllib network request"
+    },
+    {
+      "skill": "zotero-paper",
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "file": "save_paper.py",
+      "line": 110,
+      "description": "urllib network request"
+    },
+    {
+      "skill": "zotero-paper",
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "file": "save_paper.py",
+      "line": 112,
+      "description": "urllib network request"
+    },
+    {
+      "skill": "zotero-paper",
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "file": "save_paper.py",
+      "line": 122,
+      "description": "urllib network request"
+    },
+    {
+      "skill": "zotero-scholar",
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "file": "save_paper.py",
+      "line": 99,
+      "description": "urllib network request"
+    },
+    {
+      "skill": "zotero-scholar",
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "file": "save_paper.py",
+      "line": 110,
+      "description": "urllib network request"
+    },
+    {
+      "skill": "zotero-scholar",
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "file": "save_paper.py",
+      "line": 112,
+      "description": "urllib network request"
+    },
+    {
+      "skill": "zotero-scholar",
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "file": "save_paper.py",
+      "line": 122,
+      "description": "urllib network request"
+    },
+    {
+      "skill": "avatar",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "SKILL.md",
+      "line": 20,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "avatar",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "SKILL.md",
+      "line": 21,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "avatar",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "server.ts",
+      "line": 62,
+      "description": "Token"
+    },
+    {
+      "skill": "avatar",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "server.ts",
+      "line": 122,
+      "description": "Token"
+    },
+    {
+      "skill": "axe-devtools",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "axe-mcp.js",
+      "line": 9,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "axe-devtools",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "axe-mcp.js",
+      "line": 37,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "clawctl",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "cli.py",
+      "line": 467,
+      "description": "Token"
+    },
+    {
+      "skill": "clawctl",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "cli.py",
+      "line": 477,
+      "description": "Token"
+    },
+    {
+      "skill": "clawctl",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "server.py",
+      "line": 23,
+      "description": "Token"
+    },
+    {
+      "skill": "clawctl",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "server.py",
+      "line": 26,
+      "description": "Token"
+    },
+    {
+      "skill": "clawctl",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "server.py",
+      "line": 31,
+      "description": "Token"
+    },
+    {
+      "skill": "echo-sales-ai",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "echo_skill.py",
+      "line": 56,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "echo-sales-ai",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "email_type_classifier.py",
+      "line": 56,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "fill-content-by-mixlab",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "01-fetch-no-content.js",
+      "line": 34,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "fill-content-by-mixlab",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "03-update-from-temp.js",
+      "line": 30,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "fill-content-by-mixlab",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "03-update-from-temp.js",
+      "line": 105,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "mentx-doctor",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "SKILL.md",
+      "line": 139,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "metaso-search-v2",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "metaso-api.js",
+      "line": 11,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "n8n-automation",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "SKILL.md",
+      "line": 16,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "n8n",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "SKILL.md",
+      "line": 63,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "ns-trains",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "SKILL.md",
+      "line": 24,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "openclaw-robotics",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "whatsapp.py",
+      "line": 14,
+      "description": "Token"
+    },
+    {
+      "skill": "raycast",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "oauth.md",
+      "line": 152,
+      "description": "Token"
+    },
+    {
+      "skill": "seeddance-ai-video",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "SKILL.md",
+      "line": 54,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "seeddance-ai-video",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "SKILL.md",
+      "line": 61,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "skill-cleaner",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "clean.ts",
+      "line": 24,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "tautulli",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "SKILL.md",
+      "line": 81,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "tautulli",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "activity.sh",
+      "line": 4,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "tautulli",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "history.sh",
+      "line": 6,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "tautulli",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "libraries.sh",
+      "line": 4,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "tautulli",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "recent.sh",
+      "line": 6,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "tautulli",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "server.sh",
+      "line": 4,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "tautulli",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "users.sh",
+      "line": 4,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "veo-video-generator",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "generate.js",
+      "line": 5,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "zoom-manager-clawd",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "create_meeting.py",
+      "line": 28,
+      "description": "Token"
+    },
+    {
+      "skill": "zoom-manager-clawd",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "delete_meeting.py",
+      "line": 37,
+      "description": "Token"
+    },
+    {
+      "skill": "zoom-manager-clawd",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "get_meeting_info.py",
+      "line": 35,
+      "description": "Token"
+    },
+    {
+      "skill": "zoom-manager-clawd",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "list_meetings.py",
+      "line": 47,
+      "description": "Token"
+    },
+    {
+      "skill": "zotero-paper",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "save_paper.py",
+      "line": 32,
+      "description": "Generic API Key"
+    },
+    {
+      "skill": "zotero-scholar",
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "file": "save_paper.py",
+      "line": 32,
+      "description": "Generic API Key"
+    }
+  ],
+  "high_risk_skills": [],
+  "recommendations": [
+    "Review all HIGH severity findings before deploying skills",
+    "Replace hardcoded secrets with environment variables",
+    "Audit command injection patterns for user input sanitization",
+    "Review network requests for unauthorized data transmission",
+    "Update vulnerable dependencies to patched versions"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "skill_path": "/home/project/openclaw/curated_skills/ai_agent_infrastructure/ai-news-collectors",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 53,
+      "snippet": "M launch\" [\u5f53\u524d\u6708\u4efd] - \"AI product launch\" [\u5f53\u524d\u6708\u4efd\u5e74\u4efd] - OpenAI OR Anthropic OR Google OR Meta AI announcem",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 53,
+      "snippet": "[\u5f53\u524d\u6708\u4efd] - \"AI product launch\" [\u5f53\u524d\u6708\u4efd\u5e74\u4efd] - OpenAI OR Anthropic OR Google OR Meta AI announcement - \"\u5927\u6a21\u578b",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "sources.md",
+      "line": 9,
+      "snippet": "\u6743\u5a01\u5468\u62a5 | | Import AI (Jack Clark) | importai.net | Anthropic \u8054\u521b\u7684 AI \u5468\u62a5 | | Platformer (Casey Newton)",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "sources.md",
+      "line": 83,
+      "snippet": "| | Google AI Blog | ai.googleblog.com | \u8c37\u6b4c\u7814\u7a76 | | OpenAI Blog | openai.com/blog | OpenAI \u52a8\u6001 | | Anth",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "sources.md",
+      "line": 83,
+      "snippet": "Blog | ai.googleblog.com | \u8c37\u6b4c\u7814\u7a76 | | OpenAI Blog | openai.com/blog | OpenAI \u52a8\u6001 | | Anthropic News | a",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "sources.md",
+      "line": 83,
+      "snippet": "og.com | \u8c37\u6b4c\u7814\u7a76 | | OpenAI Blog | openai.com/blog | OpenAI \u52a8\u6001 | | Anthropic News | anthropic.com/news",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "sources.md",
+      "line": 84,
+      "snippet": "| | OpenAI Blog | openai.com/blog | OpenAI \u52a8\u6001 | | Anthropic News | anthropic.com/news | Anthropic \u52a8\u6001",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "sources.md",
+      "line": 84,
+      "snippet": "openai.com/blog | OpenAI \u52a8\u6001 | | Anthropic News | anthropic.com/news | Anthropic \u52a8\u6001 | | DeepMind Blo",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "sources.md",
+      "line": 84,
+      "snippet": "enAI \u52a8\u6001 | | Anthropic News | anthropic.com/news | Anthropic \u52a8\u6001 | | DeepMind Blog | deepmind.com/blog",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "sources.md",
+      "line": 115,
+      "snippet": "*\uff1a - `\"AI model release\" OR \"LLM launch\" [\u6708\u4efd]` - `OpenAI OR Anthropic OR Google announcement` - `\"\u5927\u6a21",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "sources.md",
+      "line": 115,
+      "snippet": "model release\" OR \"LLM launch\" [\u6708\u4efd]` - `OpenAI OR Anthropic OR Google announcement` - `\"\u5927\u6a21\u578b\u53d1\u5e03\" OR \"A",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 11,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "\ud83d\udfe1 WARNING: Multiple medium-risk issues found. Review recommended.",
+  "scan_time": 0.025949478149414062,
+  "timestamp": "2026-02-21T23:46:55.404121",
+  "skill_name": "ai-news-collectors"
+}

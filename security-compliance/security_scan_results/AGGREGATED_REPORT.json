@@ -1,0 +1,2393 @@
+{
+  "scan_metadata": {
+    "generated_at": "2026-02-22T07:38:03.156991",
+    "skills_scanned": 49,
+    "total_files_scanned": 220,
+    "total_findings": 255
+  },
+  "severity_summary": {
+    "CRITICAL": 0,
+    "HIGH": 104,
+    "MEDIUM": 95,
+    "LOW": 56,
+    "INFO": 0
+  },
+  "category_breakdown": {
+    "sensitive_file_access": {
+      "count": 4,
+      "skills": [
+        "aliyun-oss-upload",
+        "variflight-aviation"
+      ]
+    },
+    "environment_access": {
+      "count": 38,
+      "skills": [
+        "aliyun-oss-upload",
+        "barkpush",
+        "bring-shopping-list",
+        "deepdub-tts",
+        "enzoldhazam",
+        "imap-email",
+        "political-struggle",
+        "sarvam",
+        "zotero-sholar"
+      ]
+    },
+    "file_operation": {
+      "count": 24,
+      "skills": [
+        "aliyun-oss-upload",
+        "barkpush",
+        "deepdub-tts",
+        "instagram-reels",
+        "pptx-pdf-font-fix",
+        "sarvam",
+        "signal-cli",
+        "zotero-sholar"
+      ]
+    },
+    "api_key_usage": {
+      "count": 37,
+      "skills": [
+        "banshee-s-last-cry",
+        "deepdub-tts",
+        "imap-smtp-email",
+        "instagram-reels",
+        "political-struggle",
+        "sarvam",
+        "variflight-aviation",
+        "youtube-shorts",
+        "zotero-sholar"
+      ]
+    },
+    "data_exfiltration": {
+      "count": 9,
+      "skills": [
+        "barkpush",
+        "bring-shopping-list",
+        "enzoldhazam",
+        "zotero-sholar"
+      ]
+    },
+    "network_request": {
+      "count": 13,
+      "skills": [
+        "barkpush",
+        "bring-shopping-list",
+        "sarvam",
+        "zotero-sholar"
+      ]
+    },
+    "json_parsing": {
+      "count": 23,
+      "skills": [
+        "barkpush",
+        "instagram-reels",
+        "localsend",
+        "signal-cli",
+        "yoebao-bazi",
+        "yoebao-yao"
+      ]
+    },
+    "file_access_outside_workspace": {
+      "count": 1,
+      "skills": [
+        "barkpush"
+      ]
+    },
+    "command_injection": {
+      "count": 2,
+      "skills": [
+        "barkpush"
+      ]
+    },
+    "hardcoded_secret": {
+      "count": 92,
+      "skills": [
+        "bring-shopping-list",
+        "imap-email",
+        "instagram-reels",
+        "variflight-aviation",
+        "x-trends",
+        "zotero-sholar"
+      ]
+    },
+    "shell_command": {
+      "count": 9,
+      "skills": [
+        "d4-world-boss",
+        "signal-cli",
+        "yoebao-bazi",
+        "yoebao-yao"
+      ]
+    },
+    "obfuscation": {
+      "count": 1,
+      "skills": [
+        "sarvam"
+      ]
+    },
+    "vulnerable_dependency": {
+      "count": 1,
+      "skills": [
+        "sarvam"
+      ]
+    },
+    "suspicious_url": {
+      "count": 1,
+      "skills": [
+        "sparkle-vpn"
+      ]
+    }
+  },
+  "skills_by_risk": {
+    "critical": [
+      "aliyun-oss-upload",
+      "barkpush",
+      "bring-shopping-list",
+      "enzoldhazam",
+      "imap-email",
+      "sarvam",
+      "variflight-aviation",
+      "x-trends",
+      "zotero-sholar"
+    ],
+    "high": [],
+    "medium": [
+      "banshee-s-last-cry",
+      "deepdub-tts",
+      "imap-smtp-email",
+      "instagram-reels",
+      "political-struggle",
+      "sparkle-vpn",
+      "youtube-shorts"
+    ],
+    "low": [
+      "d4-world-boss",
+      "localsend",
+      "pptx-pdf-font-fix",
+      "signal-cli",
+      "yoebao-bazi",
+      "yoebao-yao"
+    ],
+    "safe": [
+      "asdasd",
+      "bring",
+      "case-record-socialwork",
+      "cma-email",
+      "data-viz",
+      "grazy",
+      "host-ping-detect",
+      "intodns",
+      "katok",
+      "mfa-word",
+      "notectl",
+      "pandic-office",
+      "printer",
+      "probar",
+      "say-xiaoai",
+      "searxng-local",
+      "searxng-metasearch",
+      "searxng-self-hosted",
+      "tamil-whatsapp",
+      "tt",
+      "webpage-screenshot",
+      "wechat-article-search",
+      "whats",
+      "whispers-from-the-star-cn",
+      "win-mouse-native",
+      "winamp",
+      "xuezh"
+    ]
+  },
+  "detailed_findings": {
+    "CRITICAL": [],
+    "HIGH": [
+      {
+        "skill": "aliyun-oss-upload",
+        "category": "sensitive_file_access",
+        "description": "Shell config access",
+        "file": "config.md",
+        "line": 53,
+        "confidence": 0.8
+      },
+      {
+        "skill": "aliyun-oss-upload",
+        "category": "sensitive_file_access",
+        "description": "Shell config access",
+        "file": "config.md",
+        "line": 53,
+        "confidence": 0.8
+      },
+      {
+        "skill": "barkpush",
+        "category": "data_exfiltration",
+        "description": "urllib network request",
+        "file": "bark_api.py",
+        "line": 7,
+        "confidence": 0.8
+      },
+      {
+        "skill": "barkpush",
+        "category": "command_injection",
+        "description": "compile() execution with variable",
+        "file": "utils.py",
+        "line": 12,
+        "confidence": 0.9
+      },
+      {
+        "skill": "barkpush",
+        "category": "command_injection",
+        "description": "compile() execution with variable",
+        "file": "utils.py",
+        "line": 13,
+        "confidence": 0.9
+      },
+      {
+        "skill": "barkpush",
+        "category": "data_exfiltration",
+        "description": "urllib network request",
+        "file": "architecture.md",
+        "line": 185,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "hardcoded_secret",
+        "description": "Hardcoded Password",
+        "file": "SKILL.md",
+        "line": 27,
+        "confidence": 0.85
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "data_exfiltration",
+        "description": "HTTP client usage",
+        "file": "bring.py",
+        "line": 19,
+        "confidence": 0.8
+      },
+      {
+        "skill": "enzoldhazam",
+        "category": "data_exfiltration",
+        "description": "HTTP client usage",
+        "file": "client.go",
+        "line": 27,
+        "confidence": 0.8
+      },
+      {
+        "skill": "enzoldhazam",
+        "category": "data_exfiltration",
+        "description": "HTTP client usage",
+        "file": "client.go",
+        "line": 39,
+        "confidence": 0.8
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.47)",
+        "file": "package-lock.json",
+        "line": 20,
+        "confidence": 0.6832137234234984
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.51)",
+        "file": "package-lock.json",
+        "line": 33,
+        "confidence": 0.6882600431124715
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.37)",
+        "file": "package-lock.json",
+        "line": 44,
+        "confidence": 0.670994043847442
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.42)",
+        "file": "package-lock.json",
+        "line": 50,
+        "confidence": 0.6780819674631168
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.68)",
+        "file": "package-lock.json",
+        "line": 59,
+        "confidence": 0.7100091549716567
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.44)",
+        "file": "package-lock.json",
+        "line": 73,
+        "confidence": 0.6799371115870866
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.51)",
+        "file": "package-lock.json",
+        "line": 85,
+        "confidence": 0.6883454793838801
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.39)",
+        "file": "package-lock.json",
+        "line": 100,
+        "confidence": 0.6741943116178757
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.36)",
+        "file": "package-lock.json",
+        "line": 114,
+        "confidence": 0.6704380577069896
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.45)",
+        "file": "package-lock.json",
+        "line": 126,
+        "confidence": 0.6818722102542171
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.42)",
+        "file": "package-lock.json",
+        "line": 135,
+        "confidence": 0.6780819674631168
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.56)",
+        "file": "package-lock.json",
+        "line": 147,
+        "confidence": 0.6948647141764897
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.47)",
+        "file": "package-lock.json",
+        "line": 156,
+        "confidence": 0.684338398387016
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.52)",
+        "file": "package-lock.json",
+        "line": 172,
+        "confidence": 0.6894701543473979
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.43)",
+        "file": "package-lock.json",
+        "line": 191,
+        "confidence": 0.6783327945490949
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.35)",
+        "file": "package-lock.json",
+        "line": 203,
+        "confidence": 0.6685829135830198
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.50)",
+        "file": "package-lock.json",
+        "line": 215,
+        "confidence": 0.6878318484291919
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.36)",
+        "file": "package-lock.json",
+        "line": 232,
+        "confidence": 0.6700558286866566
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.59)",
+        "file": "package-lock.json",
+        "line": 238,
+        "confidence": 0.6984895661530207
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.58)",
+        "file": "package-lock.json",
+        "line": 244,
+        "confidence": 0.6974962931238581
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.53)",
+        "file": "package-lock.json",
+        "line": 250,
+        "confidence": 0.6911084602656038
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.41)",
+        "file": "package-lock.json",
+        "line": 259,
+        "confidence": 0.6763122596105556
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.39)",
+        "file": "package-lock.json",
+        "line": 265,
+        "confidence": 0.6737146695434016
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.52)",
+        "file": "package-lock.json",
+        "line": 277,
+        "confidence": 0.6902465891707964
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.52)",
+        "file": "package-lock.json",
+        "line": 289,
+        "confidence": 0.6899837853020862
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.42)",
+        "file": "package-lock.json",
+        "line": 295,
+        "confidence": 0.6774709234542875
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.55)",
+        "file": "package-lock.json",
+        "line": 304,
+        "confidence": 0.6942196812874463
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.45)",
+        "file": "package-lock.json",
+        "line": 322,
+        "confidence": 0.6814440155709374
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.51)",
+        "file": "package-lock.json",
+        "line": 338,
+        "confidence": 0.6884768813182354
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.53)",
+        "file": "package-lock.json",
+        "line": 348,
+        "confidence": 0.6907602201254848
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.46)",
+        "file": "package-lock.json",
+        "line": 357,
+        "confidence": 0.6825686905344551
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.58)",
+        "file": "package-lock.json",
+        "line": 370,
+        "confidence": 0.6974962931238581
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.51)",
+        "file": "package-lock.json",
+        "line": 379,
+        "confidence": 0.6886082832525905
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.65)",
+        "file": "package-lock.json",
+        "line": 388,
+        "confidence": 0.7063843029951259
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.55)",
+        "file": "package-lock.json",
+        "line": 397,
+        "confidence": 0.6933917990728533
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.41)",
+        "file": "package-lock.json",
+        "line": 409,
+        "confidence": 0.6764436615449108
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.45)",
+        "file": "package-lock.json",
+        "line": 421,
+        "confidence": 0.6810617865506042
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.40)",
+        "file": "package-lock.json",
+        "line": 427,
+        "confidence": 0.6748393445069192
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.37)",
+        "file": "package-lock.json",
+        "line": 439,
+        "confidence": 0.6707008615756999
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.44)",
+        "file": "package-lock.json",
+        "line": 448,
+        "confidence": 0.6794024116442356
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.60)",
+        "file": "package-lock.json",
+        "line": 454,
+        "confidence": 0.7001278720712265
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.39)",
+        "file": "package-lock.json",
+        "line": 463,
+        "confidence": 0.6741088753464669
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.61)",
+        "file": "package-lock.json",
+        "line": 469,
+        "confidence": 0.7011211451003889
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.41)",
+        "file": "package-lock.json",
+        "line": 477,
+        "confidence": 0.6767708326968671
+      },
+      {
+        "skill": "imap-email",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.42)",
+        "file": "package-lock.json",
+        "line": 483,
+        "confidence": 0.6770886944339544
+      },
+      {
+        "skill": "sarvam",
+        "category": "vulnerable_dependency",
+        "description": "PYSEC-2018-28: Requests does not properly check SSL certificates",
+        "file": "sarvam_cli.py",
+        "line": 4,
+        "confidence": 0.8
+      },
+      {
+        "skill": "variflight-aviation",
+        "category": "sensitive_file_access",
+        "description": "Shell config access",
+        "file": "README.md",
+        "line": 26,
+        "confidence": 0.8
+      },
+      {
+        "skill": "variflight-aviation",
+        "category": "sensitive_file_access",
+        "description": "Shell config access",
+        "file": "README.md",
+        "line": 26,
+        "confidence": 0.8
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.52)",
+        "file": "package-lock.json",
+        "line": 24,
+        "confidence": 0.6898983490306774
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.57)",
+        "file": "package-lock.json",
+        "line": 36,
+        "confidence": 0.6960233780202216
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.49)",
+        "file": "package-lock.json",
+        "line": 42,
+        "confidence": 0.6866217371942656
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.45)",
+        "file": "package-lock.json",
+        "line": 54,
+        "confidence": 0.6812271773651736
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.60)",
+        "file": "package-lock.json",
+        "line": 79,
+        "confidence": 0.7001278720712266
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.51)",
+        "file": "package-lock.json",
+        "line": 96,
+        "confidence": 0.6886082832525905
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.41)",
+        "file": "package-lock.json",
+        "line": 111,
+        "confidence": 0.6759640194704367
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.52)",
+        "file": "package-lock.json",
+        "line": 123,
+        "confidence": 0.6899837853020863
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.42)",
+        "file": "package-lock.json",
+        "line": 132,
+        "confidence": 0.6780819674631168
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.42)",
+        "file": "package-lock.json",
+        "line": 148,
+        "confidence": 0.6769572924995991
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.68)",
+        "file": "package-lock.json",
+        "line": 160,
+        "confidence": 0.7100091549716567
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.44)",
+        "file": "package-lock.json",
+        "line": 174,
+        "confidence": 0.6799371115870866
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.51)",
+        "file": "package-lock.json",
+        "line": 186,
+        "confidence": 0.6883454793838801
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.39)",
+        "file": "package-lock.json",
+        "line": 201,
+        "confidence": 0.6741943116178757
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.43)",
+        "file": "package-lock.json",
+        "line": 215,
+        "confidence": 0.67846419648345
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.35)",
+        "file": "package-lock.json",
+        "line": 221,
+        "confidence": 0.6689311537231388
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.42)",
+        "file": "package-lock.json",
+        "line": 234,
+        "confidence": 0.6780819674631168
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.44)",
+        "file": "package-lock.json",
+        "line": 246,
+        "confidence": 0.679754262261537
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.49)",
+        "file": "package-lock.json",
+        "line": 258,
+        "confidence": 0.6866097604115334
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.48)",
+        "file": "package-lock.json",
+        "line": 277,
+        "confidence": 0.6848520293417044
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.52)",
+        "file": "package-lock.json",
+        "line": 289,
+        "confidence": 0.6902465891707964
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.59)",
+        "file": "package-lock.json",
+        "line": 301,
+        "confidence": 0.6981413260129017
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.52)",
+        "file": "package-lock.json",
+        "line": 313,
+        "confidence": 0.6896015562817529
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.53)",
+        "file": "package-lock.json",
+        "line": 325,
+        "confidence": 0.6911084602656038
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.36)",
+        "file": "package-lock.json",
+        "line": 341,
+        "confidence": 0.6697075885465373
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.51)",
+        "file": "package-lock.json",
+        "line": 353,
+        "confidence": 0.6882600431124715
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.50)",
+        "file": "package-lock.json",
+        "line": 365,
+        "confidence": 0.687266770083309
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.44)",
+        "file": "package-lock.json",
+        "line": 377,
+        "confidence": 0.6805821444761301
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.51)",
+        "file": "package-lock.json",
+        "line": 392,
+        "confidence": 0.6884768813182353
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.59)",
+        "file": "package-lock.json",
+        "line": 415,
+        "confidence": 0.699351437247828
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.47)",
+        "file": "package-lock.json",
+        "line": 427,
+        "confidence": 0.6843383983870162
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.55)",
+        "file": "package-lock.json",
+        "line": 440,
+        "confidence": 0.6935232010072083
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.47)",
+        "file": "package-lock.json",
+        "line": 452,
+        "confidence": 0.683858756312542
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.57)",
+        "file": "package-lock.json",
+        "line": 464,
+        "confidence": 0.6960233780202216
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.45)",
+        "file": "package-lock.json",
+        "line": 480,
+        "confidence": 0.6810617865506042
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.54)",
+        "file": "package-lock.json",
+        "line": 486,
+        "confidence": 0.6928781681181648
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.57)",
+        "file": "package-lock.json",
+        "line": 498,
+        "confidence": 0.6963716181603407
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.56)",
+        "file": "package-lock.json",
+        "line": 510,
+        "confidence": 0.6947333122421346
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.56)",
+        "file": "package-lock.json",
+        "line": 527,
+        "confidence": 0.6948647141764898
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.47)",
+        "file": "package-lock.json",
+        "line": 542,
+        "confidence": 0.6835619635636174
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.61)",
+        "file": "package-lock.json",
+        "line": 551,
+        "confidence": 0.701469385240508
+      },
+      {
+        "skill": "x-trends",
+        "category": "hardcoded_secret",
+        "description": "High-entropy string (entropy: 5.46)",
+        "file": "package-lock.json",
+        "line": 564,
+        "confidence": 0.6827000924688101
+      },
+      {
+        "skill": "zotero-sholar",
+        "category": "data_exfiltration",
+        "description": "urllib network request",
+        "file": "save_paper.py",
+        "line": 99,
+        "confidence": 0.8
+      },
+      {
+        "skill": "zotero-sholar",
+        "category": "data_exfiltration",
+        "description": "urllib network request",
+        "file": "save_paper.py",
+        "line": 110,
+        "confidence": 0.8
+      },
+      {
+        "skill": "zotero-sholar",
+        "category": "data_exfiltration",
+        "description": "urllib network request",
+        "file": "save_paper.py",
+        "line": 112,
+        "confidence": 0.8
+      },
+      {
+        "skill": "zotero-sholar",
+        "category": "data_exfiltration",
+        "description": "urllib network request",
+        "file": "save_paper.py",
+        "line": 122,
+        "confidence": 0.8
+      }
+    ],
+    "MEDIUM": [
+      {
+        "skill": "aliyun-oss-upload",
+        "category": "environment_access",
+        "description": "Environment variable access",
+        "file": "oss-upload.py",
+        "line": 21,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch00_start.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch1a_investigate.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch1b_ambush.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch1c_solo.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch2a_chase.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch2b_suspect.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch2c_attack.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch2d_trap.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch2e_alone.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch3a_basement.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch3b_death2.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch3c_split.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch3d_team.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch3e_escape.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch3f_reveal.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch3g_hero.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "banshee-s-last-cry",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "ch4_endings.md",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "barkpush",
+        "category": "network_request",
+        "description": "urllib usage",
+        "file": "bark_api.py",
+        "line": 6,
+        "confidence": 0.8
+      },
+      {
+        "skill": "barkpush",
+        "category": "network_request",
+        "description": "urllib usage",
+        "file": "bark_api.py",
+        "line": 7,
+        "confidence": 0.8
+      },
+      {
+        "skill": "barkpush",
+        "category": "file_access_outside_workspace",
+        "description": "Home directory access",
+        "file": "config_manager.py",
+        "line": 108,
+        "confidence": 0.8
+      },
+      {
+        "skill": "barkpush",
+        "category": "environment_access",
+        "description": "Environment variable access",
+        "file": "config_manager.py",
+        "line": 105,
+        "confidence": 0.8
+      },
+      {
+        "skill": "barkpush",
+        "category": "environment_access",
+        "description": "Environment variable access",
+        "file": "config_manager.py",
+        "line": 111,
+        "confidence": 0.8
+      },
+      {
+        "skill": "barkpush",
+        "category": "environment_access",
+        "description": "Environment variable access",
+        "file": "config_manager.py",
+        "line": 170,
+        "confidence": 0.8
+      },
+      {
+        "skill": "barkpush",
+        "category": "environment_access",
+        "description": "Environment variable access",
+        "file": "config_manager.py",
+        "line": 183,
+        "confidence": 0.8
+      },
+      {
+        "skill": "barkpush",
+        "category": "network_request",
+        "description": "urllib usage",
+        "file": "architecture.md",
+        "line": 185,
+        "confidence": 0.8
+      },
+      {
+        "skill": "barkpush",
+        "category": "environment_access",
+        "description": "Environment variable access",
+        "file": "test_config_manager.py",
+        "line": 55,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "README.md",
+        "line": 55,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "README.md",
+        "line": 56,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "README.md",
+        "line": 57,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "README.md",
+        "line": 58,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "SKILL.md",
+        "line": 40,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "SKILL.md",
+        "line": 41,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "SKILL.md",
+        "line": 42,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "SKILL.md",
+        "line": 43,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "network_request",
+        "description": "aiohttp usage",
+        "file": "bring.py",
+        "line": 8,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "network_request",
+        "description": "aiohttp usage",
+        "file": "bring.py",
+        "line": 19,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "Environment variable access",
+        "file": "bring.py",
+        "line": 14,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "Environment variable access",
+        "file": "bring.py",
+        "line": 15,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "bring.py",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "bring.py",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "bring.py",
+        "line": 12,
+        "confidence": 0.8
+      },
+      {
+        "skill": "bring-shopping-list",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "requirements.txt",
+        "line": 2,
+        "confidence": 0.8
+      },
+      {
+        "skill": "deepdub-tts",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "deepdub_tts.py",
+        "line": 30,
+        "confidence": 0.8
+      },
+      {
+        "skill": "deepdub-tts",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "deepdub_tts.py",
+        "line": 45,
+        "confidence": 0.8
+      },
+      {
+        "skill": "deepdub-tts",
+        "category": "environment_access",
+        "description": "getenv call",
+        "file": "deepdub_tts.py",
+        "line": 15,
+        "confidence": 0.8
+      },
+      {
+        "skill": "deepdub-tts",
+        "category": "environment_access",
+        "description": "getenv call",
+        "file": "deepdub_tts.py",
+        "line": 20,
+        "confidence": 0.8
+      },
+      {
+        "skill": "deepdub-tts",
+        "category": "environment_access",
+        "description": "getenv call",
+        "file": "deepdub_tts.py",
+        "line": 25,
+        "confidence": 0.8
+      },
+      {
+        "skill": "deepdub-tts",
+        "category": "environment_access",
+        "description": "getenv call",
+        "file": "deepdub_tts.py",
+        "line": 30,
+        "confidence": 0.8
+      },
+      {
+        "skill": "deepdub-tts",
+        "category": "environment_access",
+        "description": "getenv call",
+        "file": "deepdub_tts.py",
+        "line": 40,
+        "confidence": 0.8
+      },
+      {
+        "skill": "enzoldhazam",
+        "category": "environment_access",
+        "description": "getenv call",
+        "file": "config.go",
+        "line": 42,
+        "confidence": 0.8
+      },
+      {
+        "skill": "enzoldhazam",
+        "category": "environment_access",
+        "description": "getenv call",
+        "file": "config.go",
+        "line": 43,
+        "confidence": 0.8
+      },
+      {
+        "skill": "enzoldhazam",
+        "category": "environment_access",
+        "description": "getenv call",
+        "file": "config.go",
+        "line": 44,
+        "confidence": 0.8
+      },
+      {
+        "skill": "enzoldhazam",
+        "category": "environment_access",
+        "description": "getenv call",
+        "file": "config.go",
+        "line": 86,
+        "confidence": 0.8
+      },
+      {
+        "skill": "enzoldhazam",
+        "category": "environment_access",
+        "description": "getenv call",
+        "file": "config.go",
+        "line": 86,
+        "confidence": 0.8
+      },
+      {
+        "skill": "imap-email",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "package-lock.json",
+        "line": 111,
+        "confidence": 0.8
+      },
+      {
+        "skill": "imap-email",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "package-lock.json",
+        "line": 113,
+        "confidence": 0.8
+      },
+      {
+        "skill": "imap-email",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "package-lock.json",
+        "line": 113,
+        "confidence": 0.8
+      },
+      {
+        "skill": "imap-email",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "package-lock.json",
+        "line": 120,
+        "confidence": 0.8
+      },
+      {
+        "skill": "imap-email",
+        "category": "environment_access",
+        "description": "dotenv usage",
+        "file": "skill.json",
+        "line": 108,
+        "confidence": 0.8
+      },
+      {
+        "skill": "imap-smtp-email",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "package.json",
+        "line": 4,
+        "confidence": 0.8
+      },
+      {
+        "skill": "instagram-reels",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "SKILL.md",
+        "line": 36,
+        "confidence": 0.8
+      },
+      {
+        "skill": "instagram-reels",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "SKILL.md",
+        "line": 71,
+        "confidence": 0.8
+      },
+      {
+        "skill": "instagram-reels",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "SKILL.md",
+        "line": 110,
+        "confidence": 0.8
+      },
+      {
+        "skill": "instagram-reels",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "SKILL.md",
+        "line": 125,
+        "confidence": 0.8
+      },
+      {
+        "skill": "instagram-reels",
+        "category": "hardcoded_secret",
+        "description": "Generic API Key",
+        "file": "SKILL.md",
+        "line": 36,
+        "confidence": 0.85
+      },
+      {
+        "skill": "political-struggle",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "SKILL.md",
+        "line": 110,
+        "confidence": 0.8
+      },
+      {
+        "skill": "political-struggle",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "search_views.py",
+        "line": 166,
+        "confidence": 0.8
+      },
+      {
+        "skill": "political-struggle",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "search_views.py",
+        "line": 171,
+        "confidence": 0.8
+      },
+      {
+        "skill": "political-struggle",
+        "category": "environment_access",
+        "description": "Environment variable access",
+        "file": "search_views.py",
+        "line": 166,
+        "confidence": 0.8
+      },
+      {
+        "skill": "sarvam",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "SKILL.md",
+        "line": 71,
+        "confidence": 0.8
+      },
+      {
+        "skill": "sarvam",
+        "category": "network_request",
+        "description": "HTTP request",
+        "file": "sarvam_cli.py",
+        "line": 51,
+        "confidence": 0.8
+      },
+      {
+        "skill": "sarvam",
+        "category": "network_request",
+        "description": "HTTP request",
+        "file": "sarvam_cli.py",
+        "line": 96,
+        "confidence": 0.8
+      },
+      {
+        "skill": "sarvam",
+        "category": "network_request",
+        "description": "HTTP request",
+        "file": "sarvam_cli.py",
+        "line": 124,
+        "confidence": 0.8
+      },
+      {
+        "skill": "sarvam",
+        "category": "network_request",
+        "description": "HTTP request",
+        "file": "sarvam_cli.py",
+        "line": 155,
+        "confidence": 0.8
+      },
+      {
+        "skill": "sarvam",
+        "category": "obfuscation",
+        "description": "Base64 decoding",
+        "file": "sarvam_cli.py",
+        "line": 57,
+        "confidence": 0.8
+      },
+      {
+        "skill": "sarvam",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "sarvam_cli.py",
+        "line": 9,
+        "confidence": 0.8
+      },
+      {
+        "skill": "sarvam",
+        "category": "environment_access",
+        "description": "Environment variable access",
+        "file": "sarvam_cli.py",
+        "line": 9,
+        "confidence": 0.8
+      },
+      {
+        "skill": "sparkle-vpn",
+        "category": "suspicious_url",
+        "description": "Direct IP access (HTTP)",
+        "file": "start-vpn.sh",
+        "line": 30,
+        "confidence": 0.7
+      },
+      {
+        "skill": "variflight-aviation",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "SKILL.md",
+        "line": 62,
+        "confidence": 0.8
+      },
+      {
+        "skill": "variflight-aviation",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "config-loader.js",
+        "line": 29,
+        "confidence": 0.8
+      },
+      {
+        "skill": "variflight-aviation",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "config-loader.js",
+        "line": 31,
+        "confidence": 0.8
+      },
+      {
+        "skill": "variflight-aviation",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "config-loader.js",
+        "line": 56,
+        "confidence": 0.8
+      },
+      {
+        "skill": "variflight-aviation",
+        "category": "hardcoded_secret",
+        "description": "Generic API Key",
+        "file": "config-loader.js",
+        "line": 29,
+        "confidence": 0.85
+      },
+      {
+        "skill": "variflight-aviation",
+        "category": "hardcoded_secret",
+        "description": "Generic API Key",
+        "file": "config-loader.js",
+        "line": 31,
+        "confidence": 0.85
+      },
+      {
+        "skill": "variflight-aviation",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "variflight-client.js",
+        "line": 10,
+        "confidence": 0.8
+      },
+      {
+        "skill": "youtube-shorts",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "SKILL.md",
+        "line": 46,
+        "confidence": 0.8
+      },
+      {
+        "skill": "youtube-shorts",
+        "category": "api_key_usage",
+        "description": "AI service API",
+        "file": "SKILL.md",
+        "line": 65,
+        "confidence": 0.8
+      },
+      {
+        "skill": "zotero-sholar",
+        "category": "network_request",
+        "description": "urllib usage",
+        "file": "save_paper.py",
+        "line": 99,
+        "confidence": 0.8
+      },
+      {
+        "skill": "zotero-sholar",
+        "category": "network_request",
+        "description": "urllib usage",
+        "file": "save_paper.py",
+        "line": 110,
+        "confidence": 0.8
+      },
+      {
+        "skill": "zotero-sholar",
+        "category": "network_request",
+        "description": "urllib usage",
+        "file": "save_paper.py",
+        "line": 112,
+        "confidence": 0.8
+      },
+      {
+        "skill": "zotero-sholar",
+        "category": "network_request",
+        "description": "urllib usage",
+        "file": "save_paper.py",
+        "line": 122,
+        "confidence": 0.8
+      },
+      {
+        "skill": "zotero-sholar",
+        "category": "api_key_usage",
+        "description": "API key assignment",
+        "file": "save_paper.py",
+        "line": 24,
+        "confidence": 0.8
+      },
+      {
+        "skill": "zotero-sholar",
+        "category": "environment_access",
+        "description": "Environment variable access",
+        "file": "save_paper.py",
+        "line": 26,
+        "confidence": 0.8
+      },
+      {
+        "skill": "zotero-sholar",
+        "category": "hardcoded_secret",
+        "description": "Generic API Key",
+        "file": "save_paper.py",
+        "line": 32,
+        "confidence": 0.85
+      }
+    ]
+  },
+  "skill_summaries": [
+    {
+      "skill": "aliyun-oss-upload",
+      "files_scanned": 4,
+      "risk_summary": {
+        "HIGH": 2,
+        "MEDIUM": 1,
+        "LOW": 2,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udd34 CRITICAL: High-risk issues detected. Manual review required.",
+      "scan_time": 0.030755281448364258
+    },
+    {
+      "skill": "asdasd",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.00974130630493164
+    },
+    {
+      "skill": "banshee-s-last-cry",
+      "files_scanned": 22,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 17,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udfe1 WARNING: Multiple medium-risk issues found. Review recommended.",
+      "scan_time": 0.1804499626159668
+    },
+    {
+      "skill": "barkpush",
+      "files_scanned": 23,
+      "risk_summary": {
+        "HIGH": 4,
+        "MEDIUM": 9,
+        "LOW": 20,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udd34 CRITICAL: High-risk issues detected. Manual review required.",
+      "scan_time": 0.2715117931365967
+    },
+    {
+      "skill": "bring-shopping-list",
+      "files_scanned": 5,
+      "risk_summary": {
+        "HIGH": 2,
+        "MEDIUM": 16,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udd34 CRITICAL: High-risk issues detected. Manual review required.",
+      "scan_time": 0.0355074405670166
+    },
+    {
+      "skill": "bring",
+      "files_scanned": 4,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.04217815399169922
+    },
+    {
+      "skill": "case-record-socialwork",
+      "files_scanned": 3,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.014040708541870117
+    },
+    {
+      "skill": "cma-email",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.012813329696655273
+    },
+    {
+      "skill": "d4-world-boss",
+      "files_scanned": 4,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.02306532859802246
+    },
+    {
+      "skill": "data-viz",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.016165733337402344
+    },
+    {
+      "skill": "deepdub-tts",
+      "files_scanned": 5,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 7,
+        "LOW": 1,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udfe1 WARNING: Multiple medium-risk issues found. Review recommended.",
+      "scan_time": 0.021946430206298828
+    },
+    {
+      "skill": "enzoldhazam",
+      "files_scanned": 6,
+      "risk_summary": {
+        "HIGH": 2,
+        "MEDIUM": 5,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udd34 CRITICAL: High-risk issues detected. Manual review required.",
+      "scan_time": 0.033939361572265625
+    },
+    {
+      "skill": "grazy",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.017235517501831055
+    },
+    {
+      "skill": "host-ping-detect",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.011004924774169922
+    },
+    {
+      "skill": "imap-email",
+      "files_scanned": 7,
+      "risk_summary": {
+        "HIGH": 45,
+        "MEDIUM": 5,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udd34 CRITICAL: High-risk issues detected. Manual review required.",
+      "scan_time": 0.08510637283325195
+    },
+    {
+      "skill": "imap-smtp-email",
+      "files_scanned": 7,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udfe2 CAUTION: Some medium-risk issues found. Review suggested.",
+      "scan_time": 0.07333564758300781
+    },
+    {
+      "skill": "instagram-reels",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 5,
+        "LOW": 4,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udfe2 CAUTION: Some medium-risk issues found. Review suggested.",
+      "scan_time": 0.01935410499572754
+    },
+    {
+      "skill": "intodns",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.016666412353515625
+    },
+    {
+      "skill": "katok",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.013300180435180664
+    },
+    {
+      "skill": "localsend",
+      "files_scanned": 3,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 1,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.02556133270263672
+    },
+    {
+      "skill": "mfa-word",
+      "files_scanned": 4,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.018073320388793945
+    },
+    {
+      "skill": "notectl",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.012690544128417969
+    },
+    {
+      "skill": "pandic-office",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.013347625732421875
+    },
+    {
+      "skill": "political-struggle",
+      "files_scanned": 5,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udfe2 CAUTION: Some medium-risk issues found. Review suggested.",
+      "scan_time": 0.0745553970336914
+    },
+    {
+      "skill": "pptx-pdf-font-fix",
+      "files_scanned": 3,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 3,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.033966064453125
+    },
+    {
+      "skill": "printer",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.01577901840209961
+    },
+    {
+      "skill": "probar",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.012968063354492188
+    },
+    {
+      "skill": "sarvam",
+      "files_scanned": 4,
+      "risk_summary": {
+        "HIGH": 1,
+        "MEDIUM": 8,
+        "LOW": 6,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udd34 CRITICAL: High-risk issues detected. Manual review required.",
+      "scan_time": 0.043404579162597656
+    },
+    {
+      "skill": "say-xiaoai",
+      "files_scanned": 3,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.010471105575561523
+    },
+    {
+      "skill": "searxng-local",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.017168283462524414
+    },
+    {
+      "skill": "searxng-metasearch",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.017590045928955078
+    },
+    {
+      "skill": "searxng-self-hosted",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.017124176025390625
+    },
+    {
+      "skill": "signal-cli",
+      "files_scanned": 4,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 11,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.03908872604370117
+    },
+    {
+      "skill": "sparkle-vpn",
+      "files_scanned": 6,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 1,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udfe2 CAUTION: Some medium-risk issues found. Review suggested.",
+      "scan_time": 0.01686835289001465
+    },
+    {
+      "skill": "tamil-whatsapp",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.012830495834350586
+    },
+    {
+      "skill": "tt",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.011989593505859375
+    },
+    {
+      "skill": "variflight-aviation",
+      "files_scanned": 19,
+      "risk_summary": {
+        "HIGH": 2,
+        "MEDIUM": 7,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udd34 CRITICAL: High-risk issues detected. Manual review required.",
+      "scan_time": 0.08379030227661133
+    },
+    {
+      "skill": "webpage-screenshot",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.011066198348999023
+    },
+    {
+      "skill": "wechat-article-search",
+      "files_scanned": 3,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.051123857498168945
+    },
+    {
+      "skill": "whats",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.012759208679199219
+    },
+    {
+      "skill": "whispers-from-the-star-cn",
+      "files_scanned": 14,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.19017529487609863
+    },
+    {
+      "skill": "win-mouse-native",
+      "files_scanned": 4,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.01970672607421875
+    },
+    {
+      "skill": "winamp",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.012488842010498047
+    },
+    {
+      "skill": "x-trends",
+      "files_scanned": 5,
+      "risk_summary": {
+        "HIGH": 42,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udd34 CRITICAL: High-risk issues detected. Manual review required.",
+      "scan_time": 0.05576491355895996
+    },
+    {
+      "skill": "xuezh",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.011034250259399414
+    },
+    {
+      "skill": "yoebao-bazi",
+      "files_scanned": 3,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 3,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.029973506927490234
+    },
+    {
+      "skill": "yoebao-yao",
+      "files_scanned": 3,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 3,
+        "INFO": 0
+      },
+      "assessment": "\u2705 SAFE: No significant security issues found.",
+      "scan_time": 0.024948596954345703
+    },
+    {
+      "skill": "youtube-shorts",
+      "files_scanned": 2,
+      "risk_summary": {
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udfe2 CAUTION: Some medium-risk issues found. Review suggested.",
+      "scan_time": 0.015305757522583008
+    },
+    {
+      "skill": "zotero-sholar",
+      "files_scanned": 3,
+      "risk_summary": {
+        "HIGH": 4,
+        "MEDIUM": 7,
+        "LOW": 1,
+        "INFO": 0
+      },
+      "assessment": "\ud83d\udd34 CRITICAL: High-risk issues detected. Manual review required.",
+      "scan_time": 0.030930280685424805
+    }
+  ]
+}

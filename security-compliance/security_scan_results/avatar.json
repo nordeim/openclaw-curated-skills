@@ -1,0 +1,2481 @@
+{
+  "skill_path": "avatar",
+  "files_scanned": 17,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 52,
+      "snippet": "environment variables:    ```bash    export SIMLI_API_KEY=your-key    export ELEVENLABS_API_KEY=your",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 53,
+      "snippet": "xport SIMLI_API_KEY=your-key    export ELEVENLABS_API_KEY=your-key    ```  3. Start the avatar:    `",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "SKILL.md",
+      "line": 20,
+      "snippet": "SIMLI_API_KEY=your-simli-api-key",
+      "confidence": 0.85
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "SKILL.md",
+      "line": 21,
+      "snippet": "ELEVENLABS_API_KEY=your-elevenlabs-api-key",
+      "confidence": 0.85
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "package-lock.json",
+      "line": 1404,
+      "snippet": "\"node\": \">=8\"       }     },     \"node_modules/dotenv\": {       \"version\": \"16.6.1\",       \"resol",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "package-lock.json",
+      "line": 1406,
+      "snippet": "1\",       \"resolved\": \"https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz\",       \"integrity\": \"s",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "package-lock.json",
+      "line": 1406,
+      "snippet": "\"resolved\": \"https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz\",       \"integrity\": \"sha512-uBq",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "package-lock.json",
+      "line": 1413,
+      "snippet": "},       \"funding\": {         \"url\": \"https://dotenvx.com\"       }     },     \"node_modules/dund",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.56)",
+      "file": "package-lock.json",
+      "line": 39,
+      "snippet": "\"integrity\": \"sha512-wJ8ReQbHxsAfXhrf9ixl0aYbZorRuOWpBNzm8pL8ftmSxQx/wnJD5Eg861NwJU/czy2VXFIebCeZnZr",
+      "confidence": 0.6948647141764899
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 45,
+      "snippet": "\"integrity\": \"sha512-R0nRawiVtEThvSVUDhMb5jh46WsId7RquXITZGXsc9Am7khGQSHdhh9GOQUgOyswHweHa1ury9B7e2K",
+      "confidence": 0.6800474445332791
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 59,
+      "snippet": "\"integrity\": \"sha512-lBRtgr6Or/5TkI0yWQYQkL8EpsL1iFCn+R5NFCQ2C7wpNdjRoNn94SLXqtPh4wMYqRM+gTzlkHzWpw9",
+      "confidence": 0.6886082832525904
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.53)",
+      "file": "package-lock.json",
+      "line": 76,
+      "snippet": "\"integrity\": \"sha512-1ikFJzUhpYxJ30hwG3wWHcpyGn7gCZiEz6DS827URaFtBiiq55BAyJQmlcoX0qMnqo7AO38iNl5wzUb",
+      "confidence": 0.6917534931546472
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.60)",
+      "file": "package-lock.json",
+      "line": 93,
+      "snippet": "\"integrity\": \"sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh",
+      "confidence": 0.6996482299967526
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 110,
+      "snippet": "\"integrity\": \"sha512-vCPvzSjpPHEi1siZdlvAlsPxXl7WbOVUBBAowWug4rJHb68Ox8KualB+1ocNvT5fjv6wpkX6o/iEpbD",
+      "confidence": 0.6812271773651736
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.38)",
+      "file": "package-lock.json",
+      "line": 127,
+      "snippet": "\"integrity\": \"sha512-c0uX9VAUBQ7dTDCjq+wdyGLowMdtR/GoC2U5IYk/7D1H1JYC0qseD7+11iMP2mRLN9RcCMRcjC4YMcl",
+      "confidence": 0.6723391674939059
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.43)",
+      "file": "package-lock.json",
+      "line": 144,
+      "snippet": "\"integrity\": \"sha512-D7aPRUUNHRBwHxzxRvp856rjUHRFW1SdQATKXH2hqA0kAZb1hKmi02OpYRacl0TxIGz/ZmXWlbZgjwW",
+      "confidence": 0.6791092293724936
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.60)",
+      "file": "package-lock.json",
+      "line": 161,
+      "snippet": "\"integrity\": \"sha512-DwqXqZyuk5AiWWf3UfLiRDJ5EDd49zg6O9wclZ7kUMv2WRFr4HKjXp/5t8JZ11QbQfUS6/cRCKGwYht",
+      "confidence": 0.6997796319311077
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 178,
+      "snippet": "\"integrity\": \"sha512-se/JjF8NlmKVG4kNIuyWMV/22ZaerB+qaSi5MdrXtd6R08kvs2qCN4C09miupktDitvh8jRFflwGFBQ",
+      "confidence": 0.6928781681181648
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.56)",
+      "file": "package-lock.json",
+      "line": 195,
+      "snippet": "\"integrity\": \"sha512-5JcRxxRDUJLX8JXp/wcBCy3pENnCgBR9bN6JsY4OmhfUtIHe3ZW0mawA7+RDAcMLrMIZaf03NlQiX9D",
+      "confidence": 0.6948647141764897
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 212,
+      "snippet": "\"integrity\": \"sha512-J95kNBj1zkbMXtHVH29bBriQygMXqoVQOQYA+ISs0/2l3T9/kj42ow2mpqerRBxDJnmkUDCaQT/dfNX",
+      "confidence": 0.693956877418736
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 229,
+      "snippet": "\"integrity\": \"sha512-bPb5AHZtbeNGjCKVZ9UGqGwo8EUu4cLq68E95A53KlxAPRmUyYv2D6F0uUI65XisGOL1hBP5mTronbg",
+      "confidence": 0.6904634273765603
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.43)",
+      "file": "package-lock.json",
+      "line": 246,
+      "snippet": "\"integrity\": \"sha512-ibKvmyYzKsBeX8d8I7MH/TMfWDXBF3db4qM6sy+7re0YXya+K1cem3on9XgdT2EQGMu4hQyZhan7TeQ",
+      "confidence": 0.678595598417805
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.53)",
+      "file": "package-lock.json",
+      "line": 263,
+      "snippet": "\"integrity\": \"sha512-YvjXDqLRqPDl2dvRODYmmhz4rPeVKYvppfGYKSNGdyZkA01046pLWyRKKI3ax8fbJoK5QbxblURkwK/",
+      "confidence": 0.6911084602656038
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.66)",
+      "file": "package-lock.json",
+      "line": 280,
+      "snippet": "\"integrity\": \"sha512-uHf1BmMG8qEvzdrzAqg2SIG/02+4/DHB6a9Kbya0XDvwDEKCoC8ZRWI5JJvNdUjtciBGFQ5PuBlpEOX",
+      "confidence": 0.7070293358841694
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.38)",
+      "file": "package-lock.json",
+      "line": 297,
+      "snippet": "\"integrity\": \"sha512-IajOmO+KJK23bj52dFSNCMsz1QP1DqM6cwLUv3W1QwyxkyIWecfafnI555fvSGqEKwjMXVLokcV5ygH",
+      "confidence": 0.6719358694854101
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.34)",
+      "file": "package-lock.json",
+      "line": 314,
+      "snippet": "\"integrity\": \"sha512-1hHV/Z4OEfMwpLO8rp7CvlhBDnjsC3CttJXIhBi+5Aj5r+MBvy4egg7wCbe//hSsT+RvDAG7s81tAvp",
+      "confidence": 0.667076009599169
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 331,
+      "snippet": "\"integrity\": \"sha512-2HdXDMd9GMgTGrPWnJzP2ALSokE/0O5HhTUvWIbD3YdjME8JwvSCnNGBnTThKGEB91OZhzrJ4qIIxk/",
+      "confidence": 0.6859767043052221
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.48)",
+      "file": "package-lock.json",
+      "line": 348,
+      "snippet": "\"integrity\": \"sha512-zus5sxzqBJD3eXxwvjN1yQkRepANgxE9lgOW2qLnmr8ikMTphkjgXu1HR01K4FJg8h1kEEDAqDcZQtb",
+      "confidence": 0.6849834312760595
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.47)",
+      "file": "package-lock.json",
+      "line": 365,
+      "snippet": "\"integrity\": \"sha512-1rYdTpyv03iycF1+BhzrzQJCdOuAOtaqHTWJZCWvijKD2N5Xu0TtVC8/+1faWqcP9iBCWOmjmhoH94d",
+      "confidence": 0.6833451253578535
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.57)",
+      "file": "package-lock.json",
+      "line": 382,
+      "snippet": "\"integrity\": \"sha512-sDpk0RgmTCR/5HguIZa9n9u+HVKf40fbEUt+iTzSnCaGvY9kFP0YKBWZtJaraonFnqef5SlJ8/TiPAx",
+      "confidence": 0.6963716181603404
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 399,
+      "snippet": "\"integrity\": \"sha512-Woi2MXzXjMULccIwMnLciyZH4nCIMpWQAs049KEeMvOcNADVxo0UBIQPfSmxB3CWKedngg7sWZdLvLc",
+      "confidence": 0.6799711004673009
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 416,
+      "snippet": "\"integrity\": \"sha512-AIcMP77AvirGbRl/UZFTq5hjXK+2wC7qFRGoHSDrZ5v5b8DK/GYpXW3CPRL53NkvDqb9D+alBiC/dV0",
+      "confidence": 0.6884768813182353
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.41)",
+      "file": "package-lock.json",
+      "line": 433,
+      "snippet": "\"integrity\": \"sha512-HLNNw99xsvx12lFBUwoT8EVCsSvRNDVxNpjZ7bPn947b8gJPzeHWyNVhFsaerc0n3TsbOINvRP2byTZ",
+      "confidence": 0.6766090523594803
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 450,
+      "snippet": "\"integrity\": \"sha512-NinAEgr/etERPTsZJ7aEZQvvg/A6IsZG/LgZy+81wON2huV7SrK3e63dU0XhyZP4RKGyTm7aOgmQk0b",
+      "confidence": 0.6817408083198621
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 467,
+      "snippet": "\"integrity\": \"sha512-6+gjmFpfy0BHU5Tpptkuh8+uw3mnrvgs+dSPQXQOv3ekbordwnzTVEb4qnIvQcYXq6gzkyTnoZ9dZG+",
+      "confidence": 0.6937400392129721
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 484,
+      "snippet": "\"integrity\": \"sha512-Z0gOTd75VvXqyq7nsl93zwahcTROgqvuAcYDUr+vOv8uHhNSKROyU961kgtCD1e95IqPKSQKH7tBTsl",
+      "confidence": 0.6803653062703664
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.48)",
+      "file": "package-lock.json",
+      "line": 501,
+      "snippet": "\"integrity\": \"sha512-SWXFF1CL2RVNMaVs+BBClwtfZSvDgtL//G/smwAc5oVK/UPu2Gu9tIaRgFmYFFKrmg3SyAjSrElf0Ti",
+      "confidence": 0.6854970622307479
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 518,
+      "snippet": "\"integrity\": \"sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4Ps",
+      "confidence": 0.6884768813182354
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.42)",
+      "file": "package-lock.json",
+      "line": 535,
+      "snippet": "\"integrity\": \"sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5",
+      "confidence": 0.6778191635944066
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.37)",
+      "file": "package-lock.json",
+      "line": 549,
+      "snippet": "\"integrity\": \"sha512-ITORmmt8XPCxGh/GhG1VGGAQH10zh0iN0lHpuODDVpNeyzAULtEIFHuQLOLDSbVSAkAvGylQPsp4uJb",
+      "confidence": 0.6714772963990983
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.42)",
+      "file": "package-lock.json",
+      "line": 566,
+      "snippet": "\"integrity\": \"sha512-EsshAucklmpuUAfkABPxJNhzj9v2sG7JuzFDL4ML1oJQSV14sqrpTYnsaOudMAw9yOaW53NU3QQTlUQ",
+      "confidence": 0.6778955076603848
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 572,
+      "snippet": "\"integrity\": \"sha512-/vfhDUGcUKO8Q43r6i+5FrDhl5oZjm/X3U4x2Iciqvgn5C8qbj+57YPcWSJ1kyIZm5Cm6AV2nAPjMm3",
+      "confidence": 0.689253316141634
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.40)",
+      "file": "package-lock.json",
+      "line": 581,
+      "snippet": "\"integrity\": \"sha512-A6ehUVSiSaaliTxai040ZpZ2zTevHYbvu/lDoeAteHI8QnaosIzm4qwtezfRg1jOYaUmnzLX1AOD6Z+",
+      "confidence": 0.6753189865813932
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 595,
+      "snippet": "\"integrity\": \"sha512-dQaAddCY9YgkFHZcFNS/606Exo8vcLHwArFZ7vxXq4rigo2bb494/xKMMwRRQW6ug7Js6yXmBZhSBRu",
+      "confidence": 0.6856284641651031
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.47)",
+      "file": "package-lock.json",
+      "line": 609,
+      "snippet": "\"integrity\": \"sha512-crNPrwJOrRxagUYeMn/DZwqN88SDmwaJ8Cvi/TN1HnWBU7GwknckyosC2gd0IqYRsHDEnXf328o9/HC",
+      "confidence": 0.6839901582468971
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.43)",
+      "file": "package-lock.json",
+      "line": 623,
+      "snippet": "\"integrity\": \"sha512-Ji8g8ChVbKrhFtig5QBV7iMaJrGtpHelkB3lsaKzadFBe58gmjfGXAOfI5FV0lYMH8wiqsxKQ1C9B0Y",
+      "confidence": 0.6784302076032357
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.58)",
+      "file": "package-lock.json",
+      "line": 637,
+      "snippet": "\"integrity\": \"sha512-R+/WwhsjmwodAcz65guCGFRkMb4gKWTcIeLy60JJQbXrJ97BOXHxnkPFrP+YwFlaS0m+uWJTstrUA9o",
+      "confidence": 0.6974962931238582
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 651,
+      "snippet": "\"integrity\": \"sha512-IEQTCHeiTOnAUC3IDQdzRAGj3jOAYNr9kBguI7MQAAZK3caezRrg0GxAb6Hchg4lxdZEI5Oq3iov/w/",
+      "confidence": 0.6925813753692402
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 665,
+      "snippet": "\"integrity\": \"sha512-F8sWbhZ7tyuEfsmOxwc2giKDQzN3+kuBLPwwZGyVkLlKGdV1nvnNwYD0fKQ8+XS6hp9nY7B+ZeK01EB",
+      "confidence": 0.6933917990728532
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.41)",
+      "file": "package-lock.json",
+      "line": 679,
+      "snippet": "\"integrity\": \"sha512-rGfNUfn0GIeXtBP1wL5MnzSj98+PZe/AXaGBCRmT0ts80lU5CATYGxXukeTX39XBKsxzFpEeK+Mrp9f",
+      "confidence": 0.6760954214047918
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 693,
+      "snippet": "\"integrity\": \"sha512-MMtej3YHWeg/0klK2Qodf3yrNzz6CGjo2UntLvk2RSPlhzgLvYEB3frRvbEF2wRKh1Z2fDIg9KRPe1f",
+      "confidence": 0.6817068194396476
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 707,
+      "snippet": "\"integrity\": \"sha512-1a/qhaaOXhqXGpMFMET9VqwZakkljWHLmZOX48R0I/YLbhdxr1m4gtG1Hq7++VhVUmf+L3sTAf9op4J",
+      "confidence": 0.6801025024016559
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.53)",
+      "file": "package-lock.json",
+      "line": 721,
+      "snippet": "\"integrity\": \"sha512-QWO6RQTZ/cqYtJMtxhkRkidoNGXc7ERPbZN7dVW5SdURuLeVU7lwKMpo18XdcmpWYd0qsP1bwKPf7DN",
+      "confidence": 0.6911084602656038
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 735,
+      "snippet": "\"integrity\": \"sha512-xpObYIf+8gprgWaPP32xiN5RVTi/s5FCR+XMXSKmhfoJjrpRAjCuuqQXyxUa/eJTdAE6eJ+KDKaoEqj",
+      "confidence": 0.6938714411473272
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.60)",
+      "file": "package-lock.json",
+      "line": 749,
+      "snippet": "\"integrity\": \"sha512-4BrCgrpZo4hvzMDKRqEaW1zeecScDCR+2nZ86ATLhAoJ5FQ+lbHVD3ttKe74/c7tNT9c6F2viwB3ufw",
+      "confidence": 0.6994828391821831
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.32)",
+      "file": "package-lock.json",
+      "line": 763,
+      "snippet": "\"integrity\": \"sha512-NOlUuzesGauESAyEYFSe3QTUguL+lvrN1HtwEEsU2rOwdUDeTMJdO5dUYl/2hKf9jWydJrO9OL/XSSf",
+      "confidence": 0.665306301746608
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.53)",
+      "file": "package-lock.json",
+      "line": 777,
+      "snippet": "\"integrity\": \"sha512-ptA88htVp0AwUUqhVghwDIKlvJMD/fmL/wrQj99PRHFRAG6Z5nbWoWG4o81Nt9FT+IuqUQi+L31ZKAF",
+      "confidence": 0.6907602201254849
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.39)",
+      "file": "package-lock.json",
+      "line": 791,
+      "snippet": "\"integrity\": \"sha512-S51t7aMMTNdmAMPpBg7OOsTdn4tySRQvklmL3RpDRyknk87+Sp3xaumlatU+ppQ+5raY7sSTcC2beGg",
+      "confidence": 0.6738460714777568
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.43)",
+      "file": "package-lock.json",
+      "line": 805,
+      "snippet": "\"integrity\": \"sha512-Bl00OFnVFkL82FHbEqy3k5CUCKH6OEJL54KCyx2oqsmZnFTR8IoNqBF+mjQVcRCT5sB6yOvK8A37LNm",
+      "confidence": 0.6792406313068486
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.41)",
+      "file": "package-lock.json",
+      "line": 819,
+      "snippet": "\"integrity\": \"sha512-ABca4ceT4N+Tv/GtotnWAeXZUZuM/9AQyCyKYyKnpk4yoA7QIAuBt6Hkgpw8kActYlew2mvckXkvx0F",
+      "confidence": 0.6763122596105557
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.32)",
+      "file": "package-lock.json",
+      "line": 833,
+      "snippet": "\"integrity\": \"sha512-HFps0JeGtuOR2convgRRkHCekD7j+gdAuXM+/i6kGzQtFhlCtQkpwtNzkNj6QhCDp7DRJ7+qC/1Vg2j",
+      "confidence": 0.664958061606489
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.46)",
+      "file": "package-lock.json",
+      "line": 847,
+      "snippet": "\"integrity\": \"sha512-H+hXEv9gdVQuDTgnqD+SQffoWoc0Of59AStSzTEj/feWTBAnSfSD3+Dql1ZruJQxmykT/JVY0dE8Ka7",
+      "confidence": 0.6826026794146693
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.46)",
+      "file": "package-lock.json",
+      "line": 861,
+      "snippet": "\"integrity\": \"sha512-4wYoDpNg6o/oPximyc/NG+mYUejZrCU2q+2w6YZqrAs2UcNUChIZXjtafAiiZSUc7On8v5NyNj34Kzj",
+      "confidence": 0.682089048459981
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.56)",
+      "file": "package-lock.json",
+      "line": 875,
+      "snippet": "\"integrity\": \"sha512-O54mtsV/6LW3P8qdTcamQmuC990HDfR71lo44oZMZlXU4tzLrbvTii87Ni9opq60ds0YzuAlEr/GNwu",
+      "confidence": 0.6948647141764898
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.41)",
+      "file": "package-lock.json",
+      "line": 889,
+      "snippet": "\"integrity\": \"sha512-P3dLS+IerxCT/7D2q2FYcRdWRl22dNbrbBEtxdWhXrfIMPP9lQhb5h4Du04mdl5Woq05jVCDPCMF7Ub",
+      "confidence": 0.6758326175360816
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.57)",
+      "file": "package-lock.json",
+      "line": 903,
+      "snippet": "\"integrity\": \"sha512-VMBH2eOOaKGtIJYleXsi2B8CPVADrh+TyNxJ4mWPnKfLB/DBUmzW+5m1xUrcwWoMfSLagIRpjUFeW5C",
+      "confidence": 0.6958579872056522
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 917,
+      "snippet": "\"integrity\": \"sha512-mxRFDdHIWRxg3UfIIAwCm6NzvxG0jDX/wBN6KsQFTvKFqqg9vTrWUE68qEjHt19A5wwx5X5aUi2zuZT",
+      "confidence": 0.6797202733813228
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.53)",
+      "file": "package-lock.json",
+      "line": 931,
+      "snippet": "\"integrity\": \"sha512-HLFeCYgz89uk22N5Qg3dvGvsv46B8GLvKKo1zKG4NybA8U2DiEO3w9lqGg29t/tfLRJpJ6iQxnVw4On",
+      "confidence": 0.6914567004057227
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 942,
+      "snippet": "\"integrity\": \"sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJR",
+      "confidence": 0.6901151872364412
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 952,
+      "snippet": "\"integrity\": \"sha512-mUMZLK3NvwRLcAAT9qmcK+9p7tpU2FHdDsntR3YI4+GY88XrgG4XiE7u1Q2LAN2/FZOz/tdMDC3GQCR",
+      "confidence": 0.6886082832525904
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.46)",
+      "file": "package-lock.json",
+      "line": 959,
+      "snippet": "\"integrity\": \"sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1r",
+      "confidence": 0.682220450394336
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 966,
+      "snippet": "\"integrity\": \"sha512-sKYVuV7Sv9fbPIt/442koC7+IIwK5olP1KWeD88e/idgoJqDm3JV/YUiPwkoKK92ylff2MGxSz1CSjs",
+      "confidence": 0.6818722102542171
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 978,
+      "snippet": "\"integrity\": \"sha512-v4zIMr/cX7/d2BpAEX3KNKL/JrT1s43s96lLvvdTmza1oEvDudCqK9aF/djc/SWgy8Yh0h30TZx5Vpz",
+      "confidence": 0.6864903352599104
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 991,
+      "snippet": "\"integrity\": \"sha512-r8Tayk8HJnX0FztbZN7oVqGccWgw98T/0neJphO91KkmOzug1KkofZURD4UaD5uH8AqcFLfdPErnBod",
+      "confidence": 0.6938714411473272
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 998,
+      "snippet": "\"integrity\": \"sha512-PD03/U8g1F9T9MI+1OBisaIARhSzeidsUjQaf51fOxrfjeiKN9bLVO06lHuHYjxdnqLWJijJHfqXPSJ",
+      "confidence": 0.6884768813182355
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 1008,
+      "snippet": "\"integrity\": \"sha512-eOunJqu0K1923aExK6y8p6fsihYEn/BYuQ4g0CxAAgFc4b/ZLN4CrsRZ55srTdqoiLzU2B2evC+apEI",
+      "confidence": 0.6896015562817529
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.48)",
+      "file": "package-lock.json",
+      "line": 1015,
+      "snippet": "\"integrity\": \"sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0p",
+      "confidence": 0.6853656602963929
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.42)",
+      "file": "package-lock.json",
+      "line": 1022,
+      "snippet": "\"integrity\": \"sha512-arsCikDvlU99zl1g69TcAB3mzZPpxgw0UQnaHeC1Nwb015xp8bknZv5rIfri9xTOcMuaVgvabfIRA7P",
+      "confidence": 0.6779505655287617
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 1032,
+      "snippet": "\"integrity\": \"sha512-8mam4H1NHLtu7nmtalF7eyBH14QyOASmcxHhSfEoRyr0nP/YdoesEtU+uSRvMe96TW/HPTtkoKqQLl5",
+      "confidence": 0.6901151872364412
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.41)",
+      "file": "package-lock.json",
+      "line": 1043,
+      "snippet": "\"integrity\": \"sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8Faqo",
+      "confidence": 0.676443661544911
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.48)",
+      "file": "package-lock.json",
+      "line": 1053,
+      "snippet": "\"integrity\": \"sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5b",
+      "confidence": 0.6852002694818234
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.56)",
+      "file": "package-lock.json",
+      "line": 1066,
+      "snippet": "\"integrity\": \"sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJ",
+      "confidence": 0.6955097470655333
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 1076,
+      "snippet": "\"integrity\": \"sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIh",
+      "confidence": 0.6868385754000293
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.47)",
+      "file": "package-lock.json",
+      "line": 1092,
+      "snippet": "\"integrity\": \"sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iyp",
+      "confidence": 0.6838587563125421
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.58)",
+      "file": "package-lock.json",
+      "line": 1113,
+      "snippet": "\"integrity\": \"sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnI",
+      "confidence": 0.6973648911895031
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.61)",
+      "file": "package-lock.json",
+      "line": 1125,
+      "snippet": "\"integrity\": \"sha512-oP5VkATKlNwcgvxi0vM0p/D3n2C3EReYVX+DNYs5TjZFn/oQt2j+4sVJtSMr18pdRr8wjTcBl6LoV+F",
+      "confidence": 0.7017661779894325
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.42)",
+      "file": "package-lock.json",
+      "line": 1149,
+      "snippet": "\"integrity\": \"sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3Wa",
+      "confidence": 0.6780819674631167
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.48)",
+      "file": "package-lock.json",
+      "line": 1174,
+      "snippet": "\"integrity\": \"sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0p",
+      "confidence": 0.6853316714161786
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 1183,
+      "snippet": "\"integrity\": \"sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEu",
+      "confidence": 0.6896015562817529
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 1196,
+      "snippet": "\"integrity\": \"sha512-+ys997U96po4Kx/ABpBCqhA9EuxJaQWDQg7295H4hBphv3IZg0boBKuwYpt4YXp6MZ5AmZQnU/tyMTl",
+      "confidence": 0.6812271773651736
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 1212,
+      "snippet": "\"integrity\": \"sha512-ej1sPFR5+0YWtaVp6S1N1FVz69TQCqmrkGeRvQxZeAB1nAIcjNTHVwrZtYtWFFBmQsF40/uDLehsW5K",
+      "confidence": 0.6801025024016559
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 1227,
+      "snippet": "\"integrity\": \"sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZu",
+      "confidence": 0.6856284641651029
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 1234,
+      "snippet": "\"integrity\": \"sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQc",
+      "confidence": 0.6896355451619671
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.46)",
+      "file": "package-lock.json",
+      "line": 1245,
+      "snippet": "\"integrity\": \"sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRM",
+      "confidence": 0.6820890484599811
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.46)",
+      "file": "package-lock.json",
+      "line": 1260,
+      "snippet": "\"integrity\": \"sha512-YbUP88RDwCvoQkZhRtGURYm9RIpWdtvZuhT87fKNoLjk8kIFIFeARpKfuZQGdwfH99GZpUmqSfcDrK6",
+      "confidence": 0.682220450394336
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.43)",
+      "file": "package-lock.json",
+      "line": 1285,
+      "snippet": "\"integrity\": \"sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38Z",
+      "confidence": 0.6789438385579241
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 1298,
+      "snippet": "\"integrity\": \"sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQ",
+      "confidence": 0.685976704305222
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.59)",
+      "file": "package-lock.json",
+      "line": 1305,
+      "snippet": "\"integrity\": \"sha512-oIXISMynqSqm241k6kcQ5UwttDILMK4BiurCfGEREw6+X9jkkpEe5T9FZaApyLGGOnFuyMWZpdolTXM",
+      "confidence": 0.6984895661530206
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.58)",
+      "file": "package-lock.json",
+      "line": 1318,
+      "snippet": "\"integrity\": \"sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK",
+      "confidence": 0.6973648911895031
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.37)",
+      "file": "package-lock.json",
+      "line": 1327,
+      "snippet": "\"integrity\": \"sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o",
+      "confidence": 0.6718255365392174
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.60)",
+      "file": "package-lock.json",
+      "line": 1336,
+      "snippet": "\"integrity\": \"sha512-D76uU73ulSXrD1UXF4KE2TMxVVwhsnCgfAyTg9k8P6KGZjlXKrOLe4dJQKI3Bxi5wjesZoFXJWElNWB",
+      "confidence": 0.6994828391821831
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.56)",
+      "file": "package-lock.json",
+      "line": 1345,
+      "snippet": "\"integrity\": \"sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9Giijlt",
+      "confidence": 0.6947333122421346
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 1362,
+      "snippet": "\"integrity\": \"sha512-aW35yZM6Bb/4oJlZncMH2LCoZtJXTRxES17vE3hoRiowU2kWHaJKFkSBDnDR+cm9J+9QhXmREyIfv0p",
+      "confidence": 0.6942196812874463
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.47)",
+      "file": "package-lock.json",
+      "line": 1378,
+      "snippet": "\"integrity\": \"sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LE",
+      "confidence": 0.684206996452661
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.33)",
+      "file": "package-lock.json",
+      "line": 1388,
+      "snippet": "\"integrity\": \"sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQ",
+      "confidence": 0.6658199327012964
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 1397,
+      "snippet": "\"integrity\": \"sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4",
+      "confidence": 0.6805821444761301
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.36)",
+      "file": "package-lock.json",
+      "line": 1407,
+      "snippet": "\"integrity\": \"sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnS",
+      "confidence": 0.6704380577069896
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.66)",
+      "file": "package-lock.json",
+      "line": 1419,
+      "snippet": "\"integrity\": \"sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4",
+      "confidence": 0.7070293358841694
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.64)",
+      "file": "package-lock.json",
+      "line": 1433,
+      "snippet": "\"integrity\": \"sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY6",
+      "confidence": 0.7053910299659635
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.57)",
+      "file": "package-lock.json",
+      "line": 1439,
+      "snippet": "\"integrity\": \"sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14Sawn",
+      "confidence": 0.6968512602348146
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.43)",
+      "file": "package-lock.json",
+      "line": 1446,
+      "snippet": "\"integrity\": \"sha512-Q0n9HRi4m6JuGIV1eFlmvJB7ZEVxu93IrMyiMsGC0lrMJMWzRgx6WGquyfQgZVb31vhGgXnfmPNNXmx",
+      "confidence": 0.6790752404922791
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 1455,
+      "snippet": "\"integrity\": \"sha512-ooEGc6HP26xXq/N+GCGOT0JKCLDGrq2bQUZrQ7gyrJiZANJ/8YDTxTpQBXGMn+WbIQXNVpyWymm7KYV",
+      "confidence": 0.6810957754308183
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.50)",
+      "file": "package-lock.json",
+      "line": 1465,
+      "snippet": "\"integrity\": \"sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVY",
+      "confidence": 0.687615010223428
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.50)",
+      "file": "package-lock.json",
+      "line": 1474,
+      "snippet": "\"integrity\": \"sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFN",
+      "confidence": 0.6873522063547178
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.48)",
+      "file": "package-lock.json",
+      "line": 1483,
+      "snippet": "\"integrity\": \"sha512-FGgH2h8zKNim9ljj7dankFPcICIK9Cp5bm+c2gQSYePhpaG5+esrLODihIorn+Pe6FGJzWhXQotPv73",
+      "confidence": 0.6848520293417044
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.53)",
+      "file": "package-lock.json",
+      "line": 1495,
+      "snippet": "\"integrity\": \"sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/",
+      "confidence": 0.6912398621999588
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.48)",
+      "file": "package-lock.json",
+      "line": 1534,
+      "snippet": "\"integrity\": \"sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS",
+      "confidence": 0.6849834312760597
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.42)",
+      "file": "package-lock.json",
+      "line": 1544,
+      "snippet": "\"integrity\": \"sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8O",
+      "confidence": 0.6769572924995992
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 1550,
+      "snippet": "\"integrity\": \"sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBf",
+      "confidence": 0.6807475352906995
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.57)",
+      "file": "package-lock.json",
+      "line": 1559,
+      "snippet": "\"integrity\": \"sha512-mlsTRyGaPBjPedk6Bvw+aqbsXDtoAyAzm5MO7JgU+yVRyMQ5O8bD4Kcci7BS85f93veegeCPkL8R4GL",
+      "confidence": 0.6958579872056523
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 1566,
+      "snippet": "\"integrity\": \"sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111Ca",
+      "confidence": 0.681061786550604
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 1575,
+      "snippet": "\"integrity\": \"sha512-XYfuKMvj4O35f/pOXLObndIRvyQ+/+6AhODh+OKWj9S9498pHHn/IMszH+gt0fBCRWMNfk1ZSp5x3Ai",
+      "confidence": 0.6807475352906995
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.47)",
+      "file": "package-lock.json",
+      "line": 1585,
+      "snippet": "\"integrity\": \"sha512-hIS4idWWai69NezIdRt2xFVofaF4j+6INOpJlVOLDO8zXGpUVEVzIYk12UUi2JzjEzWL3IOAxcTubgz",
+      "confidence": 0.684206996452661
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.60)",
+      "file": "package-lock.json",
+      "line": 1628,
+      "snippet": "\"integrity\": \"sha512-S8KoZgRZN+a5rNwqTxlZZePjT/4cnm0ROV70LedRHZ0p8u9fRID0hJUZQpkKLzro8LfmC8sx23bY6tV",
+      "confidence": 0.6999964701368715
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.39)",
+      "file": "package-lock.json",
+      "line": 1649,
+      "snippet": "\"integrity\": \"sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6",
+      "confidence": 0.6739774734121118
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.59)",
+      "file": "package-lock.json",
+      "line": 1658,
+      "snippet": "\"integrity\": \"sha512-Rx/WycZ60HOaqLKAi6cHRKKI7zxWbJ31MhntmtwMoaTeF7XFH9hhBp8vITaMidfljRQ6eYWCKkaTK+y",
+      "confidence": 0.698871795173354
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.60)",
+      "file": "package-lock.json",
+      "line": 1667,
+      "snippet": "\"integrity\": \"sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp",
+      "confidence": 0.6999964701368716
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.33)",
+      "file": "package-lock.json",
+      "line": 1674,
+      "snippet": "\"integrity\": \"sha512-VWSRii4t0AFm6ixFFmLLx1t7wS1gh+ckoa84aOeapGum0h+EZd1EhEumSB+ZdDLnEPuucsVB9oB7cxJ",
+      "confidence": 0.6664309767101254
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 1690,
+      "snippet": "\"integrity\": \"sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJw",
+      "confidence": 0.6901151872364413
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.47)",
+      "file": "package-lock.json",
+      "line": 1705,
+      "snippet": "\"integrity\": \"sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82n",
+      "confidence": 0.684075594518306
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.63)",
+      "file": "package-lock.json",
+      "line": 1714,
+      "snippet": "\"integrity\": \"sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIift",
+      "confidence": 0.7034044839076385
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.40)",
+      "file": "package-lock.json",
+      "line": 1724,
+      "snippet": "\"integrity\": \"sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5m",
+      "confidence": 0.6751325267786613
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.58)",
+      "file": "package-lock.json",
+      "line": 1748,
+      "snippet": "\"integrity\": \"sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKH",
+      "confidence": 0.6974962931238581
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.50)",
+      "file": "package-lock.json",
+      "line": 1761,
+      "snippet": "\"integrity\": \"sha512-shZT/QMiSHc/YBLxxOkMtgSid5HFoauqCE3/exfsEcwg1WkeqjG+V40yBbBrsD+jW2HDXcs28xOfcbm",
+      "confidence": 0.687831848429192
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 1774,
+      "snippet": "\"integrity\": \"sha512-SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9Evnt",
+      "confidence": 0.6797202733813226
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.47)",
+      "file": "package-lock.json",
+      "line": 1781,
+      "snippet": "\"integrity\": \"sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rf",
+      "confidence": 0.6839901582468969
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 1793,
+      "snippet": "\"integrity\": \"sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+",
+      "confidence": 0.6922331352291213
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 1801,
+      "snippet": "\"integrity\": \"sha512-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h+eb1X6RyuOHe4hT0ULCW68iomhjU",
+      "confidence": 0.6818722102542171
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.60)",
+      "file": "package-lock.json",
+      "line": 1813,
+      "snippet": "\"integrity\": \"sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bf",
+      "confidence": 0.6997796319311076
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 1825,
+      "snippet": "\"integrity\": \"sha512-4FbRdAX+bSdmo4AUFuS0WNiPz8NgFt+r8ThgNWmlrjQjt1Q7ZR9+zTlce2859x4KSXrwIsaeTqDoKQm",
+      "confidence": 0.6817068194396476
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 1845,
+      "snippet": "\"integrity\": \"sha512-im9DjEDQ55s9fL4EYzOAv0yMqmMBSZp6G0VvFyTMPKWxiSBHUj9NW/qqLmXUwXrrM7AvqSlTCfvqRb0",
+      "confidence": 0.6927467661838096
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 1861,
+      "snippet": "\"integrity\": \"sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFn",
+      "confidence": 0.6805821444761301
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.36)",
+      "file": "package-lock.json",
+      "line": 1882,
+      "snippet": "\"integrity\": \"sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYe",
+      "confidence": 0.6700558286866566
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.59)",
+      "file": "package-lock.json",
+      "line": 1888,
+      "snippet": "\"integrity\": \"sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHk",
+      "confidence": 0.6988378062931397
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.56)",
+      "file": "package-lock.json",
+      "line": 1895,
+      "snippet": "\"integrity\": \"sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYX",
+      "confidence": 0.6948647141764898
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.59)",
+      "file": "package-lock.json",
+      "line": 1904,
+      "snippet": "\"integrity\": \"sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg",
+      "confidence": 0.6984895661530206
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 1914,
+      "snippet": "\"integrity\": \"sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3",
+      "confidence": 0.6937400392129722
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.47)",
+      "file": "package-lock.json",
+      "line": 1920,
+      "snippet": "\"integrity\": \"sha512-mIcis6w+JiQf3P7t7mg/35GKB4T1FQsBOtMIvuKw4YErj5RjtbhcTd5/I30fmkmGMwvI0WlzSNN+27K",
+      "confidence": 0.684338398387016
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 1931,
+      "snippet": "\"integrity\": \"sha512-0TpaTfihd4QMNwrz/ob2Bp7X04yuxJkjRGi4aKmOqwhov54i6u79oCv7T+C7lo70MKH6BesI3vscD1y",
+      "confidence": 0.6864903352599104
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.46)",
+      "file": "package-lock.json",
+      "line": 1940,
+      "snippet": "\"integrity\": \"sha512-WZzeDOEtTOBK4Mdsar0IqEU5sMr3vSV2RqkAIzUEV2BHnUfKGyswWFPFwK5EeDo93K3FohSHbLAjj0s",
+      "confidence": 0.682220450394336
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.63)",
+      "file": "package-lock.json",
+      "line": 1947,
+      "snippet": "\"integrity\": \"sha512-FGuPw30AdOIUTRMC2OMRtQV+jkVj2cfPqSeWXv1NEAJ1qZ5zb1X6z1mFhbfOB/iy3ssJCD+3KuZ8r8C",
+      "confidence": 0.7032730819732834
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.41)",
+      "file": "package-lock.json",
+      "line": 1961,
+      "snippet": "\"integrity\": \"sha512-pbJOSRVzZOoe9fL3RWjVxrYjsPo9npIVKGSl2Jhm1x4GxC6uubPWktWPxNLOnrshgxwAKrs2VeLY7Lx",
+      "confidence": 0.6764436615449108
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.46)",
+      "file": "package-lock.json",
+      "line": 1982,
+      "snippet": "\"integrity\": \"sha512-HgMmCqIJSAKqo68l0rS2AanEWfkxaZ5wNiEFb5ggm08lDs9Xl2KxBlX3PTcaD2chBM1gXAYf491/M2R",
+      "confidence": 0.6826026794146693
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 1995,
+      "snippet": "\"integrity\": \"sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6X",
+      "confidence": 0.6810957754308185
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.40)",
+      "file": "package-lock.json",
+      "line": 2004,
+      "snippet": "\"integrity\": \"sha512-aisnrDP4GNe06UcKFnV5bfMNPBUw4jsLGaWwWfnH3v02GnBuXX2MCVn5RbrWo0j3pczUilYblq7fQ7N",
+      "confidence": 0.6749707464412742
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 2013,
+      "snippet": "\"integrity\": \"sha512-Snk314V5ayFLhp3fkUREub6WtjBfPdCPY1Ln8/8munuLuiYhsABgBVWsozAG+MWMbVEvcdcpbi9R7ww",
+      "confidence": 0.6918848950890023
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.59)",
+      "file": "package-lock.json",
+      "line": 2025,
+      "snippet": "\"integrity\": \"sha512-aU5EJuIN2WDemCcAp2vFBfp/m4EAhWJnUNSSw0ixs7/kXbd6Pg64EmwJkNdFhB8aWt1sH2CTXrLxo/i",
+      "confidence": 0.6981413260129017
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.41)",
+      "file": "package-lock.json",
+      "line": 2034,
+      "snippet": "\"integrity\": \"sha512-Lbgzdk0h4juoQ9fCKXW4by0UJqj+nOOrI9MJ1sSj4nI8aI2eo1qmvQEie4VD1glsS250n15LsWsYtCu",
+      "confidence": 0.676825890565244
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 2050,
+      "snippet": "\"integrity\": \"sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQT",
+      "confidence": 0.6794234806323981
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.28)",
+      "file": "package-lock.json",
+      "line": 2063,
+      "snippet": "\"integrity\": \"sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWq",
+      "confidence": 0.6605227859263452
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.47)",
+      "file": "package-lock.json",
+      "line": 2073,
+      "snippet": "\"integrity\": \"sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659",
+      "confidence": 0.6836933654979725
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.50)",
+      "file": "package-lock.json",
+      "line": 2084,
+      "snippet": "\"integrity\": \"sha512-KZxYo1BUkWD2TVFLr0MQoM8vUUigWD3LlD83a/75BqC+4qE0Hb1Vo5v1FgcfaNXvfXzr+5EhQ6ing/C",
+      "confidence": 0.6879632503635469
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 2098,
+      "snippet": "\"integrity\": \"sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35Njc",
+      "confidence": 0.6863589333255553
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 2105,
+      "snippet": "\"integrity\": \"sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXt",
+      "confidence": 0.6795888714469676
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 2111,
+      "snippet": "\"integrity\": \"sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2",
+      "confidence": 0.6932264082582837
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.43)",
+      "file": "package-lock.json",
+      "line": 2130,
+      "snippet": "\"integrity\": \"sha512-GEbrYkbfF7MoNaoh2iGG84Mnf/WZfB0GdGEsM8wz7Expx/LlWf5U8t9nvJKXSp3qr5IsEbK04cBGhol",
+      "confidence": 0.6787270003521603
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 2137,
+      "snippet": "\"integrity\": \"sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WR",
+      "confidence": 0.6932264082582837
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 2146,
+      "snippet": "\"integrity\": \"sha512-+CGM1L1CgmtheLcBuleyYOn7NWPVu0s0EJH2C4puxgEZb9h8QpR9G2dBfZJOAUhi7VQxuBPMd0hiISW",
+      "confidence": 0.6901151872364413
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.56)",
+      "file": "package-lock.json",
+      "line": 2159,
+      "snippet": "\"integrity\": \"sha512-/bRZty2mXUIFY/xU5HLvveNHlswNJej+RnxBjOMkidWfwZzgTbPG1E3K5TOxRLOR+5hX7bSofy8yf1h",
+      "confidence": 0.6955097470655331
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.50)",
+      "file": "package-lock.json",
+      "line": 2170,
+      "snippet": "\"integrity\": \"sha512-jfnmiKWjRAGbdD1yQS28bknFM1tbHC1oucyuMPjmkEs+kpiu76aRs40WlTmBmyEgzDM76ge1DQ7XJ3R",
+      "confidence": 0.6871353681489539
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.66)",
+      "file": "package-lock.json",
+      "line": 2178,
+      "snippet": "\"integrity\": \"sha512-j+dFgJLRAE0nufQKXk3IfS6T6YuHhCgMvz4TrG0sgtb6DSCdYpfJ1etcdmeCmPQjUgO+yo32ktVrRli",
+      "confidence": 0.7068979339498144
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.40)",
+      "file": "package-lock.json",
+      "line": 2196,
+      "snippet": "\"integrity\": \"sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7ef",
+      "confidence": 0.6746739536923497
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 2203,
+      "snippet": "\"integrity\": \"sha512-W67iLl4J2EXEGTbfeHCffrjDfitvLANg0UlX3wFUUSTx92KXRFegMHUVgSqE+wvhAbi4WqjGg9czysT",
+      "confidence": 0.686324944445341
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.61)",
+      "file": "package-lock.json",
+      "line": 2215,
+      "snippet": "\"integrity\": \"sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr",
+      "confidence": 0.7009897431660339
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 2227,
+      "snippet": "\"integrity\": \"sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/",
+      "confidence": 0.6857139004365118
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.56)",
+      "file": "package-lock.json",
+      "line": 2236,
+      "snippet": "\"integrity\": \"sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4",
+      "confidence": 0.6952129543166087
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.50)",
+      "file": "package-lock.json",
+      "line": 2245,
+      "snippet": "\"integrity\": \"sha512-7jdwVIRtsP8MYpdXSwOS0YdD0Du+qOoF/AEPIt88PcCFrZCzx41oxku1jD88hZBwbNUIEfpqvuhjFaM",
+      "confidence": 0.6877804010379973
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.43)",
+      "file": "package-lock.json",
+      "line": 2255,
+      "snippet": "\"integrity\": \"sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntp",
+      "confidence": 0.67846419648345
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 2262,
+      "snippet": "\"integrity\": \"sha512-D9wlkXZCmjxj2kBHTw3fGSyjoahr33breGBoJcoezpi7ouYS59DJVOHMZ+dgqacSrZiJo4qtkXxLQTE",
+      "confidence": 0.6881286411781163
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 2279,
+      "snippet": "\"integrity\": \"sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNk",
+      "confidence": 0.6794234806323982
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.69)",
+      "file": "package-lock.json",
+      "line": 2308,
+      "snippet": "\"integrity\": \"sha512-8Mf2cbV7x1cXPUILADGI3wuhfqWvtiLA1iclTDbFRZkgRQS0NqsPZphna9V+HyTEadheuPmjaJMsbzK",
+      "confidence": 0.7116474608898626
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 2335,
+      "snippet": "\"integrity\": \"sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMrao",
+      "confidence": 0.6894701543473978
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.56)",
+      "file": "package-lock.json",
+      "line": 2348,
+      "snippet": "\"integrity\": \"sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDY",
+      "confidence": 0.6943850721020158
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.47)",
+      "file": "package-lock.json",
+      "line": 2359,
+      "snippet": "\"integrity\": \"sha512-4EK3+xJl8Ts67nLYNwqw/dsFVnCf+qR7RgXSK9jEEm9unao3njwMDdmsdvoKBKHzxd7tCYz5e5M+SnM",
+      "confidence": 0.6837273543781869
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.44)",
+      "file": "package-lock.json",
+      "line": 2374,
+      "snippet": "\"integrity\": \"sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl",
+      "confidence": 0.680233904336011
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.41)",
+      "file": "package-lock.json",
+      "line": 2383,
+      "snippet": "\"integrity\": \"sha512-K5zQjDllxWkf7Z5xJdV0/B0WTNqx6vxG70zJE4N0kBs4LovmEYWJzQGxC9bS9RAKu3bgM40lrd5zoLJ",
+      "confidence": 0.6757012156017266
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.36)",
+      "file": "package-lock.json",
+      "line": 2398,
+      "snippet": "\"integrity\": \"sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvy",
+      "confidence": 0.6702212195012258
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 2414,
+      "snippet": "\"integrity\": \"sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS",
+      "confidence": 0.6930950063239287
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.56)",
+      "file": "package-lock.json",
+      "line": 2429,
+      "snippet": "\"integrity\": \"sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4R",
+      "confidence": 0.6953783451311782
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.27)",
+      "file": "package-lock.json",
+      "line": 2439,
+      "snippet": "\"integrity\": \"sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEp",
+      "confidence": 0.6586676418023754
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.30)",
+      "file": "package-lock.json",
+      "line": 2449,
+      "snippet": "\"integrity\": \"sha512-oQL6lgK3e2QZeQ7gcgIkS2YZPg5slw37hYufJ3edKlfQSGGm8ICoxswK15ntSzF/a8+h7ekRy7k7oWc",
+      "confidence": 0.6624578845934758
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 2494,
+      "snippet": "\"integrity\": \"sha512-nLTrUKm2UyiL7rlhapu/Zl45FwNgkZGaCpZbIHajDYgwlJCOzLSk+cIPAnsEqV955GjILJnKbdQC1nV",
+      "confidence": 0.6899497964218717
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.47)",
+      "file": "package-lock.json",
+      "line": 2510,
+      "snippet": "\"integrity\": \"sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaX",
+      "confidence": 0.6833451253578536
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.38)",
+      "file": "package-lock.json",
+      "line": 2520,
+      "snippet": "\"integrity\": \"sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmp",
+      "confidence": 0.672339167493906
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 2541,
+      "snippet": "\"integrity\": \"sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwq",
+      "confidence": 0.6810617865506042
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.46)",
+      "file": "package-lock.json",
+      "line": 2547,
+      "snippet": "\"integrity\": \"sha512-lwsAIzOPlH8/7IIjjz3K0zYBk7aBVVcvjMwt3M4fLxpjMYyy7i3I97SLHebgn4YBjirkzfp3RvRDWSK",
+      "confidence": 0.6825686905344549
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 2553,
+      "snippet": "\"integrity\": \"sha512-KrOH82c/W+GYQ0LHqtr3caRpM3ITglq3ljGUIb8LTki7ByacJZ9z+piSGiwZDsRyhQbYBOBJgr2k6X4",
+      "confidence": 0.6889565233927094
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 2562,
+      "snippet": "\"integrity\": \"sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2Q",
+      "confidence": 0.6904634273765602
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.38)",
+      "file": "package-lock.json",
+      "line": 2575,
+      "snippet": "\"integrity\": \"sha512-1gnZf7DFcoIcajTjTwjwuDjzuz4PPcY2StKPlsGAQ1+YH20IRVrBaXSWmdjowTJ6u8Rc01PoYOGHXfP",
+      "confidence": 0.672589994579884
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.29)",
+      "file": "package-lock.json",
+      "line": 2601,
+      "snippet": "\"integrity\": \"sha512-xRXBn0pPqQTVQiC8wyQrKs2MOlX24zQ0POGaj0kultvoOCstBQM5yvOhAVSUwOMjQtTvsPWoNCHfPGw",
+      "confidence": 0.6616263919017003
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 2620,
+      "snippet": "\"integrity\": \"sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4X",
+      "confidence": 0.6899837853020862
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.40)",
+      "file": "package-lock.json",
+      "line": 2626,
+      "snippet": "\"integrity\": \"sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/",
+      "confidence": 0.675187584647038
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 2645,
+      "snippet": "\"integrity\": \"sha512-FCLHtRD/gnpCiCHEiJLOwdmFP+wzCmDEkc9y7NsYxeF4u7Btsn1ZuwgwJGxImImHicJArLP4R0yX4c2",
+      "confidence": 0.6864903352599105
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.59)",
+      "file": "package-lock.json",
+      "line": 2661,
+      "snippet": "\"integrity\": \"sha512-VCjCNfgMsby3tTdo02nbjtM/ewra6jPHmpThenkTYh8pG9ucZ/1P8So4u4FGBek/BjpOVsDCMoLA/iu",
+      "confidence": 0.6981413260129017
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.40)",
+      "file": "package-lock.json",
+      "line": 2679,
+      "snippet": "\"integrity\": \"sha512-WPS/HvHQTYnHisLo9McqBHOJk2FkHO/tlpvldyrnem4aeQp4hai3gythswg6p01oSoTl58rcpiFAjF2",
+      "confidence": 0.6754843773959627
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.48)",
+      "file": "package-lock.json",
+      "line": 2698,
+      "snippet": "\"integrity\": \"sha512-EiL6BjZ3R3ag6JAmI8Aifkc4wdeAWe1ZvlYn6bAzS8IF/uB1S5nO5eXzY1MGqyqnqfBPBKsqrz2k34/",
+      "confidence": 0.6848520293417044
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.64)",
+      "file": "package-lock.json",
+      "line": 2707,
+      "snippet": "\"integrity\": \"sha512-cSFtAPtRhljv69IK0hTVZQ+OfE9nePi/rtJmw5UjHeVyVroEqJXP1sFztKUy1qU+xvz3u/sfYJLa947",
+      "confidence": 0.7053910299659634
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 2728,
+      "snippet": "\"integrity\": \"sha512-brv7p5WgH0jmQJr1ZDDfKDOSeWWg+OVypG99A/5vYGPqJ6pxiaHLy8nxtFjBA7oMa01ebA9gfh1uMCF",
+      "confidence": 0.6928781681181648
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.31)",
+      "file": "package-lock.json",
+      "line": 2754,
+      "snippet": "\"integrity\": \"sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+I",
+      "confidence": 0.6636129379600252
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.35)",
+      "file": "package-lock.json",
+      "line": 2764,
+      "snippet": "\"integrity\": \"sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZ",
+      "confidence": 0.6684175227684503
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.40)",
+      "file": "package-lock.json",
+      "line": 2773,
+      "snippet": "\"integrity\": \"sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+u",
+      "confidence": 0.6753189865813932
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.57)",
+      "file": "package-lock.json",
+      "line": 2783,
+      "snippet": "\"integrity\": \"sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvST",
+      "confidence": 0.6965030200946957
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 2798,
+      "snippet": "\"integrity\": \"sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUS",
+      "confidence": 0.6888251214583543
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.46)",
+      "file": "package-lock.json",
+      "line": 2811,
+      "snippet": "\"integrity\": \"sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgw",
+      "confidence": 0.6829968852177346
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 2821,
+      "snippet": "\"integrity\": \"sha512-fov56fJiRuThVFXD6o6/Q354S7pnWMJIVlDBYijsTNx6jKSE4pvrDTs6lUnmGvNyfJwFQQwWy3owKz1",
+      "confidence": 0.6812271773651736
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 2839,
+      "snippet": "\"integrity\": \"sha512-mDAjwmZdh7LTT6pNleZ05Yt65HC3E+NiQzl672vQG38jIrehtJk/J3mNwIg+vShQPcLF/LV7CMnDW6v",
+      "confidence": 0.6884768813182354
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 2852,
+      "snippet": "\"integrity\": \"sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJ",
+      "confidence": 0.6927467661838096
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.67)",
+      "file": "package-lock.json",
+      "line": 2859,
+      "snippet": "\"integrity\": \"sha512-ujeqbceABgwMZxEJnk2HDY2DlnUZ+9oEcb1KzTVfYHio0UE6dG71n60d8D2I4qNvleWrrXpmjpt7vZe",
+      "confidence": 0.7087190891935697
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.64)",
+      "file": "package-lock.json",
+      "line": 2876,
+      "snippet": "\"integrity\": \"sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz60",
+      "confidence": 0.7052596280316084
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.42)",
+      "file": "package-lock.json",
+      "line": 2885,
+      "snippet": "\"integrity\": \"sha512-+1iDGY6NmOGidq7i7xZGA4cm8DAa6fqdYcvO5Z6yBevH++Bdo9Qt/mN0TzHUgcCcKv1gmh9+W5dHqz8",
+      "confidence": 0.6780819674631168
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 2891,
+      "snippet": "\"integrity\": \"sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99I",
+      "confidence": 0.6901151872364413
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.35)",
+      "file": "package-lock.json",
+      "line": 2897,
+      "snippet": "\"integrity\": \"sha512-5C1sg4USs1lfG0GFb2RLXsdpXqBSEhAaA/0kPL01wxzpMqLILNxIxIOKiILz+cdg/pLnOUxFYOR5yhH",
+      "confidence": 0.6691939575918491
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.64)",
+      "file": "package-lock.json",
+      "line": 2917,
+      "snippet": "\"integrity\": \"sha512-9fJMTNFTWZMh5qwrBItuziu834eOCUcEqymSH7pY+zoMVEZg3gcPuBNxH1EvfVYe9h0x/Ptw8KBzv7q",
+      "confidence": 0.7050427898258445
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.48)",
+      "file": "package-lock.json",
+      "line": 2934,
+      "snippet": "\"integrity\": \"sha512-i5D1hPY7GIQmXlXhs2w8AWHhenb00+GxjxRncS2ZM7YNVGNfaMxgzSGuO8o8SJzRc/oZwU2bcScvVER",
+      "confidence": 0.6852002694818234
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.43)",
+      "file": "package-lock.json",
+      "line": 2951,
+      "snippet": "\"integrity\": \"sha512-YdghPYUmj/FX2SYKJ0OZxf+iaKgMsKHVPF1MAq/P8WirnSpCStzKJFjOjzsW0QQ7oIAiccHdcqjbHmJ",
+      "confidence": 0.6793720332412038
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 2968,
+      "snippet": "\"integrity\": \"sha512-IN/0BNTkHtk8lkOM8JWAYFg4ORxBkZQf9zXiEOfERX/CzxW3Vg1ewAhU7QSWQpVIzTW+b8Xy+lGzdYX",
+      "confidence": 0.6929296155093594
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 2985,
+      "snippet": "\"integrity\": \"sha512-Re491k7ByTVRy0t3EKWajdLIr0gz2kKKfzafkth4Q8A5n1xTHrkqZgLLjFEHVD+AXdUGgQMq+Godfq4",
+      "confidence": 0.6886082832525905
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 3002,
+      "snippet": "\"integrity\": \"sha512-vHk/hA7/1AckjGzRqi6wbo+jaShzRowYip6rt6q7VYEDX4LEy1pZfDpdxCBnGtl+A5zq8iXDcyuxwtv",
+      "confidence": 0.6938714411473271
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.62)",
+      "file": "package-lock.json",
+      "line": 3019,
+      "snippet": "\"integrity\": \"sha512-ipTYM2fjt3kQAYOvo6vcxJx3nBYAzPjgTCk7QEgZG8AUO3ydUhvelmhrbOheMnGOlaSFUoHXB6un+A7",
+      "confidence": 0.703107691158714
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.46)",
+      "file": "package-lock.json",
+      "line": 3036,
+      "snippet": "\"integrity\": \"sha512-dDk0X87T7mI6U3K9VjWtHOXqwAMJBNN2r7bejDsc+j03SEjtD9HrOl8gVFByeM0aJksoUuUVU9TBaZa",
+      "confidence": 0.682220450394336
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.48)",
+      "file": "package-lock.json",
+      "line": 3053,
+      "snippet": "\"integrity\": \"sha512-s6nPv2QkSupJwLYyfS+gwdirm0ukyTFNl3KTgZEAiJDd+iHZcbTPPcWCcRYH+WlNbwChgH2QkE9NSlN",
+      "confidence": 0.6849834312760595
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.50)",
+      "file": "package-lock.json",
+      "line": 3070,
+      "snippet": "\"integrity\": \"sha512-sZOuFz/xWnZ4KH3YfFrKCf1WyPZHakVzTiqji3WDc0BCl2kBwiJLCXpzLzUBLgmp4veFZdvN5ChW4Eq",
+      "confidence": 0.6878318484291919
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 3087,
+      "snippet": "\"integrity\": \"sha512-yGlQYjdxtLdh0a3jHjuwOrxQjOZYD/C9PfdbgJJF3TIZWnm/tMd/RcNiLngiu4iwcBAOezdnSLAwQDP",
+      "confidence": 0.6923985260436907
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.46)",
+      "file": "package-lock.json",
+      "line": 3104,
+      "snippet": "\"integrity\": \"sha512-WO60Sn8ly3gtzhyjATDgieJNet/KqsDlX5nRC5Y3oTFcS1l0KWba+SEa9Ja1GfDqSF1z6hif/SkpQJb",
+      "confidence": 0.682220450394336
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 3121,
+      "snippet": "\"integrity\": \"sha512-APsymYA6sGcZ4pD6k+UxbDjOFSvPWyZhjaiPyl/f79xKxwTnrn5QUnXR5prvetuaSMsb4jgeHewIDCI",
+      "confidence": 0.6928781681181649
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 3138,
+      "snippet": "\"integrity\": \"sha512-eizBnTeBefojtDb9nSh4vvVQ3V9Qf9Df01PfawPcRzJH4gFSgrObw+LveUyDoKU3kxi5+9RJTCWlj4F",
+      "confidence": 0.6942196812874462
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.42)",
+      "file": "package-lock.json",
+      "line": 3155,
+      "snippet": "\"integrity\": \"sha512-3Emwh0r5wmfm3ssTWRQSyVhbOHvqegUDRd0WhmXKX2mkHJe1SFCMJhagUleMq+Uci34wLSipf8Lagt4",
+      "confidence": 0.6771226833141686
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 3172,
+      "snippet": "\"integrity\": \"sha512-pBHUx9LzXWBc7MFIEEL0yD/ZVtNgLytvx60gES28GcWMqil8ElCYR4kvbV2BDqsHOvVDRrOxGySBM9F",
+      "confidence": 0.6859767043052221
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.49)",
+      "file": "package-lock.json",
+      "line": 3189,
+      "snippet": "\"integrity\": \"sha512-Czi8yzXUWIQYAtL/2y6vogER8pvcsOsk5cpwL4Gk5nJqH5UZiVByIY8Eorm5R13gq+DQKYg0+JyQoyt",
+      "confidence": 0.6857139004365117
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 3206,
+      "snippet": "\"integrity\": \"sha512-P14lFKJl/DdaE00LItAukUdZO5iqNH7+PjoBm+fLQjtxfcfFE20Xf5CrLsmZdq5LFFZzb5JMZ9grUwv",
+      "confidence": 0.6940882793530911
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 3223,
+      "snippet": "\"integrity\": \"sha512-DnW2sRrBzA+YnE70LKqnM3P+z8vehfJWHXECbwBmH/CU51z6FiqTQTHFenPlHmo3a8UgpLyH3PT+87O",
+      "confidence": 0.6927467661838097
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.55)",
+      "file": "package-lock.json",
+      "line": 3240,
+      "snippet": "\"integrity\": \"sha512-PanZ+nEz+eWoBJ8/f8HKxTTD172SKwdXebZ0ndd953gt1HRBbhMsaNqjTyYLGLPdoWHy4zLU7bDVJzt",
+      "confidence": 0.6938714411473272
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.43)",
+      "file": "package-lock.json",
+      "line": 3257,
+      "snippet": "\"integrity\": \"sha512-B2t59lWWYrbRDw/tjiWOuzSsFh1Y/E95ofKz7rIVYSQkUYBjfSgf6oeYPNWHToFRr2zx52JKApIcAS/",
+      "confidence": 0.67846419648345
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.57)",
+      "file": "package-lock.json",
+      "line": 3274,
+      "snippet": "\"integrity\": \"sha512-QLKSFeXNS8+tHW7tZpMtjlNb7HKau0QDpwm49u0vUp9y1WOF+PEzkU84y9GqYaAVW8aH8f3GcBck26j",
+      "confidence": 0.6958579872056522
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.40)",
+      "file": "package-lock.json",
+      "line": 3291,
+      "snippet": "\"integrity\": \"sha512-4uJGhsxuptu3OcpVAzli+/gWusVGwZZHTlS63hh++ehExkVT8SgiEf7/uC/PclrPPkLhZqGgCTjd0VW",
+      "confidence": 0.6756157793303177
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.50)",
+      "file": "package-lock.json",
+      "line": 3308,
+      "snippet": "\"integrity\": \"sha512-8VwMnyGCONIs6cWue2IdpHxHnAjzxnw2Zr7MkVxB2vjmQ2ivqGFb4LEG3SMnv0Gb2F/G/2yA8zUaiL1",
+      "confidence": 0.6872971484863408
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.53)",
+      "file": "package-lock.json",
+      "line": 3350,
+      "snippet": "\"integrity\": \"sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR",
+      "confidence": 0.6911084602656039
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 3363,
+      "snippet": "\"integrity\": \"sha512-OZs6gsjF4vMp32qrCbiVSkrFmXtG/AZhY3t0iAMrMBiAZyV9oALtXO8hsrHbMXF9x6L3grlFuwW2oAz",
+      "confidence": 0.6810957754308183
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.38)",
+      "file": "package-lock.json",
+      "line": 3377,
+      "snippet": "\"integrity\": \"sha512-g/KzbYKbH5C2vPkaXGu8DJlHrGKHLsM25Zg9WuC9pMGfuvT+X25tZQWo5fK1BjBm8+UrVE9LDCvaY0C",
+      "confidence": 0.6723391674939058
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.59)",
+      "file": "package-lock.json",
+      "line": 3386,
+      "snippet": "\"integrity\": \"sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm",
+      "confidence": 0.6984895661530206
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.50)",
+      "file": "package-lock.json",
+      "line": 3400,
+      "snippet": "\"integrity\": \"sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md",
+      "confidence": 0.6869699773343845
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.59)",
+      "file": "package-lock.json",
+      "line": 3407,
+      "snippet": "\"integrity\": \"sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/",
+      "confidence": 0.6984895661530206
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.53)",
+      "file": "package-lock.json",
+      "line": 3418,
+      "snippet": "\"integrity\": \"sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRks",
+      "confidence": 0.6908916220598399
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.50)",
+      "file": "package-lock.json",
+      "line": 3427,
+      "snippet": "\"integrity\": \"sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrC",
+      "confidence": 0.6869699773343845
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.53)",
+      "file": "package-lock.json",
+      "line": 3435,
+      "snippet": "\"integrity\": \"sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xi",
+      "confidence": 0.6908456563968935
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 3442,
+      "snippet": "\"integrity\": \"sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3e",
+      "confidence": 0.6882600431124715
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.42)",
+      "file": "package-lock.json",
+      "line": 3451,
+      "snippet": "\"integrity\": \"sha512-o5a9xKjbtuhY6Bi5S3+HvbRERmouabWbyUcpXXUA1u+GNUKoROi9byOJ8M0nHbHYHkYICiMlqxkg1Kk",
+      "confidence": 0.6777337273229979
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.51)",
+      "file": "package-lock.json",
+      "line": 3511,
+      "snippet": "\"integrity\": \"sha512-5fALBcroIl31OeXAdd1YUntxiZl1eHlZZWzNg3U4Fn+J9/cGL3eT80YlrsWGvj2ojuz1rZr2OXkgCzI",
+      "confidence": 0.6883454793838801
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.39)",
+      "file": "package-lock.json",
+      "line": 3524,
+      "snippet": "\"integrity\": \"sha512-f+gEpIKMR9faW/JgAgPK1D7mekkFoqbmiwvNzuhsHetni20QSgzg9Vhn0g2JSJkkfehQnqdUAx7/e15",
+      "confidence": 0.6736256227948105
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 3541,
+      "snippet": "\"integrity\": \"sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/",
+      "confidence": 0.6902465891707965
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.53)",
+      "file": "package-lock.json",
+      "line": 3559,
+      "snippet": "\"integrity\": \"sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3Q",
+      "confidence": 0.6911084602656038
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.52)",
+      "file": "package-lock.json",
+      "line": 3565,
+      "snippet": "\"integrity\": \"sha512-blAT2mjOEIi0ZzruJfIhb3nps74PRWTCz1IjglWEEpQl5XS/UNama6u2/rjFkDDouqr4L67ry+1aGIA",
+      "confidence": 0.6905948293109153
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.53)",
+      "file": "package-lock.json",
+      "line": 3586,
+      "snippet": "\"integrity\": \"sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SC",
+      "confidence": 0.6914567004057227
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.34)",
+      "file": "package-lock.json",
+      "line": 3596,
+      "snippet": "\"integrity\": \"sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyV",
+      "confidence": 0.6678064787596213
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.45)",
+      "file": "package-lock.json",
+      "line": 3607,
+      "snippet": "\"integrity\": \"sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcr",
+      "confidence": 0.6809303846162491
+    },
+    {
+      "level": "HIGH",
+      "category": "hardcoded_secret",
+      "description": "High-entropy string (entropy: 5.54)",
+      "file": "package-lock.json",
+      "line": 3626,
+      "snippet": "\"integrity\": \"sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GU",
+      "confidence": 0.6930950063239287
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "package.json",
+      "line": 39,
+      "snippet": "claw-avatar/issues\"   },   \"dependencies\": {     \"dotenv\": \"^16.4.0\",     \"express\": \"^5.2.1\",     \"",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "index.ts",
+      "line": 16,
+      "snippet": "T_BUTTON_PROMPTS } from './defaults.js';  // Load dotenv if available try {   const dotenv = await i",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "index.ts",
+      "line": 18,
+      "snippet": "s.js';  // Load dotenv if available try {   const dotenv = await import('dotenv');   dotenv.config()",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "index.ts",
+      "line": 18,
+      "snippet": "if available try {   const dotenv = await import('dotenv');   dotenv.config(); } catch {   // dotenv",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "index.ts",
+      "line": 19,
+      "snippet": "try {   const dotenv = await import('dotenv');   dotenv.config(); } catch {   // dotenv not install",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "index.ts",
+      "line": 21,
+      "snippet": "port('dotenv');   dotenv.config(); } catch {   // dotenv not installed, use process.env directly }",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Token",
+      "file": "server.ts",
+      "line": 62,
+      "snippet": "const token = config.secrets.openclawToken || '';",
+      "confidence": 0.95
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Token",
+      "file": "server.ts",
+      "line": 122,
+      "snippet": "const token = config.secrets.openclawToken || '';",
+      "confidence": 0.95
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 258,
+    "MEDIUM": 16,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🔴 CRITICAL: High-risk issues detected. Manual review required.",
+  "scan_time": 0.38442301750183105,
+  "timestamp": "2026-02-21T13:35:40.670645"
+}

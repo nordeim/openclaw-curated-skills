@@ -1,3 +1,0 @@
-cd .. && ls -l communication media-processing productivity-tools smart-home-iot web-search
-
-mv communication media-processing productivity-tools smart-home-iot web-search ../

@@ -1,0 +1,87 @@
+{
+  "skill_path": "sandboxer-tmux",
+  "files_scanned": 2,
+  "findings": [
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "SKILL.md",
+      "line": 39,
+      "snippet": "← one folder per OpenClaw agent │   ├── AGENTS.md                          ← agent behavio",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "SKILL.md",
+      "line": 40,
+      "snippet": "← agent behavior rules │   ├── SOUL.md, USER.md, TOOLS.md         ← agent identit",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "SKILL.md",
+      "line": 40,
+      "snippet": "← agent behavior rules │   ├── SOUL.md, USER.md, TOOLS.md         ← agent identity & confi",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "SKILL.md",
+      "line": 40,
+      "snippet": "← agent behavior rules │   ├── SOUL.md, USER.md, TOOLS.md         ← agent identity & config │   ├──",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "SKILL.md",
+      "line": 41,
+      "snippet": "OOLS.md         ← agent identity & config │   ├── MEMORY.md                          ← curated long-",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 16,
+      "snippet": "## Quick: Dispatch a Task  ```bash # 1. Spawn a Claude session in a repo curl \"localhost:8081/api/",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 43,
+      "snippet": "← workspace task list (P1/P2/P3) │   ├── CLAUDE.md                          ← coding rules",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 49,
+      "snippet": "← separate git repo │           │   ├── CLAUDE.md              ← project-specific coding r",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 5,
+    "MEDIUM": 3,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🔴 CRITICAL: High-risk issues detected. Manual review required.",
+  "scan_time": 0.016960620880126953,
+  "timestamp": "2026-02-21T13:36:12.490159"
+}

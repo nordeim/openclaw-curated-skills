@@ -1,0 +1,33 @@
+{
+  "skill_path": "pr-commit-workflow",
+  "files_scanned": 7,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "commit-format.md",
+      "line": 38,
+      "snippet": "ilers: ``` Co-Authored-By: GPT-5.2-Codex <noreply@openai.com> Co-Authored-By: Gemini Pro <noreply@go",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "commit-format.md",
+      "line": 39,
+      "snippet": "PT-5.2-Codex <noreply@openai.com> Co-Authored-By: Gemini Pro <noreply@google.com> ```",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.024658679962158203,
+  "timestamp": "2026-02-21T13:36:07.931140"
+}

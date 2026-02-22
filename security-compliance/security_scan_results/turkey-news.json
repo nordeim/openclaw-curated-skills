@@ -1,0 +1,34 @@
+{
+  "skill_path": "/home/project/openclaw/curated_skills/ai_agent_infrastructure/turkey-news",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "dynamic_import",
+      "description": "exec() call",
+      "file": "fetch-news.js",
+      "line": 37,
+      "snippet": "\\/a>/gi;   let match;   while ((match = linkRegex.exec(html)) !== null && items.length < 15) {     c",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "dynamic_import",
+      "description": "exec() call",
+      "file": "fetch-news.js",
+      "line": 54,
+      "snippet": "/gi;     let match;     while ((match = itemRegex.exec(xml)) !== null) {       const block = match[1",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "\ud83d\udfe2 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.044861555099487305,
+  "timestamp": "2026-02-21T23:47:01.478449",
+  "skill_name": "turkey-news"
+}

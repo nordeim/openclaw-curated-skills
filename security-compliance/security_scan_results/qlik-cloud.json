@@ -1,0 +1,87 @@
+{
+  "skill_path": "qlik-cloud",
+  "files_scanned": 40,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "qlik-insight.sh",
+      "line": 50,
+      "snippet": "-c \" import json import sys import os  question = os.environ.get('QUESTION', '') app_id = os.environ",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "qlik-insight.sh",
+      "line": 51,
+      "snippet": "uestion = os.environ.get('QUESTION', '') app_id = os.environ.get('APP_ID', '') timestamp = '$TIMESTA",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "qlik-lineage.sh",
+      "line": 110,
+      "snippet": "L encode the QRI ENCODED_QRI=$(python3 -c \"import urllib.parse; print(urllib.parse.quote('$QRI', saf",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "qlik-lineage.sh",
+      "line": 110,
+      "snippet": "ODED_QRI=$(python3 -c \"import urllib.parse; print(urllib.parse.quote('$QRI', safe=''))\")  # Build pa",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "qlik-search.sh",
+      "line": 23,
+      "snippet": "tps://$TENANT\" ENCODED_QUERY=$(python3 -c \"import urllib.parse; print(urllib.parse.quote('''$QUERY''",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "qlik-search.sh",
+      "line": 23,
+      "snippet": "ED_QUERY=$(python3 -c \"import urllib.parse; print(urllib.parse.quote('''$QUERY'''))\")  curl -sL \\",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "qlik-users-search.sh",
+      "line": 27,
+      "snippet": "using Python ENCODED_FILTER=$(python3 -c \" import urllib.parse query = '''$QUERY''' # Use 'co' (cont",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "qlik-users-search.sh",
+      "line": 31,
+      "snippet": "atching filter_str = f'name co \\\"{query}\\\"' print(urllib.parse.quote(filter_str, safe='')) \")  curl",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 8,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟡 WARNING: Multiple medium-risk issues found. Review recommended.",
+  "scan_time": 0.1479811668395996,
+  "timestamp": "2026-02-21T13:36:08.622049"
+}

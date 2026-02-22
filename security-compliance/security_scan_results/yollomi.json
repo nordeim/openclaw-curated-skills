@@ -1,0 +1,33 @@
+{
+  "skill_path": "yollomi",
+  "files_scanned": 7,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "index.ts",
+      "line": 43,
+      "snippet": "eInput): Promise<YollomiGenerateOutput> {   const apiKey = requireEnv('YOLLOMI_API_KEY')   const bas",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "models-reference.md",
+      "line": 47,
+      "snippet": "Credits | Notes | |---------|---------|-------| | openai-sora-2 | ~50+ | seconds, aspect_ratio | | g",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.02892017364501953,
+  "timestamp": "2026-02-21T13:36:22.870611"
+}

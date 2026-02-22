@@ -1,0 +1,60 @@
+{
+  "skill_path": "fal",
+  "files_scanned": 4,
+  "findings": [
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Shell config access",
+      "file": "README.md",
+      "line": 22,
+      "snippet": "```  3. Reload your shell:    ```bash    source ~/.zshrc    ```  ## Usage  ### Commands  | Command |",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "README.md",
+      "line": 8,
+      "snippet": "git clone https://github.com/fal-ai/fal-skill ~/.claude/skills/fal ```  ## Setup  1. Get an API key",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 24,
+      "snippet": "ession folder: ```bash mkdir -p ~/.fal/sessions/${CLAUDE_SESSION_ID} ```  Downloaded images/videos g",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 114,
+      "snippet": "session output folder mkdir -p ~/.fal/sessions/${CLAUDE_SESSION_ID}  # Download images/videos # For",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "SKILL.md",
+      "line": 118,
+      "snippet": "and curl to download # Save as: ~/.fal/sessions/${CLAUDE_SESSION_ID}/<timestamp>_<model>.png ```  --",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 1,
+    "MEDIUM": 4,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🔴 CRITICAL: High-risk issues detected. Manual review required.",
+  "scan_time": 0.02718067169189453,
+  "timestamp": "2026-02-21T13:35:49.078962"
+}

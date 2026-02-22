@@ -1,0 +1,51 @@
+{
+  "skill_path": "seeddance-ai-video",
+  "files_scanned": 2,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 54,
+      "snippet": "`  ## API 密钥配置  设置环境变量：  ```bash export SEEDDANCE_API_KEY=\"your-api-key-here\" export SEEDDANCE_REGIO",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "SKILL.md",
+      "line": 61,
+      "snippet": "\"cn-beijing\" ```  或在 `.env` 文件中添加：  ``` SEEDDANCE_API_KEY=your-api-key-here SEEDDANCE_REGION=cn-beij",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "SKILL.md",
+      "line": 54,
+      "snippet": "export SEEDDANCE_API_KEY=\"your-api-key-here\"",
+      "confidence": 0.85
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "SKILL.md",
+      "line": 61,
+      "snippet": "SEEDDANCE_API_KEY=your-api-key-here",
+      "confidence": 0.85
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 4,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.01878809928894043,
+  "timestamp": "2026-02-21T13:36:12.902558"
+}

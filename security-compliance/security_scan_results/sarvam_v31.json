@@ -1,0 +1,132 @@
+{
+  "skill_path": "sarvam",
+  "files_scanned": 4,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "HTTP request",
+      "file": "sarvam_cli.py",
+      "line": 96,
+      "snippet": "ional prompt             }             response = requests.post(url, headers=headers, files=files, d",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "HTTP request",
+      "file": "sarvam_cli.py",
+      "line": 124,
+      "snippet": "\": \"mayuri:v1\"     }      try:         response = requests.post(url, json=payload, headers=headers)",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "HTTP request",
+      "file": "sarvam_cli.py",
+      "line": 155,
+      "snippet": "perature\": 0.7     }      try:         response = requests.post(url, json=payload, headers=chat_head",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "obfuscation",
+      "description": "Base64 decoding",
+      "file": "sarvam_cli.py",
+      "line": 57,
+      "snippet": "io_data[\"audios\"]) > 0:             audio_bytes = base64.b64decode(audio_data[\"audios\"][0])",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "sarvam_cli.py",
+      "line": 9,
+      "snippet": "Set your API key here or in environment variable API_KEY = os.environ.get(\"SARVAM_API_KEY\")  if not",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "sarvam_cli.py",
+      "line": 9,
+      "snippet": "API key here or in environment variable API_KEY = os.environ.get(\"SARVAM_API_KEY\")  if not API_KEY:",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "sarvam_cli.py",
+      "line": 58,
+      "snippet": "4decode(audio_data[\"audios\"][0])             with open(output_file, \"wb\") as f:                 f.wr",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "sarvam_cli.py",
+      "line": 87,
+      "snippet": "dio/wav\" # Default              try:         with open(audio_file, \"rb\") as f:             files = {",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "sarvam_cli.py",
+      "line": 19,
+      "snippet": "ot attempting traversal.\"\"\"     normalized_path = os.path.normpath(filepath)          # 1. Check for",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "sarvam_cli.py",
+      "line": 22,
+      "snippet": "ath)          # 1. Check for absolute path     if os.path.isabs(normalized_path):         print(f\"Se",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "sarvam_cli.py",
+      "line": 61,
+      "snippet": "ved to {output_file}\")             print(f\"MEDIA:{os.path.abspath(output_file)}\")         else:",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "sarvam_cli.py",
+      "line": 89,
+      "snippet": "f:             files = {                 \"file\": (os.path.basename(audio_file), f, mime_type)",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "vulnerable_dependency",
+      "description": "PYSEC-2018-28: Requests does not properly check SSL certificates",
+      "file": "sarvam_cli.py",
+      "line": 4,
+      "snippet": "import requests",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 1,
+    "MEDIUM": 6,
+    "LOW": 6,
+    "INFO": 0
+  },
+  "security_assessment": "🔴 CRITICAL: High-risk issues detected. Manual review required.",
+  "scan_time": 0.05161023139953613,
+  "timestamp": "2026-02-22T09:28:42.875177"
+}

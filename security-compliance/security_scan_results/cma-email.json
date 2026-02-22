@@ -1,0 +1,14 @@
+{
+  "skill_path": "cma-email",
+  "files_scanned": 2,
+  "findings": [],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "✅ SAFE: No significant security issues found.",
+  "scan_time": 0.012813329696655273,
+  "timestamp": "2026-02-22T07:34:37.537919"
+}

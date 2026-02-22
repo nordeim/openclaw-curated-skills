@@ -1,0 +1,24 @@
+{
+  "skill_path": "mcp-ssh-manager",
+  "files_scanned": 11,
+  "findings": [
+    {
+      "level": "HIGH",
+      "category": "file_deletion",
+      "description": "rm -rf command",
+      "file": "deployment.md",
+      "line": 295,
+      "snippet": "session=\"sess-xxx\" command=\"cd /home/imax/app && rm -rf *\" ssh_session_send session=\"sess-xxx\" comm",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 1,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🔴 CRITICAL: High-risk issues detected. Manual review required.",
+  "scan_time": 0.10227441787719727,
+  "timestamp": "2026-02-21T13:35:58.969266"
+}

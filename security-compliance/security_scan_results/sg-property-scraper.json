@@ -1,0 +1,87 @@
+{
+  "skill_path": "sg-property-scraper",
+  "files_scanned": 5,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "README.md",
+      "line": 15,
+      "snippet": "ute time calculation:  ```bash export GOOGLE_MAPS_API_KEY=\"your-key-here\"  # needs Routes API enable",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "README.md",
+      "line": 30,
+      "snippet": ":20-24  # With commute time to office GOOGLE_MAPS_API_KEY=xxx python3 scripts/scrape.py \\   --listin",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "scrape.py",
+      "line": 17,
+      "snippet": "import json import os import re import sys import urllib.parse from datetime import datetime, timede",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "scrape.py",
+      "line": 212,
+      "snippet": "ry[key] = values      return f\"{BASE_URL}/{path}?{urllib.parse.urlencode(query, doseq=True)}\"   # ──",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "scrape.py",
+      "line": 329,
+      "snippet": "if extra_query:             url += \"&\" + urllib.parse.urlencode(extra_query)          if ve",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "scrape.py",
+      "line": 676,
+      "snippet": "if raw_params:                 url += \"&\" + urllib.parse.urlencode(raw_params)             pri",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "scrape.py",
+      "line": 695,
+      "snippet": "ulation     if commute_to and properties:         api_key = os.environ.get(\"GOOGLE_MAPS_API_KEY\", \"\"",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "scrape.py",
+      "line": 695,
+      "snippet": "if commute_to and properties:         api_key = os.environ.get(\"GOOGLE_MAPS_API_KEY\", \"\")",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 8,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟡 WARNING: Multiple medium-risk issues found. Review recommended.",
+  "scan_time": 0.09941959381103516,
+  "timestamp": "2026-02-21T13:36:13.704960"
+}

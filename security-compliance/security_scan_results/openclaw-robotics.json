@@ -1,0 +1,24 @@
+{
+  "skill_path": "openclaw-robotics",
+  "files_scanned": 27,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Token",
+      "file": "whatsapp.py",
+      "line": 14,
+      "snippet": "self.access_token = self.config.get(\"access_token\", \"\")",
+      "confidence": 0.85
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.09820222854614258,
+  "timestamp": "2026-02-21T13:36:04.777472"
+}

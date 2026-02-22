@@ -1,0 +1,78 @@
+{
+  "skill_path": "enzoldhazam",
+  "files_scanned": 6,
+  "findings": [
+    {
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "description": "HTTP client usage",
+      "file": "client.go",
+      "line": 27,
+      "snippet": "enzoldhazam.hu type Client struct { \thttpClient *http.Client \tloggedIn   bool }  // NewClient creat",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "description": "HTTP client usage",
+      "file": "client.go",
+      "line": 39,
+      "snippet": "ar: %w\", err) \t}  \treturn &Client{ \t\thttpClient: &http.Client{Jar: jar}, \t}, nil }  // doRequest per",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "getenv call",
+      "file": "config.go",
+      "line": 42,
+      "snippet": "// First check environment variables \tenvUser := os.Getenv(\"ENZOLDHAZAM_USER\") \tenvPass := os.Geten",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "getenv call",
+      "file": "config.go",
+      "line": 43,
+      "snippet": "User := os.Getenv(\"ENZOLDHAZAM_USER\") \tenvPass := os.Getenv(\"ENZOLDHAZAM_PASS\") \tenvSerial := os.Get",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "getenv call",
+      "file": "config.go",
+      "line": 44,
+      "snippet": "ss := os.Getenv(\"ENZOLDHAZAM_PASS\") \tenvSerial := os.Getenv(\"ENZOLDHAZAM_SERIAL\")  \tif envUser != \"\"",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "getenv call",
+      "file": "config.go",
+      "line": 86,
+      "snippet": "dentials() bool { \t// Check environment first \tif os.Getenv(\"ENZOLDHAZAM_USER\") != \"\" && os.Getenv(\"",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "getenv call",
+      "file": "config.go",
+      "line": 86,
+      "snippet": "first \tif os.Getenv(\"ENZOLDHAZAM_USER\") != \"\" && os.Getenv(\"ENZOLDHAZAM_PASS\") != \"\" { \t\treturn tru",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 2,
+    "MEDIUM": 5,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🔴 CRITICAL: High-risk issues detected. Manual review required.",
+  "scan_time": 0.033939361572265625,
+  "timestamp": "2026-02-22T07:34:41.849662"
+}

@@ -1,0 +1,24 @@
+{
+  "skill_path": "aliyun-oss-upload",
+  "files_scanned": 4,
+  "findings": [
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Path manipulation",
+      "file": "oss-upload.py",
+      "line": 58,
+      "snippet": "s_key，使用文件名     if not oss_key:         oss_key = os.path.basename(local_path)          # 自动检测 Conte",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 1,
+    "INFO": 0
+  },
+  "security_assessment": "✅ SAFE: No significant security issues found.",
+  "scan_time": 0.03858351707458496,
+  "timestamp": "2026-02-22T09:28:38.813564"
+}

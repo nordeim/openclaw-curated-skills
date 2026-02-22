@@ -1,0 +1,150 @@
+{
+  "skill_path": "memory-complete",
+  "files_scanned": 8,
+  "findings": [
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "SKILL.md",
+      "line": 114,
+      "snippet": "NTEXT.md     # Auto-updated recent highlights ├── MEMORY.md             # Curated long-term memory └",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "capture.py",
+      "line": 17,
+      "snippet": "hlib import Path  # Find workspace root (look for MEMORY.md or memory/ directory) def find_workspace",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "capture.py",
+      "line": 21,
+      "snippet": "t] + list(current.parents):         if (parent / \"MEMORY.md\").exists() or (parent / \"memory\").is_dir",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "file_access_outside_workspace",
+      "description": "Home directory access",
+      "file": "capture.py",
+      "line": 24,
+      "snippet": "# Default to home clawd directory     return Path.home() / \"clawd\"  WORKSPACE = find_workspace(",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "consolidate.py",
+      "line": 22,
+      "snippet": "t] + list(current.parents):         if (parent / \"MEMORY.md\").exists() or (parent / \"memory\").is_dir",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "consolidate.py",
+      "line": 110,
+      "snippet": "*.md\")) if TOPICS_DIR.exists() else []          # MEMORY.md size     memory_md_size = MEMORY_MD.stat",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "consolidate.py",
+      "line": 137,
+      "snippet": "\"     Analyze recent facts and suggest updates to MEMORY.md.     Returns suggestions as text.     \"\"",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "consolidate.py",
+      "line": 211,
+      "snippet": "cts)     if suggestions:         print(\"Suggested MEMORY.md updates:\")         print(\"-\" * 30)",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "consolidate.py",
+      "line": 223,
+      "snippet": "pic files: {stats['topic_files']}\")     print(f\"  MEMORY.md: {stats['memory_md_bytes']} bytes\")",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "consolidate.py",
+      "line": 255,
+      "snippet": "c files: {stats['topic_files']}\")         print(f\"MEMORY.md: {stats['memory_md_bytes']} bytes\")",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "file_access_outside_workspace",
+      "description": "Home directory access",
+      "file": "consolidate.py",
+      "line": 24,
+      "snippet": "\").is_dir():             return parent     return Path.home() / \"clawd\"  WORKSPACE = find_workspace(",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "recall.py",
+      "line": 22,
+      "snippet": "t] + list(current.parents):         if (parent / \"MEMORY.md\").exists() or (parent / \"memory\").is_dir",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "recall.py",
+      "line": 140,
+      "snippet": "def search_memory_md(query_tokens):     \"\"\"Search MEMORY.md.\"\"\"     results = []          if not MEM",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "sensitive_file_access",
+      "description": "Memory file access",
+      "file": "recall.py",
+      "line": 212,
+      "snippet": "if 'section' in r:             header.append(f\"[MEMORY.md: {r['section']}]\")         if 'topic' in",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "file_access_outside_workspace",
+      "description": "Home directory access",
+      "file": "recall.py",
+      "line": 24,
+      "snippet": "\").is_dir():             return parent     return Path.home() / \"clawd\"  WORKSPACE = find_workspace(",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 12,
+    "MEDIUM": 3,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🔴 CRITICAL: High-risk issues detected. Manual review required.",
+  "scan_time": 0.0816335678100586,
+  "timestamp": "2026-02-21T13:35:59.367745"
+}

@@ -1,0 +1,24 @@
+{
+  "skill_path": "imap-email",
+  "files_scanned": 7,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "dotenv usage",
+      "file": "skill.json",
+      "line": 108,
+      "snippet": "le@^5.1.0\",         \"mailparser@^3.7.1\",         \"dotenv@^16.4.7\"       ],       \"commands\": [",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.0782475471496582,
+  "timestamp": "2026-02-22T09:28:40.745182"
+}

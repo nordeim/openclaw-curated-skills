@@ -1,0 +1,51 @@
+{
+  "skill_path": "variflight-aviation",
+  "files_scanned": 19,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "config-loader.js",
+      "line": 29,
+      "snippet": "f (process.env.X_VARIFLIGHT_KEY) {         config.apiKey = process.env.X_VARIFLIGHT_KEY;     } else",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "API key assignment",
+      "file": "config-loader.js",
+      "line": 31,
+      "snippet": "(process.env.VARIFLIGHT_API_KEY) {         config.apiKey = process.env.VARIFLIGHT_API_KEY;     }",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "config-loader.js",
+      "line": 29,
+      "snippet": "config.apiKey = process.env.X_VARIFLIGHT_KEY;",
+      "confidence": 0.85
+    },
+    {
+      "level": "MEDIUM",
+      "category": "hardcoded_secret",
+      "description": "Generic API Key",
+      "file": "config-loader.js",
+      "line": 31,
+      "snippet": "config.apiKey = process.env.VARIFLIGHT_API_KEY;",
+      "confidence": 0.85
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 4,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.09660220146179199,
+  "timestamp": "2026-02-22T09:28:44.313208"
+}

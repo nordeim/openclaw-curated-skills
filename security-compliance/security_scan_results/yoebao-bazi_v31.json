@@ -1,0 +1,42 @@
+{
+  "skill_path": "yoebao-bazi",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "LOW",
+      "category": "shell_command",
+      "description": "Subprocess usage",
+      "file": "bazi.py",
+      "line": 50,
+      "snippet": "={sex}&timestamp={timestamp}\"     ]      result = subprocess.run(cmd, capture_output=True, text=True",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "bazi.py",
+      "line": 58,
+      "snippet": "# 解析 JSON     import json     try:         data = json.loads(result.stdout)          if data.get('st",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "bazi.py",
+      "line": 58,
+      "snippet": "# 解析 JSON     import json     try:         data = json.loads(result.stdout)          if data.get('st",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 3,
+    "INFO": 0
+  },
+  "security_assessment": "✅ SAFE: No significant security issues found.",
+  "scan_time": 0.03468203544616699,
+  "timestamp": "2026-02-22T09:28:45.949417"
+}

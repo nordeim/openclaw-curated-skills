@@ -1,0 +1,33 @@
+{
+  "skill_path": "douyin-video-fetch",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "fetch_video.py",
+      "line": 10,
+      "snippet": "me import random import json import argparse from urllib.parse import unquote from playwright.async_",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "aiohttp usage",
+      "file": "fetch_video.py",
+      "line": 12,
+      "snippet": "aywright.async_api import async_playwright import aiohttp  # Configure logging logging.basicConfig(l",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.047594308853149414,
+  "timestamp": "2026-02-21T13:35:48.051461"
+}

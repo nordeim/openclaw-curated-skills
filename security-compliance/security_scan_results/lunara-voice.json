@@ -1,0 +1,60 @@
+{
+  "skill_path": "lunara-voice",
+  "files_scanned": 8,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 1001,
+      "snippet": "ingle conversation in LLM-ready format. Formats: 'openai' (Chat Completions messages array), \" +",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 1011,
+      "snippet": "at: {           type: \"string\",           enum: [\"openai\", \"training\", \"raw\"],           description",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 1012,
+      "snippet": "\", \"raw\"],           description: \"Export format: openai (default), training, or raw\",         },",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 1069,
+      "snippet": "at: {           type: \"string\",           enum: [\"openai\", \"training\", \"raw\"],           description",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "index.ts",
+      "line": 1098,
+      "snippet": "eqBody: any = {         format: params.format || \"openai\",         limit: params.limit || 100,",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 5,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.14271903038024902,
+  "timestamp": "2026-02-21T13:35:57.932403"
+}

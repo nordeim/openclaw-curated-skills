@@ -1,0 +1,25 @@
+{
+  "skill_path": "/home/project/openclaw/curated_skills/ai_agent_infrastructure/camino-travel-planner",
+  "files_scanned": 3,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "api_key_usage",
+      "description": "AI service API",
+      "file": "travel-planner.sh",
+      "line": 49,
+      "snippet": "ntent-Type: application/json\" \\     -H \"X-Client: claude-code-skill\" \\     -d \"$INPUT\" \\     \"https:",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "\ud83d\udfe2 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.09203791618347168,
+  "timestamp": "2026-02-21T23:46:55.797159",
+  "skill_name": "camino-travel-planner"
+}

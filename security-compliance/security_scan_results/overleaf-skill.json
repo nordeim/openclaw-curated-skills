@@ -1,0 +1,33 @@
+{
+  "skill_path": "overleaf-skill",
+  "files_scanned": 7,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Raw GitHub content",
+      "file": "README.md",
+      "line": 11,
+      "snippet": "f LaTeX projects.  <p align=\"center\">   <img src=\"https://raw.githubusercontent.com/aloth/olcli/main",
+      "confidence": 0.7
+    },
+    {
+      "level": "MEDIUM",
+      "category": "dynamic_import",
+      "description": "compile() call",
+      "file": "SKILL.md",
+      "line": 75,
+      "snippet": "output name olcli compile                  # Just compile (no download) ```  ### Download .bbl for a",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "🟢 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.027203798294067383,
+  "timestamp": "2026-02-21T13:36:06.400458"
+}

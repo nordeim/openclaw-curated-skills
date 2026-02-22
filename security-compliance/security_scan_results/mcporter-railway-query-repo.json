@@ -1,0 +1,43 @@
+{
+  "skill_path": "/home/project/openclaw/curated_skills/ai_agent_infrastructure/mcporter-railway-query-repo",
+  "files_scanned": 10,
+  "findings": [
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "README.md",
+      "line": 27,
+      "snippet": "\"type\": \"sse\",                \"url\": \"http://127.0.0.1:8080/sse\",               \"name\":",
+      "confidence": 0.7
+    },
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "README_zh.md",
+      "line": 27,
+      "snippet": "\"type\": \"sse\",                \"url\": \"http://127.0.0.1:8080/sse\",               \"name\":",
+      "confidence": 0.7
+    },
+    {
+      "level": "MEDIUM",
+      "category": "suspicious_url",
+      "description": "Direct IP access (HTTP)",
+      "file": "query-examples.md",
+      "line": 80,
+      "snippet": "\"12306\": {       \"type\": \"sse\",       \"url\": \"http://127.0.0.1:8080/sse\",       \"name\": \"12306 \u9ad8",
+      "confidence": 0.7
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 0,
+    "MEDIUM": 3,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "security_assessment": "\ud83d\udfe2 CAUTION: Some medium-risk issues found. Review suggested.",
+  "scan_time": 0.12949872016906738,
+  "timestamp": "2026-02-21T23:46:59.003478",
+  "skill_name": "mcporter-railway-query-repo"
+}

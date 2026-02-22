@@ -1,0 +1,312 @@
+{
+  "skill_path": "barkpush",
+  "files_scanned": 23,
+  "findings": [
+    {
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "description": "urllib network request",
+      "file": "bark_api.py",
+      "line": 7,
+      "snippet": "from urllib.error import HTTPError, URLError from urllib.request import Request, urlopen   @dataclas",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "bark_api.py",
+      "line": 6,
+      "snippet": "sses import dataclass from typing import Any from urllib.error import HTTPError, URLError from urlli",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "bark_api.py",
+      "line": 7,
+      "snippet": "from urllib.error import HTTPError, URLError from urllib.request import Request, urlopen   @dataclas",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "File open",
+      "file": "bark_api.py",
+      "line": 28,
+      "snippet": "charset=utf-8\")         try:             with urlopen(req, timeout=timeout_s) as resp:",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "bark_api.py",
+      "line": 59,
+      "snippet": "return None         try:             data = json.loads(raw)             if isinstance(data, di",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "bark_api.py",
+      "line": 59,
+      "snippet": "return None         try:             data = json.loads(raw)             if isinstance(data, di",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "command_handler.py",
+      "line": 4,
+      "snippet": "notations  from dataclasses import dataclass from pathlib import Path from typing import Any  from .",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "file_access_outside_workspace",
+      "description": "Home directory access",
+      "file": "config_manager.py",
+      "line": 108,
+      "snippet": "Path(env).expanduser().resolve()         return (Path.home() / \".bark-push\").resolve()      def _re",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "config_manager.py",
+      "line": 105,
+      "snippet": "f _default_state_dir(self) -> Path:         env = os.environ.get(\"BARK_PUSH_STATE_DIR\", \"\").strip()",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "config_manager.py",
+      "line": 111,
+      "snippet": "_resolve_config_path(self) -> Path:         env = os.environ.get(\"BARK_PUSH_CONFIG\", \"\").strip()",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "config_manager.py",
+      "line": 170,
+      "snippet": "# 优先读取环境变量中的敏感信息         env_users_json = os.environ.get(\"BARK_USERS\")         if env_users_",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "config_manager.py",
+      "line": 183,
+      "snippet": "pass  # 忽略格式错误的环境变量          env_ciphertext = os.environ.get(\"BARK_CIPHERTEXT\")         if env_c",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "config_manager.py",
+      "line": 6,
+      "snippet": "import os from dataclasses import dataclass from pathlib import Path from typing import Any   @data",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "config_manager.py",
+      "line": 132,
+      "snippet": "> dict[str, Any]:         try:             return json.loads(path.read_text(encoding=\"utf-8\"))",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "config_manager.py",
+      "line": 173,
+      "snippet": "son:             try:                 env_users = json.loads(env_users_json)                 if isin",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "config_manager.py",
+      "line": 132,
+      "snippet": "> dict[str, Any]:         try:             return json.loads(path.read_text(encoding=\"utf-8\"))",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "config_manager.py",
+      "line": 173,
+      "snippet": "son:             try:                 env_users = json.loads(env_users_json)                 if isin",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "history_manager.py",
+      "line": 5,
+      "snippet": "mport json from dataclasses import dataclass from pathlib import Path from typing import Any  from .",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "history_manager.py",
+      "line": 142,
+      "snippet": "return []         try:             raw = json.loads(self._path.read_text(encoding=\"utf-8\"))",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "history_manager.py",
+      "line": 142,
+      "snippet": "return []         try:             raw = json.loads(self._path.read_text(encoding=\"utf-8\"))",
+      "confidence": 0.8
+    },
+    {
+      "level": "HIGH",
+      "category": "command_injection",
+      "description": "compile() execution with variable",
+      "file": "utils.py",
+      "line": 12,
+      "snippet": "URL_RE = re.compile(r\"https?://[^\\s]+\", re.IGNORECASE)",
+      "confidence": 0.9
+    },
+    {
+      "level": "HIGH",
+      "category": "command_injection",
+      "description": "compile() execution with variable",
+      "file": "utils.py",
+      "line": 13,
+      "snippet": "IMAGE_RE = re.compile(r\"https?://[^\\s]+\\.(jpg|jpeg|png|gif|webp|bmp|tiff|svg)(\\?[^\\s]+)?$\", re.IGNOR...",
+      "confidence": 0.9
+    },
+    {
+      "level": "HIGH",
+      "category": "data_exfiltration",
+      "description": "urllib network request",
+      "file": "architecture.md",
+      "line": 185,
+      "snippet": "库, utils.py - 被依赖：command_handler  **设计要点**： - 使用 urllib.request 发送 HTTP POST JSON 请求 - 请求体使用 JSON 编",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "network_request",
+      "description": "urllib usage",
+      "file": "architecture.md",
+      "line": 185,
+      "snippet": "库, utils.py - 被依赖：command_handler  **设计要点**： - 使用 urllib.request 发送 HTTP POST JSON 请求 - 请求体使用 JSON 编",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "architecture.md",
+      "line": 437,
+      "snippet": "保目录存在 ```  **依赖关系**： - 依赖：标准库（re, json, datetime, pathlib 等） - 被依赖：所有模块  **设计要点**： - 所有函数都是纯函数，无副作用",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "test_bark_api.py",
+      "line": 13,
+      "snippet": ".decode(\"utf-8\", errors=\"replace\")         data = json.loads(raw) if raw else {}         body = json",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "test_bark_api.py",
+      "line": 13,
+      "snippet": ".decode(\"utf-8\", errors=\"replace\")         data = json.loads(raw) if raw else {}         body = json",
+      "confidence": 0.8
+    },
+    {
+      "level": "MEDIUM",
+      "category": "environment_access",
+      "description": "Environment variable access",
+      "file": "test_config_manager.py",
+      "line": 55,
+      "snippet": "gr.config.ciphertext, \"secret\")      @patch.dict(\"os.environ\", {\"BARK_USERS\": '{\"bob\": \"env_key\"}',",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "test_config_manager.py",
+      "line": 5,
+      "snippet": "ort unittest from unittest.mock import patch from pathlib import Path  from bark_push.config_manager",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON parsing",
+      "file": "test_config_manager.py",
+      "line": 17,
+      "snippet": "ssertTrue(config_path.exists())             raw = json.loads(config_path.read_text(encoding=\"utf-8\")",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "json_parsing",
+      "description": "JSON file loading",
+      "file": "test_config_manager.py",
+      "line": 17,
+      "snippet": "ssertTrue(config_path.exists())             raw = json.loads(config_path.read_text(encoding=\"utf-8\")",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "test_history_manager.py",
+      "line": 3,
+      "snippet": "import tempfile import unittest from pathlib import Path  from bark_push.history_manage",
+      "confidence": 0.8
+    },
+    {
+      "level": "LOW",
+      "category": "file_operation",
+      "description": "Pathlib usage",
+      "file": "test_user_manager.py",
+      "line": 4,
+      "snippet": "import json import tempfile import unittest from pathlib import Path  from bark_push.config_manager",
+      "confidence": 0.8
+    }
+  ],
+  "risk_summary": {
+    "HIGH": 4,
+    "MEDIUM": 9,
+    "LOW": 20,
+    "INFO": 0
+  },
+  "security_assessment": "🔴 CRITICAL: High-risk issues detected. Manual review required.",
+  "scan_time": 0.2715117931365967,
+  "timestamp": "2026-02-22T07:34:33.253885"
+}
